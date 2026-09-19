@@ -1,0 +1,1917 @@
+{
+  "kind": "frontier_retrieval_counterfactual",
+  "source_directory": "/Users/zhoujunlin/Documents/jev/reports/room-v2/source-balanced-evaluation",
+  "limitations": [
+    "Uses first-round model-approved graph defects",
+    "Geometric proximity is not correct room membership",
+    "No human reference boundary; not boundary recall or accuracy"
+  ],
+  "rows": [
+    {
+      "room": "资料室",
+      "seed": "source:3DFB04",
+      "frontier_count": 8,
+      "old_coverage_within_reach": 8,
+      "new_coverage_within_reach": 8,
+      "old_coverage_within_1mm": 8,
+      "new_coverage_within_1mm": 8,
+      "changed_additions": 8,
+      "additions": [
+        "source:3E0B36",
+        "source:3E0E62",
+        "source:3DFAB0",
+        "source:3E0E66",
+        "source:3E0B2A",
+        "source:3E015C",
+        "source:3E01CF",
+        "source:3E0172",
+        "source:3E0B98",
+        "source:3E0F65",
+        "source:3E015A",
+        "source:3E0B1E",
+        "source:3E0BC6",
+        "source:3E016B",
+        "source:3E083E",
+        "source:3DFAD0",
+        "source:3E0EE1",
+        "source:3E0F4A",
+        "source:3DFAB2",
+        "source:3E0223",
+        "source:3E0E6A",
+        "source:3DFACC",
+        "source:3E00FF",
+        "source:3DFACF",
+        "source:3E0216",
+        "source:3E0B92",
+        "source:3DFA9C",
+        "source:3E015E",
+        "source:3DF86E",
+        "source:3DFACE",
+        "source:3E0127",
+        "source:3DFAB3",
+        "source:3E07CC",
+        "source:3DFB0A",
+        "source:3E0173",
+        "source:3DFAB5",
+        "source:3E04B4",
+        "source:3E016E",
+        "source:3E01CD",
+        "source:3DFAB1",
+        "source:3E0B35",
+        "source:3E015D",
+        "source:3E016A",
+        "source:3DFAB4",
+        "source:3DF7DE",
+        "source:3E01F6",
+        "source:3E0835",
+        "source:3DFAC7"
+      ],
+      "evidence": [
+        {
+          "source_id": "source:3E0B36",
+          "frontier": [
+            49695.03182667587,
+            11836.159089138731
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0E62",
+          "frontier": [
+            49995.021521389484,
+            7156.159089138731
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFAB0",
+          "frontier": [
+            50065.0130250901,
+            9686.159092629328
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0E66",
+          "frontier": [
+            50195.021521389484,
+            7156.159089138731
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0B2A",
+          "frontier": [
+            50195.021521389484,
+            16436.159089120105
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E015C",
+          "frontier": [
+            50565.01817766577,
+            9586.159090889618
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E01CF",
+          "frontier": [
+            50565.018177669495,
+            13986.15909093991
+          ],
+          "distance_mm": 3.725290298461914e-9
+        },
+        {
+          "source_id": "source:3E0172",
+          "frontier": [
+            50745.01817766577,
+            9586.159090889618
+          ],
+          "distance_mm": 4.973262548446655e-7
+        },
+        {
+          "source_id": "source:3E0B98",
+          "frontier": [
+            49695.03182667587,
+            11836.159089138731
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0F65",
+          "frontier": [
+            49995.021521389484,
+            7156.159089138731
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E015A",
+          "frontier": [
+            50065.0130250901,
+            9686.159092629328
+          ],
+          "distance_mm": 0.0000017397105693817139
+        },
+        {
+          "source_id": "source:3E0B1E",
+          "frontier": [
+            50195.021521389484,
+            7156.159089138731
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0BC6",
+          "frontier": [
+            50195.021521389484,
+            16436.159089120105
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E016B",
+          "frontier": [
+            50565.01817766577,
+            9586.159090889618
+          ],
+          "distance_mm": 79.999999509193
+        },
+        {
+          "source_id": "source:3E083E",
+          "frontier": [
+            50565.018177669495,
+            13986.15909093991
+          ],
+          "distance_mm": 5.000106975436211
+        },
+        {
+          "source_id": "source:3DFAD0",
+          "frontier": [
+            50745.01817766577,
+            9586.159090889618
+          ],
+          "distance_mm": 392.78137038318334
+        },
+        {
+          "source_id": "source:3E0EE1",
+          "frontier": [
+            49695.03182667587,
+            11836.159089138731
+          ],
+          "distance_mm": 25.501626211641533
+        },
+        {
+          "source_id": "source:3E0F4A",
+          "frontier": [
+            49995.021521389484,
+            7156.159089138731
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFAB2",
+          "frontier": [
+            50065.0130250901,
+            9686.159092629328
+          ],
+          "distance_mm": 100
+        },
+        {
+          "source_id": "source:3E0223",
+          "frontier": [
+            50195.021521389484,
+            7156.159089138731
+          ],
+          "distance_mm": 10.20082987099886
+        },
+        {
+          "source_id": "source:3E0E6A",
+          "frontier": [
+            50195.021521389484,
+            16436.159089120105
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFACC",
+          "frontier": [
+            50565.01817766577,
+            9586.159090889618
+          ],
+          "distance_mm": 341.8018489607443
+        },
+        {
+          "source_id": "source:3E00FF",
+          "frontier": [
+            50565.018177669495,
+            13986.15909093991
+          ],
+          "distance_mm": 10.000000160187483
+        },
+        {
+          "source_id": "source:3DFACF",
+          "frontier": [
+            50745.01817766577,
+            9586.159090889618
+          ],
+          "distance_mm": 419.994847105816
+        },
+        {
+          "source_id": "source:3E0216",
+          "frontier": [
+            49695.03182667587,
+            11836.159089138731
+          ],
+          "distance_mm": 49.99999824911356
+        },
+        {
+          "source_id": "source:3E0B92",
+          "frontier": [
+            49995.021521389484,
+            7156.159089138731
+          ],
+          "distance_mm": 20.296056049988536
+        },
+        {
+          "source_id": "source:3DFA9C",
+          "frontier": [
+            50065.0130250901,
+            9686.159092629328
+          ],
+          "distance_mm": 100
+        },
+        {
+          "source_id": "source:3E015E",
+          "frontier": [
+            50195.021521389484,
+            7156.159089138731
+          ],
+          "distance_mm": 30.20082985982299
+        },
+        {
+          "source_id": "source:3DF86E",
+          "frontier": [
+            50195.021521389484,
+            16436.159089120105
+          ],
+          "distance_mm": 21.271314764395356
+        },
+        {
+          "source_id": "source:3DFACE",
+          "frontier": [
+            50565.01817766577,
+            9586.159090889618
+          ],
+          "distance_mm": 380.0051525756717
+        },
+        {
+          "source_id": "source:3E0127",
+          "frontier": [
+            50565.018177669495,
+            13986.15909093991
+          ],
+          "distance_mm": 179.9999999962747
+        },
+        {
+          "source_id": "source:3DFAB3",
+          "frontier": [
+            50745.01817766577,
+            9586.159090889618
+          ],
+          "distance_mm": 419.994847105816
+        },
+        {
+          "source_id": "source:3E07CC",
+          "frontier": [
+            49695.03182667587,
+            11836.159089138731
+          ],
+          "distance_mm": 69.9909690907225
+        },
+        {
+          "source_id": "source:3DFB0A",
+          "frontier": [
+            49995.021521389484,
+            7156.159089138731
+          ],
+          "distance_mm": 30.20083161070943
+        },
+        {
+          "source_id": "source:3E0173",
+          "frontier": [
+            50065.0130250901,
+            9686.159092629328
+          ],
+          "distance_mm": 101.97938169797455
+        },
+        {
+          "source_id": "source:3DFAB5",
+          "frontier": [
+            50195.021521389484,
+            7156.159089138731
+          ],
+          "distance_mm": 30.20083161070943
+        },
+        {
+          "source_id": "source:3E04B4",
+          "frontier": [
+            50195.021521389484,
+            16436.159089120105
+          ],
+          "distance_mm": 176.65213820897043
+        },
+        {
+          "source_id": "source:3E016E",
+          "frontier": [
+            50565.01817766577,
+            9586.159090889618
+          ],
+          "distance_mm": 404.4975619368284
+        },
+        {
+          "source_id": "source:3E01CD",
+          "frontier": [
+            50565.018177669495,
+            13986.15909093991
+          ],
+          "distance_mm": 198.5730345158287
+        },
+        {
+          "source_id": "source:3DFAB1",
+          "frontier": [
+            50745.01817766577,
+            9586.159090889618
+          ],
+          "distance_mm": 431.7356507131545
+        },
+        {
+          "source_id": "source:3E0B35",
+          "frontier": [
+            49695.03182667587,
+            11836.159089138731
+          ],
+          "distance_mm": 100
+        },
+        {
+          "source_id": "source:3E015D",
+          "frontier": [
+            49995.021521389484,
+            7156.159089138731
+          ],
+          "distance_mm": 130.200829859823
+        },
+        {
+          "source_id": "source:3E016A",
+          "frontier": [
+            50065.0130250901,
+            9686.159092629328
+          ],
+          "distance_mm": 104.40454730979488
+        },
+        {
+          "source_id": "source:3DFAB4",
+          "frontier": [
+            50195.021521389484,
+            7156.159089138731
+          ],
+          "distance_mm": 130.20083161070943
+        },
+        {
+          "source_id": "source:3DF7DE",
+          "frontier": [
+            50195.021521389484,
+            16436.159089120105
+          ],
+          "distance_mm": 199.99999649077654
+        },
+        {
+          "source_id": "source:3E01F6",
+          "frontier": [
+            50565.01817766577,
+            9586.159090889618
+          ],
+          "distance_mm": 462.543391957752
+        },
+        {
+          "source_id": "source:3E0835",
+          "frontier": [
+            50565.018177669495,
+            13986.15909093991
+          ],
+          "distance_mm": 329.6056428659158
+        },
+        {
+          "source_id": "source:3DFAC7",
+          "frontier": [
+            50745.01817766577,
+            9586.159090889618
+          ],
+          "distance_mm": 533.4308684397889
+        }
+      ]
+    },
+    {
+      "room": "登记室",
+      "seed": "source:3DFB06",
+      "frontier_count": 0,
+      "old_coverage_within_reach": 0,
+      "new_coverage_within_reach": 0,
+      "old_coverage_within_1mm": 0,
+      "new_coverage_within_1mm": 0,
+      "changed_additions": 0,
+      "additions": [
+        "source:3DFAC7",
+        "source:3E0ED1",
+        "source:3E082D",
+        "source:3E07A9",
+        "source:3E082B",
+        "source:3E0830",
+        "source:3E0F46",
+        "source:3DFACC",
+        "source:3E015C",
+        "source:3DFAB2",
+        "source:3DFACE",
+        "source:3E0E4E",
+        "source:3E01B8",
+        "source:3E012F",
+        "source:3E0179",
+        "source:3E089C",
+        "source:3E015A",
+        "source:3DFAB0",
+        "source:3DFA9D",
+        "source:3D8961",
+        "source:3E0129",
+        "source:3D8968",
+        "source:3E01CA",
+        "source:3E07F1",
+        "source:3E0F0A",
+        "source:3E017B",
+        "source:3E017D",
+        "source:3E01C6",
+        "source:3E00FE",
+        "source:3D8960",
+        "source:3E04EB",
+        "source:3E0169",
+        "source:3DFACD",
+        "source:3D8965",
+        "source:3E0176",
+        "source:3DFACF",
+        "source:3DFAB3",
+        "source:3E0178",
+        "source:3D8A01",
+        "source:3D8A0F",
+        "source:3E0E98",
+        "source:3E0827",
+        "source:3DFAB1",
+        "source:3DFACA",
+        "source:3D8A0C",
+        "source:3DFAC1",
+        "source:3D8A0D",
+        "source:3E0145"
+      ],
+      "evidence": []
+    },
+    {
+      "room": "冷链室",
+      "seed": "source:3DFB32",
+      "frontier_count": 15,
+      "old_coverage_within_reach": 13,
+      "new_coverage_within_reach": 15,
+      "old_coverage_within_1mm": 13,
+      "new_coverage_within_1mm": 13,
+      "changed_additions": 10,
+      "additions": [
+        "source:3E0835",
+        "source:3E0168",
+        "source:3DFE74",
+        "source:3E0B31",
+        "source:3E0128",
+        "source:3E0163",
+        "source:3E0433",
+        "source:3E0438",
+        "source:3E07A1",
+        "source:3E0489",
+        "source:3E048B",
+        "source:3E07BF",
+        "source:3E0483",
+        "source:3DFABA",
+        "source:3DFA7D",
+        "source:3E0E67",
+        "source:3E00FD",
+        "source:3E0110",
+        "source:3E0215",
+        "source:3DF7D8",
+        "source:3E051B",
+        "source:3E0510",
+        "source:3E0514",
+        "source:3E0478",
+        "source:3E07AC",
+        "source:3DFD9E",
+        "source:3E08BE",
+        "source:3E051F",
+        "source:3DF7CB",
+        "source:3DFB24",
+        "source:3DFAA8",
+        "source:3DFAAE",
+        "source:3E07B7",
+        "source:3E0B5D",
+        "source:3E018F",
+        "source:3E0532",
+        "source:3E07AF",
+        "source:3E01F0",
+        "source:3E051C",
+        "source:3E07BA",
+        "source:3DFE72",
+        "source:3E07BB",
+        "source:3E07C3",
+        "source:3DFA67",
+        "source:3E01A8",
+        "source:3E0B2F",
+        "source:3D8A00",
+        "source:3E07E7"
+      ],
+      "evidence": [
+        {
+          "source_id": "source:3E0835",
+          "frontier": [
+            50565.01817763038,
+            13996.159091100097
+          ],
+          "distance_mm": 338.539882926479
+        },
+        {
+          "source_id": "source:3E0168",
+          "frontier": [
+            50565.01817766577,
+            10786.15909065865
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFE74",
+          "frontier": [
+            50565.01817766577,
+            15886.159090880305
+          ],
+          "distance_mm": 2.3374013835564256e-9
+        },
+        {
+          "source_id": "source:3E0B31",
+          "frontier": [
+            50565.018177669495,
+            13986.15909093991
+          ],
+          "distance_mm": 369.99665628001094
+        },
+        {
+          "source_id": "source:3E0128",
+          "frontier": [
+            50745.01817766577,
+            11686.159090889618
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0163",
+          "frontier": [
+            50745.01817766577,
+            15886.159090869129
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0433",
+          "frontier": [
+            52085.02279576659,
+            11536.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0438",
+          "frontier": [
+            52185.02279576659,
+            11536.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E07A1",
+          "frontier": [
+            52385.01249048114,
+            10843.98602887988
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0489",
+          "frontier": [
+            52485.01249048114,
+            11036.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E048B",
+          "frontier": [
+            52485.01249048114,
+            16236.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E07BF",
+          "frontier": [
+            52585.01249048114,
+            7156.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0483",
+          "frontier": [
+            52585.01249048114,
+            16436.15898394026
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFABA",
+          "frontier": [
+            52705.018177732825,
+            15886.159092620015
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFA7D",
+          "frontier": [
+            52885.01817771979,
+            14976.159092709422
+          ],
+          "distance_mm": 1.30385160446167e-8
+        },
+        {
+          "source_id": "source:3E0E67",
+          "frontier": [
+            50565.01817763038,
+            13996.159091100097
+          ],
+          "distance_mm": 369.9966562408954
+        },
+        {
+          "source_id": "source:3E00FD",
+          "frontier": [
+            50565.01817766577,
+            10786.15909065865
+          ],
+          "distance_mm": 9.789081918799067e-8
+        },
+        {
+          "source_id": "source:3E0110",
+          "frontier": [
+            50565.01817766577,
+            15886.159090880305
+          ],
+          "distance_mm": 2.3374013835564256e-9
+        },
+        {
+          "source_id": "source:3E0215",
+          "frontier": [
+            50565.018177669495,
+            13986.15909093991
+          ],
+          "distance_mm": 400.0000000502914
+        },
+        {
+          "source_id": "source:3DF7D8",
+          "frontier": [
+            50745.01817766577,
+            11686.159090889618
+          ],
+          "distance_mm": 0.0000017397105693817139
+        },
+        {
+          "source_id": "source:3E051B",
+          "frontier": [
+            50745.01817766577,
+            15886.159090869129
+          ],
+          "distance_mm": 0.00010691844363464043
+        },
+        {
+          "source_id": "source:3E0510",
+          "frontier": [
+            52085.02279576659,
+            11536.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0514",
+          "frontier": [
+            52185.02279576659,
+            11536.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0478",
+          "frontier": [
+            52385.01249048114,
+            10843.98602887988
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E07AC",
+          "frontier": [
+            52485.01249048114,
+            11036.158983958885
+          ],
+          "distance_mm": 99.9948473572731
+        },
+        {
+          "source_id": "source:3DFD9E",
+          "frontier": [
+            52485.01249048114,
+            16236.158983958885
+          ],
+          "distance_mm": 0.00010691661555028986
+        },
+        {
+          "source_id": "source:3E08BE",
+          "frontier": [
+            52585.01249048114,
+            7156.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E051F",
+          "frontier": [
+            52585.01249048114,
+            16436.15898394026
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DF7CB",
+          "frontier": [
+            52705.018177732825,
+            15886.159092620015
+          ],
+          "distance_mm": 5.027686711400747e-9
+        },
+        {
+          "source_id": "source:3DFB24",
+          "frontier": [
+            52885.01817771979,
+            14976.159092709422
+          ],
+          "distance_mm": 33.5410198586684
+        },
+        {
+          "source_id": "source:3DFAA8",
+          "frontier": [
+            50565.01817763038,
+            13996.159091100097
+          ],
+          "distance_mm": 420.0051525402814
+        },
+        {
+          "source_id": "source:3DFAAE",
+          "frontier": [
+            50565.01817766577,
+            10786.15909065865
+          ],
+          "distance_mm": 0.0000019706785678863525
+        },
+        {
+          "source_id": "source:3E07B7",
+          "frontier": [
+            50565.01817766577,
+            15886.159090880305
+          ],
+          "distance_mm": 0.00010692942669265904
+        },
+        {
+          "source_id": "source:3E0B5D",
+          "frontier": [
+            50565.018177669495,
+            13986.15909093991
+          ],
+          "distance_mm": 469.99416759237647
+        },
+        {
+          "source_id": "source:3E018F",
+          "frontier": [
+            50745.01817766577,
+            11686.159090889618
+          ],
+          "distance_mm": 25.000000109896064
+        },
+        {
+          "source_id": "source:3E0532",
+          "frontier": [
+            50745.01817766577,
+            15886.159090869129
+          ],
+          "distance_mm": 49.99843920022249
+        },
+        {
+          "source_id": "source:3E07AF",
+          "frontier": [
+            52085.02279576659,
+            11536.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E01F0",
+          "frontier": [
+            52185.02279576659,
+            11536.158983958885
+          ],
+          "distance_mm": 10.000106871128082
+        },
+        {
+          "source_id": "source:3E051C",
+          "frontier": [
+            52385.01249048114,
+            10843.98602887988
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E07BA",
+          "frontier": [
+            52485.01249048114,
+            11036.158983958885
+          ],
+          "distance_mm": 100
+        },
+        {
+          "source_id": "source:3DFE72",
+          "frontier": [
+            52485.01249048114,
+            16236.158983958885
+          ],
+          "distance_mm": 0.00010691661555028986
+        },
+        {
+          "source_id": "source:3E07BB",
+          "frontier": [
+            52585.01249048114,
+            7156.158983958885
+          ],
+          "distance_mm": 200
+        },
+        {
+          "source_id": "source:3E07C3",
+          "frontier": [
+            52585.01249048114,
+            16436.15898394026
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFA67",
+          "frontier": [
+            52705.018177732825,
+            15886.159092620015
+          ],
+          "distance_mm": 5.027686711400747e-9
+        },
+        {
+          "source_id": "source:3E01A8",
+          "frontier": [
+            52885.01817771979,
+            14976.159092709422
+          ],
+          "distance_mm": 359.9999999925494
+        },
+        {
+          "source_id": "source:3E0B2F",
+          "frontier": [
+            50565.01817763038,
+            13996.159091100097
+          ],
+          "distance_mm": 469.9966562408954
+        },
+        {
+          "source_id": "source:3D8A00",
+          "frontier": [
+            50565.01817766577,
+            10786.15909065865
+          ],
+          "distance_mm": 16.135710408956708
+        },
+        {
+          "source_id": "source:3E07E7",
+          "frontier": [
+            50565.01817766577,
+            15886.159090880305
+          ],
+          "distance_mm": 49.99843918904662
+        }
+      ]
+    },
+    {
+      "room": "哺乳室",
+      "seed": "source:3E0194",
+      "frontier_count": 11,
+      "old_coverage_within_reach": 11,
+      "new_coverage_within_reach": 11,
+      "old_coverage_within_1mm": 8,
+      "new_coverage_within_1mm": 8,
+      "changed_additions": 17,
+      "additions": [
+        "source:3D88C9",
+        "source:3DFAF6",
+        "source:3DFD91",
+        "source:3DFA7B",
+        "source:3DF6F6",
+        "source:3D87E1",
+        "source:3DFE69",
+        "source:3E0122",
+        "source:3E01E6",
+        "source:3E0115",
+        "source:3E01E4",
+        "source:3D8B7E",
+        "source:3E018A",
+        "source:3DFE6D",
+        "source:3E0105",
+        "source:3DF7CA",
+        "source:3D88B5",
+        "source:3E0108",
+        "source:3DFD92",
+        "source:3DFAE5",
+        "source:3E01E5",
+        "source:3DFDE1",
+        "source:3E0197",
+        "source:3E0198",
+        "source:3DFB6A",
+        "source:3DFDE7",
+        "source:3DFA65",
+        "source:3D8B50",
+        "source:3E0113",
+        "source:3DFD93",
+        "source:3DFDC2",
+        "source:3D8B70",
+        "source:3DFE0F",
+        "source:3E0222",
+        "source:3E018C",
+        "source:3E014E",
+        "source:3DFDE3",
+        "source:3D88CC",
+        "source:3DFAEE",
+        "source:3E0119",
+        "source:3DFE6E",
+        "source:3DFE0E",
+        "source:3DFAE1",
+        "source:3DFDC5",
+        "source:3D8C71",
+        "source:3E01E2",
+        "source:3E0180",
+        "source:3E0117"
+      ],
+      "evidence": [
+        {
+          "source_id": "source:3D88C9",
+          "frontier": [
+            55680.011852540076,
+            15436.159092629328
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFAF6",
+          "frontier": [
+            56375.557498686016,
+            13132.152424959466
+          ],
+          "distance_mm": 405.9656270473058
+        },
+        {
+          "source_id": "source:3DFD91",
+          "frontier": [
+            57175.007872380316,
+            11836.159090889618
+          ],
+          "distance_mm": 403.61216836664164
+        },
+        {
+          "source_id": "source:3DFA7B",
+          "frontier": [
+            57565.018177725375,
+            11546.15909260884
+          ],
+          "distance_mm": 7.450580596923828e-9
+        },
+        {
+          "source_id": "source:3DF6F6",
+          "frontier": [
+            57565.018177732825,
+            16036.159092620015
+          ],
+          "distance_mm": 6.4192136051133275e-9
+        },
+        {
+          "source_id": "source:3D87E1",
+          "frontier": [
+            57665.018177732825,
+            16036.159092620015
+          ],
+          "distance_mm": 6.3810148276388645e-9
+        },
+        {
+          "source_id": "source:3DFE69",
+          "frontier": [
+            57745.01817766577,
+            11536.159090889618
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0122",
+          "frontier": [
+            57745.01817766577,
+            15636.159090889618
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E01E6",
+          "frontier": [
+            57922.365144342184,
+            13132.152424959466
+          ],
+          "distance_mm": 38.94499523657821
+        },
+        {
+          "source_id": "source:3E0115",
+          "frontier": [
+            58045.007872380316,
+            12746.159091129899
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E01E4",
+          "frontier": [
+            58045.007872380316,
+            12846.159091129899
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3D8B7E",
+          "frontier": [
+            55680.011852540076,
+            15436.159092629328
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E018A",
+          "frontier": [
+            56375.557498686016,
+            13132.152424959466
+          ],
+          "distance_mm": 760.4626970168046
+        },
+        {
+          "source_id": "source:3DFE6D",
+          "frontier": [
+            57175.007872380316,
+            11836.159090889618
+          ],
+          "distance_mm": 403.61216836664164
+        },
+        {
+          "source_id": "source:3E0105",
+          "frontier": [
+            57565.018177725375,
+            11546.15909260884
+          ],
+          "distance_mm": 10.000001719221473
+        },
+        {
+          "source_id": "source:3DF7CA",
+          "frontier": [
+            57565.018177732825,
+            16036.159092620015
+          ],
+          "distance_mm": 6.4192136051133275e-9
+        },
+        {
+          "source_id": "source:3D88B5",
+          "frontier": [
+            57665.018177732825,
+            16036.159092620015
+          ],
+          "distance_mm": 6.3810148276388645e-9
+        },
+        {
+          "source_id": "source:3E0108",
+          "frontier": [
+            57745.01817766577,
+            11536.159090889618
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFD92",
+          "frontier": [
+            57745.01817766577,
+            15636.159090889618
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFAE5",
+          "frontier": [
+            57922.365144342184,
+            13132.152424959466
+          ],
+          "distance_mm": 62.346966539509594
+        },
+        {
+          "source_id": "source:3E01E5",
+          "frontier": [
+            58045.007872380316,
+            12746.159091129899
+          ],
+          "distance_mm": 100
+        },
+        {
+          "source_id": "source:3DFDE1",
+          "frontier": [
+            58045.007872380316,
+            12846.159091129899
+          ],
+          "distance_mm": 100
+        },
+        {
+          "source_id": "source:3E0197",
+          "frontier": [
+            55680.011852540076,
+            15436.159092629328
+          ],
+          "distance_mm": 104.99367487430573
+        },
+        {
+          "source_id": "source:3E0198",
+          "frontier": [
+            56375.557498686016,
+            13132.152424959466
+          ],
+          "distance_mm": 780.5424142356728
+        },
+        {
+          "source_id": "source:3DFB6A",
+          "frontier": [
+            57175.007872380316,
+            11836.159090889618
+          ],
+          "distance_mm": 600.4319959000991
+        },
+        {
+          "source_id": "source:3DFDE7",
+          "frontier": [
+            57565.018177725375,
+            11546.15909260884
+          ],
+          "distance_mm": 279.99999994039536
+        },
+        {
+          "source_id": "source:3DFA65",
+          "frontier": [
+            57565.018177732825,
+            16036.159092620015
+          ],
+          "distance_mm": 6.4192136051133275e-9
+        },
+        {
+          "source_id": "source:3D8B50",
+          "frontier": [
+            57665.018177732825,
+            16036.159092620015
+          ],
+          "distance_mm": 6.3810148276388645e-9
+        },
+        {
+          "source_id": "source:3E0113",
+          "frontier": [
+            57745.01817766577,
+            11536.159090889618
+          ],
+          "distance_mm": 299.9896947145462
+        },
+        {
+          "source_id": "source:3DFD93",
+          "frontier": [
+            57745.01817766577,
+            15636.159090889618
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFDC2",
+          "frontier": [
+            57922.365144342184,
+            13132.152424959466
+          ],
+          "distance_mm": 74.76309651342697
+        },
+        {
+          "source_id": "source:3D8B70",
+          "frontier": [
+            58045.007872380316,
+            12746.159091129899
+          ],
+          "distance_mm": 195.00913280477107
+        },
+        {
+          "source_id": "source:3DFE0F",
+          "frontier": [
+            58045.007872380316,
+            12846.159091129899
+          ],
+          "distance_mm": 190.00272198021412
+        },
+        {
+          "source_id": "source:3E0222",
+          "frontier": [
+            55680.011852540076,
+            15436.159092629328
+          ],
+          "distance_mm": 124.97731490246952
+        },
+        {
+          "source_id": "source:3E018C",
+          "frontier": [
+            56375.557498686016,
+            13132.152424959466
+          ],
+          "distance_mm": 793.8454968071782
+        },
+        {
+          "source_id": "source:3E014E",
+          "frontier": [
+            57175.007872380316,
+            11836.159090889618
+          ],
+          "distance_mm": 658.0139655098319
+        },
+        {
+          "source_id": "source:3DFDE3",
+          "frontier": [
+            57565.018177725375,
+            11546.15909260884
+          ],
+          "distance_mm": 679.9896946549416
+        },
+        {
+          "source_id": "source:3D88CC",
+          "frontier": [
+            57565.018177732825,
+            16036.159092620015
+          ],
+          "distance_mm": 50.00145388022065
+        },
+        {
+          "source_id": "source:3DFAEE",
+          "frontier": [
+            57665.018177732825,
+            16036.159092620015
+          ],
+          "distance_mm": 23.000000001862645
+        },
+        {
+          "source_id": "source:3E0119",
+          "frontier": [
+            57745.01817766577,
+            11536.159090889618
+          ],
+          "distance_mm": 499.9896947145462
+        },
+        {
+          "source_id": "source:3DFE6E",
+          "frontier": [
+            57745.01817766577,
+            15636.159090889618
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFE0E",
+          "frontier": [
+            57922.365144342184,
+            13132.152424959466
+          ],
+          "distance_mm": 74.76575951222488
+        },
+        {
+          "source_id": "source:3DFAE1",
+          "frontier": [
+            58045.007872380316,
+            12746.159091129899
+          ],
+          "distance_mm": 229.98969467717689
+        },
+        {
+          "source_id": "source:3DFDC5",
+          "frontier": [
+            58045.007872380316,
+            12846.159091129899
+          ],
+          "distance_mm": 190.00272226892412
+        },
+        {
+          "source_id": "source:3D8C71",
+          "frontier": [
+            55680.011852540076,
+            15436.159092629328
+          ],
+          "distance_mm": 134.8963911543167
+        },
+        {
+          "source_id": "source:3E01E2",
+          "frontier": [
+            56375.557498686016,
+            13132.152424959466
+          ],
+          "distance_mm": 793.8454968071782
+        },
+        {
+          "source_id": "source:3E0180",
+          "frontier": [
+            57175.007872380316,
+            11836.159090889618
+          ],
+          "distance_mm": 1065.8187835407475
+        },
+        {
+          "source_id": "source:3E0117",
+          "frontier": [
+            57565.018177725375,
+            11546.15909260884
+          ],
+          "distance_mm": 679.9896946549416
+        }
+      ]
+    },
+    {
+      "room": "接种室",
+      "seed": "source:3E01A3",
+      "frontier_count": 13,
+      "old_coverage_within_reach": 13,
+      "new_coverage_within_reach": 13,
+      "old_coverage_within_1mm": 13,
+      "new_coverage_within_1mm": 13,
+      "changed_additions": 11,
+      "additions": [
+        "source:3E0834",
+        "source:3E0832",
+        "source:3E07C9",
+        "source:3E07C8",
+        "source:3E0439",
+        "source:3E0489",
+        "source:3E048B",
+        "source:3E07BF",
+        "source:3E0483",
+        "source:3DFABF",
+        "source:3DFB26",
+        "source:3DFA54",
+        "source:3DFA56",
+        "source:3E0835",
+        "source:3E08CD",
+        "source:3E043A",
+        "source:3E0515",
+        "source:3E0516",
+        "source:3E0478",
+        "source:3DFD9E",
+        "source:3E08BE",
+        "source:3E051F",
+        "source:3DFB1D",
+        "source:3E01A6",
+        "source:3E01B8",
+        "source:3DFB24",
+        "source:3E0127",
+        "source:3E04B2",
+        "source:3E07B0",
+        "source:3E07B1",
+        "source:3DFE72",
+        "source:3E051C",
+        "source:3E010D",
+        "source:3E0477",
+        "source:3E07C3",
+        "source:3E0827",
+        "source:3E01A7",
+        "source:3E0828",
+        "source:3E019C",
+        "source:3E01FA",
+        "source:3E012E",
+        "source:3E07DD",
+        "source:3DFB66",
+        "source:3DF6F5",
+        "source:3E04DA",
+        "source:3DF7C9",
+        "source:3DFB7A",
+        "source:3DFA64"
+      ],
+      "evidence": [
+        {
+          "source_id": "source:3E0834",
+          "frontier": [
+            50955.022795563564,
+            12846.158984210342
+          ],
+          "distance_mm": 1.1175870895385742e-8
+        },
+        {
+          "source_id": "source:3E0832",
+          "frontier": [
+            50955.0227957461,
+            12746.158984210342
+          ],
+          "distance_mm": 9.313225746154785e-9
+        },
+        {
+          "source_id": "source:3E07C9",
+          "frontier": [
+            52085.02279576659,
+            15636.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E07C8",
+          "frontier": [
+            52185.02279576659,
+            15636.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0439",
+          "frontier": [
+            52385.01249048114,
+            16236.158983940259
+          ],
+          "distance_mm": 1.862645149230957e-8
+        },
+        {
+          "source_id": "source:3E0489",
+          "frontier": [
+            52485.01249048114,
+            11036.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E048B",
+          "frontier": [
+            52485.01249048114,
+            16236.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E07BF",
+          "frontier": [
+            52585.01249048114,
+            7156.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0483",
+          "frontier": [
+            52585.01249048114,
+            16436.15898394026
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFABF",
+          "frontier": [
+            52705.018177732825,
+            10786.159092400223
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFB26",
+          "frontier": [
+            52705.01817773655,
+            13986.15909267962
+          ],
+          "distance_mm": 3.725290298461914e-9
+        },
+        {
+          "source_id": "source:3DFA54",
+          "frontier": [
+            52885.018177732825,
+            10786.159092590213
+          ],
+          "distance_mm": 1.30385160446167e-8
+        },
+        {
+          "source_id": "source:3DFA56",
+          "frontier": [
+            52885.018177732825,
+            13996.15909265913
+          ],
+          "distance_mm": 1.30385160446167e-8
+        },
+        {
+          "source_id": "source:3E0835",
+          "frontier": [
+            50955.022795563564,
+            12846.158984210342
+          ],
+          "distance_mm": 23.04886117939599
+        },
+        {
+          "source_id": "source:3E08CD",
+          "frontier": [
+            50955.0227957461,
+            12746.158984210342
+          ],
+          "distance_mm": 29.9896947350353
+        },
+        {
+          "source_id": "source:3E043A",
+          "frontier": [
+            52085.02279576659,
+            15636.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0515",
+          "frontier": [
+            52185.02279576659,
+            15636.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0516",
+          "frontier": [
+            52385.01249048114,
+            16236.158983940259
+          ],
+          "distance_mm": 1.862645149230957e-8
+        },
+        {
+          "source_id": "source:3E0478",
+          "frontier": [
+            52485.01249048114,
+            11036.158983958885
+          ],
+          "distance_mm": 141.4213562373095
+        },
+        {
+          "source_id": "source:3DFD9E",
+          "frontier": [
+            52485.01249048114,
+            16236.158983958885
+          ],
+          "distance_mm": 0.00010691661555028986
+        },
+        {
+          "source_id": "source:3E08BE",
+          "frontier": [
+            52585.01249048114,
+            7156.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E051F",
+          "frontier": [
+            52585.01249048114,
+            16436.15898394026
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFB1D",
+          "frontier": [
+            52705.018177732825,
+            10786.159092400223
+          ],
+          "distance_mm": 31.324910230219697
+        },
+        {
+          "source_id": "source:3E01A6",
+          "frontier": [
+            52705.01817773655,
+            13986.15909267962
+          ],
+          "distance_mm": 0.0000017993152141571045
+        },
+        {
+          "source_id": "source:3E01B8",
+          "frontier": [
+            52885.018177732825,
+            10786.159092590213
+          ],
+          "distance_mm": 240.00000176019967
+        },
+        {
+          "source_id": "source:3DFB24",
+          "frontier": [
+            52885.018177732825,
+            13996.15909265913
+          ],
+          "distance_mm": 31.324910443837314
+        },
+        {
+          "source_id": "source:3E0127",
+          "frontier": [
+            50955.022795563564,
+            12846.158984210342
+          ],
+          "distance_mm": 210.00461789779365
+        },
+        {
+          "source_id": "source:3E04B2",
+          "frontier": [
+            50955.0227957461,
+            12746.158984210342
+          ],
+          "distance_mm": 385.99333382956684
+        },
+        {
+          "source_id": "source:3E07B0",
+          "frontier": [
+            52085.02279576659,
+            15636.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E07B1",
+          "frontier": [
+            52185.02279576659,
+            15636.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3DFE72",
+          "frontier": [
+            52385.01249048114,
+            16236.158983940259
+          ],
+          "distance_mm": 0.00010693536933104042
+        },
+        {
+          "source_id": "source:3E051C",
+          "frontier": [
+            52485.01249048114,
+            11036.158983958885
+          ],
+          "distance_mm": 141.4213562373095
+        },
+        {
+          "source_id": "source:3E010D",
+          "frontier": [
+            52485.01249048114,
+            16236.158983958885
+          ],
+          "distance_mm": 0.00010691661555028986
+        },
+        {
+          "source_id": "source:3E0477",
+          "frontier": [
+            52585.01249048114,
+            7156.158983958885
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E07C3",
+          "frontier": [
+            52585.01249048114,
+            16436.15898394026
+          ],
+          "distance_mm": 0
+        },
+        {
+          "source_id": "source:3E0827",
+          "frontier": [
+            52705.018177732825,
+            10786.159092400223
+          ],
+          "distance_mm": 110.00053460896015
+        },
+        {
+          "source_id": "source:3E01A7",
+          "frontier": [
+            52705.01817773655,
+            13986.15909267962
+          ],
+          "distance_mm": 463.13966063949744
+        },
+        {
+          "source_id": "source:3E0828",
+          "frontier": [
+            52885.018177732825,
+            10786.159092590213
+          ],
+          "distance_mm": 305.52295384522455
+        },
+        {
+          "source_id": "source:3E019C",
+          "frontier": [
+            52885.018177732825,
+            13996.15909265913
+          ],
+          "distance_mm": 439.9999999795109
+        },
+        {
+          "source_id": "source:3E01FA",
+          "frontier": [
+            50955.022795563564,
+            12846.158984210342
+          ],
+          "distance_mm": 367.9831112027168
+        },
+        {
+          "source_id": "source:3E012E",
+          "frontier": [
+            50955.0227957461,
+            12746.158984210342
+          ],
+          "distance_mm": 390.0046180780482
+        },
+        {
+          "source_id": "source:3E07DD",
+          "frontier": [
+            52085.02279576659,
+            15636.158983958885
+          ],
+          "distance_mm": 99.99733604490757
+        },
+        {
+          "source_id": "source:3DFB66",
+          "frontier": [
+            52185.02279576659,
+            15636.158983958885
+          ],
+          "distance_mm": 135.00010866113007
+        },
+        {
+          "source_id": "source:3DF6F5",
+          "frontier": [
+            52385.01249048114,
+            16236.158983940259
+          ],
+          "distance_mm": 0.00010868553727050312
+        },
+        {
+          "source_id": "source:3E04DA",
+          "frontier": [
+            52485.01249048114,
+            11036.158983958885
+          ],
+          "distance_mm": 412.31056256176606
+        },
+        {
+          "source_id": "source:3DF7C9",
+          "frontier": [
+            52485.01249048114,
+            16236.158983958885
+          ],
+          "distance_mm": 0.00010866667435038835
+        },
+        {
+          "source_id": "source:3DFB7A",
+          "frontier": [
+            52585.01249048114,
+            7156.158983958885
+          ],
+          "distance_mm": 8.110223008324196
+        },
+        {
+          "source_id": "source:3DFA64",
+          "frontier": [
+            52585.01249048114,
+            16436.15898394026
+          ],
+          "distance_mm": 199.99989131493385
+        }
+      ]
+    },
+    {
+      "room": "留观区",
+      "seed": "source:3E01BE",
+      "frontier_count": 0,
+      "old_coverage_within_reach": 0,
+      "new_coverage_within_reach": 0,
+      "old_coverage_within_1mm": 0,
+      "new_coverage_within_1mm": 0,
+      "changed_additions": 0,
+      "additions": [
+        "source:3D8BA0",
+        "source:3E01B8",
+        "source:3DFAD2",
+        "source:3DFAD4",
+        "source:3DFB1D",
+        "source:3DFB0A",
+        "source:3E089F",
+        "source:3DFB21",
+        "source:3DFAC8",
+        "source:3D8B9D",
+        "source:3DFAC7",
+        "source:3D8B88",
+        "source:3D8B9B",
+        "source:3D8BB7",
+        "source:3E082D",
+        "source:3E07A9",
+        "source:3D8BB9",
+        "source:3E0863",
+        "source:3E082A",
+        "source:3E0100",
+        "source:3E0183",
+        "source:3E046E",
+        "source:3E0479",
+        "source:3DFA54",
+        "source:3D895F",
+        "source:3D8BB3",
+        "source:3DFABF",
+        "source:3DFA7F",
+        "source:3D8966",
+        "source:3E046D",
+        "source:3D8968",
+        "source:3DFA85",
+        "source:3E04DA",
+        "source:3DFB6B",
+        "source:3DFAD1",
+        "source:3D8BB2",
+        "source:3E051C",
+        "source:3E07A7",
+        "source:3DFAD3",
+        "source:3DFA82",
+        "source:3DFAD0",
+        "source:3E0182",
+        "source:3E0828",
+        "source:3E07C0",
+        "source:3E07BE",
+        "source:3DFA88",
+        "source:3E07F1",
+        "source:3DFACD"
+      ],
+      "evidence": []
+    }
+  ]
+}

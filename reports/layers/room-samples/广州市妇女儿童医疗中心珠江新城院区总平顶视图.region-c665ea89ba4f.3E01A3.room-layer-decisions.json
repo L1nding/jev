@@ -1,0 +1,2145 @@
+{
+  "schema_version": "room-layer-decisions-v1",
+  "generated_at": "2026-09-19T12:06:28.447Z",
+  "input": {
+    "cad_ir_path": "/Users/zhoujunlin/Documents/jev/reports/cad-ir/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.cad-ir.json",
+    "jev_decisions_path": "/Users/zhoujunlin/Documents/jev/reports/jev/window-0f28c192908f/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.jev-decisions.json",
+    "wall_elements_path": "/Users/zhoujunlin/Documents/jev/reports/wall-elements/room-samples/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.3E01A3.wall-elements.json",
+    "room_object_path": "/Users/zhoujunlin/Documents/jev/reports/objects/room-samples/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.room.3E01A3.jev-object.json",
+    "traversal_path": "/Users/zhoujunlin/Documents/jev/reports/traversal-room-samples/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.3E01A3.room-traversal.json",
+    "reused_decisions_path": null,
+    "cad_ir_sha256": "50f8fdb6a16469b643a235d7ddb990994aa5d9b72e9b87953e0b138620b477b5"
+  },
+  "room_seed": {
+    "source_id": "source:3E01A3",
+    "text": "接种室",
+    "point": [
+      53116.37580606155,
+      12379.230462519452
+    ]
+  },
+  "search_radius": 5984.545548995429,
+  "model": "typesafe/jev-1.13-20260917",
+  "endpoint": "https://openrouter.ai/api/alpha/decisions",
+  "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+  "provider": "TypeSafe",
+  "usage": {
+    "input_tokens": 21739,
+    "output_tokens": 585,
+    "cost": 0.000913038
+  },
+  "profiles": [
+    {
+      "key": "layer_101c43203a1a",
+      "layer": "WALL",
+      "entity_count": 190,
+      "boundary_element_count": 237,
+      "accepted_boundary_element_count": 15,
+      "selected_face_element_count": 0,
+      "semantic_type_counts": {
+        "wall": 183,
+        "door": 6,
+        "window": 1
+      },
+      "entity_type_counts": {
+        "LINE": 133,
+        "LWPOLYLINE": 27,
+        "INSERT": 28,
+        "ARC": 2
+      },
+      "minimum_distance_to_seed": 411.41597477086634,
+      "examples": [
+        {
+          "source_id": "source:3DFA85",
+          "handle": "3DFA85",
+          "entity_type": "LINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 411.416,
+          "anchor_local": [
+            52705.01817773469,
+            12386.159092539921,
+            0
+          ],
+          "bbox_local": [
+            52705.018177732825,
+            10786.159092400223,
+            52705.01817773655,
+            13986.15909267962
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              52705.01817773655,
+              13986.15909267962,
+              0
+            ],
+            "end": [
+              52705.018177732825,
+              10786.159092400223,
+              0
+            ]
+          }
+        },
+        {
+          "source_id": "source:3DFA7E",
+          "handle": "3DFA7E",
+          "entity_type": "LINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 516.628,
+          "anchor_local": [
+            52885.018177732825,
+            12841.15909264423,
+            0
+          ],
+          "bbox_local": [
+            52885.018177732825,
+            11686.159092629328,
+            52885.018177732825,
+            13996.15909265913
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              52885.018177732825,
+              13996.15909265913,
+              0
+            ],
+            "end": [
+              52885.018177732825,
+              11686.159092629328,
+              0
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E048A",
+          "handle": "3E048A",
+          "entity_type": "LINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 788.872,
+          "anchor_local": [
+            52585.01249048114,
+            11796.158983949572,
+            0
+          ],
+          "bbox_local": [
+            52585.01249048114,
+            7156.158983958885,
+            52585.01249048114,
+            16436.15898394026
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              52585.01249048114,
+              7156.158983958885,
+              0
+            ],
+            "end": [
+              52585.01249048114,
+              16436.15898394026,
+              0
+            ]
+          }
+        },
+        {
+          "source_id": "source:3DFA7F",
+          "handle": "3DFA7F",
+          "entity_type": "LINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 1166.25,
+          "anchor_local": [
+            52885.018177732825,
+            11236.159092610702,
+            0
+          ],
+          "bbox_local": [
+            52885.018177732825,
+            10786.159092590213,
+            52885.018177732825,
+            11686.159092629328
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              52885.018177732825,
+              11686.159092629328,
+              0
+            ],
+            "end": [
+              52885.018177732825,
+              10786.159092590213,
+              0
+            ]
+          }
+        },
+        {
+          "source_id": "source:3DFB46",
+          "handle": "3DFB46",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 1203.305,
+          "anchor_local": [
+            54030.018177676946,
+            11596.159093493596,
+            0
+          ],
+          "bbox_local": [
+            53845.01817770116,
+            11546.159092579037,
+            54215.01817765273,
+            11646.159094410017
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": true,
+            "vertex_count": 4,
+            "sample_vertices": [
+              [
+                53845.01817770116,
+                11546.159092579037,
+                0
+              ],
+              [
+                53845.01817770116,
+                11646.15909265913,
+                0
+              ],
+              [
+                54215.01817765273,
+                11646.159094410017,
+                0
+              ],
+              [
+                54215.01817765273,
+                11546.159094329923,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E07EE",
+          "handle": "3E07EE",
+          "entity_type": "LINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 1220.819,
+          "anchor_local": [
+            52235.02021944523,
+            13223.98602887988,
+            0
+          ],
+          "bbox_local": [
+            52085.02279576659,
+            13223.98602887988,
+            52385.017643123865,
+            13223.98602887988
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              52385.017643123865,
+              13223.98602887988,
+              0
+            ],
+            "end": [
+              52085.02279576659,
+              13223.98602887988,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "layer_201f5bdde790",
+      "layer": "WINDOW",
+      "entity_count": 40,
+      "boundary_element_count": 78,
+      "accepted_boundary_element_count": 0,
+      "selected_face_element_count": 0,
+      "semantic_type_counts": {
+        "window": 40
+      },
+      "entity_type_counts": {
+        "LINE": 34,
+        "LWPOLYLINE": 6
+      },
+      "minimum_distance_to_seed": 771.8305436246213,
+      "examples": [
+        {
+          "source_id": "source:3E01F2",
+          "handle": "3E01F2",
+          "entity_type": "LINE",
+          "semantic_type": "window",
+          "distance_to_seed": 771.831,
+          "anchor_local": [
+            53025.01817772351,
+            11612.8257575389,
+            0
+          ],
+          "bbox_local": [
+            52105.01817752607,
+            11612.8257575389,
+            53945.01817792095,
+            11612.8257575389
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              53945.01817792095,
+              11612.8257575389,
+              0
+            ],
+            "end": [
+              52105.01817752607,
+              11612.8257575389,
+              0
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E01F0",
+          "handle": "3E01F0",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "window",
+          "distance_to_seed": 788.383,
+          "anchor_local": [
+            53025.01817772351,
+            11596.159090859815,
+            0
+          ],
+          "bbox_local": [
+            52105.01817752607,
+            11546.159090830013,
+            53945.01817792095,
+            11646.159090889618
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": true,
+            "vertex_count": 4,
+            "sample_vertices": [
+              [
+                52105.01817752607,
+                11546.159090830013,
+                0
+              ],
+              [
+                52105.01817752607,
+                11646.159090889618,
+                0
+              ],
+              [
+                53945.01817792095,
+                11646.159090889618,
+                0
+              ],
+              [
+                53945.01817792095,
+                11546.159090830013,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E01F1",
+          "handle": "3E01F1",
+          "entity_type": "LINE",
+          "semantic_type": "window",
+          "distance_to_seed": 804.939,
+          "anchor_local": [
+            53025.01817772351,
+            11579.492424190044,
+            0
+          ],
+          "bbox_local": [
+            52105.01817752607,
+            11579.492424190044,
+            53945.01817792095,
+            11579.492424190044
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              53945.01817792095,
+              11579.492424190044,
+              0
+            ],
+            "end": [
+              52105.01817752607,
+              11579.492424190044,
+              0
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E0208",
+          "handle": "3E0208",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "window",
+          "distance_to_seed": 1149.924,
+          "anchor_local": [
+            53955.92726882361,
+            11593.431819811463,
+            0
+          ],
+          "bbox_local": [
+            53945.01817792095,
+            11536.15909246914,
+            53975.01817786135,
+            11656.159092528746
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": false,
+            "vertex_count": 11,
+            "sample_vertices": [
+              [
+                53945.01817798801,
+                11536.159092579037,
+                0
+              ],
+              [
+                53975.018177781254,
+                11536.15909246914,
+                0
+              ],
+              [
+                53975.01817786135,
+                11611.159092539921,
+                0
+              ],
+              [
+                53975.01817786135,
+                11611.159092528746,
+                0
+              ],
+              [
+                53945.01817792095,
+                11646.159092539921,
+                0
+              ],
+              [
+                53945.01817792095,
+                11546.159092579037,
+                0
+              ],
+              [
+                53945.01817792095,
+                11546.159092579037,
+                0
+              ],
+              [
+                53945.01817792095,
+                11536.159092579037,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E0207",
+          "handle": "3E0207",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "window",
+          "distance_to_seed": 1295.88,
+          "anchor_local": [
+            52085.92726848833,
+            11593.431819811463,
+            0
+          ],
+          "bbox_local": [
+            52075.018177585676,
+            11536.15909246914,
+            52105.01817752607,
+            11656.159092528746
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": false,
+            "vertex_count": 11,
+            "sample_vertices": [
+              [
+                52075.018177654594,
+                11536.159092579037,
+                0
+              ],
+              [
+                52105.01817744598,
+                11536.15909246914,
+                0
+              ],
+              [
+                52105.01817752607,
+                11611.159092539921,
+                0
+              ],
+              [
+                52105.01817752607,
+                11611.159092528746,
+                0
+              ],
+              [
+                52075.018177585676,
+                11646.159092539921,
+                0
+              ],
+              [
+                52075.018177585676,
+                11546.159092579037,
+                0
+              ],
+              [
+                52075.018177585676,
+                11546.159092579037,
+                0
+              ],
+              [
+                52075.018177585676,
+                11536.159092579037,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "source:3DFB5E",
+          "handle": "3DFB5E",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "window",
+          "distance_to_seed": 1359.626,
+          "anchor_local": [
+            54225.92726855539,
+            11593.4318215549,
+            0
+          ],
+          "bbox_local": [
+            54215.01817765273,
+            11536.159094220027,
+            54245.01817759313,
+            11656.159094270319
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": false,
+            "vertex_count": 11,
+            "sample_vertices": [
+              [
+                54215.01817772165,
+                11536.159094329923,
+                0
+              ],
+              [
+                54245.01817751303,
+                11536.159094220027,
+                0
+              ],
+              [
+                54245.01817759313,
+                11611.159094279632,
+                0
+              ],
+              [
+                54245.01817759313,
+                11611.159094270319,
+                0
+              ],
+              [
+                54215.01817765273,
+                11646.159094279632,
+                0
+              ],
+              [
+                54215.01817765273,
+                11546.159094329923,
+                0
+              ],
+              [
+                54215.01817765273,
+                11546.159094329923,
+                0
+              ],
+              [
+                54215.01817765273,
+                11536.159094329923,
+                0
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "layer_b9d9bf8c98d2",
+      "layer": "P-WALL1",
+      "entity_count": 31,
+      "boundary_element_count": 31,
+      "accepted_boundary_element_count": 3,
+      "selected_face_element_count": 0,
+      "semantic_type_counts": {
+        "wall": 31
+      },
+      "entity_type_counts": {
+        "LINE": 31
+      },
+      "minimum_distance_to_seed": 1069.6356744337584,
+      "examples": [
+        {
+          "source_id": "source:3DFAE7",
+          "handle": "3DFAE7",
+          "entity_type": "LINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 1069.636,
+          "anchor_local": [
+            53845.01817760989,
+            11596.15909258835,
+            0
+          ],
+          "bbox_local": [
+            53845.01817751862,
+            11546.159092579037,
+            53845.01817770116,
+            11646.159092599526
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              53845.01817770116,
+              11546.159092579037,
+              0
+            ],
+            "end": [
+              53845.01817751862,
+              11646.159092599526,
+              0
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E0192",
+          "handle": "3E0192",
+          "entity_type": "LINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 1456.97,
+          "anchor_local": [
+            54345.01817790419,
+            11596.159090878442,
+            0
+          ],
+          "bbox_local": [
+            54345.01817781385,
+            11546.159090869129,
+            54345.01817799546,
+            11646.159090889618
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              54345.01817781385,
+              11546.159090869129,
+              0
+            ],
+            "end": [
+              54345.01817799546,
+              11646.159090889618,
+              0
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E01EC",
+          "handle": "3E01EC",
+          "entity_type": "LINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 1456.97,
+          "anchor_local": [
+            54345.01817790419,
+            11596.159090878442,
+            0
+          ],
+          "bbox_local": [
+            54345.01817781385,
+            11546.159090869129,
+            54345.01817799546,
+            11646.159090889618
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              54345.01817781385,
+              11546.159090869129,
+              0
+            ],
+            "end": [
+              54345.01817799546,
+              11646.159090889618,
+              0
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E0190",
+          "handle": "3E0190",
+          "entity_type": "LINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 1614.042,
+          "anchor_local": [
+            51705.018177542835,
+            11596.159090839326,
+            0
+          ],
+          "bbox_local": [
+            51705.018177451566,
+            11546.159090830013,
+            51705.018177634105,
+            11646.15909084864
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              51705.018177634105,
+              11546.159090830013,
+              0
+            ],
+            "end": [
+              51705.018177451566,
+              11646.15909084864,
+              0
+            ]
+          }
+        },
+        {
+          "source_id": "source:3DFABF",
+          "handle": "3DFABF",
+          "entity_type": "LINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 1625.161,
+          "anchor_local": [
+            52795.01817774307,
+            10786.159092495218,
+            0
+          ],
+          "bbox_local": [
+            52705.018177732825,
+            10786.159092400223,
+            52885.018177753314,
+            10786.159092590213
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              52885.018177753314,
+              10786.159092590213,
+              0
+            ],
+            "end": [
+              52705.018177732825,
+              10786.159092400223,
+              0
+            ]
+          }
+        },
+        {
+          "source_id": "source:3DFA56",
+          "handle": "3DFA56",
+          "entity_type": "LINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 1648.554,
+          "anchor_local": [
+            52795.01817770861,
+            13996.159092748538,
+            0
+          ],
+          "bbox_local": [
+            52705.018177697435,
+            13996.15909265913,
+            52885.01817771979,
+            13996.159092839807
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              52885.01817771979,
+              13996.15909265913,
+              0
+            ],
+            "end": [
+              52705.018177697435,
+              13996.159092839807,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "layer_d59db8880904",
+      "layer": "COLUMN",
+      "entity_count": 4,
+      "boundary_element_count": 16,
+      "accepted_boundary_element_count": 0,
+      "selected_face_element_count": 0,
+      "semantic_type_counts": {
+        "column": 4
+      },
+      "entity_type_counts": {
+        "INSERT": 4
+      },
+      "minimum_distance_to_seed": 1539.5817826139794,
+      "examples": [
+        {
+          "source_id": "source:3E0438",
+          "handle": "3E0438",
+          "entity_type": "INSERT",
+          "semantic_type": "column",
+          "distance_to_seed": 1539.582,
+          "anchor_local": [
+            52085.017643123865,
+            11236.158983958885,
+            0
+          ],
+          "bbox_local": [
+            52085.017643123865,
+            11236.158983958885,
+            52085.017643123865,
+            11236.158983958885
+          ],
+          "geometry": {
+            "kind": "block_reference",
+            "insert": [
+              52085.017643123865,
+              11236.158983958885,
+              0
+            ],
+            "rotation": 0,
+            "scale": [
+              600,
+              600,
+              600
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E043A",
+          "handle": "3E043A",
+          "entity_type": "INSERT",
+          "semantic_type": "column",
+          "distance_to_seed": 3703.436,
+          "anchor_local": [
+            52085.017643123865,
+            15936.158983958885,
+            0
+          ],
+          "bbox_local": [
+            52085.017643123865,
+            15936.158983958885,
+            52085.017643123865,
+            15936.158983958885
+          ],
+          "geometry": {
+            "kind": "block_reference",
+            "insert": [
+              52085.017643123865,
+              15936.158983958885,
+              0
+            ],
+            "rotation": 0,
+            "scale": [
+              600,
+              600,
+              600
+            ]
+          }
+        },
+        {
+          "source_id": "source:3DFD91",
+          "handle": "3DFD91",
+          "entity_type": "INSERT",
+          "semantic_type": "column",
+          "distance_to_seed": 4767.693,
+          "anchor_local": [
+            57745.01302502304,
+            11236.159090889618,
+            0
+          ],
+          "bbox_local": [
+            57745.01302502304,
+            11236.159090889618,
+            57745.01302502304,
+            11236.159090889618
+          ],
+          "geometry": {
+            "kind": "block_reference",
+            "insert": [
+              57745.01302502304,
+              11236.159090889618,
+              0
+            ],
+            "rotation": 0,
+            "scale": [
+              600,
+              600,
+              600
+            ]
+          }
+        },
+        {
+          "source_id": "source:3DFD93",
+          "handle": "3DFD93",
+          "entity_type": "INSERT",
+          "semantic_type": "column",
+          "distance_to_seed": 5837.467,
+          "anchor_local": [
+            57745.01302502304,
+            15936.159090889618,
+            0
+          ],
+          "bbox_local": [
+            57745.01302502304,
+            15936.159090889618,
+            57745.01302502304,
+            15936.159090889618
+          ],
+          "geometry": {
+            "kind": "block_reference",
+            "insert": [
+              57745.01302502304,
+              15936.159090889618,
+              0
+            ],
+            "rotation": 0,
+            "scale": [
+              600,
+              600,
+              600
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "layer_82d1da1c1c36",
+      "layer": "COLUMN-框",
+      "entity_count": 4,
+      "boundary_element_count": 16,
+      "accepted_boundary_element_count": 0,
+      "selected_face_element_count": 0,
+      "semantic_type_counts": {
+        "column": 4
+      },
+      "entity_type_counts": {
+        "INSERT": 4
+      },
+      "minimum_distance_to_seed": 1539.5817826139794,
+      "examples": [
+        {
+          "source_id": "source:3E0433",
+          "handle": "3E0433",
+          "entity_type": "INSERT",
+          "semantic_type": "column",
+          "distance_to_seed": 1539.582,
+          "anchor_local": [
+            52085.017643123865,
+            11236.158983958885,
+            0
+          ],
+          "bbox_local": [
+            52085.017643123865,
+            11236.158983958885,
+            52085.017643123865,
+            11236.158983958885
+          ],
+          "geometry": {
+            "kind": "block_reference",
+            "insert": [
+              52085.017643123865,
+              11236.158983958885,
+              0
+            ],
+            "rotation": 0,
+            "scale": [
+              600,
+              600,
+              600
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E0439",
+          "handle": "3E0439",
+          "entity_type": "INSERT",
+          "semantic_type": "column",
+          "distance_to_seed": 3703.436,
+          "anchor_local": [
+            52085.017643123865,
+            15936.158983958885,
+            0
+          ],
+          "bbox_local": [
+            52085.017643123865,
+            15936.158983958885,
+            52085.017643123865,
+            15936.158983958885
+          ],
+          "geometry": {
+            "kind": "block_reference",
+            "insert": [
+              52085.017643123865,
+              15936.158983958885,
+              0
+            ],
+            "rotation": 0,
+            "scale": [
+              600,
+              600,
+              600
+            ]
+          }
+        },
+        {
+          "source_id": "source:3DFD8C",
+          "handle": "3DFD8C",
+          "entity_type": "INSERT",
+          "semantic_type": "column",
+          "distance_to_seed": 4767.693,
+          "anchor_local": [
+            57745.01302502304,
+            11236.159090889618,
+            0
+          ],
+          "bbox_local": [
+            57745.01302502304,
+            11236.159090889618,
+            57745.01302502304,
+            11236.159090889618
+          ],
+          "geometry": {
+            "kind": "block_reference",
+            "insert": [
+              57745.01302502304,
+              11236.159090889618,
+              0
+            ],
+            "rotation": 0,
+            "scale": [
+              600,
+              600,
+              600
+            ]
+          }
+        },
+        {
+          "source_id": "source:3DFD92",
+          "handle": "3DFD92",
+          "entity_type": "INSERT",
+          "semantic_type": "column",
+          "distance_to_seed": 5837.467,
+          "anchor_local": [
+            57745.01302502304,
+            15936.159090889618,
+            0
+          ],
+          "bbox_local": [
+            57745.01302502304,
+            15936.159090889618,
+            57745.01302502304,
+            15936.159090889618
+          ],
+          "geometry": {
+            "kind": "block_reference",
+            "insert": [
+              57745.01302502304,
+              15936.159090889618,
+              0
+            ],
+            "rotation": 0,
+            "scale": [
+              600,
+              600,
+              600
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "layer_59e70bbd9466",
+      "layer": "PL-家具",
+      "entity_count": 3,
+      "boundary_element_count": 16,
+      "accepted_boundary_element_count": 0,
+      "selected_face_element_count": 0,
+      "semantic_type_counts": {
+        "wall": 3
+      },
+      "entity_type_counts": {
+        "LWPOLYLINE": 3
+      },
+      "minimum_distance_to_seed": 1840.4862210709098,
+      "examples": [
+        {
+          "source_id": "source:3E01A8",
+          "handle": "3E01A8",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 1840.486,
+          "anchor_local": [
+            53027.87532056961,
+            14217.587662309408,
+            0
+          ],
+          "bbox_local": [
+            52445.018177712336,
+            12946.159090880305,
+            53285.018177712336,
+            15886.159090880305
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": false,
+            "vertex_count": 7,
+            "sample_vertices": [
+              [
+                53245.018177712336,
+                15886.159090880305,
+                0
+              ],
+              [
+                53245.018177712336,
+                12986.159090880305,
+                0
+              ],
+              [
+                52445.018177712336,
+                12986.159090880305,
+                0
+              ],
+              [
+                52445.018177712336,
+                12946.159090880305,
+                0
+              ],
+              [
+                53285.018177712336,
+                12946.159090880305,
+                0
+              ],
+              [
+                53285.018177712336,
+                15886.159090880305,
+                0
+              ],
+              [
+                53245.018177712336,
+                15886.159090880305,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E019E",
+          "handle": "3E019E",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 1887.022,
+          "anchor_local": [
+            53542.16103485506,
+            14217.587662309408,
+            0
+          ],
+          "bbox_local": [
+            53285.018177712336,
+            12946.159090880305,
+            54125.018177712336,
+            15886.159090880305
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": false,
+            "vertex_count": 7,
+            "sample_vertices": [
+              [
+                53325.018177712336,
+                15886.159090880305,
+                0
+              ],
+              [
+                53325.018177712336,
+                12986.159090880305,
+                0
+              ],
+              [
+                54125.018177712336,
+                12986.159090880305,
+                0
+              ],
+              [
+                54125.018177712336,
+                12946.159090880305,
+                0
+              ],
+              [
+                53285.018177712336,
+                12946.159090880305,
+                0
+              ],
+              [
+                53285.018177712336,
+                15886.159090880305,
+                0
+              ],
+              [
+                53325.018177712336,
+                15886.159090880305,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "source:3D8C61",
+          "handle": "3D8C61",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 3852.216,
+          "anchor_local": [
+            56960.01442886144,
+            12636.159092629328,
+            0
+          ],
+          "bbox_local": [
+            55680.011852540076,
+            11686.159092629328,
+            58240.0170051828,
+            13586.159092629328
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": true,
+            "vertex_count": 4,
+            "sample_vertices": [
+              [
+                55680.011852540076,
+                13586.159092629328,
+                0
+              ],
+              [
+                55680.011852540076,
+                11686.159092629328,
+                0
+              ],
+              [
+                58240.0170051828,
+                11686.159092629328,
+                0
+              ],
+              [
+                58240.0170051828,
+                13586.159092629328,
+                0
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "layer_028bcd8e0aec",
+      "layer": "护士站柜台",
+      "entity_count": 3,
+      "boundary_element_count": 4,
+      "accepted_boundary_element_count": 0,
+      "selected_face_element_count": 0,
+      "semantic_type_counts": {
+        "wall": 3
+      },
+      "entity_type_counts": {
+        "LWPOLYLINE": 3
+      },
+      "minimum_distance_to_seed": 4051.4746687223533,
+      "examples": [
+        {
+          "source_id": "source:3DFACA",
+          "handle": "3DFACA",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 4051.475,
+          "anchor_local": [
+            52185.018177231774,
+            8436.259506689385,
+            0
+          ],
+          "bbox_local": [
+            52185.018177231774,
+            7286.359920749441,
+            52185.018177231774,
+            9586.159092629328
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": false,
+            "vertex_count": 2,
+            "sample_vertices": [
+              [
+                52185.018177231774,
+                9586.159092629328,
+                0
+              ],
+              [
+                52185.018177231774,
+                7286.359920749441,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E0172",
+          "handle": "3E0172",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 4657.978,
+          "anchor_local": [
+            50745.018177168444,
+            8370.063779147342,
+            0
+          ],
+          "bbox_local": [
+            50745.01817716658,
+            7286.359918998554,
+            50745.018177168444,
+            9586.159090889618
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": false,
+            "vertex_count": 4,
+            "sample_vertices": [
+              [
+                50745.01817716658,
+                7286.359918998554,
+                0
+              ],
+              [
+                50745.018177168444,
+                8303.868053348735,
+                0
+              ],
+              [
+                50745.018177168444,
+                8303.868053348735,
+                0
+              ],
+              [
+                50745.018177168444,
+                9586.159090889618,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E0173",
+          "handle": "3E0173",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 4998.025,
+          "anchor_local": [
+            50045.01817716472,
+            8436.259504944086,
+            0
+          ],
+          "bbox_local": [
+            50045.01817716472,
+            7286.359918998554,
+            50045.01817716472,
+            9586.159090889618
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": false,
+            "vertex_count": 2,
+            "sample_vertices": [
+              [
+                50045.01817716472,
+                9586.159090889618,
+                0
+              ],
+              [
+                50045.01817716472,
+                7286.359918998554,
+                0
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "layer_8a3c79c09172",
+      "layer": "剖切板材",
+      "entity_count": 1,
+      "boundary_element_count": 1,
+      "accepted_boundary_element_count": 0,
+      "selected_face_element_count": 0,
+      "semantic_type_counts": {
+        "wall": 1
+      },
+      "entity_type_counts": {
+        "LINE": 1
+      },
+      "minimum_distance_to_seed": 4377.454831820819,
+      "examples": [
+        {
+          "source_id": "source:3DFE4A",
+          "handle": "3DFE4A",
+          "entity_type": "LINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 4377.455,
+          "anchor_local": [
+            57460.01302502304,
+            11836.159090889618,
+            0
+          ],
+          "bbox_local": [
+            57175.007872380316,
+            11836.159090889618,
+            57745.01817766577,
+            11836.159090889618
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              57745.01817766577,
+              11836.159090889618,
+              0
+            ],
+            "end": [
+              57175.007872380316,
+              11836.159090889618,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "layer_745350dc2646",
+      "layer": "管井",
+      "entity_count": 1,
+      "boundary_element_count": 1,
+      "accepted_boundary_element_count": 0,
+      "selected_face_element_count": 0,
+      "semantic_type_counts": {
+        "wall": 1
+      },
+      "entity_type_counts": {
+        "LINE": 1
+      },
+      "minimum_distance_to_seed": 4102.272226579097,
+      "examples": [
+        {
+          "source_id": "source:3DFE0B",
+          "handle": "3DFE0B",
+          "entity_type": "LINE",
+          "semantic_type": "wall",
+          "distance_to_seed": 4102.272,
+          "anchor_local": [
+            57148.9613215141,
+            13132.152424959466,
+            0
+          ],
+          "bbox_local": [
+            56375.557498686016,
+            13132.152424959466,
+            57922.365144342184,
+            13132.152424959466
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              57922.365144342184,
+              13132.152424959466,
+              0
+            ],
+            "end": [
+              56375.557498686016,
+              13132.152424959466,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "layer_22d47a140ac8",
+      "layer": "P-DOOR",
+      "entity_count": 56,
+      "boundary_element_count": 0,
+      "accepted_boundary_element_count": 0,
+      "selected_face_element_count": 0,
+      "semantic_type_counts": {
+        "door": 56
+      },
+      "entity_type_counts": {
+        "LWPOLYLINE": 38,
+        "INSERT": 12,
+        "LINE": 6
+      },
+      "minimum_distance_to_seed": 816.5731035913655,
+      "examples": [
+        {
+          "source_id": "source:3DFAE6",
+          "handle": "3DFAE6",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "door",
+          "distance_to_seed": 816.573,
+          "anchor_local": [
+            52895.92726863548,
+            11592.977274382487,
+            0
+          ],
+          "bbox_local": [
+            52885.018177732825,
+            11531.159092498943,
+            52915.01817767322,
+            11661.159092549235
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": false,
+            "vertex_count": 11,
+            "sample_vertices": [
+              [
+                52885.01817780174,
+                11531.15909260884,
+                0
+              ],
+              [
+                52915.01817759313,
+                11531.159092498943,
+                0
+              ],
+              [
+                52915.01817767322,
+                11611.159092558548,
+                0
+              ],
+              [
+                52915.01817767322,
+                11611.159092549235,
+                0
+              ],
+              [
+                52885.018177732825,
+                11646.159092558548,
+                0
+              ],
+              [
+                52885.018177732825,
+                11546.15909260884,
+                0
+              ],
+              [
+                52885.018177732825,
+                11546.15909260884,
+                0
+              ],
+              [
+                52885.018177732825,
+                11531.15909260884,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "source:3DFB40",
+          "handle": "3DFB40",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "door",
+          "distance_to_seed": 936.02,
+          "anchor_local": [
+            53884.759549138136,
+            11844.702711965889,
+            0
+          ],
+          "bbox_local": [
+            53669.212515445426,
+            11828.422691559419,
+            54064.51785200462,
+            11877.262752778828
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": false,
+            "vertex_count": 3,
+            "sample_vertices": [
+              [
+                53669.212515445426,
+                11828.422691559419,
+                0
+              ],
+              [
+                54064.51785200462,
+                11828.422691559419,
+                0
+              ],
+              [
+                53920.5482799653,
+                11877.262752778828,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "source:3DFB3F",
+          "handle": "3DFB3F",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "door",
+          "distance_to_seed": 944.512,
+          "anchor_local": [
+            53816.98126078211,
+            11745.782934149727,
+            0
+          ],
+          "bbox_local": [
+            53341.98126078211,
+            11725.782934149727,
+            54291.98126078211,
+            11765.782934149727
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": true,
+            "vertex_count": 4,
+            "sample_vertices": [
+              [
+                53341.98126078211,
+                11725.782934149727,
+                0
+              ],
+              [
+                54291.98126078211,
+                11725.782934149727,
+                0
+              ],
+              [
+                54291.98126078211,
+                11765.782934149727,
+                0
+              ],
+              [
+                53341.98126078211,
+                11765.782934149727,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "source:3DFB3E",
+          "handle": "3DFB3E",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "door",
+          "distance_to_seed": 1059.083,
+          "anchor_local": [
+            53825.92726857681,
+            11592.977276101708,
+            0
+          ],
+          "bbox_local": [
+            53815.01817767322,
+            11531.159094220027,
+            53845.01817761548,
+            11661.159094270319
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": false,
+            "vertex_count": 11,
+            "sample_vertices": [
+              [
+                53815.01817774214,
+                11531.159094329923,
+                0
+              ],
+              [
+                53845.018177535385,
+                11531.159094220027,
+                0
+              ],
+              [
+                53845.01817761548,
+                11611.159094279632,
+                0
+              ],
+              [
+                53845.01817761548,
+                11611.159094270319,
+                0
+              ],
+              [
+                53815.01817767322,
+                11646.159094279632,
+                0
+              ],
+              [
+                53815.01817767322,
+                11546.159094329923,
+                0
+              ],
+              [
+                53815.01817767322,
+                11546.159094329923,
+                0
+              ],
+              [
+                53815.01817767322,
+                11531.159094329923,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E01F4",
+          "handle": "3E01F4",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "door",
+          "distance_to_seed": 1303.536,
+          "anchor_local": [
+            54305.27680633683,
+            11844.702710226178,
+            0
+          ],
+          "bbox_local": [
+            54125.518503470346,
+            11828.422689819708,
+            54520.82384002954,
+            11877.262751039118
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": false,
+            "vertex_count": 3,
+            "sample_vertices": [
+              [
+                54520.82384002954,
+                11828.422689819708,
+                0
+              ],
+              [
+                54125.518503470346,
+                11828.422689819708,
+                0
+              ],
+              [
+                54269.488075507805,
+                11877.262751039118,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E01F3",
+          "handle": "3E01F3",
+          "entity_type": "LWPOLYLINE",
+          "semantic_type": "door",
+          "distance_to_seed": 1407.302,
+          "anchor_local": [
+            54373.05509469099,
+            11745.782932410017,
+            0
+          ],
+          "bbox_local": [
+            53898.05509469099,
+            11725.782932410017,
+            54848.05509469099,
+            11765.782932410017
+          ],
+          "geometry": {
+            "kind": "polyline",
+            "closed": true,
+            "vertex_count": 4,
+            "sample_vertices": [
+              [
+                54848.05509469099,
+                11725.782932410017,
+                0
+              ],
+              [
+                53898.05509469099,
+                11725.782932410017,
+                0
+              ],
+              [
+                53898.05509469099,
+                11765.782932410017,
+                0
+              ],
+              [
+                54848.05509469099,
+                11765.782932410017,
+                0
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "layer_1ea66beb24dd",
+      "layer": "PL-DOOR",
+      "entity_count": 4,
+      "boundary_element_count": 0,
+      "accepted_boundary_element_count": 0,
+      "selected_face_element_count": 0,
+      "semantic_type_counts": {
+        "door": 4
+      },
+      "entity_type_counts": {
+        "INSERT": 3,
+        "LINE": 1
+      },
+      "minimum_distance_to_seed": 4311.035006550626,
+      "examples": [
+        {
+          "source_id": "source:3D8926",
+          "handle": "3D8926",
+          "entity_type": "INSERT",
+          "semantic_type": "door",
+          "distance_to_seed": 4311.035,
+          "anchor_local": [
+            53220.07888843119,
+            16689.017986100167,
+            0
+          ],
+          "bbox_local": [
+            53220.07888843119,
+            16689.017986100167,
+            53220.07888843119,
+            16689.017986100167
+          ],
+          "geometry": {
+            "kind": "block_reference",
+            "insert": [
+              53220.07888843119,
+              16689.017986100167,
+              0
+            ],
+            "rotation": 89.99999363013713,
+            "scale": [
+              -1200.000000000007,
+              1200,
+              1200
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E0462",
+          "handle": "3E0462",
+          "entity_type": "INSERT",
+          "semantic_type": "door",
+          "distance_to_seed": 5399.217,
+          "anchor_local": [
+            51885.017643123865,
+            17636.158983958885,
+            0
+          ],
+          "bbox_local": [
+            51885.017643123865,
+            17636.158983958885,
+            51885.017643123865,
+            17636.158983958885
+          ],
+          "geometry": {
+            "kind": "block_reference",
+            "insert": [
+              51885.017643123865,
+              17636.158983958885,
+              0
+            ],
+            "rotation": 270,
+            "scale": [
+              -1800,
+              1800,
+              1800
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E053C",
+          "handle": "3E053C",
+          "entity_type": "INSERT",
+          "semantic_type": "door",
+          "distance_to_seed": 5399.238,
+          "anchor_local": [
+            51885.017643123865,
+            17636.181288018823,
+            0
+          ],
+          "bbox_local": [
+            51885.017643123865,
+            17636.181288018823,
+            51885.017643123865,
+            17636.181288018823
+          ],
+          "geometry": {
+            "kind": "block_reference",
+            "insert": [
+              51885.017643123865,
+              17636.181288018823,
+              0
+            ],
+            "rotation": 270,
+            "scale": [
+              -1800,
+              1800,
+              1800
+            ]
+          }
+        },
+        {
+          "source_id": "source:3E0467",
+          "handle": "3E0467",
+          "entity_type": "LINE",
+          "semantic_type": "door",
+          "distance_to_seed": 5422.897,
+          "anchor_local": [
+            51785.017643123865,
+            17636.158983958885,
+            0
+          ],
+          "bbox_local": [
+            51785.017643123865,
+            16736.158983958885,
+            51785.017643123865,
+            18536.158983958885
+          ],
+          "geometry": {
+            "kind": "line",
+            "start": [
+              51785.017643123865,
+              18536.158983958885,
+              0
+            ],
+            "end": [
+              51785.017643123865,
+              16736.158983958885,
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "layer_1631ca7b568e",
+      "layer": "P-PLANT",
+      "entity_count": 1,
+      "boundary_element_count": 0,
+      "accepted_boundary_element_count": 0,
+      "selected_face_element_count": 0,
+      "semantic_type_counts": {
+        "door": 1
+      },
+      "entity_type_counts": {
+        "INSERT": 1
+      },
+      "minimum_distance_to_seed": 4009.2946990116093,
+      "examples": [
+        {
+          "source_id": "source:3DFB69",
+          "handle": "3DFB69",
+          "entity_type": "INSERT",
+          "semantic_type": "door",
+          "distance_to_seed": 4009.295,
+          "anchor_local": [
+            56965.018177971244,
+            11255.666545039043,
+            0
+          ],
+          "bbox_local": [
+            56965.018177971244,
+            11255.666545039043,
+            56965.018177971244,
+            11255.666545039043
+          ],
+          "geometry": {
+            "kind": "block_reference",
+            "insert": [
+              56965.018177971244,
+              11255.666545039043,
+              0
+            ],
+            "rotation": 0,
+            "scale": [
+              75.00000145208006,
+              33.75000065343517,
+              75.00000145208006
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "layer": "WALL",
+      "choice": "include",
+      "confidence": 0.98,
+      "probabilities": {
+        "uncertain": 0.01,
+        "exclude": 0.01,
+        "include": 0.98
+      },
+      "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+      "model": "typesafe/jev-1.13-20260917"
+    },
+    {
+      "layer": "WINDOW",
+      "choice": "exclude",
+      "confidence": 0.68,
+      "probabilities": {
+        "uncertain": 0.05,
+        "exclude": 0.79,
+        "include": 0.16
+      },
+      "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+      "model": "typesafe/jev-1.13-20260917"
+    },
+    {
+      "layer": "P-WALL1",
+      "choice": "include",
+      "confidence": 0.62,
+      "probabilities": {
+        "exclude": 0.19,
+        "uncertain": 0.07,
+        "include": 0.74
+      },
+      "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+      "model": "typesafe/jev-1.13-20260917"
+    },
+    {
+      "layer": "COLUMN",
+      "choice": "exclude",
+      "confidence": 0.41,
+      "probabilities": {
+        "uncertain": 0.06,
+        "exclude": 0.6,
+        "include": 0.34
+      },
+      "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+      "model": "typesafe/jev-1.13-20260917"
+    },
+    {
+      "layer": "COLUMN-框",
+      "choice": "exclude",
+      "confidence": 0.73,
+      "probabilities": {
+        "uncertain": 0.03,
+        "exclude": 0.82,
+        "include": 0.15
+      },
+      "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+      "model": "typesafe/jev-1.13-20260917"
+    },
+    {
+      "layer": "PL-家具",
+      "choice": "exclude",
+      "confidence": 0.8,
+      "probabilities": {
+        "uncertain": 0.01,
+        "exclude": 0.87,
+        "include": 0.12
+      },
+      "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+      "model": "typesafe/jev-1.13-20260917"
+    },
+    {
+      "layer": "护士站柜台",
+      "choice": "exclude",
+      "confidence": 0.96,
+      "probabilities": {
+        "uncertain": 0,
+        "exclude": 0.98,
+        "include": 0.02
+      },
+      "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+      "model": "typesafe/jev-1.13-20260917"
+    },
+    {
+      "layer": "剖切板材",
+      "choice": "exclude",
+      "confidence": 0.69,
+      "probabilities": {
+        "uncertain": 0.06,
+        "exclude": 0.79,
+        "include": 0.15
+      },
+      "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+      "model": "typesafe/jev-1.13-20260917"
+    },
+    {
+      "layer": "管井",
+      "choice": "exclude",
+      "confidence": 0.52,
+      "probabilities": {
+        "uncertain": 0.05,
+        "exclude": 0.68,
+        "include": 0.27
+      },
+      "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+      "model": "typesafe/jev-1.13-20260917"
+    },
+    {
+      "layer": "P-DOOR",
+      "choice": "exclude",
+      "confidence": 0.52,
+      "probabilities": {
+        "exclude": 0.68,
+        "uncertain": 0.03,
+        "include": 0.28
+      },
+      "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+      "model": "typesafe/jev-1.13-20260917"
+    },
+    {
+      "layer": "PL-DOOR",
+      "choice": "exclude",
+      "confidence": 0.86,
+      "probabilities": {
+        "uncertain": 0.02,
+        "exclude": 0.9,
+        "include": 0.08
+      },
+      "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+      "model": "typesafe/jev-1.13-20260917"
+    },
+    {
+      "layer": "P-PLANT",
+      "choice": "exclude",
+      "confidence": 0.94,
+      "probabilities": {
+        "uncertain": 0.01,
+        "exclude": 0.96,
+        "include": 0.03
+      },
+      "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+      "model": "typesafe/jev-1.13-20260917"
+    }
+  ],
+  "summary": {
+    "layer_count": 12,
+    "answered_layer_count": 12,
+    "choice_counts": {
+      "include": 2,
+      "exclude": 10
+    }
+  }
+}

@@ -1,0 +1,662 @@
+{
+  "schema_version": "jev-decisions-v1",
+  "generated_at": "2026-09-19T08:48:41.892Z",
+  "input": {
+    "cad_ir_path": "/Users/zhoujunlin/Documents/jev/reports/cad-ir/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.cad-ir.json",
+    "cad_ir_sha256": "50f8fdb6a16469b643a235d7ddb990994aa5d9b72e9b87953e0b138620b477b5",
+    "region_id": "region-c665ea89ba4f",
+    "source_sha256": "5051e4b3d45c2752e2f539eabf4fc57e513fb34fbee664f8c2a4918a4b6c9cd5"
+  },
+  "model": "typesafe/jev-1.13",
+  "endpoint": "https://openrouter.ai/api/alpha/decisions",
+  "selection": {
+    "requested_limit": 32,
+    "selected_entity_count": 32,
+    "batch_size": 8,
+    "layers": [
+      "WALL",
+      "WINDOW",
+      "PL-DOOR",
+      "COLUMN"
+    ]
+  },
+  "summary": {
+    "decision_count": 32,
+    "batches": 4,
+    "missing_answers": 0,
+    "semantic_type_counts": {
+      "wall": 8,
+      "window": 8,
+      "door": 8,
+      "column": 8
+    }
+  },
+  "batches": [
+    {
+      "index": 0,
+      "entity_count": 8,
+      "request_id": "gen-dec-1789807720-HGcYcVchE0YOOx4FrnXE",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 5083,
+        "output_tokens": 679,
+        "cost": 0.000213486
+      }
+    },
+    {
+      "index": 1,
+      "entity_count": 8,
+      "request_id": "gen-dec-1789807720-4Iw725qtF26NY2Dbjoee",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 5058,
+        "output_tokens": 673,
+        "cost": 0.000212436
+      }
+    },
+    {
+      "index": 2,
+      "entity_count": 8,
+      "request_id": "gen-dec-1789807721-o52d1LFlubiuu7ha7dx0",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 5078,
+        "output_tokens": 676,
+        "cost": 0.000213276
+      }
+    },
+    {
+      "index": 3,
+      "entity_count": 8,
+      "request_id": "gen-dec-1789807721-i90JLsPLr1t882NV8lgn",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 5260,
+        "output_tokens": 683,
+        "cost": 0.00022092
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "source_id": "source:3D87DE",
+      "key": "e_289e5e8c5616",
+      "semantic_type": "wall",
+      "confidence": 1,
+      "probabilities": {
+        "wall": 1,
+        "unknown": 0,
+        "window": 0,
+        "furniture": 0,
+        "door": 0,
+        "column": 0,
+        "annotation": 0,
+        "stair": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-HGcYcVchE0YOOx4FrnXE"
+    },
+    {
+      "source_id": "source:3D87DC",
+      "key": "e_69f0c74f146b",
+      "semantic_type": "window",
+      "confidence": 1,
+      "probabilities": {
+        "wall": 0,
+        "unknown": 0,
+        "window": 1,
+        "furniture": 0,
+        "door": 0,
+        "column": 0,
+        "annotation": 0,
+        "stair": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-HGcYcVchE0YOOx4FrnXE"
+    },
+    {
+      "source_id": "source:3D87E2",
+      "key": "e_da17512e90ae",
+      "semantic_type": "door",
+      "confidence": 0.78,
+      "probabilities": {
+        "wall": 0,
+        "unknown": 0.02,
+        "window": 0,
+        "furniture": 0.05,
+        "door": 0.81,
+        "column": 0,
+        "stair": 0.11,
+        "annotation": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-HGcYcVchE0YOOx4FrnXE"
+    },
+    {
+      "source_id": "source:3D87CF",
+      "key": "e_f748b2ed77ec",
+      "semantic_type": "column",
+      "confidence": 1,
+      "probabilities": {
+        "unknown": 0,
+        "wall": 0,
+        "window": 0,
+        "furniture": 0,
+        "door": 0,
+        "column": 1,
+        "stair": 0,
+        "annotation": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-HGcYcVchE0YOOx4FrnXE"
+    },
+    {
+      "source_id": "source:3D8808",
+      "key": "e_b9c7101a6f2b",
+      "semantic_type": "wall",
+      "confidence": 1,
+      "probabilities": {
+        "wall": 1,
+        "unknown": 0,
+        "window": 0,
+        "furniture": 0,
+        "door": 0,
+        "column": 0,
+        "stair": 0,
+        "annotation": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-HGcYcVchE0YOOx4FrnXE"
+    },
+    {
+      "source_id": "source:3D87DF",
+      "key": "e_1fb24d282d31",
+      "semantic_type": "window",
+      "confidence": 1,
+      "probabilities": {
+        "wall": 0,
+        "unknown": 0,
+        "column": 0,
+        "furniture": 0,
+        "door": 0,
+        "window": 1,
+        "annotation": 0,
+        "stair": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-HGcYcVchE0YOOx4FrnXE"
+    },
+    {
+      "source_id": "source:3D87FD",
+      "key": "e_7947079b7e8d",
+      "semantic_type": "door",
+      "confidence": 0.87,
+      "probabilities": {
+        "wall": 0,
+        "unknown": 0,
+        "window": 0,
+        "furniture": 0.03,
+        "door": 0.89,
+        "column": 0,
+        "annotation": 0,
+        "stair": 0.08
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-HGcYcVchE0YOOx4FrnXE"
+    },
+    {
+      "source_id": "source:3D87D0",
+      "key": "e_bd71fe7cdb40",
+      "semantic_type": "column",
+      "confidence": 1,
+      "probabilities": {
+        "wall": 0,
+        "unknown": 0,
+        "window": 0,
+        "furniture": 0,
+        "door": 0,
+        "column": 1,
+        "annotation": 0,
+        "stair": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-HGcYcVchE0YOOx4FrnXE"
+    },
+    {
+      "source_id": "source:3D8809",
+      "key": "e_b42756294210",
+      "semantic_type": "wall",
+      "confidence": 1,
+      "probabilities": {
+        "column": 0,
+        "wall": 1,
+        "stair": 0,
+        "unknown": 0,
+        "window": 0,
+        "door": 0,
+        "furniture": 0,
+        "annotation": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-4Iw725qtF26NY2Dbjoee"
+    },
+    {
+      "source_id": "source:3D87E0",
+      "key": "e_ee80e6ceac9e",
+      "semantic_type": "window",
+      "confidence": 1,
+      "probabilities": {
+        "column": 0,
+        "wall": 0,
+        "stair": 0,
+        "unknown": 0,
+        "annotation": 0,
+        "door": 0,
+        "furniture": 0,
+        "window": 1
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-4Iw725qtF26NY2Dbjoee"
+    },
+    {
+      "source_id": "source:3D8802",
+      "key": "e_55789fcfef79",
+      "semantic_type": "door",
+      "confidence": 0.99,
+      "probabilities": {
+        "column": 0,
+        "wall": 0,
+        "stair": 0,
+        "unknown": 0,
+        "window": 0,
+        "door": 1,
+        "furniture": 0,
+        "annotation": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-4Iw725qtF26NY2Dbjoee"
+    },
+    {
+      "source_id": "source:3D87D1",
+      "key": "e_bb8075c555ed",
+      "semantic_type": "column",
+      "confidence": 1,
+      "probabilities": {
+        "column": 1,
+        "wall": 0,
+        "stair": 0,
+        "unknown": 0,
+        "window": 0,
+        "door": 0,
+        "furniture": 0,
+        "annotation": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-4Iw725qtF26NY2Dbjoee"
+    },
+    {
+      "source_id": "source:3D880A",
+      "key": "e_d05e2f8b61b2",
+      "semantic_type": "wall",
+      "confidence": 1,
+      "probabilities": {
+        "column": 0,
+        "wall": 1,
+        "stair": 0,
+        "unknown": 0,
+        "window": 0,
+        "door": 0,
+        "furniture": 0,
+        "annotation": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-4Iw725qtF26NY2Dbjoee"
+    },
+    {
+      "source_id": "source:3D87E1",
+      "key": "e_1ecf34f52e94",
+      "semantic_type": "window",
+      "confidence": 1,
+      "probabilities": {
+        "column": 0,
+        "wall": 0,
+        "stair": 0,
+        "unknown": 0,
+        "annotation": 0,
+        "door": 0,
+        "furniture": 0,
+        "window": 1
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-4Iw725qtF26NY2Dbjoee"
+    },
+    {
+      "source_id": "source:3D883C",
+      "key": "e_16cde6cb9b28",
+      "semantic_type": "door",
+      "confidence": 0.97,
+      "probabilities": {
+        "column": 0,
+        "wall": 0.01,
+        "stair": 0,
+        "unknown": 0.01,
+        "window": 0,
+        "door": 0.98,
+        "furniture": 0,
+        "annotation": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-4Iw725qtF26NY2Dbjoee"
+    },
+    {
+      "source_id": "source:3D87D2",
+      "key": "e_ddaff18a1fc6",
+      "semantic_type": "column",
+      "confidence": 1,
+      "probabilities": {
+        "column": 1,
+        "wall": 0,
+        "stair": 0,
+        "unknown": 0,
+        "annotation": 0,
+        "door": 0,
+        "furniture": 0,
+        "window": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807720-4Iw725qtF26NY2Dbjoee"
+    },
+    {
+      "source_id": "source:3D880B",
+      "key": "e_a8fe3a13e043",
+      "semantic_type": "wall",
+      "confidence": 1,
+      "probabilities": {
+        "wall": 1,
+        "window": 0,
+        "door": 0,
+        "stair": 0,
+        "column": 0,
+        "unknown": 0,
+        "annotation": 0,
+        "furniture": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-o52d1LFlubiuu7ha7dx0"
+    },
+    {
+      "source_id": "source:3D87E5",
+      "key": "e_5788ee1a0041",
+      "semantic_type": "window",
+      "confidence": 1,
+      "probabilities": {
+        "wall": 0,
+        "window": 1,
+        "door": 0,
+        "stair": 0,
+        "column": 0,
+        "unknown": 0,
+        "annotation": 0,
+        "furniture": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-o52d1LFlubiuu7ha7dx0"
+    },
+    {
+      "source_id": "source:3D8876",
+      "key": "e_298999ffa73a",
+      "semantic_type": "door",
+      "confidence": 0.78,
+      "probabilities": {
+        "wall": 0,
+        "window": 0,
+        "door": 0.81,
+        "stair": 0.1,
+        "column": 0,
+        "unknown": 0.02,
+        "furniture": 0.06,
+        "annotation": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-o52d1LFlubiuu7ha7dx0"
+    },
+    {
+      "source_id": "source:3D87D3",
+      "key": "e_8b8f9b55290a",
+      "semantic_type": "column",
+      "confidence": 1,
+      "probabilities": {
+        "wall": 0,
+        "window": 0,
+        "door": 0,
+        "stair": 0,
+        "column": 1,
+        "unknown": 0,
+        "annotation": 0,
+        "furniture": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-o52d1LFlubiuu7ha7dx0"
+    },
+    {
+      "source_id": "source:3D880C",
+      "key": "e_eaa7b43dd940",
+      "semantic_type": "wall",
+      "confidence": 1,
+      "probabilities": {
+        "wall": 1,
+        "window": 0,
+        "door": 0,
+        "stair": 0,
+        "column": 0,
+        "unknown": 0,
+        "annotation": 0,
+        "furniture": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-o52d1LFlubiuu7ha7dx0"
+    },
+    {
+      "source_id": "source:3D87E6",
+      "key": "e_3f3568158ab1",
+      "semantic_type": "window",
+      "confidence": 1,
+      "probabilities": {
+        "wall": 0,
+        "window": 1,
+        "door": 0,
+        "stair": 0,
+        "column": 0,
+        "unknown": 0,
+        "furniture": 0,
+        "annotation": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-o52d1LFlubiuu7ha7dx0"
+    },
+    {
+      "source_id": "source:3D887B",
+      "key": "e_3d25eeaf5c11",
+      "semantic_type": "door",
+      "confidence": 0.86,
+      "probabilities": {
+        "wall": 0,
+        "window": 0,
+        "door": 0.89,
+        "stair": 0.07,
+        "column": 0,
+        "unknown": 0,
+        "furniture": 0.04,
+        "annotation": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-o52d1LFlubiuu7ha7dx0"
+    },
+    {
+      "source_id": "source:3D87D5",
+      "key": "e_ad45c9c9ead7",
+      "semantic_type": "column",
+      "confidence": 1,
+      "probabilities": {
+        "wall": 0,
+        "window": 0,
+        "door": 0,
+        "stair": 0,
+        "column": 1,
+        "unknown": 0,
+        "annotation": 0,
+        "furniture": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-o52d1LFlubiuu7ha7dx0"
+    },
+    {
+      "source_id": "source:3D880D",
+      "key": "e_7a87e9276b0d",
+      "semantic_type": "wall",
+      "confidence": 1,
+      "probabilities": {
+        "unknown": 0,
+        "stair": 0,
+        "door": 0,
+        "column": 0,
+        "window": 0,
+        "furniture": 0,
+        "annotation": 0,
+        "wall": 1
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-i90JLsPLr1t882NV8lgn"
+    },
+    {
+      "source_id": "source:3D87E7",
+      "key": "e_62d82035dc51",
+      "semantic_type": "window",
+      "confidence": 1,
+      "probabilities": {
+        "unknown": 0,
+        "stair": 0,
+        "door": 0,
+        "column": 0,
+        "window": 1,
+        "furniture": 0,
+        "annotation": 0,
+        "wall": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-i90JLsPLr1t882NV8lgn"
+    },
+    {
+      "source_id": "source:3D887E",
+      "key": "e_b05546c3d9a8",
+      "semantic_type": "door",
+      "confidence": 0.72,
+      "probabilities": {
+        "unknown": 0.03,
+        "stair": 0.07,
+        "door": 0.76,
+        "column": 0,
+        "window": 0,
+        "furniture": 0.14,
+        "annotation": 0,
+        "wall": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-i90JLsPLr1t882NV8lgn"
+    },
+    {
+      "source_id": "source:3D87D6",
+      "key": "e_10ced091a468",
+      "semantic_type": "column",
+      "confidence": 1,
+      "probabilities": {
+        "unknown": 0,
+        "stair": 0,
+        "door": 0,
+        "column": 1,
+        "window": 0,
+        "furniture": 0,
+        "annotation": 0,
+        "wall": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-i90JLsPLr1t882NV8lgn"
+    },
+    {
+      "source_id": "source:3D880E",
+      "key": "e_f7730884a3c3",
+      "semantic_type": "wall",
+      "confidence": 1,
+      "probabilities": {
+        "unknown": 0,
+        "stair": 0,
+        "door": 0,
+        "column": 0,
+        "window": 0,
+        "furniture": 0,
+        "annotation": 0,
+        "wall": 1
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-i90JLsPLr1t882NV8lgn"
+    },
+    {
+      "source_id": "source:3D87EA",
+      "key": "e_3086e9e4c0a9",
+      "semantic_type": "window",
+      "confidence": 1,
+      "probabilities": {
+        "unknown": 0,
+        "stair": 0,
+        "door": 0,
+        "column": 0,
+        "window": 1,
+        "furniture": 0,
+        "annotation": 0,
+        "wall": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-i90JLsPLr1t882NV8lgn"
+    },
+    {
+      "source_id": "source:3D8886",
+      "key": "e_4136754fa65f",
+      "semantic_type": "door",
+      "confidence": 0.87,
+      "probabilities": {
+        "unknown": 0.01,
+        "stair": 0.04,
+        "door": 0.88,
+        "column": 0,
+        "window": 0,
+        "furniture": 0.07,
+        "annotation": 0,
+        "wall": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-i90JLsPLr1t882NV8lgn"
+    },
+    {
+      "source_id": "source:3D87D8",
+      "key": "e_c942448cc37b",
+      "semantic_type": "column",
+      "confidence": 1,
+      "probabilities": {
+        "unknown": 0,
+        "stair": 0,
+        "door": 0,
+        "column": 1,
+        "window": 0,
+        "furniture": 0,
+        "annotation": 0,
+        "wall": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789807721-i90JLsPLr1t882NV8lgn"
+    }
+  ]
+}

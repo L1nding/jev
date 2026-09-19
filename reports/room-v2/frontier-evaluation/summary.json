@@ -1,0 +1,246 @@
+{
+  "schema_version": "room-evaluation-v1",
+  "same_input_geometry_and_policy": true,
+  "policy": {
+    "initialRadius": 4000,
+    "maximumRadius": 6500,
+    "initialObjects": 48,
+    "maximumObjects": 96,
+    "batchSize": 8,
+    "maximumRequests": 32,
+    "maximumRounds": 2,
+    "gapReach": 1500,
+    "maximumGaps": 24,
+    "maximumSurfaces": 48
+  },
+  "room_count": 6,
+  "accepted_count": 0,
+  "rows": [
+    {
+      "seed": "source:3DFB04",
+      "room": "资料室",
+      "outcome": "uncertain",
+      "reason": "jev_rejected_all",
+      "requests": 25,
+      "candidate_count": 1,
+      "fresh_requests": 14,
+      "reuse_source": "reports/room-v2/source-balanced-evaluation/source-3DFB04.json",
+      "surfaces_reviewed": 48,
+      "surface_non_boundary_choices": 21,
+      "surface_review_coverage": [
+        {
+          "pool_segments": 2829,
+          "current_graph_segments": 280,
+          "reviewed_current_segments": 32,
+          "reviewed_restoration_segments": 16,
+          "reviewed_source_groups": 48,
+          "removed_from_graph": 5,
+          "restored_to_graph": 0
+        }
+      ],
+      "valid_candidate_count": 1,
+      "candidate_areas_m2": [
+        2.78
+      ],
+      "candidate_defects": [],
+      "request_errors": [],
+      "approved_gaps": 0,
+      "graph_relations": {
+        "irrelevant": 26,
+        "boundary": 57,
+        "opening_boundary": 13
+      },
+      "report": "source-3DFB04.json"
+    },
+    {
+      "seed": "source:3DFB06",
+      "room": "登记室",
+      "outcome": "uncertain",
+      "reason": "jev_rejected_all",
+      "requests": 23,
+      "candidate_count": 1,
+      "fresh_requests": 15,
+      "reuse_source": "reports/room-v2/source-balanced-evaluation/source-3DFB06.json",
+      "surfaces_reviewed": 48,
+      "surface_non_boundary_choices": 20,
+      "surface_review_coverage": [
+        {
+          "pool_segments": 2500,
+          "current_graph_segments": 1082,
+          "reviewed_current_segments": 32,
+          "reviewed_restoration_segments": 16,
+          "reviewed_source_groups": 48,
+          "removed_from_graph": 4,
+          "restored_to_graph": 0
+        }
+      ],
+      "valid_candidate_count": 1,
+      "candidate_areas_m2": [
+        0.135
+      ],
+      "candidate_defects": [],
+      "request_errors": [],
+      "approved_gaps": 0,
+      "graph_relations": {
+        "irrelevant": 46,
+        "boundary": 38,
+        "opening_boundary": 12
+      },
+      "report": "source-3DFB06.json"
+    },
+    {
+      "seed": "source:3DFB32",
+      "room": "冷链室",
+      "outcome": "incomplete",
+      "reason": "context_budget_exhausted_with_defects",
+      "requests": 25,
+      "candidate_count": 0,
+      "fresh_requests": 15,
+      "reuse_source": "reports/room-v2/source-balanced-evaluation/source-3DFB32.json",
+      "surfaces_reviewed": 48,
+      "surface_non_boundary_choices": 17,
+      "surface_review_coverage": [
+        {
+          "pool_segments": 1387,
+          "current_graph_segments": 263,
+          "reviewed_current_segments": 32,
+          "reviewed_restoration_segments": 16,
+          "reviewed_source_groups": 48,
+          "removed_from_graph": 2,
+          "restored_to_graph": 1
+        }
+      ],
+      "valid_candidate_count": 0,
+      "candidate_areas_m2": [],
+      "candidate_defects": [],
+      "request_errors": [],
+      "approved_gaps": 0,
+      "graph_relations": {
+        "irrelevant": 18,
+        "opening_boundary": 18,
+        "boundary": 52,
+        "obstacle": 6,
+        "uncertain": 2
+      },
+      "report": "source-3DFB32.json"
+    },
+    {
+      "seed": "source:3E0194",
+      "room": "哺乳室",
+      "outcome": "incomplete",
+      "reason": "context_budget_exhausted_with_defects",
+      "requests": 26,
+      "candidate_count": 1,
+      "fresh_requests": 17,
+      "reuse_source": "reports/room-v2/source-balanced-evaluation/source-3E0194.json",
+      "surfaces_reviewed": 48,
+      "surface_non_boundary_choices": 27,
+      "surface_review_coverage": [
+        {
+          "pool_segments": 992,
+          "current_graph_segments": 126,
+          "reviewed_current_segments": 32,
+          "reviewed_restoration_segments": 16,
+          "reviewed_source_groups": 48,
+          "removed_from_graph": 11,
+          "restored_to_graph": 0
+        }
+      ],
+      "valid_candidate_count": 0,
+      "candidate_areas_m2": [
+        3.657
+      ],
+      "candidate_defects": [
+        "obstacle_touches_boundary:source:3D8C62",
+        "unresolved_obstacle:source:3DFE0E"
+      ],
+      "request_errors": [],
+      "approved_gaps": 1,
+      "graph_relations": {
+        "irrelevant": 19,
+        "boundary": 52,
+        "opening_boundary": 15,
+        "obstacle": 8,
+        "uncertain": 2
+      },
+      "report": "source-3E0194.json"
+    },
+    {
+      "seed": "source:3E01A3",
+      "room": "接种室",
+      "outcome": "incomplete",
+      "reason": "context_budget_exhausted_with_defects",
+      "requests": 23,
+      "candidate_count": 0,
+      "fresh_requests": 14,
+      "reuse_source": "reports/room-v2/source-balanced-evaluation/source-3E01A3.json",
+      "surfaces_reviewed": 48,
+      "surface_non_boundary_choices": 16,
+      "surface_review_coverage": [
+        {
+          "pool_segments": 642,
+          "current_graph_segments": 83,
+          "reviewed_current_segments": 32,
+          "reviewed_restoration_segments": 16,
+          "reviewed_source_groups": 44,
+          "removed_from_graph": 0,
+          "restored_to_graph": 0
+        }
+      ],
+      "valid_candidate_count": 0,
+      "candidate_areas_m2": [],
+      "candidate_defects": [],
+      "request_errors": [],
+      "approved_gaps": 0,
+      "graph_relations": {
+        "boundary": 41,
+        "obstacle": 15,
+        "opening_boundary": 28,
+        "irrelevant": 10,
+        "same_space": 2
+      },
+      "report": "source-3E01A3.json"
+    },
+    {
+      "seed": "source:3E01BE",
+      "room": "留观区",
+      "outcome": "uncertain",
+      "reason": "jev_rejected_all",
+      "requests": 21,
+      "candidate_count": 1,
+      "fresh_requests": 6,
+      "reuse_source": "reports/room-v2/source-balanced-evaluation/source-3E01BE.json",
+      "surfaces_reviewed": 48,
+      "surface_non_boundary_choices": 16,
+      "surface_review_coverage": [
+        {
+          "pool_segments": 2811,
+          "current_graph_segments": 48,
+          "reviewed_current_segments": 32,
+          "reviewed_restoration_segments": 16,
+          "reviewed_source_groups": 48,
+          "removed_from_graph": 0,
+          "restored_to_graph": 0
+        }
+      ],
+      "valid_candidate_count": 1,
+      "candidate_areas_m2": [
+        455.683
+      ],
+      "candidate_defects": [],
+      "request_errors": [],
+      "approved_gaps": 0,
+      "graph_relations": {
+        "irrelevant": 44,
+        "boundary": 40,
+        "opening_boundary": 12
+      },
+      "report": "source-3E01BE.json"
+    }
+  ],
+  "limitations": [
+    "同一图纸开发性评测，不是跨图纸泛化验证",
+    "没有独立人工真值；accepted 也不等于确认正确",
+    "旧报告预处理不同，不将历史数字当作公平准确率对比"
+  ]
+}

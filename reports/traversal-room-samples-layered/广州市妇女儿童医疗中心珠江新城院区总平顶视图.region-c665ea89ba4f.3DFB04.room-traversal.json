@@ -1,0 +1,1734 @@
+{
+  "schema_version": "room-boundary-traversal-v1",
+  "generated_at": "2026-09-19T12:06:40.168Z",
+  "model": "typesafe/jev-1.13",
+  "endpoint": "https://openrouter.ai/api/alpha/decisions",
+  "input": {
+    "cad_ir_path": "/Users/zhoujunlin/Documents/jev/reports/cad-ir/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.cad-ir.json",
+    "jev_decisions_path": "/Users/zhoujunlin/Documents/jev/reports/jev/window-0f28c192908f/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.jev-decisions.json",
+    "wall_elements_path": "/Users/zhoujunlin/Documents/jev/reports/wall-elements/room-samples/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.3DFB04.wall-elements.json",
+    "room_object_path": "/Users/zhoujunlin/Documents/jev/reports/objects/room-samples/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.room.3DFB04.jev-object.json",
+    "layer_decisions_path": "/Users/zhoujunlin/Documents/jev/reports/layers/room-samples/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.3DFB04.room-layer-decisions.json"
+  },
+  "policy": {
+    "beam_width": 3,
+    "max_steps": 16,
+    "junction_tolerance": 250,
+    "opening_reach": 1200,
+    "minimum_room_area": 1175000,
+    "maximum_room_area": 18800000
+  },
+  "room_seed": {
+    "source_id": "source:3DFB04",
+    "text": "资料室",
+    "point": [
+      50883.59455242567,
+      10594.266111539677
+    ]
+  },
+  "room_area_evidence": {
+    "source_id": "source:3DFB05",
+    "text": "4.7m²",
+    "square_metres": 4.7,
+    "distance": 627.211900266401
+  },
+  "summary": {
+    "wall_element_count": 17,
+    "unfiltered_wall_element_count": 280,
+    "primary_layer_filtered_element_count": 185,
+    "repair_layer_filtered_element_count": 201,
+    "excluded_layer_element_count": 79,
+    "supplemental_boundary_element_count": 179,
+    "boundary_coverage_radius": 6084.614641252283,
+    "opening_element_count": 3,
+    "completed_attempt_count": 1,
+    "valid_attempt_count": 1,
+    "terminated_attempt_count": 0,
+    "accepted_attempt_id": "face-branch:room-face:0",
+    "face_walk_graph_face_count": 59,
+    "face_walk_seed_face_count": 1,
+    "face_walk_valid_room_face_count": 1,
+    "traversal_strategy": "face_walk"
+  },
+  "outcome": "accepted",
+  "accepted_attempt": {
+    "branch": {
+      "id": "face-branch:room-face:0",
+      "startEntry": [
+        50745.01817768626,
+        10786.159090839326
+      ],
+      "currentExit": [
+        50745.01817768626,
+        10786.159090839326
+      ],
+      "orderedEdges": [
+        {
+          "kind": "wall",
+          "element_id": "wall:3E0168:segment:0:boundary:0",
+          "direction": "forward",
+          "entry": [
+            50745.01817768626,
+            10786.159090839326
+          ],
+          "exit": [
+            50565.01817766577,
+            10786.15909065865
+          ],
+          "source_entities": [
+            "source:3E0168"
+          ],
+          "parent_element_id": "boundary:wall:3E0168",
+          "membership": "accepted",
+          "semantic_type": "wall",
+          "boundary_kind": "linear",
+          "path": [
+            [
+              50745.01817768626,
+              10786.159090839326
+            ],
+            [
+              50565.01817766577,
+              10786.15909065865
+            ]
+          ],
+          "member_element_ids": [
+            "wall:3E0168:segment:0:boundary:0"
+          ],
+          "semantic_confidence": 0.98
+        },
+        {
+          "kind": "wall",
+          "element_id": "boundary:wall:3DF7D8:face-transition:1",
+          "direction": "reverse",
+          "entry": [
+            50565.01817766577,
+            10786.159092629328
+          ],
+          "exit": [
+            50195.021521389484,
+            10786.159092629328
+          ],
+          "source_entities": [
+            "source:3DF7D8"
+          ],
+          "parent_element_id": "boundary:wall:3DF7D8",
+          "membership": "accepted",
+          "semantic_type": "wall",
+          "boundary_kind": "object",
+          "path": [
+            [
+              50565.01817766577,
+              10786.159092629328
+            ],
+            [
+              50195.021521389484,
+              10786.159092629328
+            ]
+          ],
+          "member_element_ids": [
+            "wall:3DF7D8:segment:2:boundary:2"
+          ],
+          "semantic_confidence": 0.89
+        },
+        {
+          "kind": "wall",
+          "element_id": "wall:3E0B31:segment:0:boundary:4",
+          "direction": "reverse",
+          "entry": [
+            50195.021521389484,
+            10786.159092629328
+          ],
+          "exit": [
+            50195.021521389484,
+            9123.986134048551
+          ],
+          "source_entities": [
+            "source:3E0B31"
+          ],
+          "parent_element_id": "boundary:wall:3E0B31",
+          "membership": "accepted",
+          "semantic_type": "wall",
+          "boundary_kind": "linear",
+          "path": [
+            [
+              50195.021521389484,
+              10786.159092629328
+            ],
+            [
+              50195.021521389484,
+              9123.986134048551
+            ]
+          ],
+          "member_element_ids": [
+            "wall:3E0B31:segment:0:boundary:4"
+          ],
+          "semantic_confidence": 0.99
+        },
+        {
+          "kind": "wall",
+          "element_id": "boundary:wall:3E0E66:segment:0:boundary:5",
+          "direction": "reverse",
+          "entry": [
+            50195.021521389484,
+            9123.986134048551
+          ],
+          "exit": [
+            50195.021521389484,
+            8324.159089138731
+          ],
+          "source_entities": [
+            "source:3E0E66"
+          ],
+          "parent_element_id": "boundary:wall:3E0E66",
+          "membership": "repair",
+          "semantic_type": "wall",
+          "boundary_kind": "linear",
+          "path": [
+            [
+              50195.021521389484,
+              9123.986134048551
+            ],
+            [
+              50195.021521389484,
+              8324.159089138731
+            ]
+          ],
+          "member_element_ids": [
+            "boundary:wall:3E0E66:segment:0:boundary:5"
+          ],
+          "semantic_confidence": 1
+        },
+        {
+          "kind": "wall",
+          "element_id": "boundary:wall:3E0E66:segment:0:boundary:4",
+          "direction": "reverse",
+          "entry": [
+            50195.021521389484,
+            8324.159089138731
+          ],
+          "exit": [
+            50195.021521389484,
+            7286.359920749441
+          ],
+          "source_entities": [
+            "source:3E0E66"
+          ],
+          "parent_element_id": "boundary:wall:3E0E66",
+          "membership": "repair",
+          "semantic_type": "wall",
+          "boundary_kind": "linear",
+          "path": [
+            [
+              50195.021521389484,
+              8324.159089138731
+            ],
+            [
+              50195.021521389484,
+              7286.359920749441
+            ]
+          ],
+          "member_element_ids": [
+            "boundary:wall:3E0E66:segment:0:boundary:4"
+          ],
+          "semantic_confidence": 1
+        },
+        {
+          "kind": "wall",
+          "element_id": "wall:3DFAB4:segment:0:boundary:1",
+          "direction": "forward",
+          "entry": [
+            50195.021521389484,
+            7286.359920749441
+          ],
+          "exit": [
+            50745.01817716658,
+            7286.359920749441
+          ],
+          "source_entities": [
+            "source:3DFAB4"
+          ],
+          "parent_element_id": "boundary:wall:3DFAB4",
+          "membership": "repair",
+          "semantic_type": "wall",
+          "boundary_kind": "linear",
+          "path": [
+            [
+              50195.021521389484,
+              7286.359920749441
+            ],
+            [
+              50745.01817716658,
+              7286.359920749441
+            ]
+          ],
+          "member_element_ids": [
+            "wall:3DFAB4:segment:0:boundary:1"
+          ],
+          "semantic_confidence": 0.98
+        },
+        {
+          "kind": "wall",
+          "element_id": "wall:3DFAB4:segment:0:boundary:2",
+          "direction": "forward",
+          "entry": [
+            50745.01817716658,
+            7286.359920749441
+          ],
+          "exit": [
+            52385.01249048114,
+            7286.359920749441
+          ],
+          "source_entities": [
+            "source:3DFAB4"
+          ],
+          "parent_element_id": "boundary:wall:3DFAB4",
+          "membership": "repair",
+          "semantic_type": "wall",
+          "boundary_kind": "linear",
+          "path": [
+            [
+              50745.01817716658,
+              7286.359920749441
+            ],
+            [
+              52385.01249048114,
+              7286.359920749441
+            ]
+          ],
+          "member_element_ids": [
+            "wall:3DFAB4:segment:0:boundary:2"
+          ],
+          "semantic_confidence": 0.98
+        },
+        {
+          "kind": "wall",
+          "element_id": "boundary:wall:3E07BB:segment:0:boundary:4",
+          "direction": "forward",
+          "entry": [
+            52385.01249048114,
+            7286.359920749441
+          ],
+          "exit": [
+            52385.01249048114,
+            8324.158983958885
+          ],
+          "source_entities": [
+            "source:3E07BB"
+          ],
+          "parent_element_id": "boundary:wall:3E07BB",
+          "membership": "repair",
+          "semantic_type": "wall",
+          "boundary_kind": "linear",
+          "path": [
+            [
+              52385.01249048114,
+              7286.359920749441
+            ],
+            [
+              52385.01249048114,
+              8324.158983958885
+            ]
+          ],
+          "member_element_ids": [
+            "boundary:wall:3E07BB:segment:0:boundary:4"
+          ],
+          "semantic_confidence": 1
+        },
+        {
+          "kind": "wall",
+          "element_id": "boundary:wall:3E07BB:segment:0:boundary:5",
+          "direction": "forward",
+          "entry": [
+            52385.01249048114,
+            8324.158983958885
+          ],
+          "exit": [
+            52385.01249048114,
+            9123.98602887988
+          ],
+          "source_entities": [
+            "source:3E07BB"
+          ],
+          "parent_element_id": "boundary:wall:3E07BB",
+          "membership": "repair",
+          "semantic_type": "wall",
+          "boundary_kind": "linear",
+          "path": [
+            [
+              52385.01249048114,
+              8324.158983958885
+            ],
+            [
+              52385.01249048114,
+              9123.98602887988
+            ]
+          ],
+          "member_element_ids": [
+            "boundary:wall:3E07BB:segment:0:boundary:5"
+          ],
+          "semantic_confidence": 1
+        },
+        {
+          "kind": "wall",
+          "element_id": "wall:3E0478:segment:0:boundary:4",
+          "direction": "forward",
+          "entry": [
+            52385.01249048114,
+            9123.98602887988
+          ],
+          "exit": [
+            52385.01249048114,
+            9586.159092629328
+          ],
+          "source_entities": [
+            "source:3E0478"
+          ],
+          "parent_element_id": "boundary:wall:3E0478",
+          "membership": "repair",
+          "semantic_type": "wall",
+          "boundary_kind": "linear",
+          "path": [
+            [
+              52385.01249048114,
+              9123.98602887988
+            ],
+            [
+              52385.01249048114,
+              9586.159092629328
+            ]
+          ],
+          "member_element_ids": [
+            "wall:3E0478:segment:0:boundary:4"
+          ],
+          "semantic_confidence": 1
+        },
+        {
+          "kind": "wall",
+          "element_id": "wall:3DFAB3:segment:0:boundary:0",
+          "direction": "reverse",
+          "entry": [
+            52385.01249048114,
+            9586.159092629328
+          ],
+          "exit": [
+            51165.013024771586,
+            9586.159092629328
+          ],
+          "source_entities": [
+            "source:3DFAB3"
+          ],
+          "parent_element_id": "boundary:wall:3DFAB3",
+          "membership": "repair",
+          "semantic_type": "wall",
+          "boundary_kind": "linear",
+          "path": [
+            [
+              52385.01249048114,
+              9586.159092629328
+            ],
+            [
+              51165.013024771586,
+              9586.159092629328
+            ]
+          ],
+          "member_element_ids": [
+            "wall:3DFAB3:segment:0:boundary:0"
+          ],
+          "semantic_confidence": 1
+        },
+        {
+          "kind": "wall",
+          "element_id": "wall:3DFACF:segment:0:boundary:0",
+          "direction": "reverse",
+          "entry": [
+            51165.013024771586,
+            9586.159092629328
+          ],
+          "exit": [
+            51165.013024954125,
+            9686.159092620015
+          ],
+          "source_entities": [
+            "source:3DFACF"
+          ],
+          "parent_element_id": "boundary:wall:3DFACF",
+          "membership": "repair",
+          "semantic_type": "wall",
+          "boundary_kind": "linear",
+          "path": [
+            [
+              51165.013024771586,
+              9586.159092629328
+            ],
+            [
+              51165.013024954125,
+              9686.159092620015
+            ]
+          ],
+          "member_element_ids": [
+            "wall:3DFACF:segment:0:boundary:0"
+          ],
+          "semantic_confidence": 0.97
+        },
+        {
+          "kind": "wall",
+          "element_id": "wall:3DFAB1:segment:0:boundary:0",
+          "direction": "forward",
+          "entry": [
+            51165.013024954125,
+            9686.159092629328
+          ],
+          "exit": [
+            52385.01249048114,
+            9686.159092629328
+          ],
+          "source_entities": [
+            "source:3DFAB1"
+          ],
+          "parent_element_id": "boundary:wall:3DFAB1",
+          "membership": "repair",
+          "semantic_type": "wall",
+          "boundary_kind": "linear",
+          "path": [
+            [
+              51165.013024954125,
+              9686.159092629328
+            ],
+            [
+              52385.01249048114,
+              9686.159092629328
+            ]
+          ],
+          "member_element_ids": [
+            "wall:3DFAB1:segment:0:boundary:0"
+          ],
+          "semantic_confidence": 0.99
+        },
+        {
+          "kind": "wall",
+          "element_id": "wall:3E0478:segment:0:boundary:6",
+          "direction": "forward",
+          "entry": [
+            52385.01249048114,
+            9686.159092629328
+          ],
+          "exit": [
+            52385.01249048114,
+            10675.98602887988
+          ],
+          "source_entities": [
+            "source:3E0478"
+          ],
+          "parent_element_id": "boundary:wall:3E0478",
+          "membership": "repair",
+          "semantic_type": "wall",
+          "boundary_kind": "linear",
+          "path": [
+            [
+              52385.01249048114,
+              9686.159092629328
+            ],
+            [
+              52385.01249048114,
+              10675.98602887988
+            ]
+          ],
+          "member_element_ids": [
+            "wall:3E0478:segment:0:boundary:6"
+          ],
+          "semantic_confidence": 1
+        },
+        {
+          "kind": "wall",
+          "element_id": "wall:3E0478:segment:0:boundary:7",
+          "direction": "forward",
+          "entry": [
+            52385.01249048114,
+            10675.98602887988
+          ],
+          "exit": [
+            52385.01249048114,
+            10843.98602887988
+          ],
+          "source_entities": [
+            "source:3E0478"
+          ],
+          "parent_element_id": "boundary:wall:3E0478",
+          "membership": "repair",
+          "semantic_type": "wall",
+          "boundary_kind": "linear",
+          "path": [
+            [
+              52385.01249048114,
+              10675.98602887988
+            ],
+            [
+              52385.01249048114,
+              10843.98602887988
+            ]
+          ],
+          "member_element_ids": [
+            "wall:3E0478:segment:0:boundary:7"
+          ],
+          "semantic_confidence": 1
+        },
+        {
+          "kind": "wall",
+          "element_id": "wall:3E07A1:segment:4:boundary:0",
+          "direction": "forward",
+          "entry": [
+            52385.017643123865,
+            10843.98602887988
+          ],
+          "exit": [
+            51185.01249048114,
+            10843.98602887988
+          ],
+          "source_entities": [
+            "source:3E07A1"
+          ],
+          "parent_element_id": "boundary:wall:3E07A1",
+          "membership": "repair",
+          "semantic_type": "wall",
+          "boundary_kind": "linear",
+          "path": [
+            [
+              52385.017643123865,
+              10843.98602887988
+            ],
+            [
+              51185.01249048114,
+              10843.98602887988
+            ]
+          ],
+          "member_element_ids": [
+            "wall:3E07A1:segment:4:boundary:0"
+          ],
+          "semantic_confidence": 0.98
+        },
+        {
+          "kind": "opening",
+          "from": [
+            51185.01249048114,
+            10843.98602887988
+          ],
+          "to": [
+            50745.01817766577,
+            10786.159092629328
+          ],
+          "opening_element_id": "opening:3E00FD"
+        },
+        {
+          "kind": "junction",
+          "from": [
+            51185.01249048114,
+            10843.98602887988
+          ],
+          "to": [
+            50745.01817768626,
+            10786.159090839326
+          ]
+        }
+      ],
+      "visitedElementIds": [
+        "wall:3E0168:segment:0:boundary:0",
+        "wall:3DF7D8:segment:2:boundary:2",
+        "wall:3E0B31:segment:0:boundary:4",
+        "boundary:wall:3E0E66:segment:0:boundary:5",
+        "boundary:wall:3E0E66:segment:0:boundary:4",
+        "wall:3DFAB4:segment:0:boundary:1",
+        "wall:3DFAB4:segment:0:boundary:2",
+        "boundary:wall:3E07BB:segment:0:boundary:4",
+        "boundary:wall:3E07BB:segment:0:boundary:5",
+        "wall:3E0478:segment:0:boundary:4",
+        "wall:3DFAB3:segment:0:boundary:0",
+        "wall:3DFACF:segment:0:boundary:0",
+        "wall:3DFAB1:segment:0:boundary:0",
+        "wall:3E0478:segment:0:boundary:6",
+        "wall:3E0478:segment:0:boundary:7",
+        "wall:3E07A1:segment:4:boundary:0"
+      ],
+      "visitedObjectIds": [
+        "boundary:wall:3DF7D8"
+      ],
+      "cumulativeProbability": 1,
+      "interiorSide": 1,
+      "repairParentElementIds": [
+        "boundary:wall:3E0E66",
+        "boundary:wall:3DFAB4",
+        "boundary:wall:3E07BB",
+        "boundary:wall:3E0478",
+        "boundary:wall:3DFAB3",
+        "boundary:wall:3DFACF",
+        "boundary:wall:3DFAB1",
+        "boundary:wall:3E07A1"
+      ],
+      "closed": true,
+      "termination": "face_walk"
+    },
+    "validation": {
+      "closed": true,
+      "contains_seed": true,
+      "area": 7624642.717831641,
+      "point_count": 19,
+      "wall_edge_count": 16,
+      "virtual_edge_count": 2,
+      "points": [
+        [
+          50745.01817768626,
+          10786.159090839326
+        ],
+        [
+          50565.01817766577,
+          10786.15909065865
+        ],
+        [
+          50195.021521389484,
+          10786.159092629328
+        ],
+        [
+          50195.021521389484,
+          9123.986134048551
+        ],
+        [
+          50195.021521389484,
+          8324.159089138731
+        ],
+        [
+          50195.021521389484,
+          7286.359920749441
+        ],
+        [
+          50745.01817716658,
+          7286.359920749441
+        ],
+        [
+          52385.01249048114,
+          7286.359920749441
+        ],
+        [
+          52385.01249048114,
+          8324.158983958885
+        ],
+        [
+          52385.01249048114,
+          9123.98602887988
+        ],
+        [
+          52385.01249048114,
+          9586.159092629328
+        ],
+        [
+          51165.013024771586,
+          9586.159092629328
+        ],
+        [
+          51165.013024954125,
+          9686.159092620015
+        ],
+        [
+          52385.01249048114,
+          9686.159092629328
+        ],
+        [
+          52385.01249048114,
+          10675.98602887988
+        ],
+        [
+          52385.01249048114,
+          10843.98602887988
+        ],
+        [
+          51185.01249048114,
+          10843.98602887988
+        ],
+        [
+          50745.01817766577,
+          10786.159092629328
+        ],
+        [
+          50745.01817768626,
+          10786.159090839326
+        ]
+      ]
+    }
+  },
+  "completed_attempts": [
+    {
+      "branch": {
+        "id": "face-branch:room-face:0",
+        "startEntry": [
+          50745.01817768626,
+          10786.159090839326
+        ],
+        "currentExit": [
+          50745.01817768626,
+          10786.159090839326
+        ],
+        "orderedEdges": [
+          {
+            "kind": "wall",
+            "element_id": "wall:3E0168:segment:0:boundary:0",
+            "direction": "forward",
+            "entry": [
+              50745.01817768626,
+              10786.159090839326
+            ],
+            "exit": [
+              50565.01817766577,
+              10786.15909065865
+            ],
+            "source_entities": [
+              "source:3E0168"
+            ],
+            "parent_element_id": "boundary:wall:3E0168",
+            "membership": "accepted",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                50745.01817768626,
+                10786.159090839326
+              ],
+              [
+                50565.01817766577,
+                10786.15909065865
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3E0168:segment:0:boundary:0"
+            ],
+            "semantic_confidence": 0.98
+          },
+          {
+            "kind": "wall",
+            "element_id": "boundary:wall:3DF7D8:face-transition:1",
+            "direction": "reverse",
+            "entry": [
+              50565.01817766577,
+              10786.159092629328
+            ],
+            "exit": [
+              50195.021521389484,
+              10786.159092629328
+            ],
+            "source_entities": [
+              "source:3DF7D8"
+            ],
+            "parent_element_id": "boundary:wall:3DF7D8",
+            "membership": "accepted",
+            "semantic_type": "wall",
+            "boundary_kind": "object",
+            "path": [
+              [
+                50565.01817766577,
+                10786.159092629328
+              ],
+              [
+                50195.021521389484,
+                10786.159092629328
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3DF7D8:segment:2:boundary:2"
+            ],
+            "semantic_confidence": 0.89
+          },
+          {
+            "kind": "wall",
+            "element_id": "wall:3E0B31:segment:0:boundary:4",
+            "direction": "reverse",
+            "entry": [
+              50195.021521389484,
+              10786.159092629328
+            ],
+            "exit": [
+              50195.021521389484,
+              9123.986134048551
+            ],
+            "source_entities": [
+              "source:3E0B31"
+            ],
+            "parent_element_id": "boundary:wall:3E0B31",
+            "membership": "accepted",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                50195.021521389484,
+                10786.159092629328
+              ],
+              [
+                50195.021521389484,
+                9123.986134048551
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3E0B31:segment:0:boundary:4"
+            ],
+            "semantic_confidence": 0.99
+          },
+          {
+            "kind": "wall",
+            "element_id": "boundary:wall:3E0E66:segment:0:boundary:5",
+            "direction": "reverse",
+            "entry": [
+              50195.021521389484,
+              9123.986134048551
+            ],
+            "exit": [
+              50195.021521389484,
+              8324.159089138731
+            ],
+            "source_entities": [
+              "source:3E0E66"
+            ],
+            "parent_element_id": "boundary:wall:3E0E66",
+            "membership": "repair",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                50195.021521389484,
+                9123.986134048551
+              ],
+              [
+                50195.021521389484,
+                8324.159089138731
+              ]
+            ],
+            "member_element_ids": [
+              "boundary:wall:3E0E66:segment:0:boundary:5"
+            ],
+            "semantic_confidence": 1
+          },
+          {
+            "kind": "wall",
+            "element_id": "boundary:wall:3E0E66:segment:0:boundary:4",
+            "direction": "reverse",
+            "entry": [
+              50195.021521389484,
+              8324.159089138731
+            ],
+            "exit": [
+              50195.021521389484,
+              7286.359920749441
+            ],
+            "source_entities": [
+              "source:3E0E66"
+            ],
+            "parent_element_id": "boundary:wall:3E0E66",
+            "membership": "repair",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                50195.021521389484,
+                8324.159089138731
+              ],
+              [
+                50195.021521389484,
+                7286.359920749441
+              ]
+            ],
+            "member_element_ids": [
+              "boundary:wall:3E0E66:segment:0:boundary:4"
+            ],
+            "semantic_confidence": 1
+          },
+          {
+            "kind": "wall",
+            "element_id": "wall:3DFAB4:segment:0:boundary:1",
+            "direction": "forward",
+            "entry": [
+              50195.021521389484,
+              7286.359920749441
+            ],
+            "exit": [
+              50745.01817716658,
+              7286.359920749441
+            ],
+            "source_entities": [
+              "source:3DFAB4"
+            ],
+            "parent_element_id": "boundary:wall:3DFAB4",
+            "membership": "repair",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                50195.021521389484,
+                7286.359920749441
+              ],
+              [
+                50745.01817716658,
+                7286.359920749441
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3DFAB4:segment:0:boundary:1"
+            ],
+            "semantic_confidence": 0.98
+          },
+          {
+            "kind": "wall",
+            "element_id": "wall:3DFAB4:segment:0:boundary:2",
+            "direction": "forward",
+            "entry": [
+              50745.01817716658,
+              7286.359920749441
+            ],
+            "exit": [
+              52385.01249048114,
+              7286.359920749441
+            ],
+            "source_entities": [
+              "source:3DFAB4"
+            ],
+            "parent_element_id": "boundary:wall:3DFAB4",
+            "membership": "repair",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                50745.01817716658,
+                7286.359920749441
+              ],
+              [
+                52385.01249048114,
+                7286.359920749441
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3DFAB4:segment:0:boundary:2"
+            ],
+            "semantic_confidence": 0.98
+          },
+          {
+            "kind": "wall",
+            "element_id": "boundary:wall:3E07BB:segment:0:boundary:4",
+            "direction": "forward",
+            "entry": [
+              52385.01249048114,
+              7286.359920749441
+            ],
+            "exit": [
+              52385.01249048114,
+              8324.158983958885
+            ],
+            "source_entities": [
+              "source:3E07BB"
+            ],
+            "parent_element_id": "boundary:wall:3E07BB",
+            "membership": "repair",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                52385.01249048114,
+                7286.359920749441
+              ],
+              [
+                52385.01249048114,
+                8324.158983958885
+              ]
+            ],
+            "member_element_ids": [
+              "boundary:wall:3E07BB:segment:0:boundary:4"
+            ],
+            "semantic_confidence": 1
+          },
+          {
+            "kind": "wall",
+            "element_id": "boundary:wall:3E07BB:segment:0:boundary:5",
+            "direction": "forward",
+            "entry": [
+              52385.01249048114,
+              8324.158983958885
+            ],
+            "exit": [
+              52385.01249048114,
+              9123.98602887988
+            ],
+            "source_entities": [
+              "source:3E07BB"
+            ],
+            "parent_element_id": "boundary:wall:3E07BB",
+            "membership": "repair",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                52385.01249048114,
+                8324.158983958885
+              ],
+              [
+                52385.01249048114,
+                9123.98602887988
+              ]
+            ],
+            "member_element_ids": [
+              "boundary:wall:3E07BB:segment:0:boundary:5"
+            ],
+            "semantic_confidence": 1
+          },
+          {
+            "kind": "wall",
+            "element_id": "wall:3E0478:segment:0:boundary:4",
+            "direction": "forward",
+            "entry": [
+              52385.01249048114,
+              9123.98602887988
+            ],
+            "exit": [
+              52385.01249048114,
+              9586.159092629328
+            ],
+            "source_entities": [
+              "source:3E0478"
+            ],
+            "parent_element_id": "boundary:wall:3E0478",
+            "membership": "repair",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                52385.01249048114,
+                9123.98602887988
+              ],
+              [
+                52385.01249048114,
+                9586.159092629328
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3E0478:segment:0:boundary:4"
+            ],
+            "semantic_confidence": 1
+          },
+          {
+            "kind": "wall",
+            "element_id": "wall:3DFAB3:segment:0:boundary:0",
+            "direction": "reverse",
+            "entry": [
+              52385.01249048114,
+              9586.159092629328
+            ],
+            "exit": [
+              51165.013024771586,
+              9586.159092629328
+            ],
+            "source_entities": [
+              "source:3DFAB3"
+            ],
+            "parent_element_id": "boundary:wall:3DFAB3",
+            "membership": "repair",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                52385.01249048114,
+                9586.159092629328
+              ],
+              [
+                51165.013024771586,
+                9586.159092629328
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3DFAB3:segment:0:boundary:0"
+            ],
+            "semantic_confidence": 1
+          },
+          {
+            "kind": "wall",
+            "element_id": "wall:3DFACF:segment:0:boundary:0",
+            "direction": "reverse",
+            "entry": [
+              51165.013024771586,
+              9586.159092629328
+            ],
+            "exit": [
+              51165.013024954125,
+              9686.159092620015
+            ],
+            "source_entities": [
+              "source:3DFACF"
+            ],
+            "parent_element_id": "boundary:wall:3DFACF",
+            "membership": "repair",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                51165.013024771586,
+                9586.159092629328
+              ],
+              [
+                51165.013024954125,
+                9686.159092620015
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3DFACF:segment:0:boundary:0"
+            ],
+            "semantic_confidence": 0.97
+          },
+          {
+            "kind": "wall",
+            "element_id": "wall:3DFAB1:segment:0:boundary:0",
+            "direction": "forward",
+            "entry": [
+              51165.013024954125,
+              9686.159092629328
+            ],
+            "exit": [
+              52385.01249048114,
+              9686.159092629328
+            ],
+            "source_entities": [
+              "source:3DFAB1"
+            ],
+            "parent_element_id": "boundary:wall:3DFAB1",
+            "membership": "repair",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                51165.013024954125,
+                9686.159092629328
+              ],
+              [
+                52385.01249048114,
+                9686.159092629328
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3DFAB1:segment:0:boundary:0"
+            ],
+            "semantic_confidence": 0.99
+          },
+          {
+            "kind": "wall",
+            "element_id": "wall:3E0478:segment:0:boundary:6",
+            "direction": "forward",
+            "entry": [
+              52385.01249048114,
+              9686.159092629328
+            ],
+            "exit": [
+              52385.01249048114,
+              10675.98602887988
+            ],
+            "source_entities": [
+              "source:3E0478"
+            ],
+            "parent_element_id": "boundary:wall:3E0478",
+            "membership": "repair",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                52385.01249048114,
+                9686.159092629328
+              ],
+              [
+                52385.01249048114,
+                10675.98602887988
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3E0478:segment:0:boundary:6"
+            ],
+            "semantic_confidence": 1
+          },
+          {
+            "kind": "wall",
+            "element_id": "wall:3E0478:segment:0:boundary:7",
+            "direction": "forward",
+            "entry": [
+              52385.01249048114,
+              10675.98602887988
+            ],
+            "exit": [
+              52385.01249048114,
+              10843.98602887988
+            ],
+            "source_entities": [
+              "source:3E0478"
+            ],
+            "parent_element_id": "boundary:wall:3E0478",
+            "membership": "repair",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                52385.01249048114,
+                10675.98602887988
+              ],
+              [
+                52385.01249048114,
+                10843.98602887988
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3E0478:segment:0:boundary:7"
+            ],
+            "semantic_confidence": 1
+          },
+          {
+            "kind": "wall",
+            "element_id": "wall:3E07A1:segment:4:boundary:0",
+            "direction": "forward",
+            "entry": [
+              52385.017643123865,
+              10843.98602887988
+            ],
+            "exit": [
+              51185.01249048114,
+              10843.98602887988
+            ],
+            "source_entities": [
+              "source:3E07A1"
+            ],
+            "parent_element_id": "boundary:wall:3E07A1",
+            "membership": "repair",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                52385.017643123865,
+                10843.98602887988
+              ],
+              [
+                51185.01249048114,
+                10843.98602887988
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3E07A1:segment:4:boundary:0"
+            ],
+            "semantic_confidence": 0.98
+          },
+          {
+            "kind": "opening",
+            "from": [
+              51185.01249048114,
+              10843.98602887988
+            ],
+            "to": [
+              50745.01817766577,
+              10786.159092629328
+            ],
+            "opening_element_id": "opening:3E00FD"
+          },
+          {
+            "kind": "junction",
+            "from": [
+              51185.01249048114,
+              10843.98602887988
+            ],
+            "to": [
+              50745.01817768626,
+              10786.159090839326
+            ]
+          }
+        ],
+        "visitedElementIds": [
+          "wall:3E0168:segment:0:boundary:0",
+          "wall:3DF7D8:segment:2:boundary:2",
+          "wall:3E0B31:segment:0:boundary:4",
+          "boundary:wall:3E0E66:segment:0:boundary:5",
+          "boundary:wall:3E0E66:segment:0:boundary:4",
+          "wall:3DFAB4:segment:0:boundary:1",
+          "wall:3DFAB4:segment:0:boundary:2",
+          "boundary:wall:3E07BB:segment:0:boundary:4",
+          "boundary:wall:3E07BB:segment:0:boundary:5",
+          "wall:3E0478:segment:0:boundary:4",
+          "wall:3DFAB3:segment:0:boundary:0",
+          "wall:3DFACF:segment:0:boundary:0",
+          "wall:3DFAB1:segment:0:boundary:0",
+          "wall:3E0478:segment:0:boundary:6",
+          "wall:3E0478:segment:0:boundary:7",
+          "wall:3E07A1:segment:4:boundary:0"
+        ],
+        "visitedObjectIds": [
+          "boundary:wall:3DF7D8"
+        ],
+        "cumulativeProbability": 1,
+        "interiorSide": 1,
+        "repairParentElementIds": [
+          "boundary:wall:3E0E66",
+          "boundary:wall:3DFAB4",
+          "boundary:wall:3E07BB",
+          "boundary:wall:3E0478",
+          "boundary:wall:3DFAB3",
+          "boundary:wall:3DFACF",
+          "boundary:wall:3DFAB1",
+          "boundary:wall:3E07A1"
+        ],
+        "closed": true,
+        "termination": "face_walk"
+      },
+      "validation": {
+        "closed": true,
+        "contains_seed": true,
+        "area": 7624642.717831641,
+        "point_count": 19,
+        "wall_edge_count": 16,
+        "virtual_edge_count": 2,
+        "points": [
+          [
+            50745.01817768626,
+            10786.159090839326
+          ],
+          [
+            50565.01817766577,
+            10786.15909065865
+          ],
+          [
+            50195.021521389484,
+            10786.159092629328
+          ],
+          [
+            50195.021521389484,
+            9123.986134048551
+          ],
+          [
+            50195.021521389484,
+            8324.159089138731
+          ],
+          [
+            50195.021521389484,
+            7286.359920749441
+          ],
+          [
+            50745.01817716658,
+            7286.359920749441
+          ],
+          [
+            52385.01249048114,
+            7286.359920749441
+          ],
+          [
+            52385.01249048114,
+            8324.158983958885
+          ],
+          [
+            52385.01249048114,
+            9123.98602887988
+          ],
+          [
+            52385.01249048114,
+            9586.159092629328
+          ],
+          [
+            51165.013024771586,
+            9586.159092629328
+          ],
+          [
+            51165.013024954125,
+            9686.159092620015
+          ],
+          [
+            52385.01249048114,
+            9686.159092629328
+          ],
+          [
+            52385.01249048114,
+            10675.98602887988
+          ],
+          [
+            52385.01249048114,
+            10843.98602887988
+          ],
+          [
+            51185.01249048114,
+            10843.98602887988
+          ],
+          [
+            50745.01817766577,
+            10786.159092629328
+          ],
+          [
+            50745.01817768626,
+            10786.159090839326
+          ]
+        ]
+      }
+    }
+  ],
+  "terminated_attempts": [],
+  "final_decision": {
+    "stage": "final",
+    "model": "deterministic-face-walk",
+    "selected_attempt_id": "face-branch:room-face:0",
+    "reason": "唯一包含 Room Seed 且面积在允许范围内的平面图有界面。"
+  },
+  "layer_filtering": {
+    "raw_decisions": [
+      {
+        "layer": "WALL",
+        "choice": "include",
+        "confidence": 0.96,
+        "probabilities": {
+          "uncertain": 0.01,
+          "exclude": 0.02,
+          "include": 0.97
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "WINDOW",
+        "choice": "exclude",
+        "confidence": 0.82,
+        "probabilities": {
+          "uncertain": 0.03,
+          "exclude": 0.88,
+          "include": 0.09
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "P-WALL1",
+        "choice": "include",
+        "confidence": 0.93,
+        "probabilities": {
+          "uncertain": 0.02,
+          "exclude": 0.03,
+          "include": 0.95
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "PL-家具",
+        "choice": "exclude",
+        "confidence": 0.88,
+        "probabilities": {
+          "uncertain": 0.01,
+          "exclude": 0.91,
+          "include": 0.08
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "COLUMN",
+        "choice": "exclude",
+        "confidence": 0.42,
+        "probabilities": {
+          "uncertain": 0.07,
+          "exclude": 0.61,
+          "include": 0.32
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "COLUMN-框",
+        "choice": "exclude",
+        "confidence": 0.51,
+        "probabilities": {
+          "uncertain": 0.05,
+          "exclude": 0.67,
+          "include": 0.28
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "护士站柜台",
+        "choice": "exclude",
+        "confidence": 0.88,
+        "probabilities": {
+          "uncertain": 0.01,
+          "exclude": 0.92,
+          "include": 0.07
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "P-DOOR",
+        "choice": "exclude",
+        "confidence": 0.46,
+        "probabilities": {
+          "uncertain": 0.04,
+          "exclude": 0.64,
+          "include": 0.32
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "PL-DOOR",
+        "choice": "exclude",
+        "confidence": 0.83,
+        "probabilities": {
+          "uncertain": 0.02,
+          "exclude": 0.88,
+          "include": 0.1
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917"
+      }
+    ],
+    "effective_decisions": [
+      {
+        "layer": "WALL",
+        "choice": "include",
+        "confidence": 0.96,
+        "probabilities": {
+          "uncertain": 0.01,
+          "exclude": 0.02,
+          "include": 0.97
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "WINDOW",
+        "choice": "exclude",
+        "confidence": 0.82,
+        "probabilities": {
+          "uncertain": 0.03,
+          "exclude": 0.88,
+          "include": 0.09
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "P-WALL1",
+        "choice": "include",
+        "confidence": 0.93,
+        "probabilities": {
+          "uncertain": 0.02,
+          "exclude": 0.03,
+          "include": 0.95
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "PL-家具",
+        "choice": "exclude",
+        "confidence": 0.88,
+        "probabilities": {
+          "uncertain": 0.01,
+          "exclude": 0.91,
+          "include": 0.08
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "COLUMN",
+        "choice": "uncertain",
+        "confidence": 0.42,
+        "probabilities": {
+          "uncertain": 0.07,
+          "exclude": 0.61,
+          "include": 0.32
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917",
+        "raw_choice": "exclude",
+        "policy_reasons": [
+          "low_exclude_confidence"
+        ]
+      },
+      {
+        "layer": "COLUMN-框",
+        "choice": "uncertain",
+        "confidence": 0.51,
+        "probabilities": {
+          "uncertain": 0.05,
+          "exclude": 0.67,
+          "include": 0.28
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917",
+        "raw_choice": "exclude",
+        "policy_reasons": [
+          "low_exclude_confidence"
+        ]
+      },
+      {
+        "layer": "护士站柜台",
+        "choice": "exclude",
+        "confidence": 0.88,
+        "probabilities": {
+          "uncertain": 0.01,
+          "exclude": 0.92,
+          "include": 0.07
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "P-DOOR",
+        "choice": "uncertain",
+        "confidence": 0.46,
+        "probabilities": {
+          "uncertain": 0.04,
+          "exclude": 0.64,
+          "include": 0.32
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917",
+        "raw_choice": "exclude",
+        "policy_reasons": [
+          "direct_room_membership_evidence",
+          "low_exclude_confidence"
+        ]
+      },
+      {
+        "layer": "PL-DOOR",
+        "choice": "exclude",
+        "confidence": 0.83,
+        "probabilities": {
+          "uncertain": 0.02,
+          "exclude": 0.88,
+          "include": 0.1
+        },
+        "request_id": "gen-dec-1789819587-hLWJO33aV0AkP7D0fRfo",
+        "model": "typesafe/jev-1.13-20260917"
+      }
+    ],
+    "protected_layers": [
+      "P-DOOR",
+      "P-WALL1",
+      "WALL"
+    ],
+    "element_counts": {
+      "include": 185,
+      "uncertain": 16,
+      "exclude": 79
+    }
+  },
+  "traces": [
+    {
+      "stage": "face_walk",
+      "snap_tolerance": 50,
+      "graph_face_count": 59,
+      "seed_face_count": 1,
+      "valid_room_face_count": 1,
+      "selected_face_ids": [
+        "room-face:0"
+      ],
+      "virtual_edge_candidate_count": 85,
+      "fallback_to_beam": false
+    },
+    {
+      "stage": "final",
+      "model": "deterministic-face-walk",
+      "selected_attempt_id": "face-branch:room-face:0",
+      "reason": "唯一包含 Room Seed 且面积在允许范围内的平面图有界面。"
+    }
+  ]
+}

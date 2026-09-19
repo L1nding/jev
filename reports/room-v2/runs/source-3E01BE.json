@@ -1,0 +1,5447 @@
+{
+  "schema_version": "room-boundary-resolver-v2",
+  "room_seed": {
+    "source_id": "source:3E01BE",
+    "text": "留观区",
+    "point": [
+      53852.36956174113,
+      8108.403193749487
+    ]
+  },
+  "outcome": "uncertain",
+  "outcome_reason": "model_error",
+  "accepted_attempt_id": null,
+  "accepted_candidate": null,
+  "candidates": [],
+  "space_kind": "unknown",
+  "area_evidence": {
+    "source_id": "source:3E01CC",
+    "text": "33.2m²",
+    "point": [
+      54386.4538336657,
+      7823.378035020083
+    ]
+  },
+  "object_relations": {},
+  "selected_object_ids": [
+    "source:3DFB0F",
+    "source:3D89FF",
+    "source:3D8A0C",
+    "source:3DFB4E",
+    "source:3DFAC9",
+    "source:3D8A00",
+    "source:3DFB4D",
+    "source:3DFAC2",
+    "source:3E048A",
+    "source:3E07BF",
+    "source:3E08BE",
+    "source:3DFABE",
+    "source:3DFA81",
+    "source:3DFAB4",
+    "source:3DFAC3",
+    "source:3DFB1C",
+    "source:3DFA87",
+    "source:3DFAB5",
+    "source:3E0478",
+    "source:3E07BB",
+    "source:3E0830",
+    "source:3E082B",
+    "source:3DFAC4",
+    "source:3E0829",
+    "source:3DFAC5",
+    "source:3DFB7A",
+    "source:3E08A3",
+    "source:3E0477",
+    "source:3E0827",
+    "source:3DFAC1",
+    "source:3E0826",
+    "source:3D8A0D",
+    "source:3D8A01",
+    "source:3D8B85",
+    "source:3D8C7A",
+    "source:3DFACA",
+    "source:3E04EB",
+    "source:3D8B87",
+    "source:3DFA80",
+    "source:3DFAB3",
+    "source:3D8BFA",
+    "source:3DFA86",
+    "source:3E089C",
+    "source:3D8B9F",
+    "source:3DFA55",
+    "source:3DFAB1",
+    "source:3DFAC0",
+    "source:3D8BBB"
+  ],
+  "approved_gaps": [],
+  "final_decision": null,
+  "decision_records": [
+    {
+      "request_hash": "99d616fdf38258ec78dfd86fc9eef30d013645b7a3fd85a8d1266c7cda00860b",
+      "request": {
+        "model": "typesafe/jev-1.13",
+        "state": {
+          "room_seed": {
+            "source_id": "source:3E01BE",
+            "text": "留观区",
+            "point": [
+              0,
+              0
+            ]
+          },
+          "coordinates": "millimetres relative to room seed",
+          "annotations": [
+            {
+              "source_id": "source:3DFB0E",
+              "text": "1米线",
+              "point": [
+                -546.3438940439373,
+                168.0354975592345
+              ]
+            },
+            {
+              "source_id": "source:3E01CC",
+              "text": "33.2m²",
+              "point": [
+                534.0842719245702,
+                -285.0251587294042
+              ]
+            },
+            {
+              "source_id": "source:3E059F",
+              "text": "走廊",
+              "point": [
+                -375.9276908207685,
+                709.4196110703051
+              ]
+            },
+            {
+              "source_id": "source:3D8BF5",
+              "text": "登记室",
+              "point": [
+                1795.6187353618443,
+                -101.50940937921405
+              ]
+            },
+            {
+              "source_id": "source:3DFB15",
+              "text": "留观区",
+              "point": [
+                2140.000000067055,
+                0.0000017397105693817139
+              ]
+            },
+            {
+              "source_id": "source:3DFAC6",
+              "text": "收费",
+              "point": [
+                -2158.0424841139466,
+                -321.2910374403
+              ]
+            },
+            {
+              "source_id": "source:3D8BF6",
+              "text": "6.5m²",
+              "point": [
+                2351.1569668408483,
+                -359.4686078801751
+              ]
+            },
+            {
+              "source_id": "source:3E01B9",
+              "text": "1米线",
+              "point": [
+                -180.85838786698878,
+                2535.1978122591972
+              ]
+            },
+            {
+              "source_id": "source:3E0185",
+              "text": "报到处",
+              "point": [
+                1585.6256511472166,
+                -2046.433275749907
+              ]
+            },
+            {
+              "source_id": "source:3D8BF9",
+              "text": "健康状态评估室",
+              "point": [
+                1803.1743458509445,
+                -1872.0432730000466
+              ]
+            },
+            {
+              "source_id": "source:3DFB23",
+              "text": "33.2m²",
+              "point": [
+                2674.0842719916254,
+                -285.0251569803804
+              ]
+            },
+            {
+              "source_id": "source:3E01B7",
+              "text": "1米线",
+              "point": [
+                -2686.3438941109926,
+                168.03549581952393
+              ]
+            },
+            {
+              "source_id": "source:3DFACB",
+              "text": "咨询登记区",
+              "point": [
+                -2745.0360308345407,
+                430.51993140019476
+              ]
+            },
+            {
+              "source_id": "source:3D8BB6",
+              "text": "咨询登记区",
+              "point": [
+                2789.9627966154367,
+                430.51993140019476
+              ]
+            },
+            {
+              "source_id": "source:3E0C46",
+              "text": "走廊",
+              "point": [
+                -2765.9186599124223,
+                709.4197162408382
+              ]
+            },
+            {
+              "source_id": "source:3E0868",
+              "text": "5m²",
+              "point": [
+                -2726.0741416411474,
+                -1253.0979340597987
+              ]
+            },
+            {
+              "source_id": "source:3E01C1",
+              "text": "5m²",
+              "point": [
+                2933.921240258962,
+                -1253.0978271402419
+              ]
+            },
+            {
+              "source_id": "source:3DFB10",
+              "text": "1米线",
+              "point": [
+                1959.1416122000664,
+                2535.1978140007704
+              ]
+            },
+            {
+              "source_id": "source:3DFB07",
+              "text": "6.5m²",
+              "point": [
+                -3183.841860609129,
+                -359.4686078801751
+              ]
+            },
+            {
+              "source_id": "source:3DFB05",
+              "text": "4.7m²",
+              "point": [
+                -2397.0654504094273,
+                2227.9037192892283
+              ]
+            },
+            {
+              "source_id": "source:3D8BB1",
+              "text": "收费",
+              "point": [
+                3376.956343336031,
+                -321.2910374403
+              ]
+            },
+            {
+              "source_id": "source:3D8BFB",
+              "text": "10m²",
+              "point": [
+                2510.684699172154,
+                -2519.654651330784
+              ]
+            },
+            {
+              "source_id": "source:3D8BF2",
+              "text": "资料室",
+              "point": [
+                2566.2238181345165,
+                2485.8629177901894
+              ]
+            },
+            {
+              "source_id": "source:3DFB06",
+              "text": "登记室",
+              "point": [
+                -3739.380092088133,
+                -101.50940937921405
+              ]
+            },
+            {
+              "source_id": "source:3D8BF3",
+              "text": "4.7m²",
+              "point": [
+                3137.93337704055,
+                2227.9037192892283
+              ]
+            },
+            {
+              "source_id": "source:3DFB04",
+              "text": "资料室",
+              "point": [
+                -2968.775009315461,
+                2485.8629177901894
+              ]
+            },
+            {
+              "source_id": "source:3DFB0B",
+              "text": "10m²",
+              "point": [
+                -3024.3141282778233,
+                -2519.654651330784
+              ]
+            },
+            {
+              "source_id": "source:3E01A4",
+              "text": "21m²",
+              "point": [
+                -176.6923226956278,
+                4056.1657897904515
+              ]
+            },
+            {
+              "source_id": "source:3DFB09",
+              "text": "健康状态评估室",
+              "point": [
+                -3731.824481599033,
+                -1872.0432730000466
+              ]
+            },
+            {
+              "source_id": "source:3DFADC",
+              "text": "报到处",
+              "point": [
+                3725.625651214272,
+                -2046.4332740101963
+              ]
+            },
+            {
+              "source_id": "source:3E016F",
+              "text": "收费",
+              "point": [
+                -4298.042484181002,
+                -321.29103918001056
+              ]
+            },
+            {
+              "source_id": "source:3E01A3",
+              "text": "接种室",
+              "point": [
+                -735.9937556795776,
+                4270.827268769965
+              ]
+            },
+            {
+              "source_id": "source:3DFAFA",
+              "text": "接种室",
+              "point": [
+                1404.0062443874776,
+                4270.827270509675
+              ]
+            },
+            {
+              "source_id": "source:3DFAFB",
+              "text": "21m²",
+              "point": [
+                1963.3076773714274,
+                4056.1657915394753
+              ]
+            },
+            {
+              "source_id": "source:3E082C",
+              "text": "报到处",
+              "point": [
+                -4074.3697307519615,
+                -2046.4333826694638
+              ]
+            },
+            {
+              "source_id": "source:3E083C",
+              "text": "1.8m²",
+              "point": [
+                -2254.8523979485035,
+                4025.1862165890634
+              ]
+            },
+            {
+              "source_id": "source:3DFB65",
+              "text": "后补式冷库",
+              "point": [
+                -2426.4148454861715,
+                4233.746676759794
+              ]
+            },
+            {
+              "source_id": "source:3E0174",
+              "text": "咨询登记区",
+              "point": [
+                -4885.036030901596,
+                430.5199296493083
+              ]
+            },
+            {
+              "source_id": "source:3E01BD",
+              "text": "候诊区",
+              "point": [
+                -338.9516161978245,
+                -4899.445441570133
+              ]
+            },
+            {
+              "source_id": "source:3D8BFF",
+              "text": "1米线",
+              "point": [
+                4988.65493340604,
+                168.0354975592345
+              ]
+            }
+          ],
+          "nearby_objects": [
+            {
+              "source_id": "source:3DFB0F",
+              "semantic_type": "furniture",
+              "layer": "护士站柜台",
+              "bounds": [
+                32.78617372363806,
+                -3812.2441011499614,
+                3812.6486159916967,
+                2437.7558988295496
+              ]
+            },
+            {
+              "source_id": "source:3D89FF",
+              "semantic_type": "unknown",
+              "layer": "PL-家具",
+              "bounds": [
+                -11861.770577436313,
+                -1413.6249424200505,
+                -631.7491132505238,
+                3155.3637433722615
+              ]
+            },
+            {
+              "source_id": "source:3D8A0C",
+              "semantic_type": "unknown",
+              "layer": "PL-家具",
+              "bounds": [
+                -1632.3727463353425,
+                -281.1678816396743,
+                -631.7491132505238,
+                -281.1678816396743
+              ]
+            },
+            {
+              "source_id": "source:3DFB4E",
+              "semantic_type": "furniture",
+              "layer": "PL-家具",
+              "bounds": [
+                -1037.7843742016703,
+                -382.74368704110384,
+                -967.3513845046982,
+                327.85631294362247
+              ]
+            },
+            {
+              "source_id": "source:3DFAC9",
+              "semantic_type": "furniture",
+              "layer": "护士站柜台",
+              "bounds": [
+                -967.3513845074922,
+                -822.0432730000466,
+                -967.3513845056295,
+                1477.755898879841
+              ]
+            },
+            {
+              "source_id": "source:3D8A00",
+              "semantic_type": "unknown",
+              "layer": "PL-家具",
+              "bounds": [
+                -11511.843004214577,
+                -1169.2744439691305,
+                -981.9579849280417,
+                2805.2611203193665
+              ]
+            },
+            {
+              "source_id": "source:3DFB4D",
+              "semantic_type": "furniture",
+              "layer": "PL-家具",
+              "bounds": [
+                -1037.7843742016703,
+                327.8563129361719,
+                -967.3513845046982,
+                1038.4563129208982
+              ]
+            },
+            {
+              "source_id": "source:3DFAC2",
+              "semantic_type": "furniture",
+              "layer": "护士站柜台",
+              "bounds": [
+                -1067.3513845074922,
+                -822.0432730000466,
+                -1067.351384498179,
+                1477.755898879841
+              ]
+            },
+            {
+              "source_id": "source:3E048A",
+              "semantic_type": "wall",
+              "layer": "WALL",
+              "bounds": [
+                -1267.3570712599903,
+                -952.2442097906023,
+                -1267.3570712599903,
+                8327.755790190771
+              ]
+            },
+            {
+              "source_id": "source:3E07BF",
+              "semantic_type": "wall",
+              "layer": "WALL",
+              "bounds": [
+                -1267.3570712599903,
+                -4064.4171648696065,
+                -1267.3570712599903,
+                1015.5828351303935
+              ]
+            },
+            {
+              "source_id": "source:3E08BE",
+              "semantic_type": "wall",
+              "layer": "WALL",
+              "bounds": [
+                -1467.3570712599903,
+                -1184.2442097906023,
+                -1267.3570712599903,
+                215.75579020939767
+              ]
+            },
+            {
+              "source_id": "source:3DFABE",
+              "semantic_type": "furniture",
+              "layer": "护士站柜台",
+              "bounds": [
+                -1067.3513845093548,
+                -822.0432730000466,
+                -967.3513845037669,
+                -822.0432730000466
+              ]
+            },
+            {
+              "source_id": "source:3DFA81",
+              "semantic_type": "wall",
+              "layer": "WALL",
+              "bounds": [
+                -967.3513845093548,
+                -1842.04327281937,
+                -967.3513845074922,
+                -822.0432730000466
+              ]
+            },
+            {
+              "source_id": "source:3DFAB4",
+              "semantic_type": "wall",
+              "layer": "WALL",
+              "bounds": [
+                -3787.3565371520817,
+                -822.0432730000466,
+                -967.3513845074922,
+                -822.0432730000466
+              ]
+            },
+            {
+              "source_id": "source:3DFAC3",
+              "semantic_type": "furniture",
+              "layer": "护士站柜台",
+              "bounds": [
+                -1496.0946413064376,
+                -464.9920867308974,
+                -1283.0915586948395,
+                30.911778811365366
+              ]
+            },
+            {
+              "source_id": "source:3DFB1C",
+              "semantic_type": "unknown",
+              "layer": "护士站柜台",
+              "bounds": [
+                -1350.4688024837524,
+                -531.4419018495828,
+                -1300.4688024837524,
+                -481.4419018495828
+              ]
+            },
+            {
+              "source_id": "source:3DFA87",
+              "semantic_type": "wall",
+              "layer": "WALL",
+              "bounds": [
+                -1067.3513845093548,
+                -1842.0432730000466,
+                -1067.3513845093548,
+                -922.0432730000466
+              ]
+            },
+            {
+              "source_id": "source:3DFAB5",
+              "semantic_type": "wall",
+              "layer": "WALL",
+              "bounds": [
+                -3787.3565371520817,
+                -922.0432730000466,
+                -1067.3513845093548,
+                -922.0432730000466
+              ]
+            },
+            {
+              "source_id": "source:3E0478",
+              "semantic_type": "wall",
+              "layer": "WALL",
+              "bounds": [
+                -1467.3570712599903,
+                -952.2442097906023,
+                -1467.3570712599903,
+                2827.7557902093977
+              ]
+            },
+            {
+              "source_id": "source:3E07BB",
+              "semantic_type": "wall",
+              "layer": "WALL",
+              "bounds": [
+                -1467.3570712599903,
+                -4064.4171648696065,
+                -1467.3570712599903,
+                1015.5828351303935
+              ]
+            },
+            {
+              "source_id": "source:3E0830",
+              "semantic_type": "furniture",
+              "layer": "护士站柜台",
+              "bounds": [
+                -2367.3570712599903,
+                -224.4171648696065,
+                -1467.3570712599903,
+                275.5828351303935
+              ]
+            },
+            {
+              "source_id": "source:3E082B",
+              "semantic_type": "furniture",
+              "layer": "PL-家具",
+              "bounds": [
+                -2367.3570712599903,
+                -224.4171648696065,
+                -1467.3570712599903,
+                -224.4171648696065
+              ]
+            },
+            {
+              "source_id": "source:3DFAC4",
+              "semantic_type": "unknown",
+              "layer": "护士站柜台",
+              "bounds": [
+                -1370.4688024874777,
+                668.5580981504172,
+                -1320.4688024874777,
+                718.5580981504172
+              ]
+            },
+            {
+              "source_id": "source:3E0829",
+              "semantic_type": "furniture",
+              "layer": "PL-家具",
+              "bounds": [
+                -2667.3570712599903,
+                275.5828351303935,
+                -1467.3570712599903,
+                275.5828351303935
+              ]
+            }
+          ]
+        },
+        "questions": {
+          "space": {
+            "type": "choice",
+            "instructions": "判断目标文字指代的空间类型，不能仅凭房间名称认定是开放空间。证据不足请选择 unknown。",
+            "criteria": {
+              "closed_room": "独立围合的房间",
+              "open_zone": "较大空间中的开放功能区，无独立完整围合",
+              "unknown": "证据不足"
+            }
+          },
+          "area": {
+            "type": "choice",
+            "instructions": "选择属于目标房间的面积标注。使用相对位置与邻室文字判断，不能仅选最近文字。",
+            "criteria": {
+              "source_3E01CC": "source:3E01CC: 33.2m²",
+              "source_3D8BF6": "source:3D8BF6: 6.5m²",
+              "source_3DFB23": "source:3DFB23: 33.2m²",
+              "source_3E0868": "source:3E0868: 5m²",
+              "source_3E01C1": "source:3E01C1: 5m²",
+              "source_3DFB07": "source:3DFB07: 6.5m²",
+              "source_3DFB05": "source:3DFB05: 4.7m²",
+              "source_3D8BFB": "source:3D8BFB: 10m²",
+              "source_3D8BF3": "source:3D8BF3: 4.7m²",
+              "source_3DFB0B": "source:3DFB0B: 10m²",
+              "source_3E01A4": "source:3E01A4: 21m²",
+              "source_3DFAFB": "source:3DFAFB: 21m²",
+              "source_3E083C": "source:3E083C: 1.8m²",
+              "none": "没有目标房间面积标注",
+              "unknown": "无法确认面积标注归属"
+            }
+          }
+        }
+      },
+      "status": "ok",
+      "response": {
+        "model": "typesafe/jev-1.13-20260917",
+        "answers": {
+          "space": {
+            "type": "choice",
+            "choice": "unknown",
+            "probabilities": {
+              "open_zone": 0.4,
+              "closed_room": 0.07,
+              "unknown": 0.53
+            },
+            "confidence": 0.3
+          },
+          "area": {
+            "type": "choice",
+            "choice": "source_3E01CC",
+            "probabilities": {
+              "source_3E01C1": 0,
+              "source_3DFB0B": 0.01,
+              "unknown": 0.08,
+              "source_3E01A4": 0.07,
+              "source_3D8BFB": 0,
+              "source_3DFB23": 0.2,
+              "source_3DFAFB": 0.04,
+              "none": 0.06,
+              "source_3D8BF3": 0,
+              "source_3DFB05": 0.01,
+              "source_3E083C": 0.01,
+              "source_3DFB07": 0,
+              "source_3D8BF6": 0.02,
+              "source_3E0868": 0,
+              "source_3E01CC": 0.5
+            },
+            "confidence": 0.45
+          }
+        },
+        "usage": {
+          "input_tokens": 6721,
+          "output_tokens": 246,
+          "cost": 0.000282282
+        },
+        "id": "gen-dec-1789821615-MPg7P4xcXXeToRC01SBm",
+        "provider": "TypeSafe"
+      },
+      "http_status": 200,
+      "raw_response": "{\"model\":\"typesafe/jev-1.13-20260917\",\"answers\":{\"space\":{\"type\":\"choice\",\"choice\":\"unknown\",\"probabilities\":{\"open_zone\":0.4,\"closed_room\":0.07,\"unknown\":0.53},\"confidence\":0.3},\"area\":{\"type\":\"choice\",\"choice\":\"source_3E01CC\",\"probabilities\":{\"source_3E01C1\":0,\"source_3DFB0B\":0.01,\"unknown\":0.08,\"source_3E01A4\":0.07,\"source_3D8BFB\":0,\"source_3DFB23\":0.2,\"source_3DFAFB\":0.04,\"none\":0.06,\"source_3D8BF3\":0,\"source_3DFB05\":0.01,\"source_3E083C\":0.01,\"source_3DFB07\":0,\"source_3D8BF6\":0.02,\"source_3E0868\":0,\"source_3E01CC\":0.5},\"confidence\":0.45}},\"usage\":{\"input_tokens\":6721,\"output_tokens\":246,\"cost\":0.000282282},\"id\":\"gen-dec-1789821615-MPg7P4xcXXeToRC01SBm\",\"provider\":\"TypeSafe\"}"
+    },
+    {
+      "request_hash": "e4e3229344336dd8168d68120f4b3a749878e676a6b47c1b83b6dbe72148beae",
+      "request": {
+        "model": "typesafe/jev-1.13",
+        "state": {
+          "room_seed": {
+            "source_id": "source:3E01BE",
+            "text": "留观区",
+            "point": [
+              0,
+              0
+            ]
+          },
+          "coordinates": "millimetres relative to room seed",
+          "annotations": [
+            {
+              "source_id": "source:3DFB0E",
+              "text": "1米线",
+              "point": [
+                -546.3438940439373,
+                168.0354975592345
+              ]
+            },
+            {
+              "source_id": "source:3E01CC",
+              "text": "33.2m²",
+              "point": [
+                534.0842719245702,
+                -285.0251587294042
+              ]
+            },
+            {
+              "source_id": "source:3E059F",
+              "text": "走廊",
+              "point": [
+                -375.9276908207685,
+                709.4196110703051
+              ]
+            },
+            {
+              "source_id": "source:3D8BF5",
+              "text": "登记室",
+              "point": [
+                1795.6187353618443,
+                -101.50940937921405
+              ]
+            },
+            {
+              "source_id": "source:3DFB15",
+              "text": "留观区",
+              "point": [
+                2140.000000067055,
+                0.0000017397105693817139
+              ]
+            },
+            {
+              "source_id": "source:3DFAC6",
+              "text": "收费",
+              "point": [
+                -2158.0424841139466,
+                -321.2910374403
+              ]
+            },
+            {
+              "source_id": "source:3D8BF6",
+              "text": "6.5m²",
+              "point": [
+                2351.1569668408483,
+                -359.4686078801751
+              ]
+            },
+            {
+              "source_id": "source:3E01B9",
+              "text": "1米线",
+              "point": [
+                -180.85838786698878,
+                2535.1978122591972
+              ]
+            },
+            {
+              "source_id": "source:3E0185",
+              "text": "报到处",
+              "point": [
+                1585.6256511472166,
+                -2046.433275749907
+              ]
+            },
+            {
+              "source_id": "source:3D8BF9",
+              "text": "健康状态评估室",
+              "point": [
+                1803.1743458509445,
+                -1872.0432730000466
+              ]
+            },
+            {
+              "source_id": "source:3DFB23",
+              "text": "33.2m²",
+              "point": [
+                2674.0842719916254,
+                -285.0251569803804
+              ]
+            },
+            {
+              "source_id": "source:3E01B7",
+              "text": "1米线",
+              "point": [
+                -2686.3438941109926,
+                168.03549581952393
+              ]
+            },
+            {
+              "source_id": "source:3DFACB",
+              "text": "咨询登记区",
+              "point": [
+                -2745.0360308345407,
+                430.51993140019476
+              ]
+            },
+            {
+              "source_id": "source:3D8BB6",
+              "text": "咨询登记区",
+              "point": [
+                2789.9627966154367,
+                430.51993140019476
+              ]
+            },
+            {
+              "source_id": "source:3E0C46",
+              "text": "走廊",
+              "point": [
+                -2765.9186599124223,
+                709.4197162408382
+              ]
+            },
+            {
+              "source_id": "source:3E0868",
+              "text": "5m²",
+              "point": [
+                -2726.0741416411474,
+                -1253.0979340597987
+              ]
+            },
+            {
+              "source_id": "source:3E01C1",
+              "text": "5m²",
+              "point": [
+                2933.921240258962,
+                -1253.0978271402419
+              ]
+            },
+            {
+              "source_id": "source:3DFB10",
+              "text": "1米线",
+              "point": [
+                1959.1416122000664,
+                2535.1978140007704
+              ]
+            },
+            {
+              "source_id": "source:3DFB07",
+              "text": "6.5m²",
+              "point": [
+                -3183.841860609129,
+                -359.4686078801751
+              ]
+            },
+            {
+              "source_id": "source:3DFB05",
+              "text": "4.7m²",
+              "point": [
+                -2397.0654504094273,
+                2227.9037192892283
+              ]
+            },
+            {
+              "source_id": "source:3D8BB1",
+              "text": "收费",
+              "point": [
+                3376.956343336031,
+                -321.2910374403
+              ]
+            },
+            {
+              "source_id": "source:3D8BFB",
+              "text": "10m²",
+              "point": [
+                2510.684699172154,
+                -2519.654651330784
+              ]
+            },
+            {
+              "source_id": "source:3D8BF2",
+              "text": "资料室",
+              "point": [
+                2566.2238181345165,
+                2485.8629177901894
+              ]
+            },
+            {
+              "source_id": "source:3DFB06",
+              "text": "登记室",
+              "point": [
+                -3739.380092088133,
+                -101.50940937921405
+              ]
+            },
+            {
+              "source_id": "source:3D8BF3",
+              "text": "4.7m²",
+              "point": [
+                3137.93337704055,
+                2227.9037192892283
+              ]
+            },
+            {
+              "source_id": "source:3DFB04",
+              "text": "资料室",
+              "point": [
+                -2968.775009315461,
+                2485.8629177901894
+              ]
+            },
+            {
+              "source_id": "source:3DFB0B",
+              "text": "10m²",
+              "point": [
+                -3024.3141282778233,
+                -2519.654651330784
+              ]
+            },
+            {
+              "source_id": "source:3E01A4",
+              "text": "21m²",
+              "point": [
+                -176.6923226956278,
+                4056.1657897904515
+              ]
+            },
+            {
+              "source_id": "source:3DFB09",
+              "text": "健康状态评估室",
+              "point": [
+                -3731.824481599033,
+                -1872.0432730000466
+              ]
+            },
+            {
+              "source_id": "source:3DFADC",
+              "text": "报到处",
+              "point": [
+                3725.625651214272,
+                -2046.4332740101963
+              ]
+            },
+            {
+              "source_id": "source:3E016F",
+              "text": "收费",
+              "point": [
+                -4298.042484181002,
+                -321.29103918001056
+              ]
+            },
+            {
+              "source_id": "source:3E01A3",
+              "text": "接种室",
+              "point": [
+                -735.9937556795776,
+                4270.827268769965
+              ]
+            },
+            {
+              "source_id": "source:3DFAFA",
+              "text": "接种室",
+              "point": [
+                1404.0062443874776,
+                4270.827270509675
+              ]
+            },
+            {
+              "source_id": "source:3DFAFB",
+              "text": "21m²",
+              "point": [
+                1963.3076773714274,
+                4056.1657915394753
+              ]
+            },
+            {
+              "source_id": "source:3E082C",
+              "text": "报到处",
+              "point": [
+                -4074.3697307519615,
+                -2046.4333826694638
+              ]
+            },
+            {
+              "source_id": "source:3E083C",
+              "text": "1.8m²",
+              "point": [
+                -2254.8523979485035,
+                4025.1862165890634
+              ]
+            },
+            {
+              "source_id": "source:3DFB65",
+              "text": "后补式冷库",
+              "point": [
+                -2426.4148454861715,
+                4233.746676759794
+              ]
+            },
+            {
+              "source_id": "source:3E0174",
+              "text": "咨询登记区",
+              "point": [
+                -4885.036030901596,
+                430.5199296493083
+              ]
+            },
+            {
+              "source_id": "source:3E01BD",
+              "text": "候诊区",
+              "point": [
+                -338.9516161978245,
+                -4899.445441570133
+              ]
+            },
+            {
+              "source_id": "source:3D8BFF",
+              "text": "1米线",
+              "point": [
+                4988.65493340604,
+                168.0354975592345
+              ]
+            }
+          ],
+          "space_kind": "unknown",
+          "associated_area": {
+            "source_id": "source:3E01CC",
+            "text": "33.2m²",
+            "point": [
+              54386.4538336657,
+              7823.378035020083
+            ]
+          },
+          "common_context": [
+            {
+              "source_id": "source:3DFB0F",
+              "semantic": "furniture",
+              "bounds": [
+                32.78617372363806,
+                -3812.2441011499614,
+                3812.6486159916967,
+                2437.7558988295496
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3D89FF",
+              "semantic": "unknown",
+              "bounds": [
+                -11861.770577436313,
+                -1413.6249424200505,
+                -631.7491132505238,
+                3155.3637433722615
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3D8A0C",
+              "semantic": "unknown",
+              "bounds": [
+                -1632.3727463353425,
+                -281.1678816396743,
+                -631.7491132505238,
+                -281.1678816396743
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFB4E",
+              "semantic": "furniture",
+              "bounds": [
+                -1037.7843742016703,
+                -382.74368704110384,
+                -967.3513845046982,
+                327.85631294362247
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFAC9",
+              "semantic": "furniture",
+              "bounds": [
+                -967.3513845074922,
+                -822.0432730000466,
+                -967.3513845056295,
+                1477.755898879841
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3D8A00",
+              "semantic": "unknown",
+              "bounds": [
+                -11511.843004214577,
+                -1169.2744439691305,
+                -981.9579849280417,
+                2805.2611203193665
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFB4D",
+              "semantic": "furniture",
+              "bounds": [
+                -1037.7843742016703,
+                327.8563129361719,
+                -967.3513845046982,
+                1038.4563129208982
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFAC2",
+              "semantic": "furniture",
+              "bounds": [
+                -1067.3513845074922,
+                -822.0432730000466,
+                -1067.351384498179,
+                1477.755898879841
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3E048A",
+              "semantic": "wall",
+              "bounds": [
+                -1267.3570712599903,
+                -952.2442097906023,
+                -1267.3570712599903,
+                8327.755790190771
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3E07BF",
+              "semantic": "wall",
+              "bounds": [
+                -1267.3570712599903,
+                -4064.4171648696065,
+                -1267.3570712599903,
+                1015.5828351303935
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3E08BE",
+              "semantic": "wall",
+              "bounds": [
+                -1467.3570712599903,
+                -1184.2442097906023,
+                -1267.3570712599903,
+                215.75579020939767
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFABE",
+              "semantic": "furniture",
+              "bounds": [
+                -1067.3513845093548,
+                -822.0432730000466,
+                -967.3513845037669,
+                -822.0432730000466
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFA81",
+              "semantic": "wall",
+              "bounds": [
+                -967.3513845093548,
+                -1842.04327281937,
+                -967.3513845074922,
+                -822.0432730000466
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFAB4",
+              "semantic": "wall",
+              "bounds": [
+                -3787.3565371520817,
+                -822.0432730000466,
+                -967.3513845074922,
+                -822.0432730000466
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFAC3",
+              "semantic": "furniture",
+              "bounds": [
+                -1496.0946413064376,
+                -464.9920867308974,
+                -1283.0915586948395,
+                30.911778811365366
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFB1C",
+              "semantic": "unknown",
+              "bounds": [
+                -1350.4688024837524,
+                -531.4419018495828,
+                -1300.4688024837524,
+                -481.4419018495828
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFA87",
+              "semantic": "wall",
+              "bounds": [
+                -1067.3513845093548,
+                -1842.0432730000466,
+                -1067.3513845093548,
+                -922.0432730000466
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFAB5",
+              "semantic": "wall",
+              "bounds": [
+                -3787.3565371520817,
+                -922.0432730000466,
+                -1067.3513845093548,
+                -922.0432730000466
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3E0478",
+              "semantic": "wall",
+              "bounds": [
+                -1467.3570712599903,
+                -952.2442097906023,
+                -1467.3570712599903,
+                2827.7557902093977
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3E07BB",
+              "semantic": "wall",
+              "bounds": [
+                -1467.3570712599903,
+                -4064.4171648696065,
+                -1467.3570712599903,
+                1015.5828351303935
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3E0830",
+              "semantic": "furniture",
+              "bounds": [
+                -2367.3570712599903,
+                -224.4171648696065,
+                -1467.3570712599903,
+                275.5828351303935
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3E082B",
+              "semantic": "furniture",
+              "bounds": [
+                -2367.3570712599903,
+                -224.4171648696065,
+                -1467.3570712599903,
+                -224.4171648696065
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFAC4",
+              "semantic": "unknown",
+              "bounds": [
+                -1370.4688024874777,
+                668.5580981504172,
+                -1320.4688024874777,
+                718.5580981504172
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3E0829",
+              "semantic": "furniture",
+              "bounds": [
+                -2667.3570712599903,
+                275.5828351303935,
+                -1467.3570712599903,
+                275.5828351303935
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFAC5",
+              "semantic": "furniture",
+              "bounds": [
+                -1516.0946413101628,
+                735.0079132691026,
+                -1303.0915586985648,
+                1230.9117788113654
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFB7A",
+              "semantic": "furniture",
+              "bounds": [
+                -1736.8058139998466,
+                -1372.0432730000466,
+                -1188.1624667216092,
+                -922.0432730074972
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3E08A3",
+              "semantic": "furniture",
+              "bounds": [
+                -1537.7900609569624,
+                -1523.4171648714691,
+                -1467.3570712599903,
+                -441.36716487817466
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3E0477",
+              "semantic": "wall",
+              "bounds": [
+                -1467.3570712599903,
+                -952.2442097906023,
+                -1267.3570712599903,
+                -952.2442097906023
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3E0827",
+              "semantic": "door",
+              "bounds": [
+                -2167.3519186172634,
+                1015.5828351303935,
+                -1257.3519186172634,
+                2735.5828351303935
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFAC1",
+              "semantic": "furniture",
+              "bounds": [
+                -1617.3513845093548,
+                -822.0432730000466,
+                -1617.3513845093548,
+                1477.755898879841
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3E0826",
+              "semantic": "wall",
+              "bounds": [
+                -1467.3519186172634,
+                1015.5828351303935,
+                -1267.3519186172634,
+                1015.5828351303935
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3D8A0D",
+              "semantic": "unknown",
+              "bounds": [
+                -1797.0410106144845,
+                872.6541281808168,
+                -1196.5545674227178,
+                1124.3014020100236
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3D8A01",
+              "semantic": "unknown",
+              "bounds": [
+                -10861.837346935645,
+                -715.480661150068,
+                -1632.3727463353425,
+                2155.38174764812
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3D8B85",
+              "semantic": "wall",
+              "bounds": [
+                1647.6422907989472,
+                -5073.110122140497,
+                1647.6422907989472,
+                2677.755898879841
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3D8C7A",
+              "semantic": "unknown",
+              "bounds": [
+                -20332.3585639596,
+                -6872.266405170783,
+                2367.642290798947,
+                13677.692667849362
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFACA",
+              "semantic": "wall",
+              "bounds": [
+                -1667.3513845093548,
+                -822.0432730000466,
+                -1667.3513845093548,
+                1477.755898879841
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3E04EB",
+              "semantic": "door",
+              "bounds": [
+                -2114.639759511687,
+                -2472.2442097906023,
+                -1367.3570712003857,
+                -972.2442097906023
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3D8B87",
+              "semantic": "wall",
+              "bounds": [
+                1747.6422907989472,
+                -5073.110122330487,
+                1747.6422907989472,
+                1477.755898879841
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFA80",
+              "semantic": "wall",
+              "bounds": [
+                -967.3513840083033,
+                1477.755898879841,
+                -967.3513840083033,
+                1697.755898879841
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFAB3",
+              "semantic": "wall",
+              "bounds": [
+                -2687.3565369695425,
+                1477.755898879841,
+                -967.3513840083033,
+                1477.755898879841
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3D8BFA",
+              "semantic": "furniture",
+              "bounds": [
+                1620.642290298827,
+                -1722.0432730000466,
+                3652.642290282063,
+                -922.0432730000466
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFA86",
+              "semantic": "wall",
+              "bounds": [
+                -1147.3513840083033,
+                1477.755898879841,
+                -1147.3513840083033,
+                1697.7558990605175
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3E089C",
+              "semantic": "furniture",
+              "bounds": [
+                -2217.3570712599903,
+                -1228.3599919304252,
+                -1717.3570712599903,
+                -678.3599919304252
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3D8B9F",
+              "semantic": "wall",
+              "bounds": [
+                1747.6422902978957,
+                -822.0432730000466,
+                4567.647442942485,
+                -822.0432730000466
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFA55",
+              "semantic": "door",
+              "bounds": [
+                -1162.351383972913,
+                1677.755898969248,
+                -952.3513839114457,
+                1737.7558988891542
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFAB1",
+              "semantic": "wall",
+              "bounds": [
+                -2687.3565367870033,
+                1577.755898879841,
+                -1147.3513840083033,
+                1577.755898879841
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3DFAC0",
+              "semantic": "wall",
+              "bounds": [
+                -1147.3513840083033,
+                1697.755898790434,
+                -967.3513839878142,
+                1697.755898969248
+              ],
+              "relation": null
+            },
+            {
+              "source_id": "source:3D8BBB",
+              "semantic": "door",
+              "bounds": [
+                1897.6422907998785,
+                540.2558992449194,
+                2820.1422904394567,
+                1462.755898885429
+              ],
+              "relation": null
+            }
+          ],
+          "previous_failure": null,
+          "candidates": {
+            "q0": {
+              "source_id": "source:3DFB0F",
+              "semantic": "furniture",
+              "layer": "护士站柜台",
+              "prior_room_role": null,
+              "prior_layer_choice": null,
+              "geometry_warnings": [],
+              "paths": [
+                {
+                  "id": "source:3DFB0F:path:0",
+                  "closed": true,
+                  "points": [
+                    [
+                      32.78617381490767,
+                      2437.7558988295496
+                    ],
+                    [
+                      3812.6486159916967,
+                      2437.7558988295496
+                    ],
+                    [
+                      3812.6486159916967,
+                      2377.7558988295496
+                    ],
+                    [
+                      92.78617381490767,
+                      2377.7558988295496
+                    ],
+                    [
+                      92.78617372363806,
+                      -3812.2441011499614
+                    ],
+                    [
+                      32.78617372363806,
+                      -3812.2441011499614
+                    ],
+                    [
+                      32.78617381490767,
+                      2437.7558988295496
+                    ]
+                  ]
+                }
+              ]
+            },
+            "q1": {
+              "source_id": "source:3D89FF",
+              "semantic": "unknown",
+              "layer": "PL-家具",
+              "prior_room_role": null,
+              "prior_layer_choice": null,
+              "geometry_warnings": [],
+              "paths": [
+                {
+                  "id": "source:3D89FF:path:0",
+                  "closed": false,
+                  "points": [
+                    [
+                      -10717.151363085955,
+                      -1413.6249424200505
+                    ],
+                    [
+                      -10859.259706187062,
+                      -1267.3299982100725
+                    ],
+                    [
+                      -10999.3192642238,
+                      -1119.77146066539
+                    ],
+                    [
+                      -11135.281252131797,
+                      -969.6857364531606
+                    ],
+                    [
+                      -11201.08541195374,
+                      -893.3003064300865
+                    ],
+                    [
+                      -11265.096884845756,
+                      -815.8092322386801
+                    ],
+                    [
+                      -11327.059572672471,
+                      -737.0545647144318
+                    ],
+                    [
+                      -11386.717377301306,
+                      -656.8783546891063
+                    ],
+                    [
+                      -11443.814200599678,
+                      -575.1226529963315
+                    ],
+                    [
+                      -11498.093944434077,
+                      -491.629510467872
+                    ],
+                    [
+                      -11549.300510671921,
+                      -406.2409779392183
+                    ],
+                    [
+                      -11597.1778011797,
+                      -318.7991062439978
+                    ],
+                    [
+                      -11641.4697178239,
+                      -229.1459462121129
+                    ],
+                    [
+                      -11681.920162472874,
+                      -137.12354868091643
+                    ],
+                    [
+                      -11711.178959117271,
+                      -62.22917647473514
+                    ],
+                    [
+                      -11737.84815953672,
+                      14.138562900945544
+                    ],
+                    [
+                      -11761.926210123114,
+                      91.8568548373878
+                    ],
+                    [
+                      -11783.411557268351,
+                      170.8028847221285
+                    ],
+                    [
+                      -11802.302647361532,
+                      250.85383794270456
+                    ],
+                    [
+                      -11818.597926794551,
+                      331.8868998866528
+                    ],
+                    [
+                      -11832.295841959305,
+                      413.7792559452355
+                    ],
+                    [
+                      -11843.394839245826,
+                      496.4080915041268
+                    ],
+                    [
+                      -11851.89336504601,
+                      579.6505919545889
+                    ],
+                    [
+                      -11857.78986575082,
+                      663.383942682296
+                    ],
+                    [
+                      -11861.082787750289,
+                      747.4853290747851
+                    ],
+                    [
+                      -11861.770577436313,
+                      831.8319365233183
+                    ],
+                    [
+                      -11859.851681199856,
+                      916.3009504154325
+                    ],
+                    [
+                      -11855.324545432813,
+                      1000.7695561405271
+                    ],
+                    [
+                      -11848.187616525218,
+                      1085.1149390842766
+                    ],
+                    [
+                      -11838.439340868033,
+                      1169.2142846360803
+                    ],
+                    [
+                      -11826.078164853156,
+                      1252.9447781834751
+                    ],
+                    [
+                      -11811.102534870617,
+                      1336.1836051177233
+                    ],
+                    [
+                      -11793.510897312313,
+                      1418.8079508263618
+                    ],
+                    [
+                      -11773.301698569208,
+                      1500.6950006950647
+                    ],
+                    [
+                      -11750.473385033198,
+                      1581.7219401150942
+                    ],
+                    [
+                      -11725.024403093383,
+                      1661.7659544721246
+                    ],
+                    [
+                      -11696.95319914259,
+                      1740.704229157418
+                    ],
+                    [
+                      -11666.258219570853,
+                      1818.4139495585114
+                    ],
+                    [
+                      -11632.937910770066,
+                      1894.7723010629416
+                    ],
+                    [
+                      -11596.990719130263,
+                      1969.6564690582454
+                    ],
+                    [
+                      -11558.415091043338,
+                      2042.9436389356852
+                    ],
+                    [
+                      -11517.209472900257,
+                      2114.510996080935
+                    ],
+                    [
+                      -11473.372311091982,
+                      2184.2357258833945
+                    ],
+                    [
+                      -11426.902052009478,
+                      2251.995013732463
+                    ],
+                    [
+                      -11377.797142044641,
+                      2317.666045013815
+                    ],
+                    [
+                      -11326.056027587503,
+                      2381.126005118713
+                    ],
+                    [
+                      -11282.438451732509,
+                      2430.596424393356
+                    ],
+                    [
+                      -11237.170282253064,
+                      2478.5391483046114
+                    ],
+                    [
+                      -11190.314909099601,
+                      2524.9430124796927
+                    ],
+                    [
+                      -11141.935722218826,
+                      2569.79685254395
+                    ],
+                    [
+                      -11092.09611156024,
+                      2613.0895041264594
+                    ],
+                    [
+                      -11040.859467071481,
+                      2654.8098028507084
+                    ],
+                    [
+                      -10988.289178701118,
+                      2694.9465843420476
+                    ],
+                    [
+                      -10934.44863639772,
+                      2733.4886842314154
+                    ],
+                    [
+                      -10823.210349785164,
+                      2805.744181698188
+                    ],
+                    [
+                      -10707.651726820506,
+                      2871.4869802594185
+                    ],
+                    [
+                      -10588.279887089506,
+                      2930.627764929086
+                    ],
+                    [
+                      -10465.601950181648,
+                      2983.0772207155824
+                    ],
+                    [
+                      -10340.125035681762,
+                      3028.746032629162
+                    ],
+                    [
+                      -10212.3562631784,
+                      3067.544885681942
+                    ],
+                    [
+                      -10082.802752257325,
+                      3099.384464882314
+                    ],
+                    [
+                      -9951.971622505225,
+                      3124.1754552405328
+                    ],
+                    [
+                      -9820.369993510656,
+                      3141.828541768715
+                    ],
+                    [
+                      -9688.504984860308,
+                      3152.254409475252
+                    ],
+                    [
+                      -9556.883716139942,
+                      3155.3637433722615
+                    ],
+                    [
+                      -9426.01330693718,
+                      3151.0672284699976
+                    ],
+                    [
+                      -9328.233289272524,
+                      3142.941460750997
+                    ],
+                    [
+                      -9231.13411215879,
+                      3130.834432478994
+                    ],
+                    [
+                      -9134.683391724713,
+                      3115.0143446754664
+                    ],
+                    [
+                      -9038.848744098097,
+                      3095.749398358166
+                    ],
+                    [
+                      -8943.597785407677,
+                      3073.307794544846
+                    ],
+                    [
+                      -8848.898131782189,
+                      3047.9577342532575
+                    ],
+                    [
+                      -8754.717399350367,
+                      3019.9674185011536
+                    ],
+                    [
+                      -8661.02320424188,
+                      2989.6050483100116
+                    ],
+                    [
+                      -8474.964890504256,
+                      2922.8369486816227
+                    ],
+                    [
+                      -8290.464119600132,
+                      2849.799043510109
+                    ],
+                    [
+                      -8107.261820557527,
+                      2772.6369409468025
+                    ],
+                    [
+                      -7925.098922405392,
+                      2693.496249139309
+                    ],
+                    [
+                      -7743.716354173608,
+                      2614.522576233372
+                    ],
+                    [
+                      -7562.855044890195,
+                      2537.861530378461
+                    ],
+                    [
+                      -7382.255923585035,
+                      2465.6587197221816
+                    ],
+                    [
+                      -7201.659919286147,
+                      2400.0597524121404
+                    ],
+                    [
+                      -7111.2821263363585,
+                      2370.4072125591338
+                    ],
+                    [
+                      -7020.807961023413,
+                      2343.2102365959436
+                    ],
+                    [
+                      -6930.205039477907,
+                      2318.7370255440474
+                    ],
+                    [
+                      -6839.440977825783,
+                      2297.2557804211974
+                    ],
+                    [
+                      -6748.48339219857,
+                      2279.0347022470087
+                    ],
+                    [
+                      -6657.299898722209,
+                      2264.341992037371
+                    ],
+                    [
+                      -6565.858113527298,
+                      2253.4458508118987
+                    ],
+                    [
+                      -6474.125652741641,
+                      2246.6144795883447
+                    ],
+                    [
+                      -6364.0587062146515,
+                      2244.011932838708
+                    ],
+                    [
+                      -6253.555112944916,
+                      2247.1893986538053
+                    ],
+                    [
+                      -6142.639844127931,
+                      2255.7355304807425
+                    ],
+                    [
+                      -6031.337870958261,
+                      2269.2389817591757
+                    ],
+                    [
+                      -5919.674164632335,
+                      2287.2884059343487
+                    ],
+                    [
+                      -5807.673696344718,
+                      2309.472456449643
+                    ],
+                    [
+                      -5695.361437290907,
+                      2335.3797867503017
+                    ],
+                    [
+                      -5582.762358665466,
+                      2364.5990502759814
+                    ],
+                    [
+                      -5469.901431663893,
+                      2396.7189004737884
+                    ],
+                    [
+                      -5356.803627481684,
+                      2431.327990785241
+                    ],
+                    [
+                      -5129.997272355482,
+                      2506.368505526334
+                    ],
+                    [
+                      -4674.640768524259,
+                      2668.2211678940803
+                    ],
+                    [
+                      -4446.490158941597,
+                      2748.451770618558
+                    ],
+                    [
+                      -4218.291003664024,
+                      2823.830857768655
+                    ],
+                    [
+                      -4104.235649377108,
+                      2858.6727166101336
+                    ],
+                    [
+                      -3990.2430722527206,
+                      2891.067656889558
+                    ],
+                    [
+                      -3876.3382434854284,
+                      2920.604332048446
+                    ],
+                    [
+                      -3762.5461342697963,
+                      2946.871395530179
+                    ],
+                    [
+                      -3648.8917158022523,
+                      2969.457500781864
+                    ],
+                    [
+                      -3535.3999592773616,
+                      2987.9513012412935
+                    ],
+                    [
+                      -3422.0958358896896,
+                      3001.941450357437
+                    ],
+                    [
+                      -3309.004316835664,
+                      3011.0166015699506
+                    ],
+                    [
+                      -3196.1503733098507,
+                      3014.7654083240777
+                    ],
+                    [
+                      -3083.5589765077457,
+                      3012.7765240650624
+                    ],
+                    [
+                      -2971.255097624846,
+                      3004.6386022325605
+                    ],
+                    [
+                      -2859.2637078557163,
+                      2989.940296271816
+                    ],
+                    [
+                      -2790.205820864998,
+                      2977.4195683989674
+                    ],
+                    [
+                      -2721.336017834954,
+                      2962.2986920177937
+                    ],
+                    [
+                      -2652.713411802426,
+                      2944.641981685534
+                    ],
+                    [
+                      -2584.3971158061177,
+                      2924.5137519631535
+                    ],
+                    [
+                      -2516.446242884733,
+                      2901.9783174116164
+                    ],
+                    [
+                      -2448.919906076044,
+                      2877.0999925881624
+                    ],
+                    [
+                      -2381.8772184187546,
+                      2849.9430920556188
+                    ],
+                    [
+                      -2315.3772929506376,
+                      2820.571930371225
+                    ],
+                    [
+                      -2249.4792427103966,
+                      2789.0508220959455
+                    ],
+                    [
+                      -2184.242180735804,
+                      2755.4440817907453
+                    ],
+                    [
+                      -2119.725220065564,
+                      2719.8160240128636
+                    ],
+                    [
+                      -2055.98747373838,
+                      2682.230963325128
+                    ],
+                    [
+                      -1993.0880547910929,
+                      2642.7532142847776
+                    ],
+                    [
+                      -1931.0860762633383,
+                      2601.44709145464
+                    ],
+                    [
+                      -1810.0108926184475,
+                      2513.606982657686
+                    ],
+                    [
+                      -1693.2348271077499,
+                      2419.2251534108073
+                    ],
+                    [
+                      -1581.2307840380818,
+                      2318.816120196134
+                    ],
+                    [
+                      -1474.4716677162796,
+                      2212.89439949207
+                    ],
+                    [
+                      -1373.4303824482486,
+                      2101.9745077770203
+                    ],
+                    [
+                      -1278.5798325389624,
+                      1986.5709615275264
+                    ],
+                    [
+                      -1190.3929222961888,
+                      1867.198277225718
+                    ],
+                    [
+                      -1148.9461146444082,
+                      1806.1842947043478
+                    ],
+                    [
+                      -1109.3425560249016,
+                      1744.3709713481367
+                    ],
+                    [
+                      -1071.6413594735786,
+                      1681.822621718049
+                    ],
+                    [
+                      -1035.9016380310059,
+                      1618.6035603750497
+                    ],
+                    [
+                      -979.4652139199898,
+                      1509.224318118766
+                    ],
+                    [
+                      -928.6163559630513,
+                      1398.168195683509
+                    ],
+                    [
+                      -883.0484968796372,
+                      1285.5271967370063
+                    ],
+                    [
+                      -842.4550693882629,
+                      1171.3933249525726
+                    ],
+                    [
+                      -806.5295062065125,
+                      1055.8585839997977
+                    ],
+                    [
+                      -774.9652400547639,
+                      939.0149775519967
+                    ],
+                    [
+                      -747.4557036506012,
+                      820.9545092768967
+                    ],
+                    [
+                      -723.6943297125399,
+                      701.7691828478128
+                    ],
+                    [
+                      -703.3745509600267,
+                      581.5510019343346
+                    ],
+                    [
+                      -686.1898001115769,
+                      460.3919702079147
+                    ],
+                    [
+                      -671.833509885706,
+                      338.38409134186804
+                    ],
+                    [
+                      -659.9991130009294,
+                      215.6193690020591
+                    ],
+                    [
+                      -642.669730130583,
+                      -31.812591401860118
+                    ],
+                    [
+                      -631.7491132505238,
+                      -281.1678816396743
+                    ]
+                  ]
+                }
+              ]
+            },
+            "q2": {
+              "source_id": "source:3D8A0C",
+              "semantic": "unknown",
+              "layer": "PL-家具",
+              "prior_room_role": null,
+              "prior_layer_choice": null,
+              "geometry_warnings": [],
+              "paths": [
+                {
+                  "id": "source:3D8A0C:path:0",
+                  "closed": false,
+                  "points": [
+                    [
+                      -1632.3727463353425,
+                      -281.1678816396743
+                    ],
+                    [
+                      -631.7491132505238,
+                      -281.1678816396743
+                    ]
+                  ]
+                }
+              ]
+            },
+            "q3": {
+              "source_id": "source:3DFB4E",
+              "semantic": "furniture",
+              "layer": "PL-家具",
+              "prior_room_role": null,
+              "prior_layer_choice": null,
+              "geometry_warnings": [],
+              "paths": [
+                {
+                  "id": "source:3DFB4E:path:0",
+                  "closed": true,
+                  "points": [
+                    [
+                      -967.3513845046982,
+                      327.85631294362247
+                    ],
+                    [
+                      -1002.5678793536499,
+                      327.85631294362247
+                    ],
+                    [
+                      -1002.5678793536499,
+                      -382.74368704110384
+                    ],
+                    [
+                      -967.3513845056295,
+                      -382.74368704110384
+                    ],
+                    [
+                      -967.3513845046982,
+                      327.85631294362247
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:1",
+                  "closed": false,
+                  "points": [
+                    [
+                      -1002.5678793536499,
+                      271.26749835535884
+                    ],
+                    [
+                      -1011.2276731682941,
+                      271.26749835535884
+                    ],
+                    [
+                      -1011.2276731682941,
+                      251.8285925798118
+                    ],
+                    [
+                      -1028.547260798514,
+                      195.71330517157912
+                    ],
+                    [
+                      -1037.7843742016703,
+                      195.71330517157912
+                    ],
+                    [
+                      -1037.7843742016703,
+                      -25.28380862995982
+                    ],
+                    [
+                      -1037.7843742016703,
+                      -250.6006792690605
+                    ],
+                    [
+                      -1028.547260798514,
+                      -250.6006792690605
+                    ],
+                    [
+                      -1011.2276731692255,
+                      -306.7159666791558
+                    ],
+                    [
+                      -1011.2276731692255,
+                      -326.1548724528402
+                    ],
+                    [
+                      -1002.5678793536499,
+                      -326.1548724528402
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:2",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      -22.58396060578525
+                    ],
+                    [
+                      -1014.380094666034,
+                      -22.58396060578525
+                    ],
+                    [
+                      -1014.380094666034,
+                      -32.303413493558764
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -32.303413493558764
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -22.58396060578525
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:3",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      -4.224994041025639
+                    ],
+                    [
+                      -1014.380094666034,
+                      -4.224994041025639
+                    ],
+                    [
+                      -1014.380094666034,
+                      -13.944446928799152
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -13.944446928799152
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -4.224994041025639
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:4",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      14.133972523733974
+                    ],
+                    [
+                      -1014.380094666034,
+                      14.133972523733974
+                    ],
+                    [
+                      -1014.380094666034,
+                      4.414519637823105
+                    ],
+                    [
+                      -1031.6996822962537,
+                      4.414519637823105
+                    ],
+                    [
+                      -1031.6996822962537,
+                      14.133972523733974
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:5",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      32.492939088493586
+                    ],
+                    [
+                      -1014.380094666034,
+                      32.492939088493586
+                    ],
+                    [
+                      -1014.380094666034,
+                      22.773486202582717
+                    ],
+                    [
+                      -1031.6996822962537,
+                      22.773486202582717
+                    ],
+                    [
+                      -1031.6996822962537,
+                      32.492939088493586
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:6",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      50.85190565511584
+                    ],
+                    [
+                      -1014.380094666034,
+                      50.85190565511584
+                    ],
+                    [
+                      -1014.380094666034,
+                      41.13245276734233
+                    ],
+                    [
+                      -1031.6996822962537,
+                      41.13245276734233
+                    ],
+                    [
+                      -1031.6996822962537,
+                      50.85190565511584
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:7",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      124.28777191415429
+                    ],
+                    [
+                      -1014.380094666034,
+                      124.28777191415429
+                    ],
+                    [
+                      -1014.380094666034,
+                      114.56831902638078
+                    ],
+                    [
+                      -1031.6996822962537,
+                      114.56831902638078
+                    ],
+                    [
+                      -1031.6996822962537,
+                      124.28777191415429
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:8",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      105.92880534939468
+                    ],
+                    [
+                      -1014.380094666034,
+                      105.92880534939468
+                    ],
+                    [
+                      -1014.380094666034,
+                      96.20935246162117
+                    ],
+                    [
+                      -1031.6996822962537,
+                      96.20935246162117
+                    ],
+                    [
+                      -1031.6996822962537,
+                      105.92880534939468
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:9",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      87.56983878463507
+                    ],
+                    [
+                      -1014.380094666034,
+                      87.56983878463507
+                    ],
+                    [
+                      -1014.380094666034,
+                      77.85038589686155
+                    ],
+                    [
+                      -1031.6996822962537,
+                      77.85038589686155
+                    ],
+                    [
+                      -1031.6996822962537,
+                      87.56983878463507
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:10",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      69.21087221987545
+                    ],
+                    [
+                      -1014.380094666034,
+                      69.21087221987545
+                    ],
+                    [
+                      -1014.380094666034,
+                      59.49141933210194
+                    ],
+                    [
+                      -1031.6996822962537,
+                      59.49141933210194
+                    ],
+                    [
+                      -1031.6996822962537,
+                      69.21087221987545
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:11",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      -40.94292717054486
+                    ],
+                    [
+                      -1014.380094666034,
+                      -40.94292717054486
+                    ],
+                    [
+                      -1014.380094666034,
+                      -50.66238005831838
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -50.66238005831838
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -40.94292717054486
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:12",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      -59.301893735304475
+                    ],
+                    [
+                      -1014.380094666034,
+                      -59.301893735304475
+                    ],
+                    [
+                      -1014.380094666034,
+                      -69.02134662307799
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -69.02134662307799
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -59.301893735304475
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:13",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      -77.66086030006409
+                    ],
+                    [
+                      -1014.380094666034,
+                      -77.66086030006409
+                    ],
+                    [
+                      -1014.380094666034,
+                      -87.3803131878376
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -87.3803131878376
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -77.66086030006409
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:14",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      -96.0198268648237
+                    ],
+                    [
+                      -1014.380094666034,
+                      -96.0198268648237
+                    ],
+                    [
+                      -1014.380094666034,
+                      -105.73927975259721
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -105.73927975259721
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -96.0198268648237
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:15",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      -169.4556931257248
+                    ],
+                    [
+                      -1014.380094666034,
+                      -169.4556931257248
+                    ],
+                    [
+                      -1014.380094666034,
+                      -179.1751460134983
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -179.1751460134983
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -169.4556931257248
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:16",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      -151.09672656096518
+                    ],
+                    [
+                      -1014.380094666034,
+                      -151.09672656096518
+                    ],
+                    [
+                      -1014.380094666034,
+                      -160.81617944687605
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -160.81617944687605
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -151.09672656096518
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:17",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      -132.73775999620557
+                    ],
+                    [
+                      -1014.380094666034,
+                      -132.73775999620557
+                    ],
+                    [
+                      -1014.380094666034,
+                      -142.45721288211644
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -142.45721288211644
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -132.73775999620557
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:18",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      -114.37879342958331
+                    ],
+                    [
+                      -1014.380094666034,
+                      -114.37879342958331
+                    ],
+                    [
+                      -1014.380094666034,
+                      -124.09824631735682
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -124.09824631735682
+                    ],
+                    [
+                      -1031.6996822962537,
+                      -114.37879342958331
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4E:path:19",
+                  "closed": false,
+                  "points": [
+                    [
+                      -978.0435635261238,
+                      327.85631294362247
+                    ],
+                    [
+                      -978.0435635270551,
+                      -382.74368704110384
+                    ]
+                  ]
+                }
+              ]
+            },
+            "q4": {
+              "source_id": "source:3DFAC9",
+              "semantic": "furniture",
+              "layer": "护士站柜台",
+              "prior_room_role": null,
+              "prior_layer_choice": null,
+              "geometry_warnings": [],
+              "paths": [
+                {
+                  "id": "source:3DFAC9:path:0",
+                  "closed": false,
+                  "points": [
+                    [
+                      -967.3513845074922,
+                      -822.0432730000466
+                    ],
+                    [
+                      -967.3513845056295,
+                      195.4648613408208
+                    ],
+                    [
+                      -967.3513845056295,
+                      195.4648613408208
+                    ],
+                    [
+                      -967.3513845056295,
+                      1477.755898879841
+                    ]
+                  ]
+                }
+              ]
+            },
+            "q5": {
+              "source_id": "source:3D8A00",
+              "semantic": "unknown",
+              "layer": "PL-家具",
+              "prior_room_role": null,
+              "prior_layer_choice": null,
+              "geometry_warnings": [],
+              "paths": [
+                {
+                  "id": "source:3D8A00:path:0",
+                  "closed": false,
+                  "points": [
+                    [
+                      -10466.566379675642,
+                      -1169.2744439691305
+                    ],
+                    [
+                      -10504.124944057316,
+                      -1130.7468978315592
+                    ],
+                    [
+                      -10541.449173529632,
+                      -1092.3981265313923
+                    ],
+                    [
+                      -10578.501766083762,
+                      -1054.2061546891928
+                    ],
+                    [
+                      -10615.245419709943,
+                      -1016.1490069236606
+                    ],
+                    [
+                      -10651.642996003851,
+                      -978.205179091543
+                    ],
+                    [
+                      -10687.658276540227,
+                      -940.3549398034811
+                    ],
+                    [
+                      -10723.255339277908,
+                      -902.5789728201926
+                    ],
+                    [
+                      -10758.398262175731,
+                      -864.8579618949443
+                    ],
+                    [
+                      -10793.051346520893,
+                      -827.1730486024171
+                    ],
+                    [
+                      -10827.18030656781,
+                      -789.5068916007876
+                    ],
+                    [
+                      -10860.751339728944,
+                      -751.8424502685666
+                    ],
+                    [
+                      -10893.730643417686,
+                      -714.1626839898527
+                    ],
+                    [
+                      -10926.08478621114,
+                      -676.4509508870542
+                    ],
+                    [
+                      -10957.782523656264,
+                      -638.6915162429214
+                    ],
+                    [
+                      -10988.793333623558,
+                      -600.8687001820654
+                    ],
+                    [
+                      -11019.0866939798,
+                      -562.9668228309602
+                    ],
+                    [
+                      -11048.632684073411,
+                      -524.970445016399
+                    ],
+                    [
+                      -11077.404448262416,
+                      -486.86383195221424
+                    ],
+                    [
+                      -11105.376061934978,
+                      -448.63086033053696
+                    ],
+                    [
+                      -11132.521600475535,
+                      -410.25540684722364
+                    ],
+                    [
+                      -11153.475947977975,
+                      -379.66447078995407
+                    ],
+                    [
+                      -11173.882690537721,
+                      -348.96416060067713
+                    ],
+                    [
+                      -11193.731278649531,
+                      -318.1449744589627
+                    ],
+                    [
+                      -11213.01116280444,
+                      -287.19741054438055
+                    ],
+                    [
+                      -11231.712187138386,
+                      -256.11171059310436
+                    ],
+                    [
+                      -11249.825545961969,
+                      -224.87642060033977
+                    ],
+                    [
+                      -11267.342715038918,
+                      -193.47949513420463
+                    ],
+                    [
+                      -11284.255170132965,
+                      -161.90888877026737
+                    ],
+                    [
+                      -11300.554746428505,
+                      -130.15207441709936
+                    ],
+                    [
+                      -11316.234120534733,
+                      -98.19404469244182
+                    ],
+                    [
+                      -11331.286030352116,
+                      -66.0190337318927
+                    ],
+                    [
+                      -11345.703213778324,
+                      -33.61127567104995
+                    ],
+                    [
+                      -11348.042166608386,
+                      -28.190170355141163
+                    ],
+                    [
+                      -11350.363284125924,
+                      -22.76204901561141
+                    ],
+                    [
+                      -11352.666533468291,
+                      -17.326827075332403
+                    ],
+                    [
+                      -11354.951881775633,
+                      -11.88441995717585
+                    ],
+                    [
+                      -11356.75563210342,
+                      -7.553248716518283
+                    ],
+                    [
+                      -11358.54828115087,
+                      -3.2168416902422905
+                    ],
+                    [
+                      -11360.330405315384,
+                      1.1262350250035524
+                    ],
+                    [
+                      -11362.102580995299,
+                      5.477415336295962
+                    ],
+                    [
+                      -11363.86506738048,
+                      9.837336016818881
+                    ],
+                    [
+                      -11365.617730062455,
+                      14.205651430413127
+                    ],
+                    [
+                      -11367.360555039719,
+                      18.582321867346764
+                    ],
+                    [
+                      -11369.0935283117,
+                      22.967307614162564
+                    ],
+                    [
+                      -11372.529863715172,
+                      31.762066144496202
+                    ],
+                    [
+                      -11375.926626185887,
+                      40.589605225250125
+                    ],
+                    [
+                      -11379.28370662406,
+                      49.44960107654333
+                    ],
+                    [
+                      -11382.600995931774,
+                      58.34172991849482
+                    ],
+                    [
+                      -11389.115764192306,
+                      76.22109018079937
+                    ],
+                    [
+                      -11395.4700918952,
+                      94.22503636963665
+                    ],
+                    [
+                      -11401.663157683797,
+                      112.3508910536766
+                    ],
+                    [
+                      -11407.694140203297,
+                      130.5959767997265
+                    ],
+                    [
+                      -11420.948225334287,
+                      173.0057291109115
+                    ],
+                    [
+                      -11433.331153598614,
+                      215.99843581207097
+                    ],
+                    [
+                      -11444.834482124075,
+                      259.5396864693612
+                    ],
+                    [
+                      -11455.449768038467,
+                      303.59507065452635
+                    ],
+                    [
+                      -11465.168947252445,
+                      348.12978027015924
+                    ],
+                    [
+                      -11473.985492825508,
+                      393.1079251449555
+                    ],
+                    [
+                      -11481.893267603591,
+                      438.4934717286378
+                    ],
+                    [
+                      -11488.886134435423,
+                      484.2503864746541
+                    ],
+                    [
+                      -11494.958347235806,
+                      530.3424110841006
+                    ],
+                    [
+                      -11500.105667392723,
+                      576.7327356003225
+                    ],
+                    [
+                      -11504.324218966998,
+                      623.3844989929348
+                    ],
+                    [
+                      -11507.610126016662,
+                      670.2608402315527
+                    ],
+                    [
+                      -11509.959885743447,
+                      717.3247902058065
+                    ],
+                    [
+                      -11511.371423198842,
+                      764.5391946546733
+                    ],
+                    [
+                      -11511.843004214577,
+                      811.8669148106128
+                    ],
+                    [
+                      -11511.372894624248,
+                      859.2708119060844
+                    ],
+                    [
+                      -11509.959711135365,
+                      906.7137188650668
+                    ],
+                    [
+                      -11507.603428714909,
+                      954.1585630476475
+                    ],
+                    [
+                      -11504.304350585677,
+                      1001.568347344175
+                    ],
+                    [
+                      -11500.062779970467,
+                      1048.9060746449977
+                    ],
+                    [
+                      -11494.879355572164,
+                      1096.1347819529474
+                    ],
+                    [
+                      -11488.756029544398,
+                      1143.2178656999022
+                    ],
+                    [
+                      -11481.695075281896,
+                      1190.118867918849
+                    ],
+                    [
+                      -11473.698766181245,
+                      1236.8013306446373
+                    ],
+                    [
+                      -11464.769704227336,
+                      1283.2288928758353
+                    ],
+                    [
+                      -11454.911765051074,
+                      1329.3658677954227
+                    ],
+                    [
+                      -11444.129132519476,
+                      1375.1768087111413
+                    ],
+                    [
+                      -11432.425990500487,
+                      1420.6262689251453
+                    ],
+                    [
+                      -11419.806846936233,
+                      1465.6789782717824
+                    ],
+                    [
+                      -11406.27739411965,
+                      1510.300758877769
+                    ],
+                    [
+                      -11391.84359244164,
+                      1554.4578024931252
+                    ],
+                    [
+                      -11376.51140229404,
+                      1598.1163008641452
+                    ],
+                    [
+                      -11360.287090987898,
+                      1641.2427330873907
+                    ],
+                    [
+                      -11343.177875594236,
+                      1683.805222146213
+                    ],
+                    [
+                      -11325.191141143441,
+                      1725.77242561616
+                    ],
+                    [
+                      -11306.334272667766,
+                      1767.113001074642
+                    ],
+                    [
+                      -11286.61490520835,
+                      1807.7960449475795
+                    ],
+                    [
+                      -11266.041104947217,
+                      1847.792957501486
+                    ],
+                    [
+                      -11244.620903626084,
+                      1887.075852079317
+                    ],
+                    [
+                      -11222.362332986668,
+                      1925.616842025891
+                    ],
+                    [
+                      -11199.273536691442,
+                      1963.3886662367731
+                    ],
+                    [
+                      -11175.362131690606,
+                      2000.3670017644763
+                    ],
+                    [
+                      -11150.635359660722,
+                      2036.528369186446
+                    ],
+                    [
+                      -11125.100462279283,
+                      2071.849289076403
+                    ],
+                    [
+                      -11116.802939121611,
+                      2082.9136761128902
+                    ],
+                    [
+                      -11108.424373192713,
+                      2093.8899985123426
+                    ],
+                    [
+                      -11099.964945582673,
+                      2104.777602626011
+                    ],
+                    [
+                      -11091.424837380648,
+                      2115.575834805146
+                    ],
+                    [
+                      -11085.869575781748,
+                      2122.498148491606
+                    ],
+                    [
+                      -11080.280811833218,
+                      2129.382792659104
+                    ],
+                    [
+                      -11074.658585745841,
+                      2136.229602685198
+                    ],
+                    [
+                      -11069.00293772854,
+                      2143.0384139455855
+                    ],
+                    [
+                      -11063.818007786758,
+                      2149.2122297249734
+                    ],
+                    [
+                      -11058.604239982553,
+                      2155.3555266968906
+                    ],
+                    [
+                      -11053.359330029227,
+                      2161.4710313957185
+                    ],
+                    [
+                      -11048.080973641016,
+                      2167.5614703502506
+                    ],
+                    [
+                      -11042.768223278224,
+                      2173.628033708781
+                    ],
+                    [
+                      -11037.421751891263,
+                      2179.67006325908
+                    ],
+                    [
+                      -11032.04168592859,
+                      2185.6875129882246
+                    ],
+                    [
+                      -11026.628151838668,
+                      2191.6803368888795
+                    ],
+                    [
+                      -11015.701184734702,
+                      2203.5919222515076
+                    ],
+                    [
+                      -11004.641896257177,
+                      2215.4044099599123
+                    ],
+                    [
+                      -10993.451349633746,
+                      2227.117371339351
+                    ],
+                    [
+                      -10982.13060809113,
+                      2238.730377720669
+                    ],
+                    [
+                      -10959.102788555436,
+                      2261.654782721773
+                    ],
+                    [
+                      -10935.567526573315,
+                      2284.173667855561
+                    ],
+                    [
+                      -10911.534209521487,
+                      2306.2828542664647
+                    ],
+                    [
+                      -10887.012224778533,
+                      2327.978163089603
+                    ],
+                    [
+                      -10862.01116288174,
+                      2349.255257014185
+                    ],
+                    [
+                      -10836.541406766511,
+                      2370.1093974281102
+                    ],
+                    [
+                      -10810.61353240814,
+                      2390.53580352664
+                    ],
+                    [
+                      -10784.238115780987,
+                      2410.529694499448
+                    ],
+                    [
+                      -10757.425933462568,
+                      2430.0862086974084
+                    ],
+                    [
+                      -10730.188497375697,
+                      2449.200341939926
+                    ],
+                    [
+                      -10702.537486513145,
+                      2467.8670996334404
+                    ],
+                    [
+                      -10674.484579869546,
+                      2486.0814871843904
+                    ],
+                    [
+                      -10646.04163753707,
+                      2503.8384902775288
+                    ],
+                    [
+                      -10617.22115673218,
+                      2521.1331460662186
+                    ],
+                    [
+                      -10588.035772137344,
+                      2537.9605371747166
+                    ],
+                    [
+                      -10558.49811843317,
+                      2554.3157462198287
+                    ],
+                    [
+                      -10516.209601690993,
+                      2576.5988858751953
+                    ],
+                    [
+                      -10473.281583406031,
+                      2597.9173570703715
+                    ],
+                    [
+                      -10429.75225393381,
+                      2618.2583285458386
+                    ],
+                    [
+                      -10385.659803632647,
+                      2637.608969045803
+                    ],
+                    [
+                      -10341.042908007279,
+                      2655.956680478528
+                    ],
+                    [
+                      -10295.941730041057,
+                      2673.290080310777
+                    ],
+                    [
+                      -10250.396691306494,
+                      2689.598160609603
+                    ],
+                    [
+                      -10204.448213377967,
+                      2704.8699134457856
+                    ],
+                    [
+                      -10158.137056060135,
+                      2719.0946609787643
+                    ],
+                    [
+                      -10111.504940411076,
+                      2732.263218091801
+                    ],
+                    [
+                      -10064.59372988902,
+                      2744.366815943271
+                    ],
+                    [
+                      -10017.445287949406,
+                      2755.3966856841
+                    ],
+                    [
+                      -9970.101693290286,
+                      2765.3444453775883
+                    ],
+                    [
+                      -9922.605513038114,
+                      2774.203391633928
+                    ],
+                    [
+                      -9874.999343296513,
+                      2781.9672734364867
+                    ],
+                    [
+                      -9827.325780166313,
+                      2788.629839764908
+                    ],
+                    [
+                      -9779.627525027841,
+                      2794.1852693893015
+                    ],
+                    [
+                      -9731.947276179679,
+                      2798.629571115598
+                    ],
+                    [
+                      -9684.327625105157,
+                      2801.9592389836907
+                    ],
+                    [
+                      -9636.81116328761,
+                      2804.1707670334727
+                    ],
+                    [
+                      -9589.440469342284,
+                      2805.2611203193665
+                    ],
+                    [
+                      -9542.257510677911,
+                      2805.229203397408
+                    ],
+                    [
+                      -9495.303961966187,
+                      2804.074419563636
+                    ],
+                    [
+                      -9448.621497876942,
+                      2801.796172108501
+                    ],
+                    [
+                      -9438.095450147986,
+                      2801.1245221085846
+                    ],
+                    [
+                      -9427.567972579971,
+                      2800.3946336768568
+                    ],
+                    [
+                      -9417.038119615056,
+                      2799.6067768633366
+                    ],
+                    [
+                      -9406.504945697263,
+                      2798.7612217161804
+                    ],
+                    [
+                      -9395.968080398627,
+                      2797.8582728672773
+                    ],
+                    [
+                      -9385.427633932792,
+                      2796.8982610870153
+                    ],
+                    [
+                      -9374.883381702006,
+                      2795.8814956322312
+                    ],
+                    [
+                      -9364.335099109448,
+                      2794.808285759762
+                    ],
+                    [
+                      -9343.22554698307,
+                      2792.4937646836042
+                    ],
+                    [
+                      -9322.097407417372,
+                      2789.957165684551
+                    ],
+                    [
+                      -9300.949219797738,
+                      2787.200961135328
+                    ],
+                    [
+                      -9279.779523512349,
+                      2784.2276234086603
+                    ],
+                    [
+                      -9243.530679768883,
+                      2778.647990424186
+                    ],
+                    [
+                      -9207.209416445345,
+                      2772.4534682948142
+                    ],
+                    [
+                      -9170.811062607914,
+                      2765.656955435872
+                    ],
+                    [
+                      -9134.330947320908,
+                      2758.271350270137
+                    ],
+                    [
+                      -9097.764945628121,
+                      2750.3097036778927
+                    ],
+                    [
+                      -9061.110550078563,
+                      2741.7859402894974
+                    ],
+                    [
+                      -9024.365515990183,
+                      2732.714269148186
+                    ],
+                    [
+                      -8987.527598682791,
+                      2723.10889929533
+                    ],
+                    [
+                      -8950.59491520375,
+                      2712.984293697402
+                    ],
+                    [
+                      -8913.566517970525,
+                      2702.355971675366
+                    ],
+                    [
+                      -8876.44156535808,
+                      2691.2397268060595
+                    ],
+                    [
+                      -8839.219215739518,
+                      2679.6513526644558
+                    ],
+                    [
+                      -8801.898817713372,
+                      2667.606919405982
+                    ],
+                    [
+                      -8764.480087722652,
+                      2655.1235181111842
+                    ],
+                    [
+                      -8726.962735911831,
+                      2642.2184737417847
+                    ],
+                    [
+                      -8689.346472426318,
+                      2628.909111259505
+                    ],
+                    [
+                      -8651.631063688546,
+                      2615.213008550927
+                    ],
+                    [
+                      -8613.816230127588,
+                      2601.1486234031618
+                    ],
+                    [
+                      -8575.901612901129,
+                      2586.7346006296575
+                    ],
+                    [
+                      -8537.886853164062,
+                      2571.989585040137
+                    ],
+                    [
+                      -8499.771555026993,
+                      2556.9324319697917
+                    ],
+                    [
+                      -8461.555001376197,
+                      2541.5827118549496
+                    ],
+                    [
+                      -8423.236351529136,
+                      2525.960142157972
+                    ],
+                    [
+                      -8384.814764803275,
+                      2510.0844403449446
+                    ],
+                    [
+                      -8346.289303460158,
+                      2493.9754912685603
+                    ],
+                    [
+                      -8307.658537599258,
+                      2477.65375504829
+                    ],
+                    [
+                      -8268.92088829726,
+                      2461.1398120503873
+                    ],
+                    [
+                      -8230.074776629917,
+                      2444.4542426411062
+                    ],
+                    [
+                      -8191.11849015113,
+                      2427.61776057072
+                    ],
+                    [
+                      -8152.049724734388,
+                      2410.651565246284
+                    ],
+                    [
+                      -8112.866013934836,
+                      2393.576965516433
+                    ],
+                    [
+                      -8073.564891304821,
+                      2376.4152702260762
+                    ],
+                    [
+                      -8034.143735781312,
+                      2359.1879015266895
+                    ],
+                    [
+                      -7994.599284559488,
+                      2341.9167403019965
+                    ],
+                    [
+                      -7954.928108579479,
+                      2324.623783500865
+                    ],
+                    [
+                      -7915.126778785139,
+                      2307.3310280758888
+                    ],
+                    [
+                      -7875.191700783558,
+                      2290.0605804920197
+                    ],
+                    [
+                      -7835.118630675599,
+                      2272.8350487574935
+                    ],
+                    [
+                      -7794.903165141121,
+                      2255.6771821305156
+                    ],
+                    [
+                      -7754.54090085905,
+                      2238.609729869291
+                    ],
+                    [
+                      -7714.027267679572,
+                      2221.6555649340153
+                    ],
+                    [
+                      -7673.357090354897,
+                      2204.838178722188
+                    ],
+                    [
+                      -7632.525057917461,
+                      2188.1812481489033
+                    ],
+                    [
+                      -7591.525859398767,
+                      2171.7084501348436
+                    ],
+                    [
+                      -7550.354027950205,
+                      2155.443618915975
+                    ],
+                    [
+                      -7509.003617443144,
+                      2139.411397365853
+                    ],
+                    [
+                      -7467.468597980216,
+                      2123.636675350368
+                    ],
+                    [
+                      -7425.742939666845,
+                      2108.144342733547
+                    ],
+                    [
+                      -7383.820488596335,
+                      2092.959500256926
+                    ],
+                    [
+                      -7341.694868414663,
+                      2078.1083056051284
+                    ],
+                    [
+                      -7299.359715553001,
+                      2063.617234054953
+                    ],
+                    [
+                      -7256.808666445315,
+                      2049.5127608906478
+                    ],
+                    [
+                      -7214.035300817341,
+                      2035.8216425795108
+                    ],
+                    [
+                      -7171.033428377472,
+                      2022.571952233091
+                    ],
+                    [
+                      -7127.797030524351,
+                      2009.7921400927007
+                    ],
+                    [
+                      -7084.320088656619,
+                      1997.5106564033777
+                    ],
+                    [
+                      -7040.596649926156,
+                      1985.756307495758
+                    ],
+                    [
+                      -6996.621696446091,
+                      1974.5593862496316
+                    ],
+                    [
+                      -6952.390612056479,
+                      1963.950572732836
+                    ],
+                    [
+                      -6907.898780600168,
+                      1953.960547015071
+                    ],
+                    [
+                      -6863.141848038882,
+                      1944.6203956957906
+                    ],
+                    [
+                      -6818.117349420674,
+                      1935.9626017156988
+                    ],
+                    [
+                      -6772.8235022109,
+                      1928.0199396498501
+                    ],
+                    [
+                      -6727.258523874916,
+                      1920.8251840751618
+                    ],
+                    [
+                      -6681.421165316366,
+                      1914.4114899430424
+                    ],
+                    [
+                      -6635.313122360036,
+                      1908.8128458019346
+                    ],
+                    [
+                      -6588.9370298543945,
+                      1904.0632766336203
+                    ],
+                    [
+                      -6542.295522651635,
+                      1900.196807416156
+                    ],
+                    [
+                      -6529.60138109792,
+                      1899.3049195166677
+                    ],
+                    [
+                      -6516.887993618846,
+                      1898.481159163639
+                    ],
+                    [
+                      -6504.155977437273,
+                      1897.7262295205146
+                    ],
+                    [
+                      -6491.40594977513,
+                      1897.0408337451518
+                    ],
+                    [
+                      -6478.651250185445,
+                      1896.426080821082
+                    ],
+                    [
+                      -6465.904935593717,
+                      1895.8822062201798
+                    ],
+                    [
+                      -6453.167199282907,
+                      1895.4086028393358
+                    ],
+                    [
+                      -6440.438234533183,
+                      1895.0046635773033
+                    ],
+                    [
+                      -6415.007390738465,
+                      1894.4033438172191
+                    ],
+                    [
+                      -6389.613726556301,
+                      1894.0733617451042
+                    ],
+                    [
+                      -6364.258455536328,
+                      1894.0098257400095
+                    ],
+                    [
+                      -6338.942791230977,
+                      1894.207844177261
+                    ],
+                    [
+                      -6295.669499125332,
+                      1895.1407799944282
+                    ],
+                    [
+                      -6252.520065945573,
+                      1896.8024219404906
+                    ],
+                    [
+                      -6209.497921508737,
+                      1899.1684382073581
+                    ],
+                    [
+                      -6166.606495629996,
+                      1902.2144969906658
+                    ],
+                    [
+                      -6123.84866061341,
+                      1905.916359661147
+                    ],
+                    [
+                      -6081.2255784813315,
+                      1910.2504660543054
+                    ],
+                    [
+                      -6038.738113627769,
+                      1915.1935020498931
+                    ],
+                    [
+                      -5996.387130449526,
+                      1920.7221535295248
+                    ],
+                    [
+                      -5954.173104310408,
+                      1926.813314139843
+                    ],
+                    [
+                      -5912.095431858674,
+                      1933.444793144241
+                    ],
+                    [
+                      -5870.153359417804,
+                      1940.5946498531848
+                    ],
+                    [
+                      -5828.346133310348,
+                      1948.240943575278
+                    ],
+                    [
+                      -5786.672770679928,
+                      1956.361978681758
+                    ],
+                    [
+                      -5745.131742087193,
+                      1964.9369902387261
+                    ],
+                    [
+                      -5703.721473973244,
+                      1973.9454335998744
+                    ],
+                    [
+                      -5662.440392783843,
+                      1983.3667641151696
+                    ],
+                    [
+                      -5621.286821985617,
+                      1993.180671170354
+                    ],
+                    [
+                      -5580.258928486146,
+                      2003.3676701113582
+                    ],
+                    [
+                      -5539.354903887026,
+                      2013.9084552153945
+                    ],
+                    [
+                      -5498.572939788923,
+                      2024.783720759675
+                    ],
+                    [
+                      -5457.911212985404,
+                      2035.9743611048907
+                    ],
+                    [
+                      -5417.368001461029,
+                      2047.46194800362
+                    ],
+                    [
+                      -5376.94164860528,
+                      2059.228191828355
+                    ],
+                    [
+                      -5336.630497807637,
+                      2071.254802951589
+                    ],
+                    [
+                      -5280.774552068673,
+                      2088.3738595899194
+                    ],
+                    [
+                      -5225.134537002072,
+                      2105.913876073435
+                    ],
+                    [
+                      -5169.707293629646,
+                      2123.828185243532
+                    ],
+                    [
+                      -5114.489662975073,
+                      2142.0701199453324
+                    ],
+                    [
+                      -5059.478776022792,
+                      2160.5934569127858
+                    ],
+                    [
+                      -5004.673116185702,
+                      2179.3533551562577
+                    ],
+                    [
+                      -4950.071553126909,
+                      2198.305220924318
+                    ],
+                    [
+                      -4895.672956508584,
+                      2217.404460469261
+                    ],
+                    [
+                      -4841.476557052694,
+                      2236.606783019379
+                    ],
+                    [
+                      -4787.483082426712,
+                      2255.8689095322043
+                    ],
+                    [
+                      -4733.693647715263,
+                      2275.147763863206
+                    ],
+                    [
+                      -4680.1093680001795,
+                      2294.400269864127
+                    ],
+                    [
+                      -4626.731741585769,
+                      2313.5835747551173
+                    ],
+                    [
+                      -4573.563784009777,
+                      2332.6557031143457
+                    ],
+                    [
+                      -4520.608886200935,
+                      2351.574894832447
+                    ],
+                    [
+                      -4467.870439091697,
+                      2370.299389800057
+                    ],
+                    [
+                      -4415.352218511514,
+                      2388.7876295577735
+                    ],
+                    [
+                      -4363.059459961951,
+                      2406.9990244638175
+                    ],
+                    [
+                      -4310.997743885033,
+                      2424.893267635256
+                    ],
+                    [
+                      -4259.172650719993,
+                      2442.4300521891564
+                    ],
+                    [
+                      -4207.590134293772,
+                      2459.5693071316928
+                    ],
+                    [
+                      -4156.257438342087,
+                      2476.2722438368946
+                    ],
+                    [
+                      -4105.182078162208,
+                      2492.5004789773375
+                    ],
+                    [
+                      -4054.371569056064,
+                      2508.215629229322
+                    ],
+                    [
+                      -4003.8337631486356,
+                      2523.379639673978
+                    ],
+                    [
+                      -3953.577403049916,
+                      2537.9562609679997
+                    ],
+                    [
+                      -3903.611339783296,
+                      2551.9098181482404
+                    ],
+                    [
+                      -3853.9444243721664,
+                      2565.2046362496912
+                    ],
+                    [
+                      -3804.5857484471053,
+                      2577.8055216260254
+                    ],
+                    [
+                      -3755.544459815137,
+                      2589.679744489491
+                    ],
+                    [
+                      -3706.8294937666506,
+                      2600.7953256592155
+                    ],
+                    [
+                      -3658.449785592966,
+                      2611.1202859524637
+                    ],
+                    [
+                      -3618.107599492185,
+                      2619.1533858776093
+                    ],
+                    [
+                      -3578.01234092284,
+                      2626.5907253790647
+                    ],
+                    [
+                      -3538.1681782230735,
+                      2633.415847301483
+                    ],
+                    [
+                      -3498.5792797328904,
+                      2639.6122944951057
+                    ],
+                    [
+                      -3459.249613834545,
+                      2645.1640217844397
+                    ],
+                    [
+                      -3420.181471498683,
+                      2650.0565015841275
+                    ],
+                    [
+                      -3381.3765049483627,
+                      2654.275553131476
+                    ],
+                    [
+                      -3342.8363664029166,
+                      2657.8069956544787
+                    ],
+                    [
+                      -3304.562237144448,
+                      2660.637066943571
+                    ],
+                    [
+                      -3266.5524498308077,
+                      2662.7530869673938
+                    ],
+                    [
+                      -3228.8043837556615,
+                      2664.142498234287
+                    ],
+                    [
+                      -3191.3154182098806,
+                      2664.7927432525903
+                    ],
+                    [
+                      -3160.6819720547646,
+                      2664.764953767881
+                    ],
+                    [
+                      -3130.2172822384164,
+                      2664.22230033949
+                    ],
+                    [
+                      -3099.9169426131994,
+                      2663.1578482985497
+                    ],
+                    [
+                      -3069.7765470333397,
+                      2661.5646629799157
+                    ],
+                    [
+                      -3039.7911984995008,
+                      2659.4357931017876
+                    ],
+                    [
+                      -3009.9540085680783,
+                      2656.7636265978217
+                    ],
+                    [
+                      -2980.257583927363,
+                      2653.5402376223356
+                    ],
+                    [
+                      -2950.6945312637836,
+                      2649.757700331509
+                    ],
+                    [
+                      -2943.1786918519065,
+                      2648.7030411548913
+                    ],
+                    [
+                      -2935.6708270339295,
+                      2647.611346643418
+                    ],
+                    [
+                      -2928.1707845553756,
+                      2646.482465863228
+                    ],
+                    [
+                      -2920.678412160836,
+                      2645.316247880459
+                    ],
+                    [
+                      -2916.975789770484,
+                      2644.725636739284
+                    ],
+                    [
+                      -2913.2740695457906,
+                      2644.125690713525
+                    ],
+                    [
+                      -2909.572124564089,
+                      2643.516224529594
+                    ],
+                    [
+                      -2905.8688279017806,
+                      2642.897052915767
+                    ],
+                    [
+                      -2902.163784080185,
+                      2642.26811331138
+                    ],
+                    [
+                      -2898.4573594685644,
+                      2641.629470527172
+                    ],
+                    [
+                      -2894.7495699115098,
+                      2640.98113033548
+                    ],
+                    [
+                      -2891.0404312554747,
+                      2640.323098508641
+                    ],
+                    [
+                      -2883.618170067668,
+                      2638.977983025834
+                    ],
+                    [
+                      -2876.1907063880935,
+                      2637.5941719729453
+                    ],
+                    [
+                      -2868.758172502741,
+                      2636.171714115888
+                    ],
+                    [
+                      -2861.3207006994635,
+                      2634.7106582205743
+                    ],
+                    [
+                      -2846.4314736155793,
+                      2631.6729468777776
+                    ],
+                    [
+                      -2831.524137545377,
+                      2628.4814579077065
+                    ],
+                    [
+                      -2816.599830259569,
+                      2625.136626938358
+                    ],
+                    [
+                      -2801.659689527005,
+                      2621.6388895902783
+                    ],
+                    [
+                      -2771.736492389813,
+                      2614.1864301264286
+                    ],
+                    [
+                      -2741.76435144525,
+                      2606.128099925816
+                    ],
+                    [
+                      -2711.753373201005,
+                      2597.4681993108243
+                    ],
+                    [
+                      -2681.7136641666293,
+                      2588.2110286001116
+                    ],
+                    [
+                      -2651.655543019995,
+                      2578.361078262329
+                    ],
+                    [
+                      -2621.589912031777,
+                      2567.923600308597
+                    ],
+                    [
+                      -2591.527753097005,
+                      2556.904037369415
+                    ],
+                    [
+                      -2561.4800481107086,
+                      2545.307832079008
+                    ],
+                    [
+                      -2531.457901756279,
+                      2533.140621624887
+                    ],
+                    [
+                      -2501.4727149587125,
+                      2520.4087702184916
+                    ],
+                    [
+                      -2471.5359139740467,
+                      2507.118811028078
+                    ],
+                    [
+                      -2441.6589250620455,
+                      2493.277277223766
+                    ],
+                    [
+                      -2411.8532307716087,
+                      2478.890881916508
+                    ],
+                    [
+                      -2382.130406201817,
+                      2463.966986604035
+                    ],
+                    [
+                      -2352.502016428858,
+                      2448.513097031042
+                    ],
+                    [
+                      -2322.9796265335754,
+                      2432.5367189440876
+                    ],
+                    [
+                      -2281.259114447981,
+                      2408.9654239397496
+                    ],
+                    [
+                      -2239.808742173016,
+                      2384.379444764927
+                    ],
+                    [
+                      -2198.6613543070853,
+                      2358.8031191825867
+                    ],
+                    [
+                      -2157.8497954513878,
+                      2332.2607849501073
+                    ],
+                    [
+                      -2117.406819699332,
+                      2304.7773124054074
+                    ],
+                    [
+                      -2077.3645780086517,
+                      2276.379369545728
+                    ],
+                    [
+                      -2037.7550102695823,
+                      2247.0939906202257
+                    ],
+                    [
+                      -1998.610056374222,
+                      2216.9482098761946
+                    ],
+                    [
+                      -1959.9614815330133,
+                      2185.9694798681885
+                    ],
+                    [
+                      -1921.8402292523533,
+                      2154.1867036782205
+                    ],
+                    [
+                      -1884.277006865479,
+                      2121.629091348499
+                    ],
+                    [
+                      -1847.3025217056274,
+                      2088.3258529212326
+                    ],
+                    [
+                      -1810.947267270647,
+                      2054.3065387047827
+                    ],
+                    [
+                      -1775.2407830487937,
+                      2019.6019331347197
+                    ],
+                    [
+                      -1740.212345359847,
+                      1984.243097435683
+                    ],
+                    [
+                      -1705.8912305235863,
+                      1948.2610928285867
+                    ],
+                    [
+                      -1672.3064753292128,
+                      1911.6872762795538
+                    ],
+                    [
+                      -1639.4860173389316,
+                      1874.5541217327118
+                    ],
+                    [
+                      -1607.4574840283021,
+                      1836.8943658899516
+                    ],
+                    [
+                      -1576.2485028766096,
+                      1798.7407454494387
+                    ],
+                    [
+                      -1545.886427548714,
+                      1760.1262728627771
+                    ],
+                    [
+                      -1516.3972807684913,
+                      1721.0850050598383
+                    ],
+                    [
+                      -1487.806693601422,
+                      1681.651245456189
+                    ],
+                    [
+                      -1460.1402971129864,
+                      1641.859297471121
+                    ],
+                    [
+                      -1433.4233882492408,
+                      1601.743731431663
+                    ],
+                    [
+                      -1407.6795564191416,
+                      1561.340049084276
+                    ],
+                    [
+                      -1382.931871383451,
+                      1520.683950966224
+                    ],
+                    [
+                      -1359.203402900137,
+                      1479.8111376166344
+                    ],
+                    [
+                      -1355.8334532734007,
+                      1473.8415351677686
+                    ],
+                    [
+                      -1352.4856634717435,
+                      1467.8682127241045
+                    ],
+                    [
+                      -1349.1600992251188,
+                      1461.8912826292217
+                    ],
+                    [
+                      -1345.8568262653425,
+                      1455.910857224837
+                    ],
+                    [
+                      -1343.3095231577754,
+                      1451.2688596956432
+                    ],
+                    [
+                      -1340.7751085581258,
+                      1446.6238028742373
+                    ],
+                    [
+                      -1338.2531335996464,
+                      1441.9749133791775
+                    ],
+                    [
+                      -1335.7431494183838,
+                      1437.3214178308845
+                    ],
+                    [
+                      -1333.244994939305,
+                      1432.663078116253
+                    ],
+                    [
+                      -1330.7587831038982,
+                      1428.0001645404845
+                    ],
+                    [
+                      -1328.2844760697335,
+                      1423.3326663523912
+                    ],
+                    [
+                      -1325.8220359934494,
+                      1418.6605727951974
+                    ],
+                    [
+                      -1320.9326053773984,
+                      1409.3025564979762
+                    ],
+                    [
+                      -1316.0901944674551,
+                      1399.9260318018496
+                    ],
+                    [
+                      -1311.2945094108582,
+                      1390.5309160538018
+                    ],
+                    [
+                      -1306.545256352052,
+                      1381.1171266026795
+                    ],
+                    [
+                      -1297.1848720302805,
+                      1362.2331941891462
+                    ],
+                    [
+                      -1288.0067809820175,
+                      1343.2736173961312
+                    ],
+                    [
+                      -1279.0087660178542,
+                      1324.2378037795424
+                    ],
+                    [
+                      -1270.1886099455878,
+                      1305.125160895288
+                    ],
+                    [
+                      -1252.9830966349691,
+                      1266.4598149619997
+                    ],
+                    [
+                      -1236.4709987342358,
+                      1227.4775464516133
+                    ],
+                    [
+                      -1220.6361170848832,
+                      1188.1750309057534
+                    ],
+                    [
+                      -1205.462252529338,
+                      1148.5489438697696
+                    ],
+                    [
+                      -1190.933607804589,
+                      1108.5963263679296
+                    ],
+                    [
+                      -1177.0354672148824,
+                      1068.3158052433282
+                    ],
+                    [
+                      -1163.753253955394,
+                      1027.7064347658306
+                    ],
+                    [
+                      -1151.0723912203684,
+                      986.767269205302
+                    ],
+                    [
+                      -1138.9785313270986,
+                      945.4977876190096
+                    ],
+                    [
+                      -1127.4577841898426,
+                      903.8990511093289
+                    ],
+                    [
+                      -1116.4962593959644,
+                      861.9724870007485
+                    ],
+                    [
+                      -1106.0800665356219,
+                      819.7195226252079
+                    ],
+                    [
+                      -1096.1953877499327,
+                      777.1419838033617
+                    ],
+                    [
+                      -1086.8283703718334,
+                      734.2430399544537
+                    ],
+                    [
+                      -1077.9650717824697,
+                      691.0261338055134
+                    ],
+                    [
+                      -1069.5915493611246,
+                      647.4947080854326
+                    ],
+                    [
+                      -1061.693818920292,
+                      603.6525276843458
+                    ],
+                    [
+                      -1054.2575428709388,
+                      559.5043582562357
+                    ],
+                    [
+                      -1047.2682484900579,
+                      515.0551436748356
+                    ],
+                    [
+                      -1040.7114630537108,
+                      470.30982781015337
+                    ],
+                    [
+                      -1034.5726044559851,
+                      425.2735836561769
+                    ],
+                    [
+                      -1028.83657369297,
+                      379.95223646983504
+                    ],
+                    [
+                      -1023.4881226979196,
+                      334.3517085239291
+                    ],
+                    [
+                      -1018.5120034022257,
+                      288.47792209126055
+                    ],
+                    [
+                      -1013.8928278656676,
+                      242.33694089762866
+                    ],
+                    [
+                      -1009.614638088271,
+                      195.93518165685236
+                    ],
+                    [
+                      -1005.6613309113309,
+                      149.27909611724317
+                    ],
+                    [
+                      -1002.0168031733483,
+                      102.37513603642583
+                    ],
+                    [
+                      -997.4088334077969,
+                      36.40481586381793
+                    ],
+                    [
+                      -993.3265520185232,
+                      -30.018997883424163
+                    ],
+                    [
+                      -989.7232447555289,
+                      -96.87818176858127
+                    ],
+                    [
+                      -986.5521973688155,
+                      -164.15461235307157
+                    ],
+                    [
+                      -985.3060076758265,
+                      -193.30012941360474
+                    ],
+                    [
+                      -984.127563206479,
+                      -222.51845697127283
+                    ],
+                    [
+                      -983.0128827076405,
+                      -251.80817954055965
+                    ],
+                    [
+                      -981.9579849280417,
+                      -281.1678816396743
+                    ]
+                  ]
+                }
+              ]
+            },
+            "q6": {
+              "source_id": "source:3DFB4D",
+              "semantic": "furniture",
+              "layer": "PL-家具",
+              "prior_room_role": null,
+              "prior_layer_choice": null,
+              "geometry_warnings": [],
+              "paths": [
+                {
+                  "id": "source:3DFB4D:path:0",
+                  "closed": true,
+                  "points": [
+                    [
+                      -967.3513845046982,
+                      327.8563129361719
+                    ],
+                    [
+                      -1002.5678793536499,
+                      327.8563129361719
+                    ],
+                    [
+                      -1002.5678793536499,
+                      1038.4563129208982
+                    ],
+                    [
+                      -967.3513845056295,
+                      1038.4563129208982
+                    ],
+                    [
+                      -967.3513845046982,
+                      327.8563129361719
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:1",
+                  "closed": false,
+                  "points": [
+                    [
+                      -1002.5678793536499,
+                      384.4451275244355
+                    ],
+                    [
+                      -1011.2276731682941,
+                      384.4451275244355
+                    ],
+                    [
+                      -1011.2276731682941,
+                      403.88403329998255
+                    ],
+                    [
+                      -1028.547260798514,
+                      459.99932070821524
+                    ],
+                    [
+                      -1037.7843742016703,
+                      459.99932070821524
+                    ],
+                    [
+                      -1037.7843742016703,
+                      680.9964345097542
+                    ],
+                    [
+                      -1037.7843742016703,
+                      906.3133051488549
+                    ],
+                    [
+                      -1028.547260798514,
+                      906.3133051488549
+                    ],
+                    [
+                      -1011.2276731692255,
+                      962.4285925589502
+                    ],
+                    [
+                      -1011.2276731692255,
+                      981.8674983326346
+                    ],
+                    [
+                      -1002.5678793536499,
+                      981.8674983326346
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:2",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      678.2965864855796
+                    ],
+                    [
+                      -1014.380094666034,
+                      678.2965864855796
+                    ],
+                    [
+                      -1014.380094666034,
+                      688.0160393733531
+                    ],
+                    [
+                      -1031.6996822962537,
+                      688.0160393733531
+                    ],
+                    [
+                      -1031.6996822962537,
+                      678.2965864855796
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:3",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      659.93761992082
+                    ],
+                    [
+                      -1014.380094666034,
+                      659.93761992082
+                    ],
+                    [
+                      -1014.380094666034,
+                      669.6570728085935
+                    ],
+                    [
+                      -1031.6996822962537,
+                      669.6570728085935
+                    ],
+                    [
+                      -1031.6996822962537,
+                      659.93761992082
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:4",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      641.5786533560604
+                    ],
+                    [
+                      -1014.380094666034,
+                      641.5786533560604
+                    ],
+                    [
+                      -1014.380094666034,
+                      651.2981062419713
+                    ],
+                    [
+                      -1031.6996822962537,
+                      651.2981062419713
+                    ],
+                    [
+                      -1031.6996822962537,
+                      641.5786533560604
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:5",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      623.2196867913008
+                    ],
+                    [
+                      -1014.380094666034,
+                      623.2196867913008
+                    ],
+                    [
+                      -1014.380094666034,
+                      632.9391396772116
+                    ],
+                    [
+                      -1031.6996822962537,
+                      632.9391396772116
+                    ],
+                    [
+                      -1031.6996822962537,
+                      623.2196867913008
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:6",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      604.8607202246785
+                    ],
+                    [
+                      -1014.380094666034,
+                      604.8607202246785
+                    ],
+                    [
+                      -1014.380094666034,
+                      614.580173112452
+                    ],
+                    [
+                      -1031.6996822962537,
+                      614.580173112452
+                    ],
+                    [
+                      -1031.6996822962537,
+                      604.8607202246785
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:7",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      531.4248539656401
+                    ],
+                    [
+                      -1014.380094666034,
+                      531.4248539656401
+                    ],
+                    [
+                      -1014.380094666034,
+                      541.1443068534136
+                    ],
+                    [
+                      -1031.6996822962537,
+                      541.1443068534136
+                    ],
+                    [
+                      -1031.6996822962537,
+                      531.4248539656401
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:8",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      549.7838205303997
+                    ],
+                    [
+                      -1014.380094666034,
+                      549.7838205303997
+                    ],
+                    [
+                      -1014.380094666034,
+                      559.5032734181732
+                    ],
+                    [
+                      -1031.6996822962537,
+                      559.5032734181732
+                    ],
+                    [
+                      -1031.6996822962537,
+                      549.7838205303997
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:9",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      568.1427870951593
+                    ],
+                    [
+                      -1014.380094666034,
+                      568.1427870951593
+                    ],
+                    [
+                      -1014.380094666034,
+                      577.8622399829328
+                    ],
+                    [
+                      -1031.6996822962537,
+                      577.8622399829328
+                    ],
+                    [
+                      -1031.6996822962537,
+                      568.1427870951593
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:10",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      586.5017536599189
+                    ],
+                    [
+                      -1014.380094666034,
+                      586.5017536599189
+                    ],
+                    [
+                      -1014.380094666034,
+                      596.2212065476924
+                    ],
+                    [
+                      -1031.6996822962537,
+                      596.2212065476924
+                    ],
+                    [
+                      -1031.6996822962537,
+                      586.5017536599189
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:11",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      696.6555530503392
+                    ],
+                    [
+                      -1014.380094666034,
+                      696.6555530503392
+                    ],
+                    [
+                      -1014.380094666034,
+                      706.3750059381127
+                    ],
+                    [
+                      -1031.6996822962537,
+                      706.3750059381127
+                    ],
+                    [
+                      -1031.6996822962537,
+                      696.6555530503392
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:12",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      715.0145196150988
+                    ],
+                    [
+                      -1014.380094666034,
+                      715.0145196150988
+                    ],
+                    [
+                      -1014.380094666034,
+                      724.7339725028723
+                    ],
+                    [
+                      -1031.6996822962537,
+                      724.7339725028723
+                    ],
+                    [
+                      -1031.6996822962537,
+                      715.0145196150988
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:13",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      733.3734861798584
+                    ],
+                    [
+                      -1014.380094666034,
+                      733.3734861798584
+                    ],
+                    [
+                      -1014.380094666034,
+                      743.092939067632
+                    ],
+                    [
+                      -1031.6996822962537,
+                      743.092939067632
+                    ],
+                    [
+                      -1031.6996822962537,
+                      733.3734861798584
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:14",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      751.7324527446181
+                    ],
+                    [
+                      -1014.380094666034,
+                      751.7324527446181
+                    ],
+                    [
+                      -1014.380094666034,
+                      761.4519056323916
+                    ],
+                    [
+                      -1031.6996822962537,
+                      761.4519056323916
+                    ],
+                    [
+                      -1031.6996822962537,
+                      751.7324527446181
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:15",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      825.1683190055192
+                    ],
+                    [
+                      -1014.380094666034,
+                      825.1683190055192
+                    ],
+                    [
+                      -1014.380094666034,
+                      834.8877718932927
+                    ],
+                    [
+                      -1031.6996822962537,
+                      834.8877718932927
+                    ],
+                    [
+                      -1031.6996822962537,
+                      825.1683190055192
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:16",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      806.8093524407595
+                    ],
+                    [
+                      -1014.380094666034,
+                      806.8093524407595
+                    ],
+                    [
+                      -1014.380094666034,
+                      816.5288053266704
+                    ],
+                    [
+                      -1031.6996822962537,
+                      816.5288053266704
+                    ],
+                    [
+                      -1031.6996822962537,
+                      806.8093524407595
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:17",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      788.4503858759999
+                    ],
+                    [
+                      -1014.380094666034,
+                      788.4503858759999
+                    ],
+                    [
+                      -1014.380094666034,
+                      798.1698387619108
+                    ],
+                    [
+                      -1031.6996822962537,
+                      798.1698387619108
+                    ],
+                    [
+                      -1031.6996822962537,
+                      788.4503858759999
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:18",
+                  "closed": true,
+                  "points": [
+                    [
+                      -1031.6996822962537,
+                      770.0914193093777
+                    ],
+                    [
+                      -1014.380094666034,
+                      770.0914193093777
+                    ],
+                    [
+                      -1014.380094666034,
+                      779.8108721971512
+                    ],
+                    [
+                      -1031.6996822962537,
+                      779.8108721971512
+                    ],
+                    [
+                      -1031.6996822962537,
+                      770.0914193093777
+                    ]
+                  ]
+                },
+                {
+                  "id": "source:3DFB4D:path:19",
+                  "closed": false,
+                  "points": [
+                    [
+                      -978.0435635261238,
+                      327.8563129361719
+                    ],
+                    [
+                      -978.0435635270551,
+                      1038.4563129208982
+                    ]
+                  ]
+                }
+              ]
+            },
+            "q7": {
+              "source_id": "source:3DFAC2",
+              "semantic": "furniture",
+              "layer": "护士站柜台",
+              "prior_room_role": null,
+              "prior_layer_choice": null,
+              "geometry_warnings": [],
+              "paths": [
+                {
+                  "id": "source:3DFAC2:path:0",
+                  "closed": false,
+                  "points": [
+                    [
+                      -1067.351384498179,
+                      1477.755898879841
+                    ],
+                    [
+                      -1067.3513845074922,
+                      -822.0432730000466
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "questions": {
+          "q0": {
+            "type": "choice",
+            "instructions": "判断 candidates.q0 与目标空间的关系。结合共同上下文、完整几何、邻室文字，不按图层名称或距离直接判断。旧图层/成员判断可能互相冲突；本次应依据原始几何证据复核。凹形房间不要求 seed 在所有边同侧。",
+            "criteria": {
+              "boundary": "该对象的实际轮廓参与分隔目标房间与外部/邻室，可作为边界候选；墙/柱/外窗均可能。",
+              "opening_boundary": "该对象表达房间边界上的门窗开口，需在明确两侧接点后用虚拟封口维持房间划分，不能把门扇弧线当墙。",
+              "obstacle": "该对象为目标房间内部实体障碍物（例如独立柱），其闭合轮廓是内环，不是房间外轮廓。",
+              "same_space": "该对象是同一空间内部的表达线，不分隔房间，应允许其两侧空间合并。",
+              "irrelevant": "该对象与目标房间围合无关，或仅为家具、符号、标注、邻室内部图元。",
+              "uncertain": "现有证据不足以确认该对象与目标房间的关系。"
+            }
+          },
+          "q1": {
+            "type": "choice",
+            "instructions": "判断 candidates.q1 与目标空间的关系。结合共同上下文、完整几何、邻室文字，不按图层名称或距离直接判断。旧图层/成员判断可能互相冲突；本次应依据原始几何证据复核。凹形房间不要求 seed 在所有边同侧。",
+            "criteria": {
+              "boundary": "该对象的实际轮廓参与分隔目标房间与外部/邻室，可作为边界候选；墙/柱/外窗均可能。",
+              "opening_boundary": "该对象表达房间边界上的门窗开口，需在明确两侧接点后用虚拟封口维持房间划分，不能把门扇弧线当墙。",
+              "obstacle": "该对象为目标房间内部实体障碍物（例如独立柱），其闭合轮廓是内环，不是房间外轮廓。",
+              "same_space": "该对象是同一空间内部的表达线，不分隔房间，应允许其两侧空间合并。",
+              "irrelevant": "该对象与目标房间围合无关，或仅为家具、符号、标注、邻室内部图元。",
+              "uncertain": "现有证据不足以确认该对象与目标房间的关系。"
+            }
+          },
+          "q2": {
+            "type": "choice",
+            "instructions": "判断 candidates.q2 与目标空间的关系。结合共同上下文、完整几何、邻室文字，不按图层名称或距离直接判断。旧图层/成员判断可能互相冲突；本次应依据原始几何证据复核。凹形房间不要求 seed 在所有边同侧。",
+            "criteria": {
+              "boundary": "该对象的实际轮廓参与分隔目标房间与外部/邻室，可作为边界候选；墙/柱/外窗均可能。",
+              "opening_boundary": "该对象表达房间边界上的门窗开口，需在明确两侧接点后用虚拟封口维持房间划分，不能把门扇弧线当墙。",
+              "obstacle": "该对象为目标房间内部实体障碍物（例如独立柱），其闭合轮廓是内环，不是房间外轮廓。",
+              "same_space": "该对象是同一空间内部的表达线，不分隔房间，应允许其两侧空间合并。",
+              "irrelevant": "该对象与目标房间围合无关，或仅为家具、符号、标注、邻室内部图元。",
+              "uncertain": "现有证据不足以确认该对象与目标房间的关系。"
+            }
+          },
+          "q3": {
+            "type": "choice",
+            "instructions": "判断 candidates.q3 与目标空间的关系。结合共同上下文、完整几何、邻室文字，不按图层名称或距离直接判断。旧图层/成员判断可能互相冲突；本次应依据原始几何证据复核。凹形房间不要求 seed 在所有边同侧。",
+            "criteria": {
+              "boundary": "该对象的实际轮廓参与分隔目标房间与外部/邻室，可作为边界候选；墙/柱/外窗均可能。",
+              "opening_boundary": "该对象表达房间边界上的门窗开口，需在明确两侧接点后用虚拟封口维持房间划分，不能把门扇弧线当墙。",
+              "obstacle": "该对象为目标房间内部实体障碍物（例如独立柱），其闭合轮廓是内环，不是房间外轮廓。",
+              "same_space": "该对象是同一空间内部的表达线，不分隔房间，应允许其两侧空间合并。",
+              "irrelevant": "该对象与目标房间围合无关，或仅为家具、符号、标注、邻室内部图元。",
+              "uncertain": "现有证据不足以确认该对象与目标房间的关系。"
+            }
+          },
+          "q4": {
+            "type": "choice",
+            "instructions": "判断 candidates.q4 与目标空间的关系。结合共同上下文、完整几何、邻室文字，不按图层名称或距离直接判断。旧图层/成员判断可能互相冲突；本次应依据原始几何证据复核。凹形房间不要求 seed 在所有边同侧。",
+            "criteria": {
+              "boundary": "该对象的实际轮廓参与分隔目标房间与外部/邻室，可作为边界候选；墙/柱/外窗均可能。",
+              "opening_boundary": "该对象表达房间边界上的门窗开口，需在明确两侧接点后用虚拟封口维持房间划分，不能把门扇弧线当墙。",
+              "obstacle": "该对象为目标房间内部实体障碍物（例如独立柱），其闭合轮廓是内环，不是房间外轮廓。",
+              "same_space": "该对象是同一空间内部的表达线，不分隔房间，应允许其两侧空间合并。",
+              "irrelevant": "该对象与目标房间围合无关，或仅为家具、符号、标注、邻室内部图元。",
+              "uncertain": "现有证据不足以确认该对象与目标房间的关系。"
+            }
+          },
+          "q5": {
+            "type": "choice",
+            "instructions": "判断 candidates.q5 与目标空间的关系。结合共同上下文、完整几何、邻室文字，不按图层名称或距离直接判断。旧图层/成员判断可能互相冲突；本次应依据原始几何证据复核。凹形房间不要求 seed 在所有边同侧。",
+            "criteria": {
+              "boundary": "该对象的实际轮廓参与分隔目标房间与外部/邻室，可作为边界候选；墙/柱/外窗均可能。",
+              "opening_boundary": "该对象表达房间边界上的门窗开口，需在明确两侧接点后用虚拟封口维持房间划分，不能把门扇弧线当墙。",
+              "obstacle": "该对象为目标房间内部实体障碍物（例如独立柱），其闭合轮廓是内环，不是房间外轮廓。",
+              "same_space": "该对象是同一空间内部的表达线，不分隔房间，应允许其两侧空间合并。",
+              "irrelevant": "该对象与目标房间围合无关，或仅为家具、符号、标注、邻室内部图元。",
+              "uncertain": "现有证据不足以确认该对象与目标房间的关系。"
+            }
+          },
+          "q6": {
+            "type": "choice",
+            "instructions": "判断 candidates.q6 与目标空间的关系。结合共同上下文、完整几何、邻室文字，不按图层名称或距离直接判断。旧图层/成员判断可能互相冲突；本次应依据原始几何证据复核。凹形房间不要求 seed 在所有边同侧。",
+            "criteria": {
+              "boundary": "该对象的实际轮廓参与分隔目标房间与外部/邻室，可作为边界候选；墙/柱/外窗均可能。",
+              "opening_boundary": "该对象表达房间边界上的门窗开口，需在明确两侧接点后用虚拟封口维持房间划分，不能把门扇弧线当墙。",
+              "obstacle": "该对象为目标房间内部实体障碍物（例如独立柱），其闭合轮廓是内环，不是房间外轮廓。",
+              "same_space": "该对象是同一空间内部的表达线，不分隔房间，应允许其两侧空间合并。",
+              "irrelevant": "该对象与目标房间围合无关，或仅为家具、符号、标注、邻室内部图元。",
+              "uncertain": "现有证据不足以确认该对象与目标房间的关系。"
+            }
+          },
+          "q7": {
+            "type": "choice",
+            "instructions": "判断 candidates.q7 与目标空间的关系。结合共同上下文、完整几何、邻室文字，不按图层名称或距离直接判断。旧图层/成员判断可能互相冲突；本次应依据原始几何证据复核。凹形房间不要求 seed 在所有边同侧。",
+            "criteria": {
+              "boundary": "该对象的实际轮廓参与分隔目标房间与外部/邻室，可作为边界候选；墙/柱/外窗均可能。",
+              "opening_boundary": "该对象表达房间边界上的门窗开口，需在明确两侧接点后用虚拟封口维持房间划分，不能把门扇弧线当墙。",
+              "obstacle": "该对象为目标房间内部实体障碍物（例如独立柱），其闭合轮廓是内环，不是房间外轮廓。",
+              "same_space": "该对象是同一空间内部的表达线，不分隔房间，应允许其两侧空间合并。",
+              "irrelevant": "该对象与目标房间围合无关，或仅为家具、符号、标注、邻室内部图元。",
+              "uncertain": "现有证据不足以确认该对象与目标房间的关系。"
+            }
+          }
+        }
+      },
+      "status": "model_error",
+      "response": {
+        "error": {
+          "message": "HTTP 400: {\"detail\":{\"error_type\":\"max_tokens_exceeded\"}}",
+          "code": 400
+        }
+      },
+      "http_status": 400,
+      "raw_response": "{\"error\":{\"message\":\"HTTP 400: {\\\"detail\\\":{\\\"error_type\\\":\\\"max_tokens_exceeded\\\"}}\",\"code\":400}}",
+      "error": "model_request_failed"
+    }
+  ],
+  "traces": [
+    {
+      "stage": "context",
+      "round": 0,
+      "radius": 4000,
+      "available_objects": 241,
+      "selected_objects": 48,
+      "truncated": true
+    }
+  ],
+  "request_count": 2,
+  "budget_exhausted": false,
+  "run_manifest": {
+    "input_hashes": {
+      "cad": "47f2c22fdfbe9ae51502aff994f37af778d2801ed2c4981157ee18cbd3f8a16e",
+      "semantics": "3813ea944031b2129fbd26ecedbda635a31b569ccdd77029c5748d0348e6e70a",
+      "geometry": "1099f427c795532b6aeb9828086e507a16c260a0b4b9e15a2a7bdec15d585a42"
+    },
+    "source_hashes": {
+      "jev-room-resolve.ts": "f940524a1d7870b593d0fdd936e53f840087c801cd40c6931894dd18b0353acf",
+      "room-boundary-resolver.ts": "508394bdfd890ff45c22d229bef44b0a979c320958cdcda1463bfa98c89c151e",
+      "room-spatial-geometry.ts": "0e214721b68caa84eb23e4d6228df0b6235aac0e5193df29541234ce1b73d6f9",
+      "room-adjudication.ts": "dc3881a5cea497c35de28d3689e87a519eee0975e305d4eef1ddf151db292bad",
+      "jev-boundary-decisions.ts": "6557910d0be5be7b9fd3daf6eff03ffeaec556cc567d26674e25b3847155017e",
+      "boundary-faces.ts": "e316c5652e9d60d942e3eb0c0bbdd8853072c9cf860260efcbda79f684e81dae",
+      "wall-elements.ts": "b3de529b72d554a7c9ca1e6845257de60d646544dd013482034e28b239b36fad",
+      "room-traversal.ts": "5b627b518ef1e7da638060f554554afd55d90528653de055913f2a5cfcfd4317"
+    },
+    "problem_hash": "cfaa15dcc9c44353179474df415e0cb434ee61cb7e97d2e20e8d39cd0bf65cc2",
+    "policy": {
+      "initialRadius": 4000,
+      "maximumRadius": 6500,
+      "initialObjects": 48,
+      "maximumObjects": 96,
+      "batchSize": 8,
+      "maximumRequests": 32,
+      "maximumRounds": 2,
+      "gapReach": 1500,
+      "maximumGaps": 24
+    },
+    "model": "typesafe/jev-1.13"
+  },
+  "policy": {
+    "initialRadius": 4000,
+    "maximumRadius": 6500,
+    "initialObjects": 48,
+    "maximumObjects": 96,
+    "batchSize": 8,
+    "maximumRequests": 32,
+    "maximumRounds": 2,
+    "gapReach": 1500,
+    "maximumGaps": 24
+  },
+  "replay_source": null
+}

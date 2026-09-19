@@ -1,0 +1,2352 @@
+{
+  "schema_version": "wall-elements-v1",
+  "generated_at": "2026-09-19T12:05:49.023Z",
+  "input": {
+    "cad_ir_path": "/Users/zhoujunlin/Documents/jev/reports/cad-ir/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.cad-ir.json",
+    "jev_decisions_path": "/Users/zhoujunlin/Documents/jev/reports/jev/window-0f28c192908f/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.jev-decisions.json",
+    "room_object_path": "/Users/zhoujunlin/Documents/jev/reports/objects/room-samples/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.room.3DFB04.jev-object.json",
+    "region_id": "region-c665ea89ba4f",
+    "window_id": "window-0f28c192908f"
+  },
+  "room_seed": {
+    "source_id": "source:3DFB04",
+    "text": "资料室",
+    "point": [
+      50883.59455242567,
+      10594.266111539677
+    ]
+  },
+  "selection": {
+    "radius": 3500,
+    "semantic_type": "wall"
+  },
+  "summary": {
+    "wall_element_count": 101,
+    "source_entity_count": 66
+  },
+  "elements": [
+    {
+      "id": "wall:3DF7D8:segment:0",
+      "parent_element_id": "boundary:wall:3DF7D8",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DF7D8"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50885.0130250901,
+        11686.159092629328
+      ],
+      "end": [
+        49965.0130250901,
+        11686.159092629328
+      ],
+      "length": 920,
+      "semantic_confidence": 0.89,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809152-PIp4VVxmz4aJvuFxiCfQ",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3DF7D8:segment:1",
+      "parent_element_id": "boundary:wall:3DF7D8",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DF7D8"
+      ],
+      "source_segment_index": 1,
+      "start": [
+        49965.0130250901,
+        11686.159092629328
+      ],
+      "end": [
+        49965.0130250901,
+        10786.159092629328
+      ],
+      "length": 900,
+      "semantic_confidence": 0.89,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809152-PIp4VVxmz4aJvuFxiCfQ",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3DF7D8:segment:2",
+      "parent_element_id": "boundary:wall:3DF7D8",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DF7D8"
+      ],
+      "source_segment_index": 2,
+      "start": [
+        49965.0130250901,
+        10786.159092629328
+      ],
+      "end": [
+        50885.0130250901,
+        10786.159092629328
+      ],
+      "length": 920,
+      "semantic_confidence": 0.89,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809152-PIp4VVxmz4aJvuFxiCfQ",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3DF7D8:segment:3",
+      "parent_element_id": "boundary:wall:3DF7D8",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DF7D8"
+      ],
+      "source_segment_index": 3,
+      "start": [
+        50885.0130250901,
+        10786.159092629328
+      ],
+      "end": [
+        50885.0130250901,
+        11686.159092629328
+      ],
+      "length": 900,
+      "semantic_confidence": 0.89,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809152-PIp4VVxmz4aJvuFxiCfQ",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3DFA7E:segment:0",
+      "parent_element_id": "boundary:wall:3DFA7E",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFA7E"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52885.018177732825,
+        13996.15909265913
+      ],
+      "end": [
+        52885.018177732825,
+        11686.159092629328
+      ],
+      "length": 2310.0000000298023,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809153-Dl5TY0XCId80xkI6h8y0",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFA7F:segment:0",
+      "parent_element_id": "boundary:wall:3DFA7F",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFA7F"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52885.018177732825,
+        11686.159092629328
+      ],
+      "end": [
+        52885.018177732825,
+        10786.159092590213
+      ],
+      "length": 900.0000000391155,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809153-Dl5TY0XCId80xkI6h8y0",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFA80:segment:0",
+      "parent_element_id": "boundary:wall:3DFA80",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFA80"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52885.018177732825,
+        9806.159092629328
+      ],
+      "end": [
+        52885.018177732825,
+        9586.159092629328
+      ],
+      "length": 220,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809153-Dl5TY0XCId80xkI6h8y0",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFA85:segment:0",
+      "parent_element_id": "boundary:wall:3DFA85",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFA85"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52705.01817773655,
+        13986.15909267962
+      ],
+      "end": [
+        52705.018177732825,
+        10786.159092400223
+      ],
+      "length": 3200.0000002793968,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809153-Dl5TY0XCId80xkI6h8y0",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFA86:segment:0",
+      "parent_element_id": "boundary:wall:3DFA86",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFA86"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52705.018177732825,
+        9806.159092810005
+      ],
+      "end": [
+        52705.018177732825,
+        9586.159092629328
+      ],
+      "length": 220.00000018067658,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809153-Dl5TY0XCId80xkI6h8y0",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFA9D:segment:0",
+      "parent_element_id": "boundary:wall:3DFA9D",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFA9D"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50065.0130250901,
+        9686.159092629328
+      ],
+      "end": [
+        50065.0130250901,
+        10786.159092629328
+      ],
+      "length": 1100,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809153-Dl5TY0XCId80xkI6h8y0",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFAA8:segment:0",
+      "parent_element_id": "boundary:wall:3DFAA8",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFAA8"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50145.0130250901,
+        11686.159092629328
+      ],
+      "end": [
+        50145.0130250901,
+        15436.159092629328
+      ],
+      "length": 3750,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809154-NskC2BvsE7xQyetXn8Lm",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFAAE:segment:0",
+      "parent_element_id": "boundary:wall:3DFAAE",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFAAE"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50885.0130250901,
+        11686.159092629328
+      ],
+      "end": [
+        49965.0130250901,
+        11686.159092629328
+      ],
+      "length": 920,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809154-NskC2BvsE7xQyetXn8Lm",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3DFAAE:segment:1",
+      "parent_element_id": "boundary:wall:3DFAAE",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFAAE"
+      ],
+      "source_segment_index": 1,
+      "start": [
+        49965.0130250901,
+        11686.159092629328
+      ],
+      "end": [
+        49965.0130250901,
+        10786.159092629328
+      ],
+      "length": 900,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809154-NskC2BvsE7xQyetXn8Lm",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3DFAAE:segment:2",
+      "parent_element_id": "boundary:wall:3DFAAE",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFAAE"
+      ],
+      "source_segment_index": 2,
+      "start": [
+        49965.0130250901,
+        10786.159092629328
+      ],
+      "end": [
+        50885.0130250901,
+        10786.159092629328
+      ],
+      "length": 920,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809154-NskC2BvsE7xQyetXn8Lm",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3DFAAE:segment:3",
+      "parent_element_id": "boundary:wall:3DFAAE",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFAAE"
+      ],
+      "source_segment_index": 3,
+      "start": [
+        50885.0130250901,
+        10786.159092629328
+      ],
+      "end": [
+        50885.0130250901,
+        11686.159092629328
+      ],
+      "length": 900,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809154-NskC2BvsE7xQyetXn8Lm",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3DFAB0:segment:0",
+      "parent_element_id": "boundary:wall:3DFAB0",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFAB0"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50065.0130250901,
+        9686.159092629328
+      ],
+      "end": [
+        50185.01302490756,
+        9686.159092629328
+      ],
+      "length": 119.99999981746078,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809154-NskC2BvsE7xQyetXn8Lm",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFAB1:segment:0",
+      "parent_element_id": "boundary:wall:3DFAB1",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFAB1"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        51165.013024954125,
+        9686.159092629328
+      ],
+      "end": [
+        52705.018177732825,
+        9686.159092629328
+      ],
+      "length": 1540.0051527787,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809154-NskC2BvsE7xQyetXn8Lm",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFAB2:segment:0",
+      "parent_element_id": "boundary:wall:3DFAB2",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFAB2"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50065.0130250901,
+        9586.159092629328
+      ],
+      "end": [
+        50185.0130250901,
+        9586.159092629328
+      ],
+      "length": 120,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809154-NskC2BvsE7xQyetXn8Lm",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFAB3:segment:0",
+      "parent_element_id": "boundary:wall:3DFAB3",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFAB3"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        51165.013024771586,
+        9586.159092629328
+      ],
+      "end": [
+        52885.018177732825,
+        9586.159092629328
+      ],
+      "length": 1720.0051529612392,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809154-NskC2BvsE7xQyetXn8Lm",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFAB4:segment:0",
+      "parent_element_id": "boundary:wall:3DFAB4",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFAB4"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50065.01302458905,
+        7286.359920749441
+      ],
+      "end": [
+        52885.01817723364,
+        7286.359920749441
+      ],
+      "length": 2820.0051526445895,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809154-NskC2BvsE7xQyetXn8Lm",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFAB5:segment:0",
+      "parent_element_id": "boundary:wall:3DFAB5",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFAB5"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50065.01302458905,
+        7186.359920749441
+      ],
+      "end": [
+        52785.018177231774,
+        7186.359920749441
+      ],
+      "length": 2720.005152642727,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809154-NskC2BvsE7xQyetXn8Lm",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFABC:segment:0",
+      "parent_element_id": "boundary:wall:3DFABC",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFABC"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        49965.0130250901,
+        11686.159092629328
+      ],
+      "end": [
+        50145.0130250901,
+        11686.159092629328
+      ],
+      "length": 180,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809154-NskC2BvsE7xQyetXn8Lm",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFABF:segment:0",
+      "parent_element_id": "boundary:wall:3DFABF",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFABF"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52885.018177753314,
+        10786.159092590213
+      ],
+      "end": [
+        52705.018177732825,
+        10786.159092400223
+      ],
+      "length": 180.0000000204891,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809154-NskC2BvsE7xQyetXn8Lm",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFAC0:segment:0",
+      "parent_element_id": "boundary:wall:3DFAC0",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFAC0"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52885.018177753314,
+        9806.159092539921
+      ],
+      "end": [
+        52705.018177732825,
+        9806.159092718735
+      ],
+      "length": 180.0000000204891,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809154-NskC2BvsE7xQyetXn8Lm",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFACA:segment:0",
+      "parent_element_id": "boundary:wall:3DFACA",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFACA"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52185.018177231774,
+        9586.159092629328
+      ],
+      "end": [
+        52185.018177231774,
+        7286.359920749441
+      ],
+      "length": 2299.7991718798876,
+      "semantic_confidence": 0.44,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809155-JhweLI6SYvn6EYEhXyGF",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFACE:segment:0",
+      "parent_element_id": "boundary:wall:3DFACE",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFACE"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50185.01302490756,
+        9686.159092620015
+      ],
+      "end": [
+        50185.0130250901,
+        9586.159092599526
+      ],
+      "length": 100.0000000204891,
+      "semantic_confidence": 0.97,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809155-JhweLI6SYvn6EYEhXyGF",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFACF:segment:0",
+      "parent_element_id": "boundary:wall:3DFACF",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFACF"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        51165.013024954125,
+        9686.159092620015
+      ],
+      "end": [
+        51165.013024771586,
+        9586.159092599526
+      ],
+      "length": 100.0000000204891,
+      "semantic_confidence": 0.97,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809155-JhweLI6SYvn6EYEhXyGF",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFAE7:segment:0",
+      "parent_element_id": "boundary:wall:3DFAE7",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFAE7"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        53845.01817770116,
+        11546.159092579037
+      ],
+      "end": [
+        53845.01817751862,
+        11646.159092599526
+      ],
+      "length": 100.0000000204891,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809155-95VD89ajMoRiTq2TpqA9",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3DFB46:segment:0",
+      "parent_element_id": "boundary:wall:3DFB46",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFB46"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        53845.01817770116,
+        11546.159092579037
+      ],
+      "end": [
+        53845.01817770116,
+        11646.15909265913
+      ],
+      "length": 100.00000008009374,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809157-K7MLky3t8X5kSXUCACgO",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3DFB46:segment:1",
+      "parent_element_id": "boundary:wall:3DFB46",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFB46"
+      ],
+      "source_segment_index": 1,
+      "start": [
+        53845.01817770116,
+        11646.15909265913
+      ],
+      "end": [
+        54215.01817765273,
+        11646.159094410017
+      ],
+      "length": 369.9999999515712,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809157-K7MLky3t8X5kSXUCACgO",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3DFB46:segment:2",
+      "parent_element_id": "boundary:wall:3DFB46",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFB46"
+      ],
+      "source_segment_index": 2,
+      "start": [
+        54215.01817765273,
+        11646.159094410017
+      ],
+      "end": [
+        54215.01817765273,
+        11546.159094329923
+      ],
+      "length": 100.00000008009374,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809157-K7MLky3t8X5kSXUCACgO",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3DFB46:segment:3",
+      "parent_element_id": "boundary:wall:3DFB46",
+      "status": "provisional",
+      "source_entities": [
+        "source:3DFB46"
+      ],
+      "source_segment_index": 3,
+      "start": [
+        54215.01817765273,
+        11546.159094329923
+      ],
+      "end": [
+        53845.01817770116,
+        11546.159092579037
+      ],
+      "length": 369.9999999515712,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809157-K7MLky3t8X5kSXUCACgO",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E00FF:segment:0",
+      "parent_element_id": "boundary:wall:3E00FF",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E00FF"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50745.01817765273,
+        13996.15909091942
+      ],
+      "end": [
+        50565.01817763038,
+        13996.159091100097
+      ],
+      "length": 180.00000002235174,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809160-35w5C4R9H9kMxWNLdgKv",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0127:segment:0",
+      "parent_element_id": "boundary:wall:3E0127",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0127"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50745.01817766577,
+        13996.15909091942
+      ],
+      "end": [
+        50745.01817766577,
+        11686.159090889618
+      ],
+      "length": 2310.0000000298023,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809160-JKxBfL0KyXoiS0RA8lXA",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0128:segment:0",
+      "parent_element_id": "boundary:wall:3E0128",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0128"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50745.01817766577,
+        11686.159090889618
+      ],
+      "end": [
+        50745.01817766577,
+        10786.159090839326
+      ],
+      "length": 900.0000000502914,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809160-JKxBfL0KyXoiS0RA8lXA",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0129:segment:0",
+      "parent_element_id": "boundary:wall:3E0129",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0129"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50745.01817766577,
+        9806.159090889618
+      ],
+      "end": [
+        50745.01817766577,
+        9586.159090889618
+      ],
+      "length": 220,
+      "semantic_confidence": 0.97,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809160-JKxBfL0KyXoiS0RA8lXA",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E012E:segment:0",
+      "parent_element_id": "boundary:wall:3E012E",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E012E"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50565.018177669495,
+        13986.15909093991
+      ],
+      "end": [
+        50565.01817766577,
+        10786.15909065865
+      ],
+      "length": 3200.0000002812594,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809161-GPdWaQSO7tH69sriEpkS",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E012F:segment:0",
+      "parent_element_id": "boundary:wall:3E012F",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E012F"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50565.01817766577,
+        9806.159091070294
+      ],
+      "end": [
+        50565.01817766577,
+        9586.159090889618
+      ],
+      "length": 220.00000018067658,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809161-GPdWaQSO7tH69sriEpkS",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0168:segment:0",
+      "parent_element_id": "boundary:wall:3E0168",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0168"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50745.01817768626,
+        10786.159090839326
+      ],
+      "end": [
+        50565.01817766577,
+        10786.15909065865
+      ],
+      "length": 180.0000000204891,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809161-GPdWaQSO7tH69sriEpkS",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0169:segment:0",
+      "parent_element_id": "boundary:wall:3E0169",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0169"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50745.01817768626,
+        9806.15909080021
+      ],
+      "end": [
+        50565.01817766577,
+        9806.159090979025
+      ],
+      "length": 180.0000000204891,
+      "semantic_confidence": 0.97,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809161-GPdWaQSO7tH69sriEpkS",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0172:segment:0",
+      "parent_element_id": "boundary:wall:3E0172",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0172"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50745.01817716658,
+        7286.359918998554
+      ],
+      "end": [
+        50745.018177168444,
+        8303.868053348735
+      ],
+      "length": 1017.5081343501806,
+      "semantic_confidence": 0.43,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809161-f4oaQ16fVySJhZYcbgLE",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0172:segment:2",
+      "parent_element_id": "boundary:wall:3E0172",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0172"
+      ],
+      "source_segment_index": 2,
+      "start": [
+        50745.018177168444,
+        8303.868053348735
+      ],
+      "end": [
+        50745.018177168444,
+        9586.159090889618
+      ],
+      "length": 1282.2910375408828,
+      "semantic_confidence": 0.43,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809161-f4oaQ16fVySJhZYcbgLE",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0173:segment:0",
+      "parent_element_id": "boundary:wall:3E0173",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0173"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50045.01817716472,
+        9586.159090889618
+      ],
+      "end": [
+        50045.01817716472,
+        7286.359918998554
+      ],
+      "length": 2299.7991718910635,
+      "semantic_confidence": 0.74,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809161-f4oaQ16fVySJhZYcbgLE",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0190:segment:0",
+      "parent_element_id": "boundary:wall:3E0190",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0190"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        51705.018177634105,
+        11546.159090830013
+      ],
+      "end": [
+        51705.018177451566,
+        11646.15909084864
+      ],
+      "length": 100.00000001862645,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809161-f4oaQ16fVySJhZYcbgLE",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E01EE:segment:0",
+      "parent_element_id": "boundary:wall:3E01EE",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E01EE"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        53975.01817792095,
+        11546.159091260284
+      ],
+      "end": [
+        53975.01817792095,
+        11646.159090889618
+      ],
+      "length": 99.99999962933362,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809163-nxbmpJPvUoj2x7COq7p6",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E01EE:segment:1",
+      "parent_element_id": "boundary:wall:3E01EE",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E01EE"
+      ],
+      "source_segment_index": 1,
+      "start": [
+        53975.01817792095,
+        11646.159090889618
+      ],
+      "end": [
+        54345.01817799546,
+        11646.159090889618
+      ],
+      "length": 370.0000000745058,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809163-nxbmpJPvUoj2x7COq7p6",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E01EE:segment:2",
+      "parent_element_id": "boundary:wall:3E01EE",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E01EE"
+      ],
+      "source_segment_index": 2,
+      "start": [
+        54345.01817799546,
+        11646.159090889618
+      ],
+      "end": [
+        54345.01817799546,
+        11546.159091260284
+      ],
+      "length": 99.99999962933362,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809163-nxbmpJPvUoj2x7COq7p6",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E01EE:segment:3",
+      "parent_element_id": "boundary:wall:3E01EE",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E01EE"
+      ],
+      "source_segment_index": 3,
+      "start": [
+        54345.01817799546,
+        11546.159091260284
+      ],
+      "end": [
+        53975.01817792095,
+        11546.159091260284
+      ],
+      "length": 370.0000000745058,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809163-nxbmpJPvUoj2x7COq7p6",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E01EF:segment:0",
+      "parent_element_id": "boundary:wall:3E01EF",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E01EF"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        51705.018177634105,
+        11546.159090830013
+      ],
+      "end": [
+        51705.018177634105,
+        11646.159090910107
+      ],
+      "length": 100.00000008009374,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809163-nxbmpJPvUoj2x7COq7p6",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E01EF:segment:1",
+      "parent_element_id": "boundary:wall:3E01EF",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E01EF"
+      ],
+      "source_segment_index": 1,
+      "start": [
+        51705.018177634105,
+        11646.159090910107
+      ],
+      "end": [
+        52075.018177585676,
+        11646.15909265913
+      ],
+      "length": 369.9999999515712,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809163-nxbmpJPvUoj2x7COq7p6",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E01EF:segment:2",
+      "parent_element_id": "boundary:wall:3E01EF",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E01EF"
+      ],
+      "source_segment_index": 2,
+      "start": [
+        52075.018177585676,
+        11646.15909265913
+      ],
+      "end": [
+        52075.018177585676,
+        11546.159092579037
+      ],
+      "length": 100.00000008009374,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809163-nxbmpJPvUoj2x7COq7p6",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E01EF:segment:3",
+      "parent_element_id": "boundary:wall:3E01EF",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E01EF"
+      ],
+      "source_segment_index": 3,
+      "start": [
+        52075.018177585676,
+        11546.159092579037
+      ],
+      "end": [
+        51705.018177634105,
+        11546.159090830013
+      ],
+      "length": 369.9999999515712,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809163-nxbmpJPvUoj2x7COq7p6",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E0478:segment:0",
+      "parent_element_id": "boundary:wall:3E0478",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0478"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52385.01249048114,
+        7156.158983958885
+      ],
+      "end": [
+        52385.01249048114,
+        10936.158983958885
+      ],
+      "length": 3780,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809163-gDioCxEOWTCfMdbqbqES",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0488:segment:0",
+      "parent_element_id": "boundary:wall:3E0488",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0488"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52485.01249048114,
+        11036.158983958885
+      ],
+      "end": [
+        52485.01249048114,
+        16236.158983958885
+      ],
+      "length": 5200,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809164-sRiIaC6TKP4Hn7R4Bqf2",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0489:segment:0",
+      "parent_element_id": "boundary:wall:3E0489",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0489"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52385.017643123865,
+        11036.158983958885
+      ],
+      "end": [
+        52485.01249048114,
+        11036.158983958885
+      ],
+      "length": 99.9948473572731,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809164-sRiIaC6TKP4Hn7R4Bqf2",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E048A:segment:0",
+      "parent_element_id": "boundary:wall:3E048A",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E048A"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52585.01249048114,
+        7156.158983958885
+      ],
+      "end": [
+        52585.01249048114,
+        16436.15898394026
+      ],
+      "length": 9279.999999981374,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809164-sRiIaC6TKP4Hn7R4Bqf2",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E048E:segment:0",
+      "parent_element_id": "boundary:wall:3E048E",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E048E"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52185.02279576659,
+        15636.158983958885
+      ],
+      "end": [
+        52185.02279576659,
+        11536.158983958885
+      ],
+      "length": 4100,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809164-sRiIaC6TKP4Hn7R4Bqf2",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E048F:segment:0",
+      "parent_element_id": "boundary:wall:3E048F",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E048F"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52085.02279576659,
+        15636.158983958885
+      ],
+      "end": [
+        52085.02279576659,
+        11536.158983958885
+      ],
+      "length": 4100,
+      "semantic_confidence": 0.97,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809164-sRiIaC6TKP4Hn7R4Bqf2",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E051C:segment:0",
+      "parent_element_id": "boundary:wall:3E051C",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E051C"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52385.01249048114,
+        10675.98602887988
+      ],
+      "end": [
+        52385.01249048114,
+        10936.158983958885
+      ],
+      "length": 260.17295507900417,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809164-sRiIaC6TKP4Hn7R4Bqf2",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E07A1:segment:0",
+      "parent_element_id": "boundary:wall:3E07A1",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E07A1"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50985.01249048114,
+        11193.98602887988
+      ],
+      "end": [
+        51735.01249048114,
+        11193.98602887988
+      ],
+      "length": 750,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809164-5CX5OXjAFJbDt6sjcLtp",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E07A1:segment:1",
+      "parent_element_id": "boundary:wall:3E07A1",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E07A1"
+      ],
+      "source_segment_index": 1,
+      "start": [
+        51735.01249048114,
+        11193.98602887988
+      ],
+      "end": [
+        51735.01249048114,
+        11646.158984210342
+      ],
+      "length": 452.17295533046126,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809164-5CX5OXjAFJbDt6sjcLtp",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E07A1:segment:2",
+      "parent_element_id": "boundary:wall:3E07A1",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E07A1"
+      ],
+      "source_segment_index": 2,
+      "start": [
+        51735.01249048114,
+        11646.158984210342
+      ],
+      "end": [
+        52385.017643123865,
+        11646.158984210342
+      ],
+      "length": 650.0051526427269,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809164-5CX5OXjAFJbDt6sjcLtp",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E07A1:segment:3",
+      "parent_element_id": "boundary:wall:3E07A1",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E07A1"
+      ],
+      "source_segment_index": 3,
+      "start": [
+        52385.017643123865,
+        11646.158984210342
+      ],
+      "end": [
+        52385.017643123865,
+        10843.98602887988
+      ],
+      "length": 802.1729553304613,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809164-5CX5OXjAFJbDt6sjcLtp",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E07A1:segment:4",
+      "parent_element_id": "boundary:wall:3E07A1",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E07A1"
+      ],
+      "source_segment_index": 4,
+      "start": [
+        52385.017643123865,
+        10843.98602887988
+      ],
+      "end": [
+        51185.01249048114,
+        10843.98602887988
+      ],
+      "length": 1200.005152642727,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809164-5CX5OXjAFJbDt6sjcLtp",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E07A1:segment:5",
+      "parent_element_id": "boundary:wall:3E07A1",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E07A1"
+      ],
+      "source_segment_index": 5,
+      "start": [
+        51185.01249048114,
+        10843.98602887988
+      ],
+      "end": [
+        50985.01249048114,
+        11043.98602887988
+      ],
+      "length": 282.842712474619,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809164-5CX5OXjAFJbDt6sjcLtp",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E07A1:segment:6",
+      "parent_element_id": "boundary:wall:3E07A1",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E07A1"
+      ],
+      "source_segment_index": 6,
+      "start": [
+        50985.01249048114,
+        11043.98602887988
+      ],
+      "end": [
+        50985.01249048114,
+        11193.98602887988
+      ],
+      "length": 150,
+      "semantic_confidence": 0.98,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809164-5CX5OXjAFJbDt6sjcLtp",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E07B8:segment:0",
+      "parent_element_id": "boundary:wall:3E07B8",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E07B8"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52385.017643123865,
+        13286.161706469953
+      ],
+      "end": [
+        52185.02279576659,
+        13286.161706469953
+      ],
+      "length": 199.9948473572731,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809165-HuaNS6heqkYIjeu7fi0D",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E07BA:segment:0",
+      "parent_element_id": "boundary:wall:3E07BA",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E07BA"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52385.01249048114,
+        10843.991181518883
+      ],
+      "end": [
+        52385.01249048114,
+        11643.98602887988
+      ],
+      "length": 799.9948473609984,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809165-HuaNS6heqkYIjeu7fi0D",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E07BC:segment:0",
+      "parent_element_id": "boundary:wall:3E07BC",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E07BC"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52385.01249048114,
+        10843.98602887988
+      ],
+      "end": [
+        52385.01249048114,
+        16236.158983940259
+      ],
+      "length": 5392.172955060378,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809165-HuaNS6heqkYIjeu7fi0D",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E07BE:segment:0",
+      "parent_element_id": "boundary:wall:3E07BE",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E07BE"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52585.01249048114,
+        10843.991181518883
+      ],
+      "end": [
+        52585.01249048114,
+        11643.98602887988
+      ],
+      "length": 799.9948473609984,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809165-HuaNS6heqkYIjeu7fi0D",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E07C0:segment:0",
+      "parent_element_id": "boundary:wall:3E07C0",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E07C0"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52585.01249048114,
+        10843.98602887988
+      ],
+      "end": [
+        52585.01249048114,
+        16436.15898394026
+      ],
+      "length": 5592.172955060378,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809165-HuaNS6heqkYIjeu7fi0D",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E07EE:segment:0",
+      "parent_element_id": "boundary:wall:3E07EE",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E07EE"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52385.017643123865,
+        13223.98602887988
+      ],
+      "end": [
+        52085.02279576659,
+        13223.98602887988
+      ],
+      "length": 299.9948473572731,
+      "semantic_confidence": 0.97,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809165-HuaNS6heqkYIjeu7fi0D",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0826:segment:0",
+      "parent_element_id": "boundary:wall:3E0826",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0826"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52385.017643123865,
+        9123.98602887988
+      ],
+      "end": [
+        52585.017643123865,
+        9123.98602887988
+      ],
+      "length": 200,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-ngdYCvi4VHa7VvGZLWT1",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0828:segment:0",
+      "parent_element_id": "boundary:wall:3E0828",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0828"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52385.017643123865,
+        10843.98602887988
+      ],
+      "end": [
+        52585.017643123865,
+        10843.98602887988
+      ],
+      "length": 200,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-ngdYCvi4VHa7VvGZLWT1",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0834:segment:0",
+      "parent_element_id": "boundary:wall:3E0834",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0834"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50955.0227957461,
+        12746.158984178677
+      ],
+      "end": [
+        50955.022795563564,
+        12846.158984199166
+      ],
+      "length": 100.0000000204891,
+      "semantic_confidence": 0.92,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-ngdYCvi4VHa7VvGZLWT1",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0886:segment:0",
+      "parent_element_id": "boundary:wall:3E0886",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0886"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52385.01249048114,
+        12746.158984210342
+      ],
+      "end": [
+        50955.0227957461,
+        12746.158984210342
+      ],
+      "length": 1429.9896947350353,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-ngdYCvi4VHa7VvGZLWT1",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0888:segment:0",
+      "parent_element_id": "boundary:wall:3E0888",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0888"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52385.01249048114,
+        12846.158984210342
+      ],
+      "end": [
+        50955.022795563564,
+        12846.158984210342
+      ],
+      "length": 1429.9896949175745,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-ngdYCvi4VHa7VvGZLWT1",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E088A:segment:0",
+      "parent_element_id": "boundary:wall:3E088A",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E088A"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        51735.01249048114,
+        11193.98602887988
+      ],
+      "end": [
+        50985.01249048114,
+        11193.98602887988
+      ],
+      "length": 750,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E088A:segment:1",
+      "parent_element_id": "boundary:wall:3E088A",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E088A"
+      ],
+      "source_segment_index": 1,
+      "start": [
+        50985.01249048114,
+        11193.98602887988
+      ],
+      "end": [
+        50985.01249048114,
+        11546.158984210342
+      ],
+      "length": 352.17295533046126,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E088A:segment:2",
+      "parent_element_id": "boundary:wall:3E088A",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E088A"
+      ],
+      "source_segment_index": 2,
+      "start": [
+        50985.01249048114,
+        11546.158984210342
+      ],
+      "end": [
+        51085.01249048114,
+        11546.158984210342
+      ],
+      "length": 100,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E088A:segment:3",
+      "parent_element_id": "boundary:wall:3E088A",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E088A"
+      ],
+      "source_segment_index": 3,
+      "start": [
+        51085.01249048114,
+        11546.158984210342
+      ],
+      "end": [
+        51085.01249048114,
+        11293.98602887988
+      ],
+      "length": 252.17295533046126,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E088A:segment:4",
+      "parent_element_id": "boundary:wall:3E088A",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E088A"
+      ],
+      "source_segment_index": 4,
+      "start": [
+        51085.01249048114,
+        11293.98602887988
+      ],
+      "end": [
+        51735.01249048114,
+        11293.98602887988
+      ],
+      "length": 650,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E08BE:segment:0",
+      "parent_element_id": "boundary:wall:3E08BE",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E08BE"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        52385.01249048114,
+        6924.158983958885
+      ],
+      "end": [
+        52385.01249048114,
+        8324.158983958885
+      ],
+      "length": 1400,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E08BE:segment:1",
+      "parent_element_id": "boundary:wall:3E08BE",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E08BE"
+      ],
+      "source_segment_index": 1,
+      "start": [
+        52385.01249048114,
+        8324.158983958885
+      ],
+      "end": [
+        52585.01249048114,
+        8324.158983958885
+      ],
+      "length": 200,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E08BE:segment:2",
+      "parent_element_id": "boundary:wall:3E08BE",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E08BE"
+      ],
+      "source_segment_index": 2,
+      "start": [
+        52585.01249048114,
+        8324.158983958885
+      ],
+      "end": [
+        52585.01249048114,
+        6924.158983958885
+      ],
+      "length": 1400,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E08BE:segment:3",
+      "parent_element_id": "boundary:wall:3E08BE",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E08BE"
+      ],
+      "source_segment_index": 3,
+      "start": [
+        52585.01249048114,
+        6924.158983958885
+      ],
+      "end": [
+        52385.01249048114,
+        6924.158983958885
+      ],
+      "length": 200,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E08CD:segment:0",
+      "parent_element_id": "boundary:wall:3E08CD",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E08CD"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50985.01249048114,
+        12746.158984210342
+      ],
+      "end": [
+        51085.01249048114,
+        12746.158984210342
+      ],
+      "length": 100,
+      "semantic_confidence": 0.97,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E08CD:segment:1",
+      "parent_element_id": "boundary:wall:3E08CD",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E08CD"
+      ],
+      "source_segment_index": 1,
+      "start": [
+        51085.01249048114,
+        12746.158984210342
+      ],
+      "end": [
+        51085.01249048114,
+        12646.158984210342
+      ],
+      "length": 100,
+      "semantic_confidence": 0.97,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E08CD:segment:2",
+      "parent_element_id": "boundary:wall:3E08CD",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E08CD"
+      ],
+      "source_segment_index": 2,
+      "start": [
+        51085.01249048114,
+        12646.158984210342
+      ],
+      "end": [
+        50985.01249048114,
+        12646.158984210342
+      ],
+      "length": 100,
+      "semantic_confidence": 0.97,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E08CD:segment:3",
+      "parent_element_id": "boundary:wall:3E08CD",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E08CD"
+      ],
+      "source_segment_index": 3,
+      "start": [
+        50985.01249048114,
+        12646.158984210342
+      ],
+      "end": [
+        50985.01249048114,
+        12746.158984210342
+      ],
+      "length": 100,
+      "semantic_confidence": 0.97,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E0B2F:segment:0",
+      "parent_element_id": "boundary:wall:3E0B2F",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0B2F"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50095.021521389484,
+        11036.159089138731
+      ],
+      "end": [
+        50095.021521389484,
+        16236.159089138731
+      ],
+      "length": 5200,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0B30:segment:0",
+      "parent_element_id": "boundary:wall:3E0B30",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0B30"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        49995.02667403221,
+        11036.159089138731
+      ],
+      "end": [
+        50095.021521389484,
+        11036.159089138731
+      ],
+      "length": 99.9948473572731,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0B31:segment:0",
+      "parent_element_id": "boundary:wall:3E0B31",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0B31"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50195.021521389484,
+        7156.159089138731
+      ],
+      "end": [
+        50195.021521389484,
+        16436.159089120105
+      ],
+      "length": 9279.999999981374,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0E65:segment:0",
+      "parent_element_id": "boundary:wall:3E0E65",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0E65"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50195.021521389484,
+        10843.991286689416
+      ],
+      "end": [
+        50195.021521389484,
+        11643.986134048551
+      ],
+      "length": 799.9948473591357,
+      "semantic_confidence": 0.99,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0E67:segment:0",
+      "parent_element_id": "boundary:wall:3E0E67",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0E67"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        50195.021521389484,
+        10843.986134048551
+      ],
+      "end": [
+        50195.021521389484,
+        16436.159089120105
+      ],
+      "length": 5592.172955071554,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809166-6jEDbuGqReTwTCq3Gbvi",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0ECD:segment:0",
+      "parent_element_id": "boundary:wall:3E0ECD",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0ECD"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        49995.02667403221,
+        9123.986134048551
+      ],
+      "end": [
+        50195.02667403221,
+        9123.986134048551
+      ],
+      "length": 200,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809167-fpzXjuyCBMn4uhHuHVHw",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0ECF:segment:0",
+      "parent_element_id": "boundary:wall:3E0ECF",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0ECF"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        49995.02667403221,
+        10843.986134048551
+      ],
+      "end": [
+        50195.02667403221,
+        10843.986134048551
+      ],
+      "length": 200,
+      "semantic_confidence": 1,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809167-fpzXjuyCBMn4uhHuHVHw",
+      "semantic_type": "wall",
+      "boundary_kind": "linear"
+    },
+    {
+      "id": "wall:3E0F65:segment:0",
+      "parent_element_id": "boundary:wall:3E0F65",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0F65"
+      ],
+      "source_segment_index": 0,
+      "start": [
+        49995.021521389484,
+        6924.159089138731
+      ],
+      "end": [
+        49995.021521389484,
+        8324.159089138731
+      ],
+      "length": 1400,
+      "semantic_confidence": 0.94,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809167-fpzXjuyCBMn4uhHuHVHw",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E0F65:segment:1",
+      "parent_element_id": "boundary:wall:3E0F65",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0F65"
+      ],
+      "source_segment_index": 1,
+      "start": [
+        49995.021521389484,
+        8324.159089138731
+      ],
+      "end": [
+        50195.021521389484,
+        8324.159089138731
+      ],
+      "length": 200,
+      "semantic_confidence": 0.94,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809167-fpzXjuyCBMn4uhHuHVHw",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E0F65:segment:2",
+      "parent_element_id": "boundary:wall:3E0F65",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0F65"
+      ],
+      "source_segment_index": 2,
+      "start": [
+        50195.021521389484,
+        8324.159089138731
+      ],
+      "end": [
+        50195.021521389484,
+        6924.159089138731
+      ],
+      "length": 1400,
+      "semantic_confidence": 0.94,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809167-fpzXjuyCBMn4uhHuHVHw",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    },
+    {
+      "id": "wall:3E0F65:segment:3",
+      "parent_element_id": "boundary:wall:3E0F65",
+      "status": "provisional",
+      "source_entities": [
+        "source:3E0F65"
+      ],
+      "source_segment_index": 3,
+      "start": [
+        50195.021521389484,
+        6924.159089138731
+      ],
+      "end": [
+        49995.021521389484,
+        6924.159089138731
+      ],
+      "length": 200,
+      "semantic_confidence": 0.94,
+      "semantic_model": "typesafe/jev-1.13-20260917",
+      "semantic_request_id": "gen-dec-1789809167-fpzXjuyCBMn4uhHuHVHw",
+      "semantic_type": "wall",
+      "boundary_kind": "object"
+    }
+  ]
+}

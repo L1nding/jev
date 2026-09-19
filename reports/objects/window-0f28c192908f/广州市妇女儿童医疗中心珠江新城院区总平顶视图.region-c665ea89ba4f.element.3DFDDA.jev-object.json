@@ -1,0 +1,441 @@
+{
+  "schema_version": "jev-object-decisions-v1",
+  "generated_at": "2026-09-19T09:22:02.789Z",
+  "model": "typesafe/jev-1.13",
+  "endpoint": "https://openrouter.ai/api/alpha/decisions",
+  "input": {
+    "cad_ir_path": "/Users/zhoujunlin/Documents/jev/reports/cad-ir/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.cad-ir.json",
+    "jev_decisions_path": "/Users/zhoujunlin/Documents/jev/reports/jev/window-0f28c192908f/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.jev-decisions.json",
+    "region_id": "region-c665ea89ba4f",
+    "window_id": "window-0f28c192908f",
+    "source_sha256": "5051e4b3d45c2752e2f539eabf4fc57e513fb34fbee664f8c2a4918a4b6c9cd5"
+  },
+  "query": {
+    "mode": "element",
+    "seed_source_id": "source:3DFDDA",
+    "seed_text": null,
+    "semantic_type": "wall",
+    "radius": 1200,
+    "candidate_limit": 32
+  },
+  "object": {
+    "id": "element-096dc6a82b12",
+    "semantic_type": "wall",
+    "seed_source_id": "source:3DFDDA",
+    "source_entities": [
+      "source:3DFDDA",
+      "source:3DFDDB"
+    ],
+    "roles": null,
+    "geometry_validation": null
+  },
+  "summary": {
+    "candidate_count": 32,
+    "decision_count": 32,
+    "accepted_count": 1,
+    "role_counts": {
+      "different_object": 31,
+      "same_object": 1
+    }
+  },
+  "batches": [
+    {
+      "index": 0,
+      "candidate_count": 32,
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 21817,
+        "output_tokens": 1651,
+        "cost": 0.000916314
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "source_id": "source:3DFE76",
+      "role": "different_object",
+      "confidence": 0.8,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.87,
+        "same_object": 0.13
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3E011A",
+      "role": "different_object",
+      "confidence": 0.74,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.83,
+        "same_object": 0.17
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFE77",
+      "role": "different_object",
+      "confidence": 0.44,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.63,
+        "same_object": 0.37
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3E011B",
+      "role": "different_object",
+      "confidence": 0.44,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.63,
+        "same_object": 0.37
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFE7C",
+      "role": "different_object",
+      "confidence": 0.31,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.54,
+        "same_object": 0.46
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3E0120",
+      "role": "different_object",
+      "confidence": 0.41,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.61,
+        "same_object": 0.39
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFDDB",
+      "role": "same_object",
+      "confidence": 0.29,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.47,
+        "same_object": 0.53
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFDE5",
+      "role": "different_object",
+      "confidence": 0.29,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.53,
+        "same_object": 0.47
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFDDF",
+      "role": "different_object",
+      "confidence": 0.75,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.83,
+        "same_object": 0.17
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFE7B",
+      "role": "different_object",
+      "confidence": 0.85,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.91,
+        "same_object": 0.09
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3E011F",
+      "role": "different_object",
+      "confidence": 0.75,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.84,
+        "same_object": 0.16
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFE89",
+      "role": "different_object",
+      "confidence": 0.97,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.98,
+        "same_object": 0.02
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3E013E",
+      "role": "different_object",
+      "confidence": 0.98,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.99,
+        "same_object": 0.01
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFE67",
+      "role": "different_object",
+      "confidence": 0.98,
+      "probabilities": {
+        "uncertain": 0.01,
+        "different_object": 0.98,
+        "same_object": 0.01
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFE6B",
+      "role": "different_object",
+      "confidence": 0.95,
+      "probabilities": {
+        "uncertain": 0.01,
+        "different_object": 0.97,
+        "same_object": 0.02
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3E0104",
+      "role": "different_object",
+      "confidence": 0.95,
+      "probabilities": {
+        "uncertain": 0.01,
+        "different_object": 0.97,
+        "same_object": 0.02
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3E0107",
+      "role": "different_object",
+      "confidence": 0.96,
+      "probabilities": {
+        "uncertain": 0.01,
+        "different_object": 0.97,
+        "same_object": 0.02
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFE90",
+      "role": "different_object",
+      "confidence": 0.92,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.95,
+        "same_object": 0.05
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3E014D",
+      "role": "different_object",
+      "confidence": 0.94,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.96,
+        "same_object": 0.04
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFDDE",
+      "role": "different_object",
+      "confidence": 0.96,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.97,
+        "same_object": 0.03
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFE7A",
+      "role": "different_object",
+      "confidence": 0.96,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.97,
+        "same_object": 0.03
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3E011E",
+      "role": "different_object",
+      "confidence": 0.96,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.98,
+        "same_object": 0.02
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFE9D",
+      "role": "different_object",
+      "confidence": 0.91,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.94,
+        "same_object": 0.06
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFE88",
+      "role": "different_object",
+      "confidence": 0.94,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.96,
+        "same_object": 0.04
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3E013D",
+      "role": "different_object",
+      "confidence": 0.94,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.96,
+        "same_object": 0.04
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFEA1",
+      "role": "different_object",
+      "confidence": 0.93,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.95,
+        "same_object": 0.05
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3DFE9F",
+      "role": "different_object",
+      "confidence": 0.95,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.97,
+        "same_object": 0.03
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3E0112",
+      "role": "different_object",
+      "confidence": 0.96,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.97,
+        "same_object": 0.03
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3D88A8",
+      "role": "different_object",
+      "confidence": 0.98,
+      "probabilities": {
+        "uncertain": 0.01,
+        "different_object": 0.98,
+        "same_object": 0.01
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3D88AC",
+      "role": "different_object",
+      "confidence": 0.98,
+      "probabilities": {
+        "uncertain": 0.01,
+        "different_object": 0.98,
+        "same_object": 0.01
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3D8B48",
+      "role": "different_object",
+      "confidence": 0.98,
+      "probabilities": {
+        "uncertain": 0.01,
+        "different_object": 0.99,
+        "same_object": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    },
+    {
+      "source_id": "source:3D88C1",
+      "role": "different_object",
+      "confidence": 0.98,
+      "probabilities": {
+        "uncertain": 0,
+        "different_object": 0.99,
+        "same_object": 0.01
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809722-8DB8yQNit1ueWgolyiwr"
+    }
+  ]
+}

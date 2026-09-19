@@ -1,0 +1,454 @@
+{
+  "kind": "surface_recall_diagnostic",
+  "limitations": [
+    "No human reference boundary: coverage is not true boundary recall",
+    "Final-round relations reconstructed; counterfactual faces are not accepted rooms",
+    "Virtual repairs excluded to isolate surface selection"
+  ],
+  "rows": [
+    {
+      "seed": "source:3DFB04",
+      "room": "资料室",
+      "local_objects": 794,
+      "selected_objects": 96,
+      "review_pool_segments": 2648,
+      "before_segments": 277,
+      "after_segments": 276,
+      "reviewed_segments": 48,
+      "unreviewed_retained_segments": 260,
+      "restored_segments": 0,
+      "removed_segments": 1,
+      "before_faces_without_obstacles": [],
+      "after_faces_without_obstacles": [],
+      "after_faces_with_obstacles": [],
+      "largest_sources": [
+        {
+          "source_id": "source:3D8A01",
+          "role": "irrelevant",
+          "segments": 844,
+          "reviewed": 5
+        },
+        {
+          "source_id": "source:3D8A00",
+          "role": "irrelevant",
+          "segments": 444,
+          "reviewed": 24
+        },
+        {
+          "source_id": "source:3E0EE1",
+          "role": "irrelevant",
+          "segments": 238,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E083D",
+          "role": "irrelevant",
+          "segments": 234,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E04A7",
+          "role": "irrelevant",
+          "segments": 164,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E07F5",
+          "role": "boundary",
+          "segments": 164,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3D89FF",
+          "role": "irrelevant",
+          "segments": 154,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E0223",
+          "role": "irrelevant",
+          "segments": 92,
+          "reviewed": 0
+        }
+      ]
+    },
+    {
+      "seed": "source:3DFB06",
+      "room": "登记室",
+      "local_objects": 692,
+      "selected_objects": 96,
+      "review_pool_segments": 2464,
+      "before_segments": 43,
+      "after_segments": 42,
+      "reviewed_segments": 48,
+      "unreviewed_retained_segments": 31,
+      "restored_segments": 0,
+      "removed_segments": 1,
+      "before_faces_without_obstacles": [
+        {
+          "area_m2": 0.13492270945689083,
+          "defects": []
+        }
+      ],
+      "after_faces_without_obstacles": [
+        {
+          "area_m2": 0.13492270945689083,
+          "defects": []
+        }
+      ],
+      "after_faces_with_obstacles": [
+        {
+          "area_m2": 0.13492270945689083,
+          "defects": []
+        }
+      ],
+      "largest_sources": [
+        {
+          "source_id": "source:3D8A01",
+          "role": "irrelevant",
+          "segments": 844,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3DFAC7",
+          "role": "irrelevant",
+          "segments": 95,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3DFAC8",
+          "role": "irrelevant",
+          "segments": 95,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E0170",
+          "role": "irrelevant",
+          "segments": 95,
+          "reviewed": 2
+        },
+        {
+          "source_id": "source:3E0171",
+          "role": "irrelevant",
+          "segments": 95,
+          "reviewed": 5
+        },
+        {
+          "source_id": "source:3E089C",
+          "role": "irrelevant",
+          "segments": 95,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E0F0A",
+          "role": "irrelevant",
+          "segments": 95,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E0F43",
+          "role": "irrelevant",
+          "segments": 95,
+          "reviewed": 1
+        }
+      ]
+    },
+    {
+      "seed": "source:3DFB32",
+      "room": "冷链室",
+      "local_objects": 862,
+      "selected_objects": 96,
+      "review_pool_segments": 1390,
+      "before_segments": 269,
+      "after_segments": 269,
+      "reviewed_segments": 48,
+      "unreviewed_retained_segments": 249,
+      "restored_segments": 0,
+      "removed_segments": 0,
+      "before_faces_without_obstacles": [],
+      "after_faces_without_obstacles": [],
+      "after_faces_with_obstacles": [],
+      "largest_sources": [
+        {
+          "source_id": "source:3D8A00",
+          "role": "irrelevant",
+          "segments": 444,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E04A8",
+          "role": "irrelevant",
+          "segments": 164,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E07DB",
+          "role": "boundary",
+          "segments": 164,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E01A5",
+          "role": "irrelevant",
+          "segments": 97,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E01A7",
+          "role": "irrelevant",
+          "segments": 95,
+          "reviewed": 13
+        },
+        {
+          "source_id": "source:3DFB7C",
+          "role": "irrelevant",
+          "segments": 92,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E08CB",
+          "role": "irrelevant",
+          "segments": 92,
+          "reviewed": 2
+        },
+        {
+          "source_id": "source:3E0827",
+          "role": "opening_boundary",
+          "segments": 58,
+          "reviewed": 0
+        }
+      ]
+    },
+    {
+      "seed": "source:3E0194",
+      "room": "哺乳室",
+      "local_objects": 674,
+      "selected_objects": 96,
+      "review_pool_segments": 755,
+      "before_segments": 142,
+      "after_segments": 139,
+      "reviewed_segments": 48,
+      "unreviewed_retained_segments": 120,
+      "restored_segments": 0,
+      "removed_segments": 3,
+      "before_faces_without_obstacles": [
+        {
+          "area_m2": 3.476512017848134,
+          "defects": []
+        }
+      ],
+      "after_faces_without_obstacles": [
+        {
+          "area_m2": 3.476512017848134,
+          "defects": []
+        }
+      ],
+      "after_faces_with_obstacles": [
+        {
+          "area_m2": 3.476512017848134,
+          "defects": [
+            "obstacle_touches_boundary:source:3D8C62",
+            "unresolved_obstacle:source:3DFE0E"
+          ]
+        }
+      ],
+      "largest_sources": [
+        {
+          "source_id": "source:3E0193",
+          "role": "irrelevant",
+          "segments": 238,
+          "reviewed": 2
+        },
+        {
+          "source_id": "source:3E0196",
+          "role": "irrelevant",
+          "segments": 234,
+          "reviewed": 18
+        },
+        {
+          "source_id": "source:3DFE00",
+          "role": "obstacle",
+          "segments": 164,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3DFB52",
+          "role": "irrelevant",
+          "segments": 83,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3DFAE5",
+          "role": "opening_boundary",
+          "segments": 36,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E018E",
+          "role": "opening_boundary",
+          "segments": 36,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3DFB69",
+          "role": "opening_boundary",
+          "segments": 24,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E00FA",
+          "role": "boundary",
+          "segments": 16,
+          "reviewed": 0
+        }
+      ]
+    },
+    {
+      "seed": "source:3E01A3",
+      "room": "接种室",
+      "local_objects": 879,
+      "selected_objects": 96,
+      "review_pool_segments": 544,
+      "before_segments": 88,
+      "after_segments": 87,
+      "reviewed_segments": 48,
+      "unreviewed_retained_segments": 53,
+      "restored_segments": 0,
+      "removed_segments": 1,
+      "before_faces_without_obstacles": [],
+      "after_faces_without_obstacles": [],
+      "after_faces_with_obstacles": [],
+      "largest_sources": [
+        {
+          "source_id": "source:3E083A",
+          "role": "irrelevant",
+          "segments": 238,
+          "reviewed": 9
+        },
+        {
+          "source_id": "source:3E019F",
+          "role": "irrelevant",
+          "segments": 124,
+          "reviewed": 2
+        },
+        {
+          "source_id": "source:3E01A9",
+          "role": "obstacle",
+          "segments": 124,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3DFB7A",
+          "role": "obstacle",
+          "segments": 92,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3DFB51",
+          "role": "irrelevant",
+          "segments": 83,
+          "reviewed": 1
+        },
+        {
+          "source_id": "source:3E01F9",
+          "role": "obstacle",
+          "segments": 83,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E0827",
+          "role": "opening_boundary",
+          "segments": 58,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3DFB1D",
+          "role": "opening_boundary",
+          "segments": 36,
+          "reviewed": 0
+        }
+      ]
+    },
+    {
+      "seed": "source:3E01BE",
+      "room": "留观区",
+      "local_objects": 649,
+      "selected_objects": 96,
+      "review_pool_segments": 2811,
+      "before_segments": 48,
+      "after_segments": 48,
+      "reviewed_segments": 48,
+      "unreviewed_retained_segments": 34,
+      "restored_segments": 0,
+      "removed_segments": 0,
+      "before_faces_without_obstacles": [
+        {
+          "area_m2": 455.6831633911489,
+          "defects": []
+        }
+      ],
+      "after_faces_without_obstacles": [
+        {
+          "area_m2": 455.6831633911489,
+          "defects": []
+        }
+      ],
+      "after_faces_with_obstacles": [
+        {
+          "area_m2": 455.6831633911489,
+          "defects": []
+        }
+      ],
+      "largest_sources": [
+        {
+          "source_id": "source:3D8A01",
+          "role": "irrelevant",
+          "segments": 844,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3D8A00",
+          "role": "irrelevant",
+          "segments": 444,
+          "reviewed": 8
+        },
+        {
+          "source_id": "source:3D89FF",
+          "role": "irrelevant",
+          "segments": 154,
+          "reviewed": 7
+        },
+        {
+          "source_id": "source:3D8BB2",
+          "role": "irrelevant",
+          "segments": 95,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3D8BB3",
+          "role": "irrelevant",
+          "segments": 95,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3DFAC7",
+          "role": "irrelevant",
+          "segments": 95,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3DFAC8",
+          "role": "irrelevant",
+          "segments": 95,
+          "reviewed": 0
+        },
+        {
+          "source_id": "source:3E0863",
+          "role": "irrelevant",
+          "segments": 95,
+          "reviewed": 0
+        }
+      ]
+    }
+  ]
+}

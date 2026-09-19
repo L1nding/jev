@@ -1,0 +1,62 @@
+{
+  "schema_version": "jev-decisions-v1",
+  "generated_at": "2026-09-19T09:12:12.753Z",
+  "input": {
+    "cad_ir_path": "/Users/zhoujunlin/Documents/jev/reports/cad-ir/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.cad-ir.json",
+    "cad_ir_sha256": "50f8fdb6a16469b643a235d7ddb990994aa5d9b72e9b87953e0b138620b477b5",
+    "region_id": "region-c665ea89ba4f",
+    "source_sha256": "5051e4b3d45c2752e2f539eabf4fc57e513fb34fbee664f8c2a4918a4b6c9cd5"
+  },
+  "model": "typesafe/jev-1.13",
+  "endpoint": "https://openrouter.ai/api/alpha/decisions",
+  "selection": {
+    "requested_limit": 1,
+    "selected_entity_count": 1,
+    "batch_size": 1,
+    "layers": [],
+    "window_id": "window-0f28c192908f",
+    "include_context": false
+  },
+  "summary": {
+    "decision_count": 1,
+    "batches": 1,
+    "missing_answers": 0,
+    "semantic_type_counts": {
+      "column": 1
+    }
+  },
+  "batches": [
+    {
+      "index": 0,
+      "entity_count": 1,
+      "request_id": "gen-dec-1789809132-T5xmucSEPLl7FjU6eK7W",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 867,
+        "output_tokens": 88,
+        "cost": 0.000036414
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "source_id": "source:3D87CC",
+      "key": "e_6c993797ec54",
+      "semantic_type": "column",
+      "confidence": 0.69,
+      "probabilities": {
+        "unknown": 0.19999999999999998,
+        "annotation": 0.01,
+        "window": 0.01,
+        "stair": 0.01,
+        "door": 0.02,
+        "wall": 0.02,
+        "column": 0.72,
+        "furniture": 0.01
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789809132-T5xmucSEPLl7FjU6eK7W"
+    }
+  ]
+}

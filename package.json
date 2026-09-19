@@ -1,0 +1,29 @@
+{
+  "name": "jev-openrouter-bun",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "inventory": "bun run src/inventory.ts",
+    "export-region": "bun run src/export-region.ts",
+    "windows": "bun run src/windows.ts",
+    "baseline": "bun run src/baseline.ts",
+    "enrich": "bun run src/enrich.ts",
+    "jev": "bun run src/jev-decide.ts",
+    "jev-object": "bun run src/jev-object.ts",
+    "jev-room-layers": "bun run src/jev-room-layers.ts",
+    "wall-elements": "bun run src/build-wall-elements.ts",
+    "group-walls": "bun run src/jev-group-walls.ts",
+    "segment-walls": "bun run src/segment-wall-elements.ts",
+    "room-traverse": "bun run src/jev-room-traverse.ts",
+    "room-resolve": "bun run src/jev-room-resolve.ts",
+    "visualize": "bun run scripts/generate-compare-visual.ts",
+    "test": "bun test",
+    "dev": "bun --watch run src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "latest"
+  }
+}

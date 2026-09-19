@@ -1,0 +1,33 @@
+$ bun run src/jev-room-resolve.ts "reports/cad-ir/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.cad-ir.json" "reports/jev/window-0f28c192908f/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.jev-decisions.json" "reports/room-v2/source-geometry.json" --seed "source:3DFB06" --reuse-decisions "reports/room-v2/frontier-evaluation/source-3DFB06.json" --output-dir "reports/room-v2/structural-reviewed-evaluation"
+登记室: Jev request 1/32: ok
+登记室: Jev request 2/32: ok
+登记室: Jev request 3/32: ok
+登记室: Jev request 4/32: ok
+登记室: Jev request 5/32: ok
+登记室: Jev request 6/32: ok
+登记室: Jev request 7/32: ok
+登记室: Jev request 8/32: ok
+登记室: round 1: jev_rejected_all; expanding bounded context
+登记室: Jev request 9/32: ok
+登记室: Jev request 10/32: ok
+登记室: Jev request 11/32: ok
+登记室: Jev request 12/32: ok
+登记室: Jev request 13/32: ok
+登记室: Jev request 14/32: ok
+登记室: Jev request 15/32: ok
+登记室: Jev request 16/32: ok
+登记室: Jev request 17/32: ok
+登记室: Jev request 18/32: ok
+登记室: Jev request 19/32: ok
+登记室: Jev request 20/32: ok
+登记室: Jev request 21/32: ok
+登记室: Jev request 22/32: ok
+登记室: Jev request 23/32: ok
+{
+  "output": "/Users/zhoujunlin/Documents/jev/reports/room-v2/structural-reviewed-evaluation/source-3DFB06.json",
+  "room": "登记室",
+  "outcome": "uncertain",
+  "reason": "jev_rejected_all",
+  "requests": 23,
+  "candidates": 2
+}

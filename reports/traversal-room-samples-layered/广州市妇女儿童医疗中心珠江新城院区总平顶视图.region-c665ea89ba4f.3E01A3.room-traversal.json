@@ -1,0 +1,2880 @@
+{
+  "schema_version": "room-boundary-traversal-v1",
+  "generated_at": "2026-09-19T12:06:44.718Z",
+  "model": "typesafe/jev-1.13",
+  "endpoint": "https://openrouter.ai/api/alpha/decisions",
+  "input": {
+    "cad_ir_path": "/Users/zhoujunlin/Documents/jev/reports/cad-ir/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.cad-ir.json",
+    "jev_decisions_path": "/Users/zhoujunlin/Documents/jev/reports/jev/window-0f28c192908f/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.jev-decisions.json",
+    "wall_elements_path": "/Users/zhoujunlin/Documents/jev/reports/wall-elements/room-samples/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.3E01A3.wall-elements.json",
+    "room_object_path": "/Users/zhoujunlin/Documents/jev/reports/objects/room-samples/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.room.3E01A3.jev-object.json",
+    "layer_decisions_path": "/Users/zhoujunlin/Documents/jev/reports/layers/room-samples/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.3E01A3.room-layer-decisions.json"
+  },
+  "policy": {
+    "beam_width": 3,
+    "max_steps": 16,
+    "junction_tolerance": 250,
+    "opening_reach": 1200,
+    "minimum_room_area": 5250000,
+    "maximum_room_area": 84000000
+  },
+  "room_seed": {
+    "source_id": "source:3E01A3",
+    "text": "接种室",
+    "point": [
+      53116.37580606155,
+      12379.230462519452
+    ]
+  },
+  "room_area_evidence": {
+    "source_id": "source:3E01A4",
+    "text": "21m²",
+    "square_metres": 21,
+    "distance": 599.0806652660154
+  },
+  "summary": {
+    "wall_element_count": 18,
+    "unfiltered_wall_element_count": 400,
+    "primary_layer_filtered_element_count": 268,
+    "repair_layer_filtered_element_count": 363,
+    "excluded_layer_element_count": 37,
+    "supplemental_boundary_element_count": 268,
+    "boundary_coverage_radius": 5984.545548995429,
+    "opening_element_count": 18,
+    "completed_attempt_count": 0,
+    "valid_attempt_count": 0,
+    "terminated_attempt_count": 5,
+    "accepted_attempt_id": null,
+    "face_walk_graph_face_count": 129,
+    "face_walk_seed_face_count": 0,
+    "face_walk_valid_room_face_count": 0,
+    "traversal_strategy": "beam_fallback"
+  },
+  "outcome": "uncertain",
+  "accepted_attempt": null,
+  "completed_attempts": [],
+  "terminated_attempts": [
+    {
+      "branch": {
+        "id": "branch-0.1-2",
+        "startEntry": [
+          52885.018177732825,
+          13996.15909265913
+        ],
+        "currentExit": [
+          52885.018177732825,
+          11686.159092629328
+        ],
+        "orderedEdges": [
+          {
+            "kind": "wall",
+            "element_id": "wall:3DFA7E:segment:0",
+            "direction": "forward",
+            "entry": [
+              52885.018177732825,
+              13996.15909265913
+            ],
+            "exit": [
+              52885.018177732825,
+              11686.159092629328
+            ],
+            "source_entities": [
+              "source:3DFA7E"
+            ],
+            "parent_element_id": "boundary:wall:3DFA7E",
+            "membership": "accepted",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                52885.018177732825,
+                13996.15909265913
+              ],
+              [
+                52885.018177732825,
+                11686.159092629328
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3DFA7E:segment:0"
+            ],
+            "semantic_confidence": 1
+          }
+        ],
+        "visitedElementIds": [
+          "wall:3DFA7E:segment:0"
+        ],
+        "visitedObjectIds": [],
+        "cumulativeProbability": 0.008100000000000001,
+        "interiorSide": 1,
+        "repairParentElementIds": [],
+        "closed": false,
+        "termination": "uncertain"
+      },
+      "validation": {
+        "closed": false,
+        "contains_seed": false,
+        "area": 0,
+        "point_count": 2,
+        "wall_edge_count": 1,
+        "virtual_edge_count": 0,
+        "points": [
+          [
+            52885.018177732825,
+            13996.15909265913
+          ],
+          [
+            52885.018177732825,
+            11686.159092629328
+          ]
+        ]
+      }
+    },
+    {
+      "branch": {
+        "id": "branch-1.1-0",
+        "startEntry": [
+          52885.018177732825,
+          11686.159092629328
+        ],
+        "currentExit": [
+          52885.018177732825,
+          13996.15909265913
+        ],
+        "orderedEdges": [
+          {
+            "kind": "wall",
+            "element_id": "wall:3DFA7E:segment:0",
+            "direction": "reverse",
+            "entry": [
+              52885.018177732825,
+              11686.159092629328
+            ],
+            "exit": [
+              52885.018177732825,
+              13996.15909265913
+            ],
+            "source_entities": [
+              "source:3DFA7E"
+            ],
+            "parent_element_id": "boundary:wall:3DFA7E",
+            "membership": "accepted",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              [
+                52885.018177732825,
+                13996.15909265913
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3DFA7E:segment:0"
+            ],
+            "semantic_confidence": 1
+          }
+        ],
+        "visitedElementIds": [
+          "wall:3DFA7E:segment:0"
+        ],
+        "visitedObjectIds": [],
+        "cumulativeProbability": 0.07,
+        "interiorSide": -1,
+        "repairParentElementIds": [],
+        "closed": false,
+        "termination": "uncertain"
+      },
+      "validation": {
+        "closed": false,
+        "contains_seed": false,
+        "area": 0,
+        "point_count": 2,
+        "wall_edge_count": 1,
+        "virtual_edge_count": 0,
+        "points": [
+          [
+            52885.018177732825,
+            11686.159092629328
+          ],
+          [
+            52885.018177732825,
+            13996.15909265913
+          ]
+        ]
+      }
+    },
+    {
+      "branch": {
+        "id": "branch-2.1-2",
+        "startEntry": [
+          52705.01817773655,
+          13986.15909267962
+        ],
+        "currentExit": [
+          52705.018177732825,
+          10786.159092400223
+        ],
+        "orderedEdges": [
+          {
+            "kind": "wall",
+            "element_id": "wall:3DFA85:segment:0",
+            "direction": "forward",
+            "entry": [
+              52705.01817773655,
+              13986.15909267962
+            ],
+            "exit": [
+              52705.018177732825,
+              10786.159092400223
+            ],
+            "source_entities": [
+              "source:3DFA85"
+            ],
+            "parent_element_id": "boundary:wall:3DFA85",
+            "membership": "accepted",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                52705.01817773655,
+                13986.15909267962
+              ],
+              [
+                52705.018177732825,
+                10786.159092400223
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3DFA85:segment:0"
+            ],
+            "semantic_confidence": 1
+          }
+        ],
+        "visitedElementIds": [
+          "wall:3DFA85:segment:0"
+        ],
+        "visitedObjectIds": [],
+        "cumulativeProbability": 0.0018,
+        "interiorSide": 1,
+        "repairParentElementIds": [],
+        "closed": false,
+        "termination": "uncertain"
+      },
+      "validation": {
+        "closed": false,
+        "contains_seed": false,
+        "area": 0,
+        "point_count": 2,
+        "wall_edge_count": 1,
+        "virtual_edge_count": 0,
+        "points": [
+          [
+            52705.01817773655,
+            13986.15909267962
+          ],
+          [
+            52705.018177732825,
+            10786.159092400223
+          ]
+        ]
+      }
+    },
+    {
+      "branch": {
+        "id": "branch-0.1-0.2-0",
+        "startEntry": [
+          52885.018177732825,
+          13996.15909265913
+        ],
+        "currentExit": [
+          52885.018177732825,
+          10786.159092590213
+        ],
+        "orderedEdges": [
+          {
+            "kind": "wall",
+            "element_id": "wall:3DFA7E:segment:0",
+            "direction": "forward",
+            "entry": [
+              52885.018177732825,
+              13996.15909265913
+            ],
+            "exit": [
+              52885.018177732825,
+              11686.159092629328
+            ],
+            "source_entities": [
+              "source:3DFA7E"
+            ],
+            "parent_element_id": "boundary:wall:3DFA7E",
+            "membership": "accepted",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                52885.018177732825,
+                13996.15909265913
+              ],
+              [
+                52885.018177732825,
+                11686.159092629328
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3DFA7E:segment:0"
+            ],
+            "semantic_confidence": 1
+          },
+          {
+            "kind": "wall",
+            "element_id": "wall:3DFA7F:segment:0",
+            "direction": "forward",
+            "entry": [
+              52885.018177732825,
+              11686.159092629328
+            ],
+            "exit": [
+              52885.018177732825,
+              10786.159092590213
+            ],
+            "source_entities": [
+              "source:3DFA7F"
+            ],
+            "parent_element_id": "boundary:wall:3DFA7F",
+            "membership": "accepted",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              [
+                52885.018177732825,
+                10786.159092590213
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3DFA7F:segment:0"
+            ],
+            "semantic_confidence": 1
+          }
+        ],
+        "visitedElementIds": [
+          "wall:3DFA7E:segment:0",
+          "wall:3DFA7F:segment:0"
+        ],
+        "visitedObjectIds": [],
+        "cumulativeProbability": 0.7938000000000001,
+        "interiorSide": 1,
+        "repairParentElementIds": [],
+        "closed": false,
+        "termination": "uncertain"
+      },
+      "validation": {
+        "closed": false,
+        "contains_seed": false,
+        "area": 0,
+        "point_count": 3,
+        "wall_edge_count": 2,
+        "virtual_edge_count": 0,
+        "points": [
+          [
+            52885.018177732825,
+            13996.15909265913
+          ],
+          [
+            52885.018177732825,
+            11686.159092629328
+          ],
+          [
+            52885.018177732825,
+            10786.159092590213
+          ]
+        ]
+      }
+    },
+    {
+      "branch": {
+        "id": "branch-2.1-0.2-0",
+        "startEntry": [
+          52705.01817773655,
+          13986.15909267962
+        ],
+        "currentExit": [
+          52885.018177732825,
+          10786.159092590213
+        ],
+        "orderedEdges": [
+          {
+            "kind": "wall",
+            "element_id": "wall:3DFA85:segment:0",
+            "direction": "forward",
+            "entry": [
+              52705.01817773655,
+              13986.15909267962
+            ],
+            "exit": [
+              52705.018177732825,
+              10786.159092400223
+            ],
+            "source_entities": [
+              "source:3DFA85"
+            ],
+            "parent_element_id": "boundary:wall:3DFA85",
+            "membership": "accepted",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                52705.01817773655,
+                13986.15909267962
+              ],
+              [
+                52705.018177732825,
+                10786.159092400223
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3DFA85:segment:0"
+            ],
+            "semantic_confidence": 1
+          },
+          {
+            "kind": "opening",
+            "from": [
+              52705.018177732825,
+              10786.159092400223
+            ],
+            "to": [
+              52885.018177732825,
+              11686.159092629328
+            ],
+            "opening_element_id": "opening:3DFAE6"
+          },
+          {
+            "kind": "wall",
+            "element_id": "wall:3DFA7F:segment:0",
+            "direction": "forward",
+            "entry": [
+              52885.018177732825,
+              11686.159092629328
+            ],
+            "exit": [
+              52885.018177732825,
+              10786.159092590213
+            ],
+            "source_entities": [
+              "source:3DFA7F"
+            ],
+            "parent_element_id": "boundary:wall:3DFA7F",
+            "membership": "accepted",
+            "semantic_type": "wall",
+            "boundary_kind": "linear",
+            "path": [
+              [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              [
+                52885.018177732825,
+                10786.159092590213
+              ]
+            ],
+            "member_element_ids": [
+              "wall:3DFA7F:segment:0"
+            ],
+            "semantic_confidence": 1
+          }
+        ],
+        "visitedElementIds": [
+          "wall:3DFA85:segment:0",
+          "wall:3DFA7F:segment:0"
+        ],
+        "visitedObjectIds": [],
+        "cumulativeProbability": 0.0249,
+        "interiorSide": 1,
+        "repairParentElementIds": [],
+        "closed": false,
+        "termination": "uncertain"
+      },
+      "validation": {
+        "closed": false,
+        "contains_seed": false,
+        "area": 207000.0000216365,
+        "point_count": 4,
+        "wall_edge_count": 2,
+        "virtual_edge_count": 1,
+        "points": [
+          [
+            52705.01817773655,
+            13986.15909267962
+          ],
+          [
+            52705.018177732825,
+            10786.159092400223
+          ],
+          [
+            52885.018177732825,
+            11686.159092629328
+          ],
+          [
+            52885.018177732825,
+            10786.159092590213
+          ]
+        ]
+      }
+    }
+  ],
+  "final_decision": null,
+  "layer_filtering": {
+    "raw_decisions": [
+      {
+        "layer": "WALL",
+        "choice": "include",
+        "confidence": 0.98,
+        "probabilities": {
+          "uncertain": 0.01,
+          "exclude": 0.01,
+          "include": 0.98
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "WINDOW",
+        "choice": "exclude",
+        "confidence": 0.68,
+        "probabilities": {
+          "uncertain": 0.05,
+          "exclude": 0.79,
+          "include": 0.16
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "P-WALL1",
+        "choice": "include",
+        "confidence": 0.62,
+        "probabilities": {
+          "exclude": 0.19,
+          "uncertain": 0.07,
+          "include": 0.74
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "COLUMN",
+        "choice": "exclude",
+        "confidence": 0.41,
+        "probabilities": {
+          "uncertain": 0.06,
+          "exclude": 0.6,
+          "include": 0.34
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "COLUMN-框",
+        "choice": "exclude",
+        "confidence": 0.73,
+        "probabilities": {
+          "uncertain": 0.03,
+          "exclude": 0.82,
+          "include": 0.15
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "PL-家具",
+        "choice": "exclude",
+        "confidence": 0.8,
+        "probabilities": {
+          "uncertain": 0.01,
+          "exclude": 0.87,
+          "include": 0.12
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "护士站柜台",
+        "choice": "exclude",
+        "confidence": 0.96,
+        "probabilities": {
+          "uncertain": 0,
+          "exclude": 0.98,
+          "include": 0.02
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "剖切板材",
+        "choice": "exclude",
+        "confidence": 0.69,
+        "probabilities": {
+          "uncertain": 0.06,
+          "exclude": 0.79,
+          "include": 0.15
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "管井",
+        "choice": "exclude",
+        "confidence": 0.52,
+        "probabilities": {
+          "uncertain": 0.05,
+          "exclude": 0.68,
+          "include": 0.27
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "P-DOOR",
+        "choice": "exclude",
+        "confidence": 0.52,
+        "probabilities": {
+          "exclude": 0.68,
+          "uncertain": 0.03,
+          "include": 0.28
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "PL-DOOR",
+        "choice": "exclude",
+        "confidence": 0.86,
+        "probabilities": {
+          "uncertain": 0.02,
+          "exclude": 0.9,
+          "include": 0.08
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "P-PLANT",
+        "choice": "exclude",
+        "confidence": 0.94,
+        "probabilities": {
+          "uncertain": 0.01,
+          "exclude": 0.96,
+          "include": 0.03
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      }
+    ],
+    "effective_decisions": [
+      {
+        "layer": "WALL",
+        "choice": "include",
+        "confidence": 0.98,
+        "probabilities": {
+          "uncertain": 0.01,
+          "exclude": 0.01,
+          "include": 0.98
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "WINDOW",
+        "choice": "uncertain",
+        "confidence": 0.68,
+        "probabilities": {
+          "uncertain": 0.05,
+          "exclude": 0.79,
+          "include": 0.16
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917",
+        "raw_choice": "exclude",
+        "policy_reasons": [
+          "direct_room_membership_evidence"
+        ]
+      },
+      {
+        "layer": "P-WALL1",
+        "choice": "include",
+        "confidence": 0.62,
+        "probabilities": {
+          "exclude": 0.19,
+          "uncertain": 0.07,
+          "include": 0.74
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "COLUMN",
+        "choice": "uncertain",
+        "confidence": 0.41,
+        "probabilities": {
+          "uncertain": 0.06,
+          "exclude": 0.6,
+          "include": 0.34
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917",
+        "raw_choice": "exclude",
+        "policy_reasons": [
+          "low_exclude_confidence"
+        ]
+      },
+      {
+        "layer": "COLUMN-框",
+        "choice": "exclude",
+        "confidence": 0.73,
+        "probabilities": {
+          "uncertain": 0.03,
+          "exclude": 0.82,
+          "include": 0.15
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "PL-家具",
+        "choice": "exclude",
+        "confidence": 0.8,
+        "probabilities": {
+          "uncertain": 0.01,
+          "exclude": 0.87,
+          "include": 0.12
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "护士站柜台",
+        "choice": "exclude",
+        "confidence": 0.96,
+        "probabilities": {
+          "uncertain": 0,
+          "exclude": 0.98,
+          "include": 0.02
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "剖切板材",
+        "choice": "exclude",
+        "confidence": 0.69,
+        "probabilities": {
+          "uncertain": 0.06,
+          "exclude": 0.79,
+          "include": 0.15
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "管井",
+        "choice": "uncertain",
+        "confidence": 0.52,
+        "probabilities": {
+          "uncertain": 0.05,
+          "exclude": 0.68,
+          "include": 0.27
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917",
+        "raw_choice": "exclude",
+        "policy_reasons": [
+          "low_exclude_confidence"
+        ]
+      },
+      {
+        "layer": "P-DOOR",
+        "choice": "uncertain",
+        "confidence": 0.52,
+        "probabilities": {
+          "exclude": 0.68,
+          "uncertain": 0.03,
+          "include": 0.28
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917",
+        "raw_choice": "exclude",
+        "policy_reasons": [
+          "direct_room_membership_evidence",
+          "low_exclude_confidence"
+        ]
+      },
+      {
+        "layer": "PL-DOOR",
+        "choice": "exclude",
+        "confidence": 0.86,
+        "probabilities": {
+          "uncertain": 0.02,
+          "exclude": 0.9,
+          "include": 0.08
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      },
+      {
+        "layer": "P-PLANT",
+        "choice": "exclude",
+        "confidence": 0.94,
+        "probabilities": {
+          "uncertain": 0.01,
+          "exclude": 0.96,
+          "include": 0.03
+        },
+        "request_id": "gen-dec-1789819587-xWHz4TdKyXFOvLU7bKuR",
+        "model": "typesafe/jev-1.13-20260917"
+      }
+    ],
+    "protected_layers": [
+      "P-DOOR",
+      "P-WALL1",
+      "WALL",
+      "WINDOW"
+    ],
+    "element_counts": {
+      "include": 268,
+      "uncertain": 95,
+      "exclude": 37
+    }
+  },
+  "traces": [
+    {
+      "stage": "face_walk",
+      "snap_tolerance": 50,
+      "graph_face_count": 129,
+      "seed_face_count": 0,
+      "valid_room_face_count": 0,
+      "selected_face_ids": [],
+      "virtual_edge_candidate_count": 134,
+      "fallback_to_beam": true
+    },
+    {
+      "stage": "start",
+      "request_id": "gen-dec-1789819602-FbImPmgBJdkcCsa0pfI6",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 5618,
+        "output_tokens": 161,
+        "cost": 0.000235956
+      },
+      "selected_key": "o0",
+      "confidence": 0.79,
+      "probabilities": [
+        {
+          "key": "o0",
+          "option": {
+            "id": "start:wall:3DFA7E:segment:0:forward",
+            "kind": "wall",
+            "description": "从 wall:3DFA7E:segment:0 的 forward 方向开始；父墙 boundary:wall:3DFA7E；墙段距 Room Seed 0.23m；Room Seed 位于有向边的 左侧；相对入口 [-0.23,1.62]m，相对出口 [-0.23,-0.69]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFA7E:segment:0",
+              "direction": "forward",
+              "entry": [
+                52885.018177732825,
+                13996.15909265913
+              ],
+              "exit": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "source_entities": [
+                "source:3DFA7E"
+              ],
+              "parent_element_id": "boundary:wall:3DFA7E",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52885.018177732825,
+                  13996.15909265913
+                ],
+                [
+                  52885.018177732825,
+                  11686.159092629328
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFA7E:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "distance": 231.3576283287257
+          },
+          "probability": 0.81
+        },
+        {
+          "key": "o1",
+          "option": {
+            "id": "start:wall:3DFA7E:segment:0:reverse",
+            "kind": "wall",
+            "description": "从 wall:3DFA7E:segment:0 的 reverse 方向开始；父墙 boundary:wall:3DFA7E；墙段距 Room Seed 0.23m；Room Seed 位于有向边的 右侧；相对入口 [-0.23,-0.69]m，相对出口 [-0.23,1.62]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFA7E:segment:0",
+              "direction": "reverse",
+              "entry": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "exit": [
+                52885.018177732825,
+                13996.15909265913
+              ],
+              "source_entities": [
+                "source:3DFA7E"
+              ],
+              "parent_element_id": "boundary:wall:3DFA7E",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52885.018177732825,
+                  11686.159092629328
+                ],
+                [
+                  52885.018177732825,
+                  13996.15909265913
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFA7E:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "distance": 231.3576283287257
+          },
+          "probability": 0.07
+        },
+        {
+          "key": "o2",
+          "option": {
+            "id": "start:wall:3DFA85:segment:0:forward",
+            "kind": "wall",
+            "description": "从 wall:3DFA85:segment:0 的 forward 方向开始；父墙 boundary:wall:3DFA85；墙段距 Room Seed 0.41m；Room Seed 位于有向边的 左侧；相对入口 [-0.41,1.61]m，相对出口 [-0.41,-1.59]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFA85:segment:0",
+              "direction": "forward",
+              "entry": [
+                52705.01817773655,
+                13986.15909267962
+              ],
+              "exit": [
+                52705.018177732825,
+                10786.159092400223
+              ],
+              "source_entities": [
+                "source:3DFA85"
+              ],
+              "parent_element_id": "boundary:wall:3DFA85",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52705.01817773655,
+                  13986.15909267962
+                ],
+                [
+                  52705.018177732825,
+                  10786.159092400223
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFA85:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "distance": 411.3576283268703
+          },
+          "probability": 0.03
+        },
+        {
+          "key": "o14",
+          "option": {
+            "id": "start:wall:3DFAE7:segment:0:forward",
+            "kind": "wall",
+            "description": "从 wall:3DFAE7:segment:0 的 forward 方向开始；父墙 boundary:wall:3DFAE7；墙段距 Room Seed 1.03m；Room Seed 位于有向边的 左侧；相对入口 [0.73,-0.83]m，相对出口 [0.73,-0.73]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFAE7:segment:0",
+              "direction": "forward",
+              "entry": [
+                53845.01817770116,
+                11546.159092579037
+              ],
+              "exit": [
+                53845.01817751862,
+                11646.159092599526
+              ],
+              "source_entities": [
+                "source:3DFAE7"
+              ],
+              "parent_element_id": "boundary:wall:3DFAE7",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  53845.01817770116,
+                  11546.159092579037
+                ],
+                [
+                  53845.01817751862,
+                  11646.159092599526
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFAE7:segment:0"
+              ],
+              "semantic_confidence": 0.98
+            },
+            "distance": 1033.592443315478
+          },
+          "probability": 0.02
+        },
+        {
+          "key": "o4",
+          "option": {
+            "id": "start:wall:3E048A:segment:0:forward",
+            "kind": "wall",
+            "description": "从 wall:3E048A:segment:0 的 forward 方向开始；父墙 boundary:wall:3E048A；墙段距 Room Seed 0.53m；Room Seed 位于有向边的 右侧；相对入口 [-0.53,-5.22]m，相对出口 [-0.53,4.06]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3E048A:segment:0",
+              "direction": "forward",
+              "entry": [
+                52585.01249048114,
+                7156.158983958885
+              ],
+              "exit": [
+                52585.01249048114,
+                16436.15898394026
+              ],
+              "source_entities": [
+                "source:3E048A"
+              ],
+              "parent_element_id": "boundary:wall:3E048A",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52585.01249048114,
+                  7156.158983958885
+                ],
+                [
+                  52585.01249048114,
+                  16436.15898394026
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3E048A:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "distance": 531.3633155804127
+          },
+          "probability": 0.02
+        },
+        {
+          "key": "o16",
+          "option": {
+            "id": "uncertain",
+            "kind": "uncertain",
+            "description": "现有起点候选不足以可靠开始遍历。",
+            "distance": null
+          },
+          "probability": 0.02
+        },
+        {
+          "key": "o15",
+          "option": {
+            "id": "start:wall:3DFAE7:segment:0:reverse",
+            "kind": "wall",
+            "description": "从 wall:3DFAE7:segment:0 的 reverse 方向开始；父墙 boundary:wall:3DFAE7；墙段距 Room Seed 1.03m；Room Seed 位于有向边的 右侧；相对入口 [0.73,-0.73]m，相对出口 [0.73,-0.83]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFAE7:segment:0",
+              "direction": "reverse",
+              "entry": [
+                53845.01817751862,
+                11646.159092599526
+              ],
+              "exit": [
+                53845.01817770116,
+                11546.159092579037
+              ],
+              "source_entities": [
+                "source:3DFAE7"
+              ],
+              "parent_element_id": "boundary:wall:3DFAE7",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  53845.01817751862,
+                  11646.159092599526
+                ],
+                [
+                  53845.01817770116,
+                  11546.159092579037
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFAE7:segment:0"
+              ],
+              "semantic_confidence": 0.98
+            },
+            "distance": 1033.592443315478
+          },
+          "probability": 0.01
+        },
+        {
+          "key": "o5",
+          "option": {
+            "id": "start:wall:3E048A:segment:0:reverse",
+            "kind": "wall",
+            "description": "从 wall:3E048A:segment:0 的 reverse 方向开始；父墙 boundary:wall:3E048A；墙段距 Room Seed 0.53m；Room Seed 位于有向边的 左侧；相对入口 [-0.53,4.06]m，相对出口 [-0.53,-5.22]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3E048A:segment:0",
+              "direction": "reverse",
+              "entry": [
+                52585.01249048114,
+                16436.15898394026
+              ],
+              "exit": [
+                52585.01249048114,
+                7156.158983958885
+              ],
+              "source_entities": [
+                "source:3E048A"
+              ],
+              "parent_element_id": "boundary:wall:3E048A",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52585.01249048114,
+                  16436.15898394026
+                ],
+                [
+                  52585.01249048114,
+                  7156.158983958885
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3E048A:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "distance": 531.3633155804127
+          },
+          "probability": 0.01
+        },
+        {
+          "key": "o10",
+          "option": {
+            "id": "start:wall:3E048E:segment:0:forward",
+            "kind": "wall",
+            "description": "从 wall:3E048E:segment:0 的 forward 方向开始；父墙 boundary:wall:3E048E；墙段距 Room Seed 0.93m；Room Seed 位于有向边的 左侧；相对入口 [-0.93,3.26]m，相对出口 [-0.93,-0.84]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3E048E:segment:0",
+              "direction": "forward",
+              "entry": [
+                52185.02279576659,
+                15636.158983958885
+              ],
+              "exit": [
+                52185.02279576659,
+                11536.158983958885
+              ],
+              "source_entities": [
+                "source:3E048E"
+              ],
+              "parent_element_id": "boundary:wall:3E048E",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52185.02279576659,
+                  15636.158983958885
+                ],
+                [
+                  52185.02279576659,
+                  11536.158983958885
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3E048E:segment:0"
+              ],
+              "semantic_confidence": 0.98
+            },
+            "distance": 931.353010294959
+          },
+          "probability": 0
+        },
+        {
+          "key": "o11",
+          "option": {
+            "id": "start:wall:3E048E:segment:0:reverse",
+            "kind": "wall",
+            "description": "从 wall:3E048E:segment:0 的 reverse 方向开始；父墙 boundary:wall:3E048E；墙段距 Room Seed 0.93m；Room Seed 位于有向边的 右侧；相对入口 [-0.93,-0.84]m，相对出口 [-0.93,3.26]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3E048E:segment:0",
+              "direction": "reverse",
+              "entry": [
+                52185.02279576659,
+                11536.158983958885
+              ],
+              "exit": [
+                52185.02279576659,
+                15636.158983958885
+              ],
+              "source_entities": [
+                "source:3E048E"
+              ],
+              "parent_element_id": "boundary:wall:3E048E",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52185.02279576659,
+                  11536.158983958885
+                ],
+                [
+                  52185.02279576659,
+                  15636.158983958885
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3E048E:segment:0"
+              ],
+              "semantic_confidence": 0.98
+            },
+            "distance": 931.353010294959
+          },
+          "probability": 0
+        },
+        {
+          "key": "o13",
+          "option": {
+            "id": "start:wall:3E048F:segment:0:reverse",
+            "kind": "wall",
+            "description": "从 wall:3E048F:segment:0 的 reverse 方向开始；父墙 boundary:wall:3E048F；墙段距 Room Seed 1.03m；Room Seed 位于有向边的 右侧；相对入口 [-1.03,-0.84]m，相对出口 [-1.03,3.26]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3E048F:segment:0",
+              "direction": "reverse",
+              "entry": [
+                52085.02279576659,
+                11536.158983958885
+              ],
+              "exit": [
+                52085.02279576659,
+                15636.158983958885
+              ],
+              "source_entities": [
+                "source:3E048F"
+              ],
+              "parent_element_id": "boundary:wall:3E048F",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52085.02279576659,
+                  11536.158983958885
+                ],
+                [
+                  52085.02279576659,
+                  15636.158983958885
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3E048F:segment:0"
+              ],
+              "semantic_confidence": 0.97
+            },
+            "distance": 1031.353010294959
+          },
+          "probability": 0
+        },
+        {
+          "key": "o12",
+          "option": {
+            "id": "start:wall:3E048F:segment:0:forward",
+            "kind": "wall",
+            "description": "从 wall:3E048F:segment:0 的 forward 方向开始；父墙 boundary:wall:3E048F；墙段距 Room Seed 1.03m；Room Seed 位于有向边的 左侧；相对入口 [-1.03,3.26]m，相对出口 [-1.03,-0.84]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3E048F:segment:0",
+              "direction": "forward",
+              "entry": [
+                52085.02279576659,
+                15636.158983958885
+              ],
+              "exit": [
+                52085.02279576659,
+                11536.158983958885
+              ],
+              "source_entities": [
+                "source:3E048F"
+              ],
+              "parent_element_id": "boundary:wall:3E048F",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52085.02279576659,
+                  15636.158983958885
+                ],
+                [
+                  52085.02279576659,
+                  11536.158983958885
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3E048F:segment:0"
+              ],
+              "semantic_confidence": 0.97
+            },
+            "distance": 1031.353010294959
+          },
+          "probability": 0
+        },
+        {
+          "key": "o7",
+          "option": {
+            "id": "start:wall:3E07C0:segment:0:reverse",
+            "kind": "wall",
+            "description": "从 wall:3E07C0:segment:0 的 reverse 方向开始；父墙 boundary:wall:3E07C0；墙段距 Room Seed 0.53m；Room Seed 位于有向边的 左侧；相对入口 [-0.53,4.06]m，相对出口 [-0.53,-1.54]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3E07C0:segment:0",
+              "direction": "reverse",
+              "entry": [
+                52585.01249048114,
+                16436.15898394026
+              ],
+              "exit": [
+                52585.01249048114,
+                10843.98602887988
+              ],
+              "source_entities": [
+                "source:3E07C0"
+              ],
+              "parent_element_id": "boundary:wall:3E07C0",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52585.01249048114,
+                  16436.15898394026
+                ],
+                [
+                  52585.01249048114,
+                  10843.98602887988
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3E07C0:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "distance": 531.3633155804127
+          },
+          "probability": 0
+        },
+        {
+          "key": "o3",
+          "option": {
+            "id": "start:wall:3DFA85:segment:0:reverse",
+            "kind": "wall",
+            "description": "从 wall:3DFA85:segment:0 的 reverse 方向开始；父墙 boundary:wall:3DFA85；墙段距 Room Seed 0.41m；Room Seed 位于有向边的 右侧；相对入口 [-0.41,-1.59]m，相对出口 [-0.41,1.61]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFA85:segment:0",
+              "direction": "reverse",
+              "entry": [
+                52705.018177732825,
+                10786.159092400223
+              ],
+              "exit": [
+                52705.01817773655,
+                13986.15909267962
+              ],
+              "source_entities": [
+                "source:3DFA85"
+              ],
+              "parent_element_id": "boundary:wall:3DFA85",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52705.018177732825,
+                  10786.159092400223
+                ],
+                [
+                  52705.01817773655,
+                  13986.15909267962
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFA85:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "distance": 411.3576283268703
+          },
+          "probability": 0
+        },
+        {
+          "key": "o6",
+          "option": {
+            "id": "start:wall:3E07C0:segment:0:forward",
+            "kind": "wall",
+            "description": "从 wall:3E07C0:segment:0 的 forward 方向开始；父墙 boundary:wall:3E07C0；墙段距 Room Seed 0.53m；Room Seed 位于有向边的 右侧；相对入口 [-0.53,-1.54]m，相对出口 [-0.53,4.06]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3E07C0:segment:0",
+              "direction": "forward",
+              "entry": [
+                52585.01249048114,
+                10843.98602887988
+              ],
+              "exit": [
+                52585.01249048114,
+                16436.15898394026
+              ],
+              "source_entities": [
+                "source:3E07C0"
+              ],
+              "parent_element_id": "boundary:wall:3E07C0",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52585.01249048114,
+                  10843.98602887988
+                ],
+                [
+                  52585.01249048114,
+                  16436.15898394026
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3E07C0:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "distance": 531.3633155804127
+          },
+          "probability": 0
+        },
+        {
+          "key": "o9",
+          "option": {
+            "id": "start:wall:3DFA7F:segment:0:reverse",
+            "kind": "wall",
+            "description": "从 wall:3DFA7F:segment:0 的 reverse 方向开始；父墙 boundary:wall:3DFA7F；墙段距 Room Seed 0.73m；Room Seed 位于有向边的 右侧；相对入口 [-0.23,-1.59]m，相对出口 [-0.23,-0.69]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFA7F:segment:0",
+              "direction": "reverse",
+              "entry": [
+                52885.018177732825,
+                10786.159092590213
+              ],
+              "exit": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "source_entities": [
+                "source:3DFA7F"
+              ],
+              "parent_element_id": "boundary:wall:3DFA7F",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52885.018177732825,
+                  10786.159092590213
+                ],
+                [
+                  52885.018177732825,
+                  11686.159092629328
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFA7F:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "distance": 730.6670075672401
+          },
+          "probability": 0
+        },
+        {
+          "key": "o8",
+          "option": {
+            "id": "start:wall:3DFA7F:segment:0:forward",
+            "kind": "wall",
+            "description": "从 wall:3DFA7F:segment:0 的 forward 方向开始；父墙 boundary:wall:3DFA7F；墙段距 Room Seed 0.73m；Room Seed 位于有向边的 左侧；相对入口 [-0.23,-0.69]m，相对出口 [-0.23,-1.59]m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFA7F:segment:0",
+              "direction": "forward",
+              "entry": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "exit": [
+                52885.018177732825,
+                10786.159092590213
+              ],
+              "source_entities": [
+                "source:3DFA7F"
+              ],
+              "parent_element_id": "boundary:wall:3DFA7F",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52885.018177732825,
+                  11686.159092629328
+                ],
+                [
+                  52885.018177732825,
+                  10786.159092590213
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFA7F:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "distance": 730.6670075672401
+          },
+          "probability": 0
+        }
+      ],
+      "options": {
+        "o0": {
+          "id": "start:wall:3DFA7E:segment:0:forward",
+          "description": "从 wall:3DFA7E:segment:0 的 forward 方向开始；父墙 boundary:wall:3DFA7E；墙段距 Room Seed 0.23m；Room Seed 位于有向边的 左侧；相对入口 [-0.23,1.62]m，相对出口 [-0.23,-0.69]m"
+        },
+        "o1": {
+          "id": "start:wall:3DFA7E:segment:0:reverse",
+          "description": "从 wall:3DFA7E:segment:0 的 reverse 方向开始；父墙 boundary:wall:3DFA7E；墙段距 Room Seed 0.23m；Room Seed 位于有向边的 右侧；相对入口 [-0.23,-0.69]m，相对出口 [-0.23,1.62]m"
+        },
+        "o2": {
+          "id": "start:wall:3DFA85:segment:0:forward",
+          "description": "从 wall:3DFA85:segment:0 的 forward 方向开始；父墙 boundary:wall:3DFA85；墙段距 Room Seed 0.41m；Room Seed 位于有向边的 左侧；相对入口 [-0.41,1.61]m，相对出口 [-0.41,-1.59]m"
+        },
+        "o3": {
+          "id": "start:wall:3DFA85:segment:0:reverse",
+          "description": "从 wall:3DFA85:segment:0 的 reverse 方向开始；父墙 boundary:wall:3DFA85；墙段距 Room Seed 0.41m；Room Seed 位于有向边的 右侧；相对入口 [-0.41,-1.59]m，相对出口 [-0.41,1.61]m"
+        },
+        "o4": {
+          "id": "start:wall:3E048A:segment:0:forward",
+          "description": "从 wall:3E048A:segment:0 的 forward 方向开始；父墙 boundary:wall:3E048A；墙段距 Room Seed 0.53m；Room Seed 位于有向边的 右侧；相对入口 [-0.53,-5.22]m，相对出口 [-0.53,4.06]m"
+        },
+        "o5": {
+          "id": "start:wall:3E048A:segment:0:reverse",
+          "description": "从 wall:3E048A:segment:0 的 reverse 方向开始；父墙 boundary:wall:3E048A；墙段距 Room Seed 0.53m；Room Seed 位于有向边的 左侧；相对入口 [-0.53,4.06]m，相对出口 [-0.53,-5.22]m"
+        },
+        "o6": {
+          "id": "start:wall:3E07C0:segment:0:forward",
+          "description": "从 wall:3E07C0:segment:0 的 forward 方向开始；父墙 boundary:wall:3E07C0；墙段距 Room Seed 0.53m；Room Seed 位于有向边的 右侧；相对入口 [-0.53,-1.54]m，相对出口 [-0.53,4.06]m"
+        },
+        "o7": {
+          "id": "start:wall:3E07C0:segment:0:reverse",
+          "description": "从 wall:3E07C0:segment:0 的 reverse 方向开始；父墙 boundary:wall:3E07C0；墙段距 Room Seed 0.53m；Room Seed 位于有向边的 左侧；相对入口 [-0.53,4.06]m，相对出口 [-0.53,-1.54]m"
+        },
+        "o8": {
+          "id": "start:wall:3DFA7F:segment:0:forward",
+          "description": "从 wall:3DFA7F:segment:0 的 forward 方向开始；父墙 boundary:wall:3DFA7F；墙段距 Room Seed 0.73m；Room Seed 位于有向边的 左侧；相对入口 [-0.23,-0.69]m，相对出口 [-0.23,-1.59]m"
+        },
+        "o9": {
+          "id": "start:wall:3DFA7F:segment:0:reverse",
+          "description": "从 wall:3DFA7F:segment:0 的 reverse 方向开始；父墙 boundary:wall:3DFA7F；墙段距 Room Seed 0.73m；Room Seed 位于有向边的 右侧；相对入口 [-0.23,-1.59]m，相对出口 [-0.23,-0.69]m"
+        },
+        "o10": {
+          "id": "start:wall:3E048E:segment:0:forward",
+          "description": "从 wall:3E048E:segment:0 的 forward 方向开始；父墙 boundary:wall:3E048E；墙段距 Room Seed 0.93m；Room Seed 位于有向边的 左侧；相对入口 [-0.93,3.26]m，相对出口 [-0.93,-0.84]m"
+        },
+        "o11": {
+          "id": "start:wall:3E048E:segment:0:reverse",
+          "description": "从 wall:3E048E:segment:0 的 reverse 方向开始；父墙 boundary:wall:3E048E；墙段距 Room Seed 0.93m；Room Seed 位于有向边的 右侧；相对入口 [-0.93,-0.84]m，相对出口 [-0.93,3.26]m"
+        },
+        "o12": {
+          "id": "start:wall:3E048F:segment:0:forward",
+          "description": "从 wall:3E048F:segment:0 的 forward 方向开始；父墙 boundary:wall:3E048F；墙段距 Room Seed 1.03m；Room Seed 位于有向边的 左侧；相对入口 [-1.03,3.26]m，相对出口 [-1.03,-0.84]m"
+        },
+        "o13": {
+          "id": "start:wall:3E048F:segment:0:reverse",
+          "description": "从 wall:3E048F:segment:0 的 reverse 方向开始；父墙 boundary:wall:3E048F；墙段距 Room Seed 1.03m；Room Seed 位于有向边的 右侧；相对入口 [-1.03,-0.84]m，相对出口 [-1.03,3.26]m"
+        },
+        "o14": {
+          "id": "start:wall:3DFAE7:segment:0:forward",
+          "description": "从 wall:3DFAE7:segment:0 的 forward 方向开始；父墙 boundary:wall:3DFAE7；墙段距 Room Seed 1.03m；Room Seed 位于有向边的 左侧；相对入口 [0.73,-0.83]m，相对出口 [0.73,-0.73]m"
+        },
+        "o15": {
+          "id": "start:wall:3DFAE7:segment:0:reverse",
+          "description": "从 wall:3DFAE7:segment:0 的 reverse 方向开始；父墙 boundary:wall:3DFAE7；墙段距 Room Seed 1.03m；Room Seed 位于有向边的 右侧；相对入口 [0.73,-0.73]m，相对出口 [0.73,-0.83]m"
+        },
+        "o16": {
+          "id": "uncertain",
+          "description": "现有起点候选不足以可靠开始遍历。"
+        }
+      }
+    },
+    {
+      "stage": "local_ranking",
+      "step": 1,
+      "branch_id": "branch-0",
+      "accepted": [
+        {
+          "option_id": "wall:wall:3DFA7F:segment:0:forward",
+          "score": 117,
+          "reasons": [
+            "seed-side-consistent",
+            "continuous-direction",
+            "accepted-boundary-parent",
+            "semantic-confidence",
+            "junction-distance",
+            "partial-area-within-target"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3DFAE6:wall:3DFA7F:segment:0:forward",
+          "score": 113.24727096291569,
+          "reasons": [
+            "seed-side-consistent",
+            "continuous-direction",
+            "accepted-boundary-parent",
+            "semantic-confidence",
+            "junction-distance",
+            "partial-area-within-target"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E01F2:wall:3DFA7F:segment:0:forward",
+          "score": 110.67825618578198,
+          "reasons": [
+            "seed-side-consistent",
+            "continuous-direction",
+            "accepted-boundary-parent",
+            "semantic-confidence",
+            "junction-distance",
+            "partial-area-within-target"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E01F0:wall:3DFA7F:segment:0:forward",
+          "score": 110.34267317120097,
+          "reasons": [
+            "seed-side-consistent",
+            "continuous-direction",
+            "accepted-boundary-parent",
+            "semantic-confidence",
+            "junction-distance",
+            "partial-area-within-target"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E01F1:wall:3DFA7F:segment:0:forward",
+          "score": 109.9597979400215,
+          "reasons": [
+            "seed-side-consistent",
+            "continuous-direction",
+            "accepted-boundary-parent",
+            "semantic-confidence",
+            "junction-distance",
+            "partial-area-within-target"
+          ]
+        },
+        {
+          "option_id": "uncertain",
+          "score": -100,
+          "reasons": [
+            "uncertain-fallback"
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "option_id": "opening:opening:3DFAE6:wall:3E048E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3DFAE6:wall:3DFA7F:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3DFAE6:wall:3E07C0:segment:0:forward",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3DFAE6:wall:3E048F:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3DFAE6:wall:3DFA85:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0827:wall:3E07C0:segment:0:forward",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E01F2:wall:3DFAE7:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "next",
+      "step": 1,
+      "branch_id": "branch-0",
+      "request_id": "gen-dec-1789819602-6ajRLi4aBoocdoZv8Ewt",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 3412,
+        "output_tokens": 58,
+        "cost": 0.000143304
+      },
+      "selected_key": "o0",
+      "confidence": 0.97,
+      "probabilities": [
+        {
+          "key": "o0",
+          "option": {
+            "id": "wall:wall:3DFA7F:segment:0:forward",
+            "kind": "wall",
+            "description": "连接边界段 wall:3DFA7F:segment:0 (forward)，类型 wall，父元素 boundary:wall:3DFA7F；接缝 0.00m；转角 0.0°；与上一段同父元素=false；Room Seed 侧向一致=true；新出口相对 Room Seed [-0.23,-1.59]m，距 Room Seed 1.61m",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFA7F:segment:0",
+              "direction": "forward",
+              "entry": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "exit": [
+                52885.018177732825,
+                10786.159092590213
+              ],
+              "source_entities": [
+                "source:3DFA7F"
+              ],
+              "parent_element_id": "boundary:wall:3DFA7F",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52885.018177732825,
+                  11686.159092629328
+                ],
+                [
+                  52885.018177732825,
+                  10786.159092590213
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFA7F:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "distance": 0,
+            "parent_element_id": "boundary:wall:3DFA7F",
+            "same_parent": false,
+            "side_consistent": true,
+            "turn_degrees": 0
+          },
+          "probability": 0.98
+        },
+        {
+          "key": "o1",
+          "option": {
+            "id": "opening:opening:3DFAE6:wall:3DFA7F:segment:0:forward",
+            "kind": "opening",
+            "description": "经 door opening:3DFAE6 虚拟跨越到墙 wall:3DFA7F:segment:0 (forward)；两段距离 93.8 + 93.8",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFA7F:segment:0",
+              "direction": "forward",
+              "entry": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "exit": [
+                52885.018177732825,
+                10786.159092590213
+              ],
+              "source_entities": [
+                "source:3DFA7F"
+              ],
+              "parent_element_id": "boundary:wall:3DFA7F",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52885.018177732825,
+                  11686.159092629328
+                ],
+                [
+                  52885.018177732825,
+                  10786.159092590213
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFA7F:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "virtual": {
+              "kind": "opening",
+              "from": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "to": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "opening_element_id": "opening:3DFAE6"
+            },
+            "distance": 187.63645185421527,
+            "parent_element_id": "boundary:wall:3DFA7F",
+            "same_parent": false,
+            "side_consistent": true,
+            "turn_degrees": 0
+          },
+          "probability": 0.01
+        },
+        {
+          "key": "o4",
+          "option": {
+            "id": "uncertain",
+            "kind": "uncertain",
+            "description": "现有可达选项不足以可靠继续边界。",
+            "distance": null
+          },
+          "probability": 0.01
+        },
+        {
+          "key": "o3",
+          "option": {
+            "id": "opening:opening:3E01F0:wall:3DFA7F:segment:0:forward",
+            "kind": "opening",
+            "description": "经 window opening:3E01F0 虚拟跨越到墙 wall:3DFA7F:segment:0 (forward)；两段距离 166.4 + 166.4",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFA7F:segment:0",
+              "direction": "forward",
+              "entry": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "exit": [
+                52885.018177732825,
+                10786.159092590213
+              ],
+              "source_entities": [
+                "source:3DFA7F"
+              ],
+              "parent_element_id": "boundary:wall:3DFA7F",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52885.018177732825,
+                  11686.159092629328
+                ],
+                [
+                  52885.018177732825,
+                  10786.159092590213
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFA7F:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "virtual": {
+              "kind": "opening",
+              "from": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "to": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "opening_element_id": "opening:3E01F0"
+            },
+            "distance": 332.86634143995167,
+            "parent_element_id": "boundary:wall:3DFA7F",
+            "same_parent": false,
+            "side_consistent": true,
+            "turn_degrees": 0
+          },
+          "probability": 0
+        },
+        {
+          "key": "o2",
+          "option": {
+            "id": "opening:opening:3E01F2:wall:3DFA7F:segment:0:forward",
+            "kind": "opening",
+            "description": "经 window opening:3E01F2 虚拟跨越到墙 wall:3DFA7F:segment:0 (forward)；两段距离 158.0 + 158.0",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFA7F:segment:0",
+              "direction": "forward",
+              "entry": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "exit": [
+                52885.018177732825,
+                10786.159092590213
+              ],
+              "source_entities": [
+                "source:3DFA7F"
+              ],
+              "parent_element_id": "boundary:wall:3DFA7F",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52885.018177732825,
+                  11686.159092629328
+                ],
+                [
+                  52885.018177732825,
+                  10786.159092590213
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFA7F:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "virtual": {
+              "kind": "opening",
+              "from": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "to": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "opening_element_id": "opening:3E01F2"
+            },
+            "distance": 316.08719071090104,
+            "parent_element_id": "boundary:wall:3DFA7F",
+            "same_parent": false,
+            "side_consistent": true,
+            "turn_degrees": 0
+          },
+          "probability": 0
+        }
+      ],
+      "options": {
+        "o0": {
+          "id": "wall:wall:3DFA7F:segment:0:forward",
+          "description": "连接边界段 wall:3DFA7F:segment:0 (forward)，类型 wall，父元素 boundary:wall:3DFA7F；接缝 0.00m；转角 0.0°；与上一段同父元素=false；Room Seed 侧向一致=true；新出口相对 Room Seed [-0.23,-1.59]m，距 Room Seed 1.61m"
+        },
+        "o1": {
+          "id": "opening:opening:3DFAE6:wall:3DFA7F:segment:0:forward",
+          "description": "经 door opening:3DFAE6 虚拟跨越到墙 wall:3DFA7F:segment:0 (forward)；两段距离 93.8 + 93.8"
+        },
+        "o2": {
+          "id": "opening:opening:3E01F2:wall:3DFA7F:segment:0:forward",
+          "description": "经 window opening:3E01F2 虚拟跨越到墙 wall:3DFA7F:segment:0 (forward)；两段距离 158.0 + 158.0"
+        },
+        "o3": {
+          "id": "opening:opening:3E01F0:wall:3DFA7F:segment:0:forward",
+          "description": "经 window opening:3E01F0 虚拟跨越到墙 wall:3DFA7F:segment:0 (forward)；两段距离 166.4 + 166.4"
+        },
+        "o4": {
+          "id": "uncertain",
+          "description": "现有可达选项不足以可靠继续边界。"
+        }
+      },
+      "weighted_probabilities": [
+        {
+          "key": "o0",
+          "option_id": "wall:wall:3DFA7F:segment:0:forward",
+          "probability": 0.98
+        },
+        {
+          "key": "o1",
+          "option_id": "opening:opening:3DFAE6:wall:3DFA7F:segment:0:forward",
+          "probability": 0.01
+        },
+        {
+          "key": "o4",
+          "option_id": "uncertain",
+          "probability": 0.01
+        },
+        {
+          "key": "o3",
+          "option_id": "opening:opening:3E01F0:wall:3DFA7F:segment:0:forward",
+          "probability": 0
+        },
+        {
+          "key": "o2",
+          "option_id": "opening:opening:3E01F2:wall:3DFA7F:segment:0:forward",
+          "probability": 0
+        }
+      ]
+    },
+    {
+      "stage": "local_ranking",
+      "step": 1,
+      "branch_id": "branch-1",
+      "accepted": [
+        {
+          "option_id": "uncertain",
+          "score": -100,
+          "reasons": [
+            "uncertain-fallback"
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "option_id": "opening:opening:3DFB26:wall:3DFA85:segment:0:forward",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "next",
+      "step": 1,
+      "branch_id": "branch-1",
+      "request_id": "gen-dec-1789819602-VkT1KgF35u16NnnkvqEx",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 2429,
+        "output_tokens": 26,
+        "cost": 0.000102018
+      },
+      "selected_key": "o0",
+      "confidence": 1,
+      "probabilities": [
+        {
+          "key": "o0",
+          "option": {
+            "id": "uncertain",
+            "kind": "uncertain",
+            "description": "现有可达选项不足以可靠继续边界。",
+            "distance": null
+          },
+          "probability": 1
+        }
+      ],
+      "options": {
+        "o0": {
+          "id": "uncertain",
+          "description": "现有可达选项不足以可靠继续边界。"
+        }
+      },
+      "weighted_probabilities": [
+        {
+          "key": "o0",
+          "option_id": "uncertain",
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "stage": "local_ranking",
+      "step": 1,
+      "branch_id": "branch-2",
+      "accepted": [
+        {
+          "option_id": "opening:opening:3DFAE6:wall:3DFA7F:segment:0:forward",
+          "score": 98.54169518767505,
+          "reasons": [
+            "seed-side-consistent",
+            "continuous-direction",
+            "accepted-boundary-parent",
+            "semantic-confidence",
+            "junction-distance",
+            "partial-area-within-target"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E01F1:wall:3DFA7F:segment:0:forward",
+          "score": 97,
+          "reasons": [
+            "seed-side-consistent",
+            "continuous-direction",
+            "accepted-boundary-parent",
+            "semantic-confidence",
+            "junction-distance",
+            "partial-area-within-target"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E01F0:wall:3DFA7F:segment:0:forward",
+          "score": 97,
+          "reasons": [
+            "seed-side-consistent",
+            "continuous-direction",
+            "accepted-boundary-parent",
+            "semantic-confidence",
+            "junction-distance",
+            "partial-area-within-target"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0827:wall:3DFA7F:segment:0:forward",
+          "score": 97,
+          "reasons": [
+            "seed-side-consistent",
+            "continuous-direction",
+            "accepted-boundary-parent",
+            "semantic-confidence",
+            "junction-distance",
+            "partial-area-within-target"
+          ]
+        },
+        {
+          "option_id": "uncertain",
+          "score": -100,
+          "reasons": [
+            "uncertain-fallback"
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "option_id": "opening:opening:3E0827:wall:3E07C0:segment:0:forward",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0827:wall:3DFA7F:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3DFAE6:wall:3DFA7E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0827:wall:3E048E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0827:wall:3E048F:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E01F1:wall:3DFA7E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E01F0:wall:3DFA7E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0827:wall:3DFA7E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "next",
+      "step": 1,
+      "branch_id": "branch-2",
+      "request_id": "gen-dec-1789819603-JzWpJoOnyweWaV7DeY4e",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 3283,
+        "output_tokens": 58,
+        "cost": 0.000137886
+      },
+      "selected_key": "o0",
+      "confidence": 0.8,
+      "probabilities": [
+        {
+          "key": "o0",
+          "option": {
+            "id": "opening:opening:3DFAE6:wall:3DFA7F:segment:0:forward",
+            "kind": "opening",
+            "description": "经 door opening:3DFAE6 虚拟跨越到墙 wall:3DFA7F:segment:0 (forward)；两段距离 829.1 + 93.8",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFA7F:segment:0",
+              "direction": "forward",
+              "entry": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "exit": [
+                52885.018177732825,
+                10786.159092590213
+              ],
+              "source_entities": [
+                "source:3DFA7F"
+              ],
+              "parent_element_id": "boundary:wall:3DFA7F",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52885.018177732825,
+                  11686.159092629328
+                ],
+                [
+                  52885.018177732825,
+                  10786.159092590213
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFA7F:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "virtual": {
+              "kind": "opening",
+              "from": [
+                52705.018177732825,
+                10786.159092400223
+              ],
+              "to": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "opening_element_id": "opening:3DFAE6"
+            },
+            "distance": 922.9152406162477,
+            "parent_element_id": "boundary:wall:3DFA7F",
+            "same_parent": false,
+            "side_consistent": true,
+            "turn_degrees": 6.6701066107582e-11
+          },
+          "probability": 0.83
+        },
+        {
+          "key": "o3",
+          "option": {
+            "id": "opening:opening:3E0827:wall:3DFA7F:segment:0:forward",
+            "kind": "opening",
+            "description": "经 door opening:3E0827 虚拟跨越到墙 wall:3DFA7F:segment:0 (forward)；两段距离 125.8 + 912.9",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFA7F:segment:0",
+              "direction": "forward",
+              "entry": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "exit": [
+                52885.018177732825,
+                10786.159092590213
+              ],
+              "source_entities": [
+                "source:3DFA7F"
+              ],
+              "parent_element_id": "boundary:wall:3DFA7F",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52885.018177732825,
+                  11686.159092629328
+                ],
+                [
+                  52885.018177732825,
+                  10786.159092590213
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFA7F:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "virtual": {
+              "kind": "opening",
+              "from": [
+                52705.018177732825,
+                10786.159092400223
+              ],
+              "to": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "opening_element_id": "opening:3E0827"
+            },
+            "distance": 1038.697389838902,
+            "parent_element_id": "boundary:wall:3DFA7F",
+            "same_parent": false,
+            "side_consistent": true,
+            "turn_degrees": 6.6701066107582e-11
+          },
+          "probability": 0.09
+        },
+        {
+          "key": "o4",
+          "option": {
+            "id": "uncertain",
+            "kind": "uncertain",
+            "description": "现有可达选项不足以可靠继续边界。",
+            "distance": null
+          },
+          "probability": 0.06
+        },
+        {
+          "key": "o2",
+          "option": {
+            "id": "opening:opening:3E01F0:wall:3DFA7F:segment:0:forward",
+            "kind": "opening",
+            "description": "经 window opening:3E01F0 虚拟跨越到墙 wall:3DFA7F:segment:0 (forward)；两段距离 870.9 + 166.4",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFA7F:segment:0",
+              "direction": "forward",
+              "entry": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "exit": [
+                52885.018177732825,
+                10786.159092590213
+              ],
+              "source_entities": [
+                "source:3DFA7F"
+              ],
+              "parent_element_id": "boundary:wall:3DFA7F",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52885.018177732825,
+                  11686.159092629328
+                ],
+                [
+                  52885.018177732825,
+                  10786.159092590213
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFA7F:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "virtual": {
+              "kind": "opening",
+              "from": [
+                52705.018177732825,
+                10786.159092400223
+              ],
+              "to": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "opening_element_id": "opening:3E01F0"
+            },
+            "distance": 1037.352224076015,
+            "parent_element_id": "boundary:wall:3DFA7F",
+            "same_parent": false,
+            "side_consistent": true,
+            "turn_degrees": 6.6701066107582e-11
+          },
+          "probability": 0.01
+        },
+        {
+          "key": "o1",
+          "option": {
+            "id": "opening:opening:3E01F1:wall:3DFA7F:segment:0:forward",
+            "kind": "opening",
+            "description": "经 window opening:3E01F1 虚拟跨越到墙 wall:3DFA7F:segment:0 (forward)；两段距离 855.4 + 176.0",
+            "wall": {
+              "kind": "wall",
+              "element_id": "wall:3DFA7F:segment:0",
+              "direction": "forward",
+              "entry": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "exit": [
+                52885.018177732825,
+                10786.159092590213
+              ],
+              "source_entities": [
+                "source:3DFA7F"
+              ],
+              "parent_element_id": "boundary:wall:3DFA7F",
+              "membership": "accepted",
+              "semantic_type": "wall",
+              "boundary_kind": "linear",
+              "path": [
+                [
+                  52885.018177732825,
+                  11686.159092629328
+                ],
+                [
+                  52885.018177732825,
+                  10786.159092590213
+                ]
+              ],
+              "member_element_ids": [
+                "wall:3DFA7F:segment:0"
+              ],
+              "semantic_confidence": 1
+            },
+            "virtual": {
+              "kind": "opening",
+              "from": [
+                52705.018177732825,
+                10786.159092400223
+              ],
+              "to": [
+                52885.018177732825,
+                11686.159092629328
+              ],
+              "opening_element_id": "opening:3E01F1"
+            },
+            "distance": 1031.4451577154257,
+            "parent_element_id": "boundary:wall:3DFA7F",
+            "same_parent": false,
+            "side_consistent": true,
+            "turn_degrees": 6.6701066107582e-11
+          },
+          "probability": 0.01
+        }
+      ],
+      "options": {
+        "o0": {
+          "id": "opening:opening:3DFAE6:wall:3DFA7F:segment:0:forward",
+          "description": "经 door opening:3DFAE6 虚拟跨越到墙 wall:3DFA7F:segment:0 (forward)；两段距离 829.1 + 93.8"
+        },
+        "o1": {
+          "id": "opening:opening:3E01F1:wall:3DFA7F:segment:0:forward",
+          "description": "经 window opening:3E01F1 虚拟跨越到墙 wall:3DFA7F:segment:0 (forward)；两段距离 855.4 + 176.0"
+        },
+        "o2": {
+          "id": "opening:opening:3E01F0:wall:3DFA7F:segment:0:forward",
+          "description": "经 window opening:3E01F0 虚拟跨越到墙 wall:3DFA7F:segment:0 (forward)；两段距离 870.9 + 166.4"
+        },
+        "o3": {
+          "id": "opening:opening:3E0827:wall:3DFA7F:segment:0:forward",
+          "description": "经 door opening:3E0827 虚拟跨越到墙 wall:3DFA7F:segment:0 (forward)；两段距离 125.8 + 912.9"
+        },
+        "o4": {
+          "id": "uncertain",
+          "description": "现有可达选项不足以可靠继续边界。"
+        }
+      },
+      "weighted_probabilities": [
+        {
+          "key": "o0",
+          "option_id": "opening:opening:3DFAE6:wall:3DFA7F:segment:0:forward",
+          "probability": 0.83
+        },
+        {
+          "key": "o3",
+          "option_id": "opening:opening:3E0827:wall:3DFA7F:segment:0:forward",
+          "probability": 0.09
+        },
+        {
+          "key": "o4",
+          "option_id": "uncertain",
+          "probability": 0.06
+        },
+        {
+          "key": "o2",
+          "option_id": "opening:opening:3E01F0:wall:3DFA7F:segment:0:forward",
+          "probability": 0.01
+        },
+        {
+          "key": "o1",
+          "option_id": "opening:opening:3E01F1:wall:3DFA7F:segment:0:forward",
+          "probability": 0.01
+        }
+      ]
+    },
+    {
+      "stage": "local_ranking",
+      "step": 2,
+      "branch_id": "branch-0.1-0",
+      "accepted": [
+        {
+          "option_id": "uncertain",
+          "score": -100,
+          "reasons": [
+            "uncertain-fallback"
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "option_id": "opening:opening:3E0827:wall:3E07C0:segment:0:forward",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0827:wall:3DFA85:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0827:wall:3E048E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0827:wall:3E048F:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0514:wall:3E048F:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E07AC:wall:3E048F:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E07AF:wall:3E048F:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0514:wall:3E048E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E07AC:wall:3E048E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E07AF:wall:3E048E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3DFAE6:wall:3E048E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0514:wall:3E07C0:segment:0:forward",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "next",
+      "step": 2,
+      "branch_id": "branch-0.1-0",
+      "request_id": "gen-dec-1789819603-4Q7KY9syJovwav8NTae3",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 2753,
+        "output_tokens": 26,
+        "cost": 0.000115626
+      },
+      "selected_key": "o0",
+      "confidence": 1,
+      "probabilities": [
+        {
+          "key": "o0",
+          "option": {
+            "id": "uncertain",
+            "kind": "uncertain",
+            "description": "现有可达选项不足以可靠继续边界。",
+            "distance": null
+          },
+          "probability": 1
+        }
+      ],
+      "options": {
+        "o0": {
+          "id": "uncertain",
+          "description": "现有可达选项不足以可靠继续边界。"
+        }
+      },
+      "weighted_probabilities": [
+        {
+          "key": "o0",
+          "option_id": "uncertain",
+          "probability": 1
+        }
+      ]
+    },
+    {
+      "stage": "local_ranking",
+      "step": 2,
+      "branch_id": "branch-2.1-0",
+      "accepted": [
+        {
+          "option_id": "uncertain",
+          "score": -100,
+          "reasons": [
+            "uncertain-fallback"
+          ]
+        }
+      ],
+      "rejected": [
+        {
+          "option_id": "opening:opening:3E0827:wall:3E07C0:segment:0:forward",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn",
+            "path-self-intersection"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3DFAE6:wall:3DFA7E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E01F1:wall:3DFA7E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E01F0:wall:3DFA7E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E01F2:wall:3DFA7E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0827:wall:3E048E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn",
+            "path-self-intersection"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0827:wall:3E048F:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn",
+            "path-self-intersection"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0827:wall:3DFA7E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0514:wall:3E048F:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn",
+            "path-self-intersection"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E07AC:wall:3E048F:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn",
+            "path-self-intersection"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E07AF:wall:3E048F:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn",
+            "path-self-intersection"
+          ]
+        },
+        {
+          "option_id": "opening:opening:3E0514:wall:3E048E:segment:0:reverse",
+          "reasons": [
+            "seed-side-inconsistent",
+            "cross-parent-u-turn",
+            "path-self-intersection"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "next",
+      "step": 2,
+      "branch_id": "branch-2.1-0",
+      "request_id": "gen-dec-1789819604-5esH7nH56zjVYtTg6Gtq",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 2864,
+        "output_tokens": 26,
+        "cost": 0.000120288
+      },
+      "selected_key": "o0",
+      "confidence": 1,
+      "probabilities": [
+        {
+          "key": "o0",
+          "option": {
+            "id": "uncertain",
+            "kind": "uncertain",
+            "description": "现有可达选项不足以可靠继续边界。",
+            "distance": null
+          },
+          "probability": 1
+        }
+      ],
+      "options": {
+        "o0": {
+          "id": "uncertain",
+          "description": "现有可达选项不足以可靠继续边界。"
+        }
+      },
+      "weighted_probabilities": [
+        {
+          "key": "o0",
+          "option_id": "uncertain",
+          "probability": 1
+        }
+      ]
+    }
+  ]
+}

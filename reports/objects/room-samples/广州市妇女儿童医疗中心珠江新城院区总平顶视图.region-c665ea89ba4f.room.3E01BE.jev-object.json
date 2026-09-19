@@ -1,0 +1,914 @@
+{
+  "schema_version": "jev-object-decisions-v1",
+  "generated_at": "2026-09-19T12:05:32.154Z",
+  "model": "typesafe/jev-1.13",
+  "endpoint": "https://openrouter.ai/api/alpha/decisions",
+  "input": {
+    "cad_ir_path": "/Users/zhoujunlin/Documents/jev/reports/cad-ir/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.cad-ir.json",
+    "jev_decisions_path": "/Users/zhoujunlin/Documents/jev/reports/jev/window-0f28c192908f/广州市妇女儿童医疗中心珠江新城院区总平顶视图.region-c665ea89ba4f.jev-decisions.json",
+    "region_id": "region-c665ea89ba4f",
+    "window_id": "window-0f28c192908f",
+    "source_sha256": "5051e4b3d45c2752e2f539eabf4fc57e513fb34fbee664f8c2a4918a4b6c9cd5"
+  },
+  "query": {
+    "mode": "room",
+    "seed_source_id": "source:3E01BE",
+    "seed_text": "留观区",
+    "semantic_type": "room",
+    "radius": 3500,
+    "candidate_limit": 64
+  },
+  "object": {
+    "id": "room-df55c9de2d6d",
+    "semantic_type": "room",
+    "seed_source_id": "source:3E01BE",
+    "source_entities": [
+      "source:3D8BB7",
+      "source:3D8B87"
+    ],
+    "roles": {
+      "source:3D8BB7": "opening",
+      "source:3D8B87": "boundary"
+    },
+    "geometry_validation": {
+      "status": "checked",
+      "tolerance": 10,
+      "segment_count": 1,
+      "node_count": 2,
+      "component_count": 1,
+      "odd_degree_node_count": 2,
+      "open_endpoints": [
+        [
+          55600.011852540076,
+          3035.2930714190006
+        ],
+        [
+          55600.011852540076,
+          9586.159092629328
+        ]
+      ],
+      "unresolved_boundary_entity_ids": [],
+      "closed_boundary": false
+    }
+  },
+  "summary": {
+    "candidate_count": 57,
+    "decision_count": 57,
+    "accepted_count": 2,
+    "role_counts": {
+      "unrelated": 55,
+      "opening": 1,
+      "boundary": 1
+    }
+  },
+  "batches": [
+    {
+      "index": 0,
+      "candidate_count": 16,
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 18554,
+        "output_tokens": 1076,
+        "cost": 0.000779268
+      }
+    },
+    {
+      "index": 1,
+      "candidate_count": 16,
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 18598,
+        "output_tokens": 1085,
+        "cost": 0.000781116
+      }
+    },
+    {
+      "index": 2,
+      "candidate_count": 16,
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 18956,
+        "output_tokens": 1080,
+        "cost": 0.000796152
+      }
+    },
+    {
+      "index": 3,
+      "candidate_count": 9,
+      "request_id": "gen-dec-1789819531-K3tRsi9IFIRjTNUquuCD",
+      "model": "typesafe/jev-1.13-20260917",
+      "provider": "TypeSafe",
+      "usage": {
+        "input_tokens": 14022,
+        "output_tokens": 614,
+        "cost": 0.000588924
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "source_id": "source:3E08BE",
+      "role": "unrelated",
+      "confidence": 0.49,
+      "probabilities": {
+        "interior": 0.02,
+        "opening": 0,
+        "boundary": 0.33,
+        "uncertain": 0.06,
+        "unrelated": 0.59
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3DFA81",
+      "role": "unrelated",
+      "confidence": 0.64,
+      "probabilities": {
+        "interior": 0.01,
+        "boundary": 0.22,
+        "opening": 0,
+        "uncertain": 0.06,
+        "unrelated": 0.71
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3E0477",
+      "role": "unrelated",
+      "confidence": 0.39,
+      "probabilities": {
+        "interior": 0.07,
+        "boundary": 0.35,
+        "opening": 0.01,
+        "uncertain": 0.06,
+        "unrelated": 0.51
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3DFACA",
+      "role": "unrelated",
+      "confidence": 0.79,
+      "probabilities": {
+        "interior": 0.06,
+        "boundary": 0.06,
+        "opening": 0,
+        "uncertain": 0.06,
+        "unrelated": 0.82
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3E0826",
+      "role": "unrelated",
+      "confidence": 0.49,
+      "probabilities": {
+        "interior": 0.01,
+        "boundary": 0.33,
+        "opening": 0.01,
+        "uncertain": 0.06,
+        "unrelated": 0.59
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3E0478",
+      "role": "unrelated",
+      "confidence": 0.36,
+      "probabilities": {
+        "interior": 0.01,
+        "boundary": 0.42,
+        "opening": 0,
+        "uncertain": 0.09,
+        "unrelated": 0.48
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3DFA87",
+      "role": "unrelated",
+      "confidence": 0.7,
+      "probabilities": {
+        "interior": 0,
+        "boundary": 0.17,
+        "opening": 0,
+        "uncertain": 0.06,
+        "unrelated": 0.77
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3DFA80",
+      "role": "unrelated",
+      "confidence": 0.56,
+      "probabilities": {
+        "interior": 0,
+        "boundary": 0.28,
+        "opening": 0.01,
+        "uncertain": 0.06,
+        "unrelated": 0.65
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3DFA86",
+      "role": "unrelated",
+      "confidence": 0.64,
+      "probabilities": {
+        "interior": 0,
+        "boundary": 0.21,
+        "opening": 0.01,
+        "uncertain": 0.06,
+        "unrelated": 0.72
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3E07BF",
+      "role": "unrelated",
+      "confidence": 0.39,
+      "probabilities": {
+        "interior": 0.01,
+        "boundary": 0.42,
+        "opening": 0,
+        "uncertain": 0.06,
+        "unrelated": 0.51
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3DFAC0",
+      "role": "unrelated",
+      "confidence": 0.55,
+      "probabilities": {
+        "interior": 0,
+        "boundary": 0.26,
+        "opening": 0.01,
+        "uncertain": 0.08,
+        "unrelated": 0.65
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3DFA55",
+      "role": "unrelated",
+      "confidence": 0.37,
+      "probabilities": {
+        "interior": 0.01,
+        "boundary": 0.04,
+        "opening": 0.39,
+        "uncertain": 0.07,
+        "unrelated": 0.49
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3D8B85",
+      "role": "unrelated",
+      "confidence": 0.61,
+      "probabilities": {
+        "interior": 0.01,
+        "boundary": 0.27,
+        "opening": 0,
+        "uncertain": 0.03,
+        "unrelated": 0.69
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3DFAD4",
+      "role": "unrelated",
+      "confidence": 0.53,
+      "probabilities": {
+        "interior": 0,
+        "boundary": 0.27,
+        "opening": 0.01,
+        "uncertain": 0.09,
+        "unrelated": 0.63
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3DFAD2",
+      "role": "unrelated",
+      "confidence": 0.58,
+      "probabilities": {
+        "interior": 0.01,
+        "boundary": 0.02,
+        "opening": 0.25,
+        "uncertain": 0.05,
+        "unrelated": 0.67
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3E07BB",
+      "role": "unrelated",
+      "confidence": 0.4,
+      "probabilities": {
+        "interior": 0,
+        "boundary": 0.4,
+        "opening": 0,
+        "uncertain": 0.07,
+        "unrelated": 0.53
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819529-b0TuiRMsdTkD4ZBviUKG"
+    },
+    {
+      "source_id": "source:3E04EB",
+      "role": "unrelated",
+      "confidence": 0.6,
+      "probabilities": {
+        "interior": 0.01,
+        "opening": 0.2,
+        "boundary": 0.01,
+        "uncertain": 0.09,
+        "unrelated": 0.68
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3D8BBB",
+      "role": "unrelated",
+      "confidence": 0.33,
+      "probabilities": {
+        "interior": 0.01,
+        "boundary": 0.05,
+        "opening": 0.4,
+        "uncertain": 0.08,
+        "unrelated": 0.46
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3D8B9D",
+      "role": "unrelated",
+      "confidence": 0.47,
+      "probabilities": {
+        "interior": 0.01,
+        "opening": 0,
+        "boundary": 0.29,
+        "uncertain": 0.12,
+        "unrelated": 0.58
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3DFAB3",
+      "role": "unrelated",
+      "confidence": 0.65,
+      "probabilities": {
+        "interior": 0,
+        "opening": 0,
+        "boundary": 0.21,
+        "uncertain": 0.07,
+        "unrelated": 0.72
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3D8B9B",
+      "role": "unrelated",
+      "confidence": 0.42,
+      "probabilities": {
+        "interior": 0,
+        "boundary": 0.32,
+        "opening": 0.02,
+        "uncertain": 0.12,
+        "unrelated": 0.54
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3D8BB9",
+      "role": "unrelated",
+      "confidence": 0.46,
+      "probabilities": {
+        "interior": 0,
+        "boundary": 0.3,
+        "opening": 0.01,
+        "uncertain": 0.13,
+        "unrelated": 0.56
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3D8BB7",
+      "role": "opening",
+      "confidence": 0.28,
+      "probabilities": {
+        "interior": 0.01,
+        "boundary": 0.04,
+        "opening": 0.42,
+        "uncertain": 0.11,
+        "unrelated": 0.42
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3DFAB1",
+      "role": "unrelated",
+      "confidence": 0.68,
+      "probabilities": {
+        "interior": 0,
+        "boundary": 0.18,
+        "opening": 0,
+        "uncertain": 0.06,
+        "unrelated": 0.76
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3D8B87",
+      "role": "boundary",
+      "confidence": 0.37,
+      "probabilities": {
+        "interior": 0,
+        "boundary": 0.51,
+        "opening": 0,
+        "uncertain": 0.12,
+        "unrelated": 0.37
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3DFAB4",
+      "role": "unrelated",
+      "confidence": 0.53,
+      "probabilities": {
+        "interior": 0.01,
+        "opening": 0,
+        "boundary": 0.3,
+        "uncertain": 0.06,
+        "unrelated": 0.63
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3DFAB5",
+      "role": "unrelated",
+      "confidence": 0.59,
+      "probabilities": {
+        "interior": 0,
+        "opening": 0,
+        "boundary": 0.27,
+        "uncertain": 0.05,
+        "unrelated": 0.67
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3DFB1D",
+      "role": "unrelated",
+      "confidence": 0.64,
+      "probabilities": {
+        "interior": 0,
+        "opening": 0.18,
+        "boundary": 0.03,
+        "uncertain": 0.08,
+        "unrelated": 0.71
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3D8B88",
+      "role": "unrelated",
+      "confidence": 0.54,
+      "probabilities": {
+        "interior": 0,
+        "boundary": 0.27,
+        "opening": 0,
+        "uncertain": 0.1,
+        "unrelated": 0.63
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3DFB21",
+      "role": "unrelated",
+      "confidence": 0.58,
+      "probabilities": {
+        "interior": 0.01,
+        "boundary": 0.04,
+        "opening": 0.23,
+        "uncertain": 0.06,
+        "unrelated": 0.66
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3E0479",
+      "role": "unrelated",
+      "confidence": 0.71,
+      "probabilities": {
+        "interior": 0.01,
+        "boundary": 0.12,
+        "opening": 0.01,
+        "uncertain": 0.1,
+        "unrelated": 0.76
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3DFA54",
+      "role": "unrelated",
+      "confidence": 0.62,
+      "probabilities": {
+        "interior": 0.01,
+        "boundary": 0.03,
+        "opening": 0.19,
+        "uncertain": 0.07,
+        "unrelated": 0.7
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819530-4rUcapIHK3II1PuzlNTy"
+    },
+    {
+      "source_id": "source:3DFABF",
+      "role": "unrelated",
+      "confidence": 0.62,
+      "probabilities": {
+        "boundary": 0.18,
+        "opening": 0,
+        "interior": 0.01,
+        "unrelated": 0.69,
+        "uncertain": 0.12
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3DFAD1",
+      "role": "unrelated",
+      "confidence": 0.66,
+      "probabilities": {
+        "interior": 0.01,
+        "opening": 0.18,
+        "boundary": 0.01,
+        "unrelated": 0.73,
+        "uncertain": 0.07
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3E0827",
+      "role": "unrelated",
+      "confidence": 0.54,
+      "probabilities": {
+        "boundary": 0.05,
+        "opening": 0.24,
+        "interior": 0.01,
+        "unrelated": 0.63,
+        "uncertain": 0.07
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3DFAD3",
+      "role": "unrelated",
+      "confidence": 0.63,
+      "probabilities": {
+        "boundary": 0.16,
+        "opening": 0.01,
+        "interior": 0.01,
+        "unrelated": 0.69,
+        "uncertain": 0.13
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3E0828",
+      "role": "unrelated",
+      "confidence": 0.68,
+      "probabilities": {
+        "boundary": 0.17,
+        "opening": 0,
+        "interior": 0,
+        "unrelated": 0.75,
+        "uncertain": 0.08
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3E051C",
+      "role": "unrelated",
+      "confidence": 0.6,
+      "probabilities": {
+        "interior": 0,
+        "opening": 0,
+        "boundary": 0.2,
+        "unrelated": 0.68,
+        "uncertain": 0.12
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3DFACF",
+      "role": "unrelated",
+      "confidence": 0.76,
+      "probabilities": {
+        "interior": 0,
+        "opening": 0.01,
+        "boundary": 0.14,
+        "unrelated": 0.8,
+        "uncertain": 0.05
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3DFACD",
+      "role": "unrelated",
+      "confidence": 0.43,
+      "probabilities": {
+        "interior": 0,
+        "opening": 0.34,
+        "boundary": 0.04,
+        "unrelated": 0.54,
+        "uncertain": 0.08
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3E0172",
+      "role": "unrelated",
+      "confidence": 0.75,
+      "probabilities": {
+        "boundary": 0.07,
+        "opening": 0,
+        "interior": 0.04,
+        "unrelated": 0.8,
+        "uncertain": 0.08
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3D8BB8",
+      "role": "unrelated",
+      "confidence": 0.35,
+      "probabilities": {
+        "interior": 0.01,
+        "opening": 0.4,
+        "boundary": 0.05,
+        "unrelated": 0.48,
+        "uncertain": 0.06
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3D8BBA",
+      "role": "unrelated",
+      "confidence": 0.61,
+      "probabilities": {
+        "interior": 0,
+        "opening": 0.01,
+        "boundary": 0.23,
+        "unrelated": 0.68,
+        "uncertain": 0.07
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3D8BA0",
+      "role": "unrelated",
+      "confidence": 0.61,
+      "probabilities": {
+        "interior": 0,
+        "opening": 0,
+        "boundary": 0.26,
+        "unrelated": 0.7,
+        "uncertain": 0.04
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3E0489",
+      "role": "unrelated",
+      "confidence": 0.64,
+      "probabilities": {
+        "boundary": 0.19,
+        "opening": 0,
+        "interior": 0,
+        "unrelated": 0.72,
+        "uncertain": 0.09
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3D8B9F",
+      "role": "unrelated",
+      "confidence": 0.53,
+      "probabilities": {
+        "interior": 0.01,
+        "opening": 0,
+        "boundary": 0.32,
+        "unrelated": 0.63,
+        "uncertain": 0.04
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3DFA7F",
+      "role": "unrelated",
+      "confidence": 0.48,
+      "probabilities": {
+        "boundary": 0.3,
+        "opening": 0,
+        "interior": 0,
+        "unrelated": 0.59,
+        "uncertain": 0.11
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3E012A",
+      "role": "unrelated",
+      "confidence": 0.76,
+      "probabilities": {
+        "boundary": 0.14,
+        "opening": 0,
+        "interior": 0,
+        "unrelated": 0.81,
+        "uncertain": 0.05
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-oyZ3Uj5kBHN7nHy71JFC"
+    },
+    {
+      "source_id": "source:3E07BE",
+      "role": "unrelated",
+      "confidence": 0.7,
+      "probabilities": {
+        "interior": 0,
+        "unrelated": 0.76,
+        "uncertain": 0.12,
+        "opening": 0,
+        "boundary": 0.12
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-K3tRsi9IFIRjTNUquuCD"
+    },
+    {
+      "source_id": "source:3E07BA",
+      "role": "unrelated",
+      "confidence": 0.69,
+      "probabilities": {
+        "interior": 0,
+        "unrelated": 0.76,
+        "uncertain": 0.13,
+        "opening": 0,
+        "boundary": 0.11
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-K3tRsi9IFIRjTNUquuCD"
+    },
+    {
+      "source_id": "source:3DFB3E",
+      "role": "unrelated",
+      "confidence": 0.3,
+      "probabilities": {
+        "interior": 0.01,
+        "unrelated": 0.43,
+        "uncertain": 0.16,
+        "opening": 0.36,
+        "boundary": 0.04
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-K3tRsi9IFIRjTNUquuCD"
+    },
+    {
+      "source_id": "source:3DFAD0",
+      "role": "unrelated",
+      "confidence": 0.85,
+      "probabilities": {
+        "interior": 0,
+        "unrelated": 0.88,
+        "uncertain": 0.03,
+        "opening": 0.08,
+        "boundary": 0.01
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-K3tRsi9IFIRjTNUquuCD"
+    },
+    {
+      "source_id": "source:3E0208",
+      "role": "unrelated",
+      "confidence": 0.25,
+      "probabilities": {
+        "boundary": 0.08,
+        "unrelated": 0.4,
+        "uncertain": 0.12,
+        "opening": 0.39,
+        "interior": 0.01
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-K3tRsi9IFIRjTNUquuCD"
+    },
+    {
+      "source_id": "source:3DFAE7",
+      "role": "unrelated",
+      "confidence": 0.37,
+      "probabilities": {
+        "boundary": 0.3,
+        "unrelated": 0.5,
+        "uncertain": 0.19,
+        "opening": 0.01,
+        "interior": 0
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-K3tRsi9IFIRjTNUquuCD"
+    },
+    {
+      "source_id": "source:3E0129",
+      "role": "unrelated",
+      "confidence": 0.85,
+      "probabilities": {
+        "interior": 0,
+        "unrelated": 0.88,
+        "uncertain": 0.06,
+        "opening": 0,
+        "boundary": 0.06
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-K3tRsi9IFIRjTNUquuCD"
+    },
+    {
+      "source_id": "source:3DFB46",
+      "role": "unrelated",
+      "confidence": 0.54,
+      "probabilities": {
+        "interior": 0.01,
+        "unrelated": 0.64,
+        "uncertain": 0.11,
+        "opening": 0,
+        "boundary": 0.24
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-K3tRsi9IFIRjTNUquuCD"
+    },
+    {
+      "source_id": "source:3E0130",
+      "role": "unrelated",
+      "confidence": 0.83,
+      "probabilities": {
+        "interior": 0,
+        "unrelated": 0.87,
+        "uncertain": 0.05,
+        "opening": 0,
+        "boundary": 0.08
+      },
+      "model": "typesafe/jev-1.13-20260917",
+      "request_id": "gen-dec-1789819531-K3tRsi9IFIRjTNUquuCD"
+    }
+  ]
+}
