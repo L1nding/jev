@@ -18,6 +18,7 @@
     "room-traverse": "bun run src/jev-room-traverse.ts",
     "room-resolve": "bun run src/jev-room-resolve.ts",
     "visualize": "bun run scripts/generate-compare-visual.ts",
+    "annotate-reference-boundary": "bun run scripts/generate-reference-boundary-annotator.ts",
     "test": "bun test",
     "dev": "bun --watch run src/index.ts",
     "typecheck": "tsc --noEmit"
