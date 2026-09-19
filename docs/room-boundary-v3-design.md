@@ -173,9 +173,11 @@ Keep the v2 implementation and its reports as a reproducible baseline until the 
 
 ## Delivery slices
 
-1. Define Reference Room Boundary fixtures and stage metrics with one reviewed room.
-2. Produce a cold-room candidate through the unified graph and report Candidate Recall.
-3. Add complete-candidate Jev adjudication, deterministic validation, and strict replay.
-4. Extend reference fixtures and Candidate Recall evaluation to all six rooms.
-5. Switch `room-resolve` to the v3 graph and retire the incremental production stages.
-6. Evaluate a held-out Drawing Region and publish the comparison with v2.
+The implementation is tracked by [GitHub issue #1](https://github.com/L1nding/jev/issues/1):
+
+1. [Define Reference Room Boundary fixtures and stage metrics](https://github.com/L1nding/jev/issues/2).
+2. [Produce the cold-room candidate through one Candidate Boundary Graph](https://github.com/L1nding/jev/issues/3).
+3. [Adjudicate complete Candidate Boundaries with deterministic validation](https://github.com/L1nding/jev/issues/4).
+4. [Establish Candidate Recall for all six development rooms](https://github.com/L1nding/jev/issues/5).
+5. [Switch `room-resolve` to v3 and report stage-specific failures](https://github.com/L1nding/jev/issues/6).
+6. [Evaluate v3 on a held-out Drawing Region](https://github.com/L1nding/jev/issues/7).
